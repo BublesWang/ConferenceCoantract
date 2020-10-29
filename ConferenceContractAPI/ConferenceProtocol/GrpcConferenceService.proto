@@ -1,0 +1,1607 @@
+﻿syntax = "proto3";
+
+//会议服务
+package GrpcConferenceService;
+
+//Version_ConferenceServiceToGrpc_0.2
+// tag<gRPC>
+// host<conference.api>
+// port<40001> 
+
+service ConferenceServiceToGrpc{
+  
+  //============会议是==============
+
+  //获取某表内所有数据包含分页
+  rpc GetCFRoomList (PaginationRequestSearch) returns (CFRoomList) {}
+  //获取单条数据
+  rpc GetCFRoomByID (roomPK) returns (CFRoomStruct) {}
+  //创建数据
+  rpc CreateFRoom (CFRoomStruct) returns (CreateInfoVM) {}
+  //修改数据
+  rpc UpdateCFRoom (CFRoomStruct) returns (ModifiedInfoVM) {}
+  //删除数据
+  rpc DeleteCFRoom (roomPK) returns (DeleteInfoVM) {}
+
+
+  //===========会议桌==============
+
+  //获取所有数据包含分页
+  rpc GetCFSeatList (PaginationRequestSearch) returns (CFSeatList) {}
+  //根据id获取单条数据
+  rpc GetCFSeatByID (CFSeatPK) returns (CFSeatStruct) {}
+  //创建数据
+  rpc CreateCFSeat (CFSeatStruct) returns (CreateInfoVM) {}
+  //修改数据
+  rpc UpdateCFSeat (CFSeatStruct) returns (ModifiedInfoVM) {}
+  //删除数据
+  rpc DeleteCFSeat (CFSeatPK) returns (DeleteInfoVM) {}
+
+
+  //============会议地址=============
+
+  //获取所有信息分页
+  rpc GetCFAddressList (PaginationRequestSearch) returns (CFAddressList) {}
+  //获取所有信息
+  rpc GetAllCFAddressList (Empty) returns (CFAddressList) {}
+  //根据id获取单条数据
+  rpc GetCFAddressByID (CFAddressPK) returns (CFAddressStruct) {}
+  //创建数据
+  rpc CreateCFAddress (CFAddressStruct) returns (CreateInfoVM) {}
+  //修改数据
+  rpc UpdateCFAddress (CFAddressStruct) returns (ModifiedInfoVM) {}
+  //删除数据
+  rpc DeleteCFAddress (CFAddressPK) returns (DeleteInfoVM) {}
+
+  //============房间类型=============
+
+  //获取所有数据包括分页
+  rpc GetCFRoomTypeList (PaginationRequestSearch) returns (CFRoomTypeList) {}
+  //根据id获取单条数据
+  rpc GetCFRoomTypeByID (CFRoomTypePK) returns (CFRoomTypeStruct) {}
+  //创建数据
+  rpc CreateCFRoomType (CFRoomTypeStruct) returns (CreateInfoVM) {}
+  //修改数据
+  rpc UpdateCFRoomType (CFRoomTypeStruct) returns (ModifiedInfoVM) {}
+  //删除数据
+  rpc DeleteCFRoomType (CFRoomTypePK) returns (DeleteInfoVM) {}
+
+  //============会议主表==================
+
+  //获取conference所有信息
+  rpc GetConferenceList (Year) returns (ConferenceList) {}
+  //根据id获取单条信息
+  rpc GetConferenceByPK (ConferencePK) returns (ConferenceStruct) {}
+  //根据parentid获取所有数据
+  rpc GetConferenceListByParentID (ParentID) returns (ConferenceList) {}
+  //创建数据
+  rpc CreateConference (ConferenceStruct) returns (CreateInfoVM) {}
+  //根据id修改开始时间
+  rpc UpdateConferenceStartDateTime (UpdateInfo) returns (ModifiedInfoVM) {}
+  //修改数据
+  rpc UpdateConference (ConferenceStruct) returns (ModifiedInfoVM) {}
+  //删除数据
+  rpc DeleteConference (ConferencePK) returns (DeleteInfoVM) {}
+  //获取一级会议列表
+  rpc GetFirstConferenceList (Year) returns (ConferenceList) {}
+  //获取所有会议下的所有信息
+  rpc GetAllConferenceInfoByConferenceID (ConferencePK) returns (AllConferenceInfoList) {}
+  //根据嘉宾id获取conferenceList
+  rpc GetConferenceListByParticipantID (ParticipantID) returns (ConferenceList) {}
+  //模糊搜索获取午餐，晚宴list
+  rpc GetLunchList (LunchNames) returns (ConferenceList) {}
+  //复制旧数据
+  rpc copyConferenceInfo (YearInfo) returns (ResBool) {}
+  //获取conference表存在的会议年份
+  rpc getConferenceYear (Empty) returns (YearList) {}
+
+  //==========活动===============
+
+  //获取所有信息
+  rpc GetActivityList (Empty) returns (ActivityList) {}
+  //根据会议id获取信息
+  rpc GetActivityListByConferenceID (ConferencePK) returns (ActivityList) {}
+  //根据id获取单条信息
+  rpc GetActivityByID (ActivityID) returns (ActivityStruct) {}
+  //创建信息
+  rpc CreateActivity (ActivityStruct) returns (CreateInfoVM) {}
+  //修改信息
+  rpc UpdateActivity (ActivityStruct) returns (ModifiedInfoVM) {}
+  //删除信息
+  rpc DeleteActivity (ActivityID) returns (DeleteInfoVM) {}
+  //根据id集合修改排序
+  rpc UpdateAllActivitySortByActivityIDs (ActivityIDs) returns (ModifiedInfoVM) {}
+  //根据一级会议id获取该一级会议下的所有activity
+  rpc GetAllActivityListByFirstConfereceID (ConferencePK) returns (ActivityList) {}
+  //草稿activity移至正式
+  rpc MoveActivityDraftToActivity (ActivityDraftInfo) returns (CreateInfoVM) {}
+
+  //==============活动类型=============
+
+  //获取所有信息
+  rpc GetActivityTypeList (Empty) returns (ActivityTypeList) {}
+  //根据id获取单条信息
+  rpc GetActivityTypeByID (ActivityTypeID) returns (ActivityTypeStruct) {}
+  //创建信息
+  rpc CreateActivityType (ActivityTypeStruct) returns (CreateInfoVM) {}
+  //修改信息
+  rpc UpdateActivityType (ActivityTypeStruct) returns (ModifiedInfoVM) {}
+  //删除信息
+  rpc DeleteActivityType (ActivityTypeID) returns (DeleteInfoVM) {}
+  //根据code获取单条数据
+  rpc GetActivityTypeByActivityCode (ActivityCode) returns (ActivityTypeStruct) {}
+
+  //===============板块===================
+
+  //获取所有信息
+  rpc GetTalkList (Empty) returns (TalkList) {}
+  //根据activityid获取信息
+  rpc GetTalkListByActivityID (ActivityID) returns (TalkList) {}
+  //根据id获取单条数据
+  rpc GetTalkByID (TalkID) returns (TalkStruct) {}
+  //创建数据
+  rpc CreateTalk (TalkStruct) returns (CreateInfoVM) {}
+  //修改数据
+  rpc UpdateTalk (TalkStruct) returns (ModifiedInfoVM) {}
+  //删除数据
+  rpc DeleteTalk (TalkID) returns (DeleteInfoVM) {}
+  //根据id集合修改排序
+  rpc UpdateAllTalkSortByTalkIDs (TalkIDs) returns (ModifiedInfoVM) {}
+  //根据talkid修改topicname
+  rpc UpdateTopicNameByTalkID (UpdateTalkInfo) returns (ModifiedInfoVM) {}
+  //topic是否在talk中存在引用
+  rpc IsTalkUse (Info) returns (IsUse) {}
+  //草稿talk移至正式
+  rpc MoveTalkDraftToTalk (TalkDraftInfo) returns (CreateInfoVM) {}
+  
+  //=================板块类型===============
+
+  //获取所有数据
+  rpc GetTalkTypeList (Empty) returns (TalkTypeList) {}
+  //根据id获取单条数据
+  rpc GetTalkTypeByID (TalkTypeID) returns (TalkTypeStruct) {}
+  //创建数据
+  rpc CreateTalkType (TalkTypeStruct) returns (CreateInfoVM) {}
+  //修改数据
+  rpc UpdateTalkType (TalkTypeStruct) returns (ModifiedInfoVM) {}
+  //删除数据
+  rpc DeleteTalkType (TalkTypeID) returns (DeleteInfoVM) {}
+
+
+  //=============赞助商等级==============
+
+  //根据会议id获取信息
+  rpc GetOrganizerLevelListByConferenceID (ConferencePK) returns (OrganizerLevelList) {}
+  //获取所有信息
+  rpc GetOrganizerLevelList (Empty) returns (OrganizerLevelList) {}
+  //根据id获取信息
+  rpc GetOrganizerLevelByID (OrganizerLevelID) returns (OrganizerLevelStruct) {}
+  //创建信息
+  rpc CreateOrganizerLevel (OrganizerLevelStruct) returns (CreateInfoVM) {} 
+  //修改信息
+  rpc UpdateOrganizerLevel (OrganizerLevelStruct) returns (ModifiedInfoVM) {}
+  //删除信息
+  rpc DeleteOrganizerLevel (OrganizerLevelID) returns (DeleteInfoVM) {}
+
+  //==============赞助商================
+
+  //根据类型id获取信息
+  rpc GetOrganizerListByOrganizerLevelID (OrganizerLevelID) returns (OrganizerList) {}
+  //获取所有信息
+  rpc GetOrganizerList (Empty) returns (OrganizerList) {}
+  //根据id获取信息
+  rpc GetOrganizerByID (OrganizerID) returns (OrganizerStruct) {}
+  //创建信息
+  rpc CreateOrganizer (OrganizerStruct) returns (CreateInfoVM) {}
+  //修改信息
+  rpc UpdateOrganizer (OrganizerStruct) returns (ModifiedInfoVM) {}
+  //删除信息
+  rpc DeleteOrganizer (OrganizerID) returns (DeleteInfoVM) {}
+
+  //==============主持人================
+
+  //根据会议id获取信息
+  rpc GetPresenterListByConferenceID (ConferencePK) returns (PresenterList) {}
+  //根据id获取信息
+  rpc GetPresenterByID (PresenterID) returns (PresenterStruct) {}
+  //创建信息
+  rpc CreatePresenter (PresenterStruct) returns (CreateInfoVM) {}
+  //修改信息
+  rpc UpdatePresenter (PresenterStruct) returns (ModifiedInfoVM) {}
+  //删除信息
+  rpc DeletePresenter (PresenterID) returns (DeleteInfoVM) {}
+  //获取所有信息
+  rpc GetAllPresenterList (Empty) returns (PresenterList) {}
+
+  //===============嘉宾==================
+
+  //根据talkid获取信息
+  rpc GetParticipantListByTalkID (TalkID) returns (ParticipantInfoList) {}
+  //根据id获取信息
+  rpc GetParticipantByID (ParticipantID) returns (ParticipantStruct) {}
+  //根据activityid获取信息
+  rpc GetParticipantListByActivityID (ActivityID) returns (ParticipantInfoList) {}
+  //创建信息
+  rpc CreateParticipant (ParticipantStruct) returns (CreateInfoVM) {}
+  //修改信息
+  rpc UpdateParticipant (ParticipantStruct) returns (ModifiedInfoVM) {}
+  //删除信息
+  rpc DeleteParticipant (ParticipantID) returns (DeleteInfoVM) {}
+  //根据分组id获取参与者信息
+  rpc GetParticipantByGroupID (ParticipantGroupID) returns (ParticipantList) {}
+  //根据合同号删除信息
+  rpc DeleteParticioantByPerContractNumber (PerContractNumberID) returns (DeleteInfoVM) {}
+  //根据搜索条件获取所有信息
+  rpc GetALLParticipantBySearch (PaginationRequestSearch) returns (ParticipantList) {}
+  //根据姓名搜索
+  rpc GetParticipantListByName (PaginationRequestSearch) returns (ParticipantList) {}
+  //根据合同id
+  rpc GetParticipantIDByPersonContractID (PersonContractID) returns (ParticipantIDList) {}
+  //根据conpanyid获取所有信息
+  rpc GetParticipantListByCompanyID (CompanyId) returns (ParticipantList) {}
+  //根据memberpk获取所有信息
+  rpc GetParticipantListByMemberPK (MemberPK) returns (ParticipantList) {}
+  //根据memberpk和ShowOnFont获取信息
+  rpc GetParticipantListByMemberPKandIsShowOnFont (PInfo) returns (ParticipantList) {}
+  //根据conferenceid获取所有嘉宾
+  rpc GetParticipantListByConferenceID (ConferencePK) returns (ParticipantList) {}
+  //根据conferenceid获取所有percontarctnumber不为空的数据
+  rpc GetParticipantNotNullListByConferenceID (PagingInfo)  returns (ParticipantList) {}
+
+
+  //=============板块与嘉宾关系表===============
+
+  //创建信息
+  rpc CreateTPMap (TalkParticipantMapInfo) returns (CreateInfoVM) {}
+  //根据talkid删除映射关系
+  rpc DeleteTPMapByTalkID (TalkID) returns (DeleteInfoVM) {}
+  //根据participantid删除映射关系
+  rpc DeleteTPMapByParticipantID (ParticipantID) returns (DeleteInfoVM) {}
+  //根据talkid修改数据
+  rpc UpdateTPMap (TalkParticipantMapInfo) returns (ModifiedInfoVM) {}
+
+
+  //=============活动与嘉宾关系表==============
+
+  //创建映射信息
+  rpc CreateAPMap (ActivityParticipantMapInfo) returns (CreateInfoVM) {}
+  //根据activityid删除映射
+  rpc DeleteAPMapByActivityID (ActivityID) returns (DeleteInfoVM) {}
+  //根据participantid删除映射关系
+  rpc DeleteAPMapByParticipantID (ParticipantID) returns (DeleteInfoVM) {}
+  //根据activitydi修改信息
+  rpc UpdateAPMap (ActivityParticipantMapInfo) returns (ModifiedInfoVM) {}
+
+
+  //=============嘉宾组===================
+
+  //获取所有信息
+  rpc GetParticipantGroupList (Empty) returns (ParticipantGroupList) {}
+  //根据id获取单条信息
+  rpc GetParticipantGroupByID (ParticipantGroupID) returns (ParticipantGroupStruct) {}
+  //批量创建信息
+  rpc CreateParticipantGroups (ParticipantGroupInfo) returns (CreateInfoVM) {}
+  //批量编辑信息
+  rpc UpdateParticipantGroups (ParticipantGroupInfo) returns (ModifiedInfoVM) {}
+  //删除信息
+  rpc DeleteParticipantGroup (ParticipantGroupID) returns (DeleteInfoVM) {}
+  //根据参与人id获取分组信息
+  rpc GetParticipantGroupByParticipantID (ParticipantID) returns (ParticipantGroupList) {}
+  //创建信息
+  rpc CreateParticipantGroup (ParticipantGroupStruct) returns (CreateInfoVM) {}
+  //修改信息
+  rpc UpdateParticipantGroup (ParticipantGroupStruct) returns (ModifiedInfoVM) {}
+
+  //=================嘉宾与嘉宾组关系================
+
+  //创建映射信息
+  rpc CreateParticipantGroupMap (ParticipantIDs) returns (CreateInfoVM) {}
+  //根据参与者id删除映射关系
+  rpc DeleteParticipantGroupMapByParticipanID (ParticipantID) returns (DeleteInfoVM) {}
+  //根据分组id删除映射关系
+  rpc DeleteParticipantGroupMapByParticipantGroupID (ParticipantGroupID) returns (DeleteInfoVM) {}
+
+  //==============嘉宾类型===========
+
+  //获取所有信息
+  rpc GetParticipantTypeList (Empty) returns (ParticipantTypeList) {}
+  //根据id获取单条信息
+  rpc GetParticipantTypeByID (ParticipantTypeID) returns (ParticipantTypeStruct) {}
+  //创建信息
+  rpc CreateParticipantType (ParticipantTypeStruct) returns (CreateInfoVM) {}
+  //修改信息
+  rpc UpdateParticipantType (ParticipantTypeStruct) returns (ModifiedInfoVM) {}
+  //删除信息
+  rpc DeleteParticipantType (ParticipantTypeID) returns (DeleteInfoVM) {}
+
+
+  //=============嘉宾与嘉宾类型表=================
+
+  //创建信息
+  rpc CreateParticipantTypeMap (ParticipantTypeMapInfo) returns (CreateInfoVM) {}
+  //根据ParticipantID删除信息
+  rpc DeleteParticipantTypeMapByParticipantID (ParticipantID)  returns (DeleteInfoVM) {}
+  //根据ParticipantID修改信息
+  rpc UpdateParticipantTypeMap (ParticipantTypeMapInfo) returns (ModifiedInfoVM) {}
+
+
+  //==========活动草稿表===============
+
+  //获取所有信息
+  rpc GetActivityDraftList (Empty) returns (ActivityDraftList) {}
+  //根据id获取单条信息
+  rpc GetActivityDraftByID (ActivityDraftID) returns (ActivityDraftStruct) {}
+  //创建信息
+  rpc CreateActivityDraft (ActivityDraftStruct) returns (CreateInfoVM) {}
+  //修改信息
+  rpc UpdateActivityDraft (ActivityDraftStruct) returns (ModifiedInfoVM) {}
+  //删除信息
+  rpc DeleteActivityDraft (ActivityDraftID) returns (DeleteInfoVM) {}
+  //正式activity移至草稿
+  rpc MoveActivityToActivityDraft (ActivityStruct) returns (CreateInfoVM) {}
+
+
+ //===============板块草稿===================
+
+  //获取所有信息
+  rpc GetTalkDraftList (Empty) returns (TalkDraftList) {}
+  //根据id获取单条数据
+  rpc GetTalkDraftByID (TalkDraftID) returns (TalkDraftStruct) {}
+  //创建数据
+  rpc CreateTalkDraft (TalkDraftStruct) returns (CreateInfoVM) {}
+  //修改数据
+  rpc UpdateTalkDraft (TalkDraftStruct) returns (ModifiedInfoVM) {}
+  //删除数据
+  rpc DeleteTalkDraft (TalkDraftID) returns (DeleteInfoVM) {}
+  //正式talk移至草稿
+  rpc MoveTalkToTalkDraft (MoveInfo) returns (CreateInfoVM) {}
+
+
+  //==============接待=================
+
+  //获取所有信息
+  rpc GetReceptionList (Empty) returns (ReceptionList) {}
+  //创建信息
+  rpc CreateReception (ReceptionList) returns (CreateInfoVM) {}
+  //修改信息
+  rpc UpdateReception (ReceptionStruct) returns (ModifiedInfoVM) {}
+  //删除信息
+  rpc DeleteReception (ReceptionID) returns (DeleteInfoVM) {}
+
+
+  //=================保单==============
+
+  //获取所有信息
+  rpc GetPolicyList (PaginationRequestSearch) returns (PolicyList) {}
+  //根据id获取单条信息
+  rpc GetPolicyByID (PolicyID) returns (PolicyStruct) {}
+  //创建信息
+  rpc CreatePolicy (CreatePolicyInfo) returns (CreateInfoVM) {}
+  //修改信息
+  rpc UpdatePolicy (PolicyStruct) returns (ModifiedInfoVM) {}
+  //删除信息
+  rpc DeletePolicy (DeleteInfo) returns (DeleteInfoVM) {} 
+  //根据业务员获取所有信息
+  rpc GetPolicyListByUserName (UserName) returns (PolicyList) {}
+  //获取剩余保单数
+  rpc getPolicyInfo (CreatePolicyInfo) returns (PolicyInfoStruct) {}
+
+  //===========嘉宾与会议关系==============
+
+  //获取所有信息
+  rpc GetParticipantConferenceMapList (PaginationRequestSearch) returns (ParticipantConferenceMapList) {}
+  //根据id获取单条信息
+  rpc GetParticipantConferenceMapByID (ParticipantConferenceMapID) returns (ParticipantConferenceMapStruct) {}
+  //创建信息
+  rpc CreateParticipantConferenceMap (ParticipantConferenceMapList) returns (CreateInfoVM) {}
+  //修改信息
+  rpc UpdateParticipantConferenceMap (ParticipantConferenceMapStruct) returns (ModifiedInfoVM) {}
+  //删除信息
+  rpc DeleteParticipantConferenceMap (ParticipantConferenceMapID) returns (DeleteInfoVM) {}
+
+
+  //======================保单历史记录=============
+
+  //获取所有信息
+  rpc getHistoryPolicyList (PaginationRequestSearch) returns (HistoryPolicyList) {}
+
+}
+
+
+//====================CFRoom===============
+
+message CFRoomList {
+  //会议室集合
+  repeated CFRoomStruct listdata = 1;
+  //总数
+  int32 total = 2;
+}
+
+
+
+message roomPK {
+	//会议室主键id
+	string roomPK = 1;
+}
+
+message CFRoomStruct {
+  //会议室主键id
+  string CFRoomPK = 1;
+  //会议室名称中文
+  string RoomNameCN = 2;
+  //会议室名称英文
+  string RoomNameEN = 3;
+  //创建时间
+  string CreatedOn = 4;
+  //创建人
+  string CreatedBy = 5;
+  //修改时间
+  string ModifiedOn = 6;
+  //修改人
+  string ModifiedBy = 7;
+}
+
+//================CFSeat=============
+
+message CFSeatList{
+  //会议桌集合
+  repeated CFSeatStruct listdata = 1;
+  //总数
+  int32 total = 2;
+}
+
+message CFSeatStruct{
+	//会议桌主键id
+	string CFSeatPK = 1;
+	//会议室id
+	string CFRoomPK = 2;
+	//桌号
+	int32 SeatNumber = 3;
+	//桌名
+	string SeatName = 4;
+	//创建时间
+	string CreatedOn = 5;
+	//创建人
+	string CreatedBy = 6;
+	//修改时间
+	string ModifiedOn = 7;
+	//修改人
+	string ModifiedBy = 8;
+}
+
+message CFSeatPK{
+	//会议桌id
+	string CFSeatPK = 1;
+}
+ 
+//================CFAddress============
+
+message CFAddressList{
+	//会议地点集合
+	repeated CFAddressStruct listdata = 1;
+	//总数
+	int32 total = 2;
+}
+
+message CFAddressStruct{
+	//会议地点主键id
+	string CFAddressPK = 1;
+	//会议地点
+	Translation Translation = 2;
+	//邮编
+	string PostCode = 3;
+	//国家
+	string Country = 4; 
+	//创建时间
+	string CreatedOn = 5;
+	//创建人
+	string CreatedBy = 6;
+	//修改时间
+	string ModifiedOn = 7;
+	//修改人
+	string ModifiedBy = 8;
+}
+
+message CFAddressPK{
+	//会议地点主键id
+	string CFAddressPK=1;
+}
+
+//============CFRoomType==========
+
+message CFRoomTypeList{
+	//会议室类型集合
+	repeated CFRoomTypeStruct listdata = 1;
+	//总数
+	int32 total = 2;
+}
+
+message CFRoomTypeStruct{
+	//会议室类型主键id
+	string CFRoomTypePK = 1;
+	//会议室类型
+	string CFRoomTypeName = 2;
+	//备注
+	string Remark = 3;
+	//创建时间
+	string CreatedOn = 4;
+	//创建人
+	string CreatedBy = 5;
+	//修改时间
+	string ModifiedOn = 6;
+	//修改人
+	string ModifiedBy = 7;
+}
+
+message CFRoomTypePK{
+	//会议室类型主键id
+	string CFRoomTypePK = 1;
+}
+
+//===============Conference===========
+
+message ConferencePK{
+	//会议主键id
+	string ConferencePK = 1;
+}
+
+message Year{
+	//年份
+	string Year = 1;
+}
+
+message ConferenceStruct{
+	//会议主键id
+	string ConferenceID = 1;
+	//父级id
+	string ParentID = 2;
+	//会议名称
+	Translation Translation = 3;
+	//会议地点id
+	string CFAddressPK = 4;
+	//会议时间段
+	string StartDate = 5;    
+	//开始时间
+	string StartDateTime = 6;   
+	//年份
+	string Year = 7;
+	//排序
+	string Sort = 8;
+	//英文缩写
+	string Abbreviation = 9;
+	//会议简介  格式{"CN":"123","EN":"123"}
+	string ConferenceIntroduce = 10;
+	//创建时间
+	string CreatedOn = 11;
+	//创建人
+	string CreatedBy = 12;
+	//修改时间
+	string ModifiedOn = 13;
+	//修改人
+	string ModifiedBy = 14;
+	//层级
+	int32 Level = 15;
+	//时间段
+	string TimeRange = 16;
+}
+
+message ParentID{
+	//父级id
+	string ParentID = 1;
+}
+
+message ConferenceList{
+	//会议集合
+	repeated ConferenceStruct listdata = 1;
+}
+
+message UpdateInfo{
+	//会议主键id
+	string ConferenceID = 1;
+	//开始时间
+	string StratDateTime = 2;
+}
+
+message AllConferenceInfoList{
+	//所有会议及嘉宾集合
+	repeated AllConferenceInfoListStruct listdata = 1;
+}
+
+message AllConferenceInfoListStruct{
+	//活动与嘉宾
+	ActivityandParticipant ActivityandParticipant = 1;
+	//板块与嘉宾集合
+	repeated TalkandParticipant TalkandParticipant = 2;
+}
+
+message ActivityandParticipant{
+	//活动
+	repeated ActivityStruct Activity = 1;
+	//对应嘉宾信息
+	repeated ParticipantInfoStruct ParticipantInfo = 2;
+}
+
+message TalkandParticipant{
+	//板块
+	TalkStruct Talk = 1;
+	//对应嘉宾信息
+	repeated ParticipantInfoStruct ParticipantInfo = 2;
+}
+
+message LunchNames{
+	//午餐名
+	string LunchNames = 1;
+}
+
+message YearInfo{
+	//旧年分
+	string oldYear = 1;
+	//新年份
+	string NewYear = 2;
+}
+
+message YearList{
+	//年份集合
+	repeated string YearList = 1;
+}
+
+//===============Activity=============
+
+message ActivityList{
+	//活动集合
+	repeated ActivityStruct listdata = 1;
+}
+
+message ActivityID{
+	//活动id
+	string ActivityID = 1;
+}
+
+message ActivityStruct{
+	//活动主键id
+	string ActivityID = 1;
+	//会议id
+	string ConferenceID = 2;
+	//活动类型id
+	string ActivityTypeID = 3;
+	//时长
+	string TimeLength = 4;
+	//排序
+	int32 Sort = 5;
+	//开始日期
+	string StartDate = 6;
+	//活动名称
+	Translation Translation = 7;
+	//创建时间
+	string CreatedOn = 8;
+	//创建人
+	string CreatedBy = 9;
+	//修改时间
+	string ModifiedOn = 10;
+	//修改人
+	string ModifiedBy = 11;
+	//开始时间
+	string StartTime = 12;
+	//结束时间
+	string EndTime = 13;
+
+}
+
+message ActivityIDs{
+	//  id集合，格式"id1,id2,id3"
+	string ActivityIDs = 1;  
+}
+
+message ActivityDraftInfo{
+	//活动草稿
+	ActivityDraftStruct ActivityDraftStruct = 1;
+	//会议id
+	string ConferenceID = 2;
+}
+
+//===============ActivityDraft=============
+
+message ActivityDraftList{
+	//活动草稿集合
+	repeated ActivityDraftStruct listdata = 1;
+}
+
+message ActivityDraftID{
+	//活动草稿id
+	string ActivityDraftID = 1;
+}
+
+message ActivityDraftStruct{
+	//活动草稿id
+	string ActivityDraftID = 1;
+	//活动类型id
+	string ActivityTypeID = 3;
+	//时长
+	string TimeLength = 4;
+	//排序
+	int32 Sort = 5;
+	//开始日期
+	string StartDate = 6;
+	//活动名称
+	string Translation = 7;
+	//开始时间
+	string StartTime = 8;
+	//结束时间
+	string EndTime = 9;
+	//正式活动id
+	string ActivityID = 10;
+}
+
+
+//===============ActivityType==========
+
+message ActivityTypeList{
+	//活动类型集合
+	repeated ActivityTypeStruct listdata = 1;
+}
+
+message ActivityTypeStruct{
+	//活动类型id
+	string ActivityTypeID = 1;
+	//活动类型名称
+	Translation Translation = 2;
+	//创建时间
+	string CreatedOn = 3;
+	//创建人
+	string CreatedBy = 4;
+	//修改时间
+	string ModifiedOn = 5;
+	//修改人
+	string ModifiedBy = 6;
+	//活动类型code
+	string ActivityCode = 7;
+}
+
+message ActivityTypeID{
+	//活动类型id
+	string ActivityTypeID = 1;
+}
+message ActivityCode{
+	//活动类型code
+	string ActivityCode = 1;
+}
+
+//================Talk===============
+
+message TalkList{
+	//板块集合
+	repeated TalkStruct listdata = 1;
+}
+
+message TalkStruct{
+	//板块id
+	string TalkID = 1;
+	//活动id
+	string ActivityID = 2;
+	//板块类型id
+	string TalkTypeID = 3;
+	//议题id
+	string CFTopicPK =4; 
+	//板块名称
+	Translation Translation = 6;
+	//创建时间
+	string CreatedOn = 7;
+	//创建人
+	string CreatedBy = 8;
+	//修改时间
+	string ModifiedOn = 9;
+	//修改人
+	string ModifiedBy = 10;
+	//开始日期
+	string StartDate = 11;
+	//时长
+	string TimeLength = 12;
+	//排序
+	int32 Sort = 13;
+	//开始时间
+	string StartTime = 14;
+	//结束时间
+	string EndTime = 15;
+	//议题名称
+	string CFTopicName = 16;
+}
+
+message TalkID{
+	//板块id
+	string TalkID = 1;
+}
+
+message TalkIDs{
+    //id集合，格式"id1,id2,id3"
+	string TalkIDs = 1; 
+}
+
+message UpdateTalkInfo{
+	//板块id
+	string TalkID = 1;
+	//议题名称
+	string TopicName = 2;
+}
+
+message IsUse{
+	//是否使用
+	bool IsUse = 1;
+}
+
+message TalkDraftInfo{
+	//板块草稿
+	TalkDraftStruct TalkDraftStruct = 1;
+	//活动id
+	string ActivityID = 2;
+}
+
+message Info{
+	//议题id
+	string CFTopicID = 1; 
+	//板块id
+	string TalkID = 2;
+}
+
+//================TalkDraft===============
+
+message TalkDraftList{
+	//板块草稿
+	repeated TalkDraftStruct listdata = 1;
+}
+
+message TalkDraftStruct{
+	//板块草稿id
+	string TalkDraftID = 1;
+	//活动草稿id
+	string ActivityDraftID = 2;
+	//板块类型
+	string TalkTypeID = 3;
+	//议题id
+	string CFTopicPK =4; 
+	//板块名称
+	string Translation = 6;
+	//开始日期
+	string StartDate = 7;
+	//时长
+	string TimeLength = 8;
+	//排序
+	int32 Sort = 9;
+	//开始时间
+	string StartTime = 10;
+	//结束时间
+	string EndTime = 11;
+	//议题名称
+	string CFTopicName = 12;
+}
+
+message TalkDraftID{
+	//板块草稿id
+	string TalkDraftID = 1;
+}
+
+message MoveInfo{
+	//板块
+	TalkStruct TalkStruct = 1;
+	//活动id
+	string ActivityDraftID = 2;
+}
+
+//=================TalkType==========
+
+message TalkTypeList{
+	//板块类型集合
+	repeated TalkTypeStruct listdata = 1;
+}
+
+message TalkTypeStruct{
+	//板块类型id
+	string TalkTypeID = 1;
+	//板块类型
+	Translation Translation = 2;
+	//创建时间
+	string CreatedOn = 3;
+	//创建人
+	string CreatedBy = 4;
+	//修改时间
+	string ModifiedOn = 5;
+	//修改人
+	string ModifiedBy = 6;
+}
+
+message TalkTypeID{
+	//板块类型id
+	string TalkTypeID = 1;
+}
+
+//=============OrganizerLevel============
+
+message OrganizerLevelList{
+	//赞助商等级集合
+	repeated OrganizerLevelStruct listdata = 1;
+}
+
+message OrganizerLevelStruct{
+	//赞助商等级id
+	string OrganizerLevelID = 1;
+	//会议id
+	string ConferenceId = 2;
+	//会议名称
+	Translation Translation = 3;
+	//是否yinc
+	bool IsHide = 4;
+	//排序
+	string Sort = 5;
+	//创建时间
+	string CreatedOn = 6;
+	//创建人
+	string CreatedBy = 7;
+	//修改时间
+	string ModifiedOn = 8;
+	//修改人
+	string ModifiedBy = 9;
+}
+
+message OrganizerLevelID{
+	//赞助商等级id
+	string OrganizerLevelID = 1;
+}
+
+//==============0rganizer============
+
+message OrganizerList{
+	//赞助商id
+	repeated OrganizerStruct listdata = 1;
+}
+
+message OrganizerStruct{
+	//赞助商id
+	string OrganizerID = 1;
+	//赞助商等级id
+	string OrganizerLevelID = 2;
+	//赞助商名称
+	Translation Translation = 3;
+	//排序
+	string Sort = 4;
+	//图片路劲
+	string IMGSRC = 5;
+	//创建时间
+	string CreatedOn = 6;
+	//创建人
+	string CreatedBy = 7;
+	//修改时间
+	string ModifiedOn = 8;
+	//修改人
+	string ModifiedBy = 9;
+	//公司连接
+	string CompanyURL = 10;				
+}
+
+message OrganizerID{
+	//赞助商id
+	string OrganizerID = 1;
+}
+
+//==============Presenter================
+
+message PresenterList{
+	//主持人集合
+	repeated PresenterStruct listdata = 1;
+}
+
+message PresenterStruct{
+	//主持人id
+	string PresenterID = 1;
+	//会议id
+	string ConferenceID = 2;
+	//名字
+	string PresenterNameTranslation = 3;  
+	//主持人类型
+	string PresenterTypeTranslation = 4;  
+	//职位
+	string JobTitleTranslation = 5;  
+	//称呼
+	string AppellationTranslation = 6;	
+	//国家
+	string CountryTranslation = 7;      
+	//创建时间
+	string CreatedOn = 8;
+	//创建人
+	string CreatedBy = 9;
+	//修改时间
+	string ModifiedOn = 10;
+	//修改人
+	string ModifiedBy = 11;
+	//手机
+	string Mobile = 12;
+	//邮箱
+	string EMail = 13;
+}
+
+message PresenterID{
+	//主持人id
+	string PresenterID = 1;
+}
+
+//===============Participant=============
+
+message ParticipantList{
+	//嘉宾集合
+	repeated ParticipantStruct listdata = 1;
+	//总数
+	int32 total = 2;
+}
+
+message ParticipantStruct{
+	//嘉宾id
+	string ParticipantID = 1;
+	//嘉宾名称
+	string ParticipantNameTranslation = 2;
+	//头像路劲
+	string IMGSRC = 3;
+	//公司名称
+	string CompanyTranslation = 4;
+	//职称
+	string JobTranslation = 5;
+	//国家
+	string CountryTranslation = 6;
+	//邮箱
+	string Email = 7;
+	//手机
+	string Mobile = 8;
+	//简介
+	string IntroduceTranslation = 9;
+	//创建时间
+	string CreatedOn = 10;
+	//创建人
+	string CreatedBy = 11;
+	//修改时间
+	string ModifiedOn = 12;
+	//修改人
+	string ModifiedBy = 13;
+	//个人合同id
+	string PersonContractID = 14;
+	//个人合同号
+	string PerContractNumber = 15;
+	//是否删除
+	bool IsDelete = 16;
+	//排序
+	int32 Sort = 17;
+	//业务员id
+	string Owerid = 18;
+	//业务员
+	string Ower = 19;
+	//称谓
+	string AppellationTranslation = 20;		
+	//公司id
+	string CompanyId = 21;
+	//是否提交ppt
+	bool ConfirmPPT = 22;
+	//人员id
+	string MemberPK = 23;
+	//受否前台显示
+	int32 ShowOnFont = 24;
+	//年份
+	string Year = 25;
+}
+
+message ParticipantID{
+	//嘉宾id
+	string ParticipantID = 1;
+}
+
+message PerContractNumberID{
+	//个人合同号
+	string PerContractNumberID = 1;
+}
+
+message ParticipantName{
+	//嘉宾名称
+	string ParticipantName = 1;
+}
+
+message ParticipantInfoList{
+	//自定义嘉宾信息
+	repeated ParticipantInfoStruct listdata = 1;
+}
+
+message ParticipantInfoStruct{
+	//嘉宾名称
+	string ParticipantNameTranslation = 1;
+	//公司名称
+	string CompanyTranslation = 2;
+	//职称
+	string JobTranslation = 3;
+	//国家
+	string CountryTranslation = 4;
+	//称谓
+	string AppellationTranslation = 5;
+	//嘉宾类型
+	string ParticipantTypeTranslation = 6;
+	//嘉宾id
+	string ParticipantID = 7;
+	//嘉宾类型id
+	string ParticipantTypeID = 8;
+	//邮箱
+	string EMail = 9;
+	//手机
+	string Mobile = 10;
+}
+
+message PersonContractID{
+	//个人合同id
+	string PersonContractID = 1;
+}
+
+message ParticipantIDList{
+	//嘉宾id集合
+	repeated string listdata = 1;
+}
+
+message CompanyId{
+	//公司id
+	string CompanyId = 1;
+}
+
+message MemberPK{
+	//个人id
+	string MemberPK = 1;
+}
+
+message PInfo{
+	//个人id
+	string MemberPK = 1;
+	//是否显示
+	int32 ShowOnFont = 2;
+}
+
+message PagingInfo{
+	//会议id
+	string ConferencrID = 1;
+	//pageindex
+	int32 offset = 2;      
+	//pagesize 
+    int32 limit = 3;      
+}
+
+
+//=============TalkParticipantMap===============
+
+message TalkParticipantMapStruct{
+	//板块与嘉宾关系
+	string TalkParticipantMapID = 1;
+	//嘉宾id
+	string ParticipantID = 2;
+	//板块id
+	string TalkID = 3;
+	//会议id
+	string ConferenceID = 4;
+}
+
+message TalkParticipantMapInfo{
+	//板块id
+	string TalkID = 1;
+	//嘉宾id集合
+	string ParticipantIDs = 2;
+	//嘉宾类型id集合
+	string ParticipantTypeIDs = 3;
+	//会议id
+	string ConferenceID = 4;
+}
+
+
+//==============ActivityParticipantMap==============
+
+message ActivityParticipantMapInfo{
+	//活动id
+	string ActivityID = 1;
+	//嘉宾id集合
+	string ParticipantIDs = 2;
+	//嘉宾类型id集合
+	string ParticipantTypeIDs = 3;
+	//会议id
+	string ConferenceID = 4;
+}
+
+
+//===============ParticipantGroup============
+
+message ParticipantGroupList{
+	//嘉宾组集合
+	repeated  ParticipantGroupStruct listdata = 1;
+}
+
+message ParticipantGroupStruct{
+	//嘉宾组id
+	string ParticipantGroupID = 1;
+	//会议id
+	string ConferenceID = 2;
+	//嘉宾组名称
+	string ParticipantGroupNameTranslation = 3;
+	//创建时间
+	string CreatedOn = 4;
+	//创建人
+	string CreatedBy = 5;
+	//修改时间
+	string ModifiedOn = 6;
+	//修改人
+	string ModifiedBy = 7;
+	//会议名称
+	string ConferenceName = 8;
+}
+
+message ParticipantGroupID{
+	//嘉宾组id
+	string ParticipantGroupID = 1;
+}
+
+message ParticipantGroupInfo{
+	//嘉宾组
+	ParticipantGroupStruct ParticipantGroupStruct = 1;
+	//id集合
+	IDs IDs = 2;
+}
+
+
+//==============ParticipantGroupMap=============
+
+message ParticipantGroupMapStruct{
+	//嘉宾与嘉宾组关系id
+	string ParticipantGroupMapID = 1;
+	//嘉宾组id
+	string ParticipantGroupID = 2;
+	//嘉宾id
+	string ParticipantID = 3;
+}
+
+message ParticipantIDs{
+	//嘉宾id集合，格式:id1,is2,id3
+	string ParticipantIDs = 1;	
+	//嘉宾组id
+	string ParticipantGroupID = 2;  
+}
+
+//==============ParticipantType==========
+
+message ParticipantTypeList{
+	//嘉宾类型集合
+	repeated  ParticipantTypeStruct listdata = 1;
+}
+
+message ParticipantTypeStruct{
+	//	嘉宾类型id
+	string ParticipantTypeID = 1;
+	//嘉宾类型名称
+	string ParticipantTypeTranslation = 2;
+	//创建时间
+	string CreatedOn = 3;
+	//创建人
+	string CreatedBy = 4;
+	//修改时间
+	string ModifiedOn = 5;
+	//修改人
+	string ModifiedBy = 6;
+}
+
+message ParticipantTypeID{
+	//嘉宾类型id
+	string ParticipantTypeID = 1;
+}
+
+
+//==============ParticipantTypeMap=======
+
+message ParticipantTypeMapInfo{
+	//嘉宾id
+	string ParticipantID = 1;
+	//id集合
+	IDs ids = 2;
+}
+
+//=============Reception===========
+
+message ReceptionList{
+	//接待集合
+	repeated ReceptionStruct listdata = 1;
+}
+
+message ReceptionStruct{
+	//接待id
+	string ReceptionID = 1;
+	//个人id
+	string MemberPK = 2;
+	//是否接机
+	bool IsReception = 3;
+	//是否到达
+	bool IsArrange = 4;
+	//到达时间
+	string ArriveDate = 5;
+	//离开时间
+	string LeaveDate = 6;
+	//酒店
+	string Hotel = 7;
+	//接待人
+	string Receptioner = 8;
+}
+
+message ReceptionID{
+	//	接待id
+	string ReceptionID = 1;
+}
+
+
+//=============Policy=============
+
+message PolicyList{
+	//会议保单
+	repeated PolicyStruct listdata = 1;
+	//总数
+	int32 total = 2;
+}
+
+message PolicyID{
+	//	保单id
+	string PolicyID = 1;
+}
+
+message PolicyStruct{
+	//保单id
+	string PolicyID = 1;
+	//公司名称
+	string CompanyNameTranslation = 2;	
+	//公司id，没有则传空
+	string CompanyID = 3;
+	//国家
+	string Country = 4;		
+	//国家id
+	string CountryID = 5;		
+	//地址
+	string Address = 6;			
+	//邮编
+	string PostCode = 7;							
+	//联系人
+	string ContactName = 8;						
+	//邮箱
+	string EMail = 9;							
+	//电话
+	string Tel = 10;								
+	//手机
+	string Mobile = 11;							
+	//网址
+	string WebSite = 12;							
+	//是否删除
+	bool IsDelete = 13;							
+	//业务员名称
+	string AdminName = 14;						
+	//业务员id，没有则传空
+	string AdminID = 15;							
+	//创建时间，自动生成
+	string CreatedOn = 16;						
+	//创建人（创建信息时必传）
+	string CreatedBy = 17;						
+	//修改时间，自动生成
+	string ModifiedOn = 18;						
+	//修改人（修改时必传）
+	string ModifiedBy = 19;						
+	//删除时间，自动生成
+	string DeleteOn = 20;						
+	//删除人（删除时必传）
+	string DeleteBy = 21;
+	//年份
+	string Year = 22;
+	//来源
+	string Score = 23;
+}
+
+message DeleteInfo{
+	//保单id
+	string PolicyID = 1;
+	//删除人
+	string UserName = 2;				
+}
+
+message CreatePolicyInfo{
+	//保单对象
+	PolicyStruct PolicyStruct = 1;
+	//最大个人保单数
+	int32 UserMaxForum = 2;
+	//用户id
+	string UserPK = 3;
+}
+
+message UserName{
+	//	用户名称
+	string UserName = 1;
+}
+
+message PolicyInfoStruct{
+	//剩余保单数
+	string PolicyNumber = 1;
+	//是否显示新增按钮
+	bool IsDisplay = 2;
+}
+
+
+//===========ParticipantConferenceMap=========
+
+message ParticipantConferenceMapList{
+	//会议嘉宾关系集合
+	repeated  ParticipantConferenceMapStruct listdata = 1;
+	//数量
+	int32 total = 2;
+}
+
+message  ParticipantConferenceMapStruct{
+	//会议嘉宾关系id
+	string ParticipantConferenceMapID = 1;
+	//嘉宾id
+	string ParticipantID = 2;
+	//图片路劲
+	string IMGSRC = 3;
+	//二级会议id
+	string SessionConferenceID = 4;
+	//二级会议中文名
+	string SessionCN = 5;
+	//二级会议英文名
+	string SessionEN = 6;
+	//演讲时间中文
+	string SpeechTimeCN = 7;
+	//演讲时间英文
+	string SpeechTimeEN = 8;
+	//是否有人员信息
+	bool HasPersonInfo = 9;
+	//嘉宾组id
+	string ParticipantGroupID = 10;
+	//摘要id
+	string AbstractDraftID = 11;
+}
+
+message ParticipantConferenceMapID{
+	//会议嘉宾关系id
+	string ParticipantConferenceMapID = 1;
+}
+ 
+//========保单历史记录============
+
+message HistoryPolicyList{
+	//所有信息
+	repeated  HistoryPolicyStruct listdata = 1;
+	//数量
+	int32 total = 2;
+}
+
+message HistoryPolicyStruct{
+	//主键id
+	string HistoryPolicyID = 1;
+	//保单id
+	string PolicyID = 2;
+	//公司名称
+	string CompanyNameTranslation = 3;
+	//国家
+	string Country = 4;
+	//地址
+	string Address = 5;
+	//邮编
+	string PostCode = 6;
+	//联系人
+	string ContactName = 7;
+	//邮箱
+	string EMail = 8;
+	//电话
+	string Tel = 9;
+	//手机
+	string Mobile = 10;
+	//网址
+	string WebSite = 11;
+	//管理员名字
+	string OwnerName = 12;
+	//管理员pk
+	string OwnerID = 13;
+	//操作
+	string Operation = 14;
+	//操作人
+	string Operator = 15;
+	//操作时间
+	string OperationTime = 16;
+	//年份
+	string Year = 17;
+	//来源
+	string Score = 18;
+}
+
+//==============通用=================
+
+message SearchStruct{
+	//个人邮箱
+	string memEmail = 1;
+	//是否删除
+	bool memIsDelete = 2;
+	//
+	bool memIsActivation = 3;
+	//名称中文
+    string comNameCn = 4;
+	//名称英文
+    string comNameEn = 5;
+	//公司是否删除
+	bool comIsDelete = 6;
+	//是否审核
+	bool comIsVerify = 7;
+	//会议室名
+	string roomName = 8;
+	//会议桌名
+	string seatName = 9;
+	//狐疑地点
+	string AddressName = 10;
+	//房间类型
+	string RoomTypeName = 11;
+	//
+	string MassMeetingName = 12;
+	//
+	string SubEventName = 13;
+	//二级会议名称
+	string CFSessionName = 14;
+	//议题名称
+	string CFTopicName = 15;
+	//公司名称
+	string CompanyName = 16;
+	//业务员
+	string Ower = 17;
+	//个人合同号
+	string PerContractNumber  = 18;
+	//嘉宾名称
+	string ParticipantName = 19;
+	//联系人
+	string ContactName = 20;
+	//是否前台显示
+	string ShowOnFont = 21;
+	//业务员id
+	string OwnerID = 22;
+	//年份
+	string Year = 23;
+	//来源
+	string Score = 24;
+}
+
+message CreateInfoVM{
+	bool success = 1;
+	int32 createcount = 2;
+	string msg = 3;
+}
+
+message ModifiedInfoVM{
+	bool success = 1;
+	int32 modifiedcount = 2;
+	string msg = 3;
+}
+
+message DeleteInfoVM{
+	bool success = 1;
+	int32 deletecount = 2;
+	string msg = 3;
+}
+
+message PaginationRequestSearch {
+  int32 id = 1;
+  int32 offset = 2;      //pageindex
+  int32 limit = 3;       //pagesize
+  SearchStruct search = 4;
+}
+
+message Empty{
+
+}
+
+message Translation{
+	string CN = 1;
+	string EN = 2;
+	string JP = 3;
+}
+
+message IDs{
+	string ids = 1;		//格式:id1,id2,id3
+}
+
+message ResBool{
+	bool ResBool = 1;
+}
+
+//==============通用=================

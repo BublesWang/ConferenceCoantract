@@ -1,0 +1,1353 @@
+﻿syntax = "proto3";
+//会议合同服务
+package GrpcConferenceContractService;
+//Vsersion_ConferenceContractServiceToGrpc_20200925_0.1
+// tag<gRPC>
+// host<conferencecontract.api>
+// port<40001> 
+service ConferenceContractServiceToGrpc{
+
+  //============ConferenceContract==============
+
+  //获取某表内所有数据包含分页（带些查询条件SearchStruct内查询字段为comContractNumber，comNameTranslation,owerid,companyId,conferenceId,ccIsdelete,isDiscount，year,exTypeCode(区分snec或者esh等合同，传空字符串取全部)）
+  rpc GetConferenceContractList (PaginationRequestSearch) returns (ConferenceContractList) {}
+  //获取付费的一级合同表内所有数据包含分页（带些查询条件SearchStruct内查询字段为comContractNumber，comNameTranslation,owerid,ccIsdelete,isDiscount，year,conferenceId,contractStatusCode）
+  rpc GetConferenceContractListByIsGive (PaginationRequestSearch) returns (ConferenceContractList) {}
+  //获取付费的一级合同表内所有数据包含所有ContractStatusCode的分页数据（带些查询条件SearchStruct内查询字段为comContractNumber，comNameTranslation,owerid,ccIsdelete,isDiscount，year,conferenceId）
+  rpc GetConferenceContractListByIsGiveWithAllContractStatusCode (PaginationRequestSearch) returns (ConferenceContractList) {}
+  //根据CompanyId获取列表
+  rpc GetConferenceContractByCompanyIdList (IdRequest) returns (ConferenceContractList) {}
+  //根据SearchStruct内CompanyId，year字段获取列表
+  rpc GetConferenceContractByCompanyIdAndYearList (SearchStruct) returns (ConferenceContractList) {}
+  //根据主键id获取单个对象
+  rpc GetConferenceContractById (IdRequest) returns (ConferenceContractStruct) {}
+  //创建ConferenceContract单个对象
+  rpc CreateConferenceContractInfo (ConferenceContractStruct) returns (ModifyReplyForCreateOther) {}
+  //修改ConferenceContract单个对象
+  rpc UpdateConferenceContractInfo (ConferenceContractStruct) returns (ModifyReply) {}
+
+  //修改ConferenceContract内业务员字段，传ConferenceContractStruct内ConferenceContractId，Owerid，Ower字段
+  rpc ModifyConferenceContractByOwer (ConferenceContractStruct) returns (ModifyReply) {}
+
+  //修改ConferenceContract内PaymentStatusCode字段值，传ConferenceContractStruct内ConferenceContractId字段
+  rpc ModifyConferenceContractPaymentStatusCode (ConferenceContractStruct) returns (ModifyReply) {}
+
+  //修改ConferenceContract内IsSendEmail字段值
+  rpc ModifyConferenceContractIsSendEmail (ConferenceContractCidList) returns (ModifyReply) {}
+
+  //修改ConferenceContract内ModifyPermission字段值,根据SearchStruct内conferenceContractId,modifyPermission,userName(修改操作人)字段
+  rpc ModifyModifyPermissionById (SearchStruct) returns (ModifyReply) {}
+
+  //删除ConferenceContract单个对象
+  rpc DeleteConferenceContractById (IdRequest) returns (ModifyReply) {}
+  //删除ConferenceContract多个对象
+  rpc DeleteConferenceContractByList (ConferenceContractCidList) returns (ModifyReply) {}
+  //删除ConferenceContract多个一级合同的同时，删除每个ConferenceContractId下面所属的二级和三级下面的所有合同
+  rpc DeleteConCAndCCAndPCByConIdList (ConferenceContractCidList) returns (ModifyReply) {}
+
+  //============CompanyContract==============
+
+  //获取某表内所有数据包含分页
+  //（带查询条件SearchStruct内查询字段为comContractNumber,comNameTranslation,companyServicePackId,contractTypeId,conferenceId,ccIsdelete,isOwer(为false拿全部数据，为true时请指定owerid),owerid,isDiscount,IsContractTypeWithECode,cTypeCode,IsCheckIn,IsVerify,IsFillPC,companyId,comPrice,contractStatusCode,isGive,year）
+  rpc GetCompanyContractList (PaginationRequestSearch) returns (CompanyContractList) {}
+  //根据ConferenceContractId获取列表
+  rpc GetCompanyContractByConferenceContractIdList (IdRequest) returns (CompanyContractList) {}
+  //根据CompanyId获取列表
+  rpc GetCompanyContractByCompanyIdList (IdRequest) returns (CompanyContractList) {}
+  //根据主键id获取单个对象
+  rpc GetCompanyContractById (IdRequest) returns (CompanyContractStruct) {}
+  //创建CompanyContract单个对象
+  rpc CreateCompanyContractInfo (CompanyContractStruct) returns (ModifyReplyForCreateOther) {}
+  //修改CompanyContract单个对象
+  rpc UpdateCompanyContractInfo (CompanyContractStruct) returns (ModifyReply) {}
+
+  //根据ContractId修改CompanyContract内MaxContractNumber字段值
+  rpc ModifyMaxContractNumber (CompanyContractStruct) returns (ModifyReply) {}
+
+  //修改CompanyContract表内Owerid，Ower，MaxContractNumber字段，同时又修改PersonContract表内Owerid，Ower字段接口
+  rpc ModifyCCPCOwer (ModifyCCPCOwerInfoStruct) returns (ModifyReply) {}
+
+  //删除CompanyContract单个对象
+  rpc DeleteCompanyContractById (IdRequest) returns (ModifyReply) {}
+  //删除CompanyContract单个对象
+  rpc RemoveCompanyContractIfPersonContractEmpty (IdRequest) returns (ModifyReplyForCreateOther) {}
+  //删除CompanyContract多个对象
+  rpc DeleteCompanyContractByList (CompanyContractCidList) returns (ModifyReply) {}
+  //删除CompanyContract多个二级合同的同时，删除每个ContractId下面所属的三级下面的所有合同
+  rpc DeleteCCAndPCByCidList (CompanyContractCidList) returns (ModifyReply) {}
+
+  //============PersonContract==============
+
+  //获取某表内所有数据包含分页（带查询条件）
+  //（带查询条件SearchStruct内查询字段为perContractNumber,comNameTranslation,memTranslation,companyServicePackId,owerid,cTypeCode,conferenceId,pcIsdelete,companyId,year,memberPK,contractCode,exTypeCode(区分snec或者esh等合同，传空字符串取全部),isVerifyGive为true时配合isGive，为false获取全部）
+  rpc GetPersonContractList (PaginationRequestSearch) returns (PersonContractList) {}
+  //根据ContractId获取PersonContract表内所有个人合同的列表包含分页
+  rpc GetPersonContractByContractIdList (PaginationRequestSearch) returns (PersonContractList) {}
+
+  //（带查询条件SearchStruct内查询字段为perContractNumber,memTranslation,companyServicePackId,owerid,cTypeCode,conferenceId,pcIsdelete，isNowYear,year,enterpriseType）
+  rpc GetPersonContractByNewList (PaginationRequestSearch) returns (PersonContractList) {}
+
+  //根据MemberPK,exTypeCode(区分snec或者esh等合同，传空字符串取全部)获取PersonContract表内所有个人合同的列表包含分页
+  rpc GetPersonContractByMemberPKList (PaginationRequestSearch) returns (PersonContractList) {}
+
+  //根据MemberPK(必传),companyServicePackId,year,contractCode(区分储能或光伏的合同)获取PersonContract表内所有个人合同的列表
+  rpc GetPersonContractByMemberPKListWithNoPagination (SearchStruct) returns (PersonContractList) {}
+
+  //根据主键id获取单个对象
+  rpc GetPersonContractById (IdRequest) returns (PersonContractStruct) {}
+
+  //根据SearchStruct内perContractNumber获取PersonContractStruct对象
+  rpc GetPersonContractByPersonContractNumber (SearchStruct) returns (PersonContractStruct) {}
+
+  //创建PersonContract单个对象
+  rpc CreatePersonContractInfo (PersonContractStruct) returns (ModifyReplyForCreateOther) {}
+  //修改PersonContract单个对象
+  rpc UpdatePersonContractInfo (PersonContractStruct) returns (ModifyReply) {}
+
+  //修改PersonContract报道状态
+  rpc ModifyPersonContractByIsCheckIn (ModifyRequest) returns (ModifyReply) {}
+
+  //根据多个PersonContractId批量修改PersonContract报道状态
+  rpc ModifyPersonContractIsCheckInByIdList (CheckInRequest) returns (ModifyReply) {}
+
+  //修改PersonContract内IsSendEmail字段值
+  rpc ModifyPersonContractIsSendEmail (PersonContractPidList) returns (ModifyReply) {}
+
+  //根据PerContractNumber修改PersonContract内IsFianceRecord字段值
+  rpc ModifyPersonContractIsFianceRecord (PersonContractPCNoRequest) returns (ModifyReply) {}
+
+  //根据SearchStruct内owerid，isPrint修改PersonContract内IsPrint字段值
+  rpc ModifyPersonContractIsPrintByOwerid (SearchStruct) returns (ModifyReply) {}
+  //根据多个id批量修改PersonContract内IsPrint字段值
+  rpc ModifyPersonContractIsPrintByids (IdsRequest) returns (ModifyReply) {}
+
+  //删除PersonContract单个对象
+  rpc DeletePersonContractById (IdRequest) returns (ModifyReply) {}
+  //删除PersonContract多个对象
+  rpc DeletePersonContractByList (PersonContractPidList) returns (ModifyReply) {}
+  //删除PersonContract对象，同时判断二级合同MaxContractNumber为-1时，把二级合同同时一起删除
+  rpc DeletePersonContractByIdForWeb (IdRequest) returns (ModifyReply) {}
+
+  //============CompanyServicePack==============
+
+  //获取CompanyServicePack字典
+  rpc GetCompanyServicePackDic (Empty) returns (CompanyServicePackList) {}
+  //根据SearchStruct内year获取CompanyServicePack字典
+  rpc GetCompanyServicePackDicByYear (SearchStruct) returns (CompanyServicePackList) {}
+  //获取IsShownOnFront为true的CompanyServicePackList,SearchStruct内year和conferenceId字段
+  rpc GetCompanyServicePackListByIsShownOnFront (SearchStruct) returns (CompanyServicePackList) {}
+  //获取某表内所有数据包含分页（带查询条件SearchStruct内查询字段为Translation,conferenceId,conferenceName,contractTypeId,IsDelete,year）
+  rpc GetCompanyServicePackList (PaginationRequestSearch) returns (CompanyServicePackList) {}
+  //根据ContractTypeId获取CompanyServicePackList
+  rpc GetCompanyServicePackListByContractTypeId (IdRequest) returns (CompanyServicePackList) {}
+  //获取某表内午餐和晚宴的套餐列表（带查询条件SearchStruct内查询字段为cTypeCode,conferenceId,year）
+  rpc GetCompanyServicePackListForLunchOrDinner (SearchStruct) returns (CompanyServicePackList) {}
+  //根据主键id获取单个对象
+  rpc GetCompanyServicePackById (IdRequest) returns (CompanyServicePackVMStruct) {}
+  //创建CompanyServicePack单个对象
+  rpc CreateCompanyServicePackInfo (CompanyServicePackVMStruct) returns (ModifyReply) {}
+  //修改CompanyServicePack单个对象
+  rpc UpdateCompanyServicePackInfo (CompanyServicePackVMStruct) returns (ModifyReply) {}
+  //删除CompanyServicePack单个对象
+  rpc DeleteCompanyServicePackById (IdRequest) returns (ModifyReply) {}
+
+  //根据SearchStruct内perContractNumber字段获取CompanyServicePack和ServicePackList
+  rpc GetCompanyServicePackVMByPersonContractNumber (SearchStruct) returns (CompanyServicePackVMStruct) {}
+
+  //============ExtraService==============
+
+  //获取某表内所有数据包含分页（带查询条件SearchStruct内查询字段为extraContractNumber,memTranslation,IsDelete）
+  rpc GetExtraServiceList (PaginationRequestSearch) returns (ExtraServiceList) {}
+  //根据主键id获取单个对象
+  rpc GetExtraServiceById (IdRequest) returns (ExtraServiceVMStruct) {}
+  //创建ExtraService单个对象
+  rpc CreateExtraServiceInfo (ExtraServiceVMStruct) returns (ModifyReply) {}
+  //修改ExtraService单个对象
+  rpc UpdateExtraServiceInfo (ExtraServiceVMStruct) returns (ModifyReply) {}
+  //删除ExtraService单个对象
+  rpc DeleteExtraServiceById (IdRequest) returns (ModifyReply) {}
+
+  //============ServicePack==============
+
+  //获取所有数据列表
+  rpc GetServicePackListAll (Empty) returns (ServicePackList) {}
+  //根据ConferenceId获取ServicePackList
+  rpc GetServicePackByConferenceIdList (IdRequest) returns (ServicePackList) {}
+  //获取某表内所有数据包含分页（带查询条件SearchStruct内查询字段为Translation,conferenceId,conferenceName,IsDelete,year）
+  rpc GetServicePackList (PaginationRequestSearch) returns (ServicePackList) {}
+  //根据主键id获取单个对象
+  rpc GetServicePackById (IdRequest) returns (ServicePackVMStruct) {}
+  //创建ServicePack单个对象
+  rpc CreateServicePackInfo (ServicePackVMStruct) returns (ModifyReply) {}
+  //修改CompanyServicePack单个对象
+  rpc UpdateServicePackInfo (ServicePackVMStruct) returns (ModifyReply) {}
+  //删除CompanyServicePack单个对象
+  rpc DeleteServicePackById (IdRequest) returns (ModifyReply) {}
+  //判断ServicePackActivityMap表是否有引用Activity表内数据，如果引用就不能删除
+  rpc IsCanDeleteAcitvity (IdRequest) returns (ResultReply) {}
+
+  //============ServicePackActivityMap==============
+  //根据SearchStruct内sessionConferenceId字段,判断是否存在sessionConferenceId的数据
+  rpc IsExistSessionConferencdId (SearchStruct) returns (ResultReply) {}
+  //根据SearchStruct内sessionConferenceId字段,
+  //清空SessionConferenceID，SessionConferenceName，SessionIDs（如多个的话根据sessionConferenceId值对应值清掉）
+  rpc RemoveSCBySessionConferencdId (SearchStruct) returns (ModifyReply) {}
+
+  //============ContractType==============
+
+  //获取ContractType字典项
+  rpc GetContractTypeDic (Empty) returns (ContractTypeList) {}
+  //获取某表内所有数据包含分页
+  rpc GetContractTypeList (PaginationRequest) returns (ContractTypeList) {}
+  //根据主键id获取单个对象
+  rpc GetContractTypeById (IdRequest) returns (ContractTypeStruct) {}
+  //创建ContractType单个对象
+  rpc CreateContractTypeInfo (ContractTypeStruct) returns (ModifyReply) {}
+  //修改ContractType单个对象
+  rpc UpdateContractTypeInfo (ContractTypeStruct) returns (ModifyReply) {}
+  //删除ContractType单个对象
+  rpc DeleteContractTypeById (IdRequest) returns (ModifyReply) {}
+
+  //============CCNumberConfig==============
+
+  //获取CCNumberConfig字典项
+  rpc GetCCNumberConfigDic (Empty) returns (CCNumberConfigList) {}
+  //获取某表内所有数据包含分页
+  rpc GetCCNumberConfigList (PaginationRequest) returns (CCNumberConfigList) {}
+  //根据主键id获取单个对象
+  rpc GetCCNumberConfigById (IdRequest) returns (CCNumberConfigStruct) {}
+  //创建CCNumberConfig单个对象
+  rpc CreateCCNumberConfigInfo (CCNumberConfigStruct) returns (ModifyReply) {}
+  //修改CCNumberConfig单个对象
+  rpc UpdateCCNumberConfigInfo (CCNumberConfigStruct) returns (ModifyReply) {}
+  //删除CCNumberConfig单个对象
+  rpc DeleteCCNumberConfigById (IdRequest) returns (ModifyReply) {}
+
+  //============DelegateServicePackDiscount==============
+
+  //获取某表内所有数据包含分页(SearchStruct内查询字段为comContractNumber,comNameTranslation,ccIsdelete,conferenceId,year)
+  rpc GetDSPDList (PaginationRequestSearch) returns (DelegateServicePackDiscountList) {}
+  //根据主键id获取单个对象
+  rpc GetDSPDById (IdRequest) returns (DelegateServicePackDiscountListStruct) {}
+  //创建DelegateServicePackDiscount单个对象
+  rpc CreateDSPDInfo (DelegateServicePackDiscountStruct) returns (ModifyReply) {}
+  //修改DelegateServicePackDiscount单个对象
+  rpc UpdateDSPDInfo (DelegateServicePackDiscountStruct) returns (ModifyReply) {}
+  //删除DelegateServicePackDiscount单个对象
+  rpc DeleteDSPDById (IdRequest) returns (ModifyReply) {}
+
+  //============DelegateServicePackDiscountForConferenceContract==============
+
+  //获取某表内所有数据包含分页(SearchStruct内查询字段为comContractNumber,comNameTranslation,ccIsdelete)
+  rpc GetDSPDFCCList (PaginationRequestSearch) returns (DelegateServicePackDiscountForConferenceContractList) {}
+  //根据主键id获取单个对象
+  rpc GetDSPDFCCById (IdRequest) returns (DelegateServicePackDiscountForConferenceContractListStruct) {}
+  //创建DelegateServicePackDiscountForConferenceContract单个对象
+  rpc CreateDSPDFCCInfo (DelegateServicePackDiscountForConferenceContractStruct) returns (ModifyReply) {}
+  //修改DelegateServicePackDiscountForConferenceContract单个对象
+  rpc UpdateDSPDFCCInfo (DelegateServicePackDiscountForConferenceContractStruct) returns (ModifyReply) {}
+  //删除DelegateServicePackDiscountForConferenceContract单个对象
+  rpc DeleteDSPDFCCById (IdRequest) returns (ModifyReply) {}
+
+  //============ContractStatusDic==============
+
+  //获取ContractStatusDic字典项
+  rpc GetContractStatusDic (Empty) returns (ContractStatusDicForDicList) {}
+  //获取某表内所有数据包含分页
+  rpc GetContractStatusDicList (PaginationRequest) returns (ContractStatusDicList) {}
+  //根据主键id获取单个对象
+  rpc GetContractStatusDicById (IdRequest) returns (ContractStatusDicStruct) {}
+  //创建ContractStatusDic单个对象
+  rpc CreateContractStatusDicInfo (ContractStatusDicStruct) returns (ModifyReply) {}
+  //修改ContractStatusDic单个对象
+  rpc UpdateContractStatusDicInfo (ContractStatusDicStruct) returns (ModifyReply) {}
+  //删除ContractStatusDic单个对象
+  rpc DeleteContractStatusDicById (IdRequest) returns (ModifyReply) {}
+
+  //============RemarkDic==============
+
+  //获取RemarkDic字典项
+  rpc GetRemarkDic (Empty) returns (RemarkDicForDicList) {}
+  //获取某表内所有数据包含分页
+  rpc GetRemarkDicList (PaginationRequest) returns (RemarkDicList) {}
+  //根据主键id获取单个对象
+  rpc GetRemarkDicById (IdRequest) returns (RemarkDicStruct) {}
+  //创建RemarkDic单个对象
+  rpc CreateRemarkDicInfo (RemarkDicStruct) returns (ModifyReply) {}
+  //修改RemarkDic单个对象
+  rpc UpdateRemarkDicInfo (RemarkDicStruct) returns (ModifyReply) {}
+  //删除RemarkDic单个对象
+  rpc DeleteRemarkDicById (IdRequest) returns (ModifyReply) {}
+
+  //============PersonContractActivityMap==============
+
+  //根据SearchStruct内memberPK和year字段获取PersonContractActivityMap列表
+  rpc GetPersonContractActivityMapByMemberPKList (SearchStruct) returns (PersonContractActivityMapList) {}
+
+  //根据SearchStruct内activityId和year字段获取PersonContractActivityMap列表
+  rpc GetPersonContractActivityMapByActivityIdList (SearchStruct) returns (PersonContractActivityMapList) {}
+
+  //根据SearchStruct内perContractNumber和year字段获取PersonContractActivityMap列表(根据个人合同号获取PersonContractActivityMap列表)
+  rpc GetPersonContractActivityMapByPersonContractNumberList (SearchStruct) returns (PersonContractActivityMapList) {}
+
+  //创建PersonContractActivityMap多个对象
+  rpc CreatePersonContractActivityMapInfo (PersonContractActivityMapList) returns (ModifyReply) {}
+
+  //修改PersonContractActivityMap多个对象
+  rpc UpdatePersonContractActivityMapInfo (PersonContractActivityMapListToUpdate) returns (ModifyReply) {}
+
+  //============ApplyConference==============
+
+  //根据SearchStruct内sessionConferenceId获取ApplyConferenceList（带分页和查询条件）
+  rpc GetApplyConferenceBySessionConferenceIdListPagination (PaginationRequestSearch) returns (ApplyConferenceList) {}
+
+  //根据SearchStruct内memberPK,year获取ApplyConferenceList（带分页和查询条件）
+  rpc GetApplyConferenceByMemberPkAndYear (SearchStruct) returns (ApplyConferenceList) {}
+
+  //根据SearchStruct内sessionConferenceId,tagtypeCode,year,owerid获取ApplyConferenceList（带分页和查询条件）
+  rpc GetApplyConferenceBySessionConferenceIdAndTagTypeCodeList (PaginationRequestSearch) returns (ApplyConferenceList) {}
+
+  //根据SearchStruct内id(PersonContractId),year获取ApplyConferenceList
+  rpc GetApplyConferenceByPerContractIdList (SearchStruct) returns (ApplyConferenceList) {}
+  //根据CompanyId获取ApplyConferenceList
+  rpc GetApplyConferenceByCompanyIdList (IdRequest) returns (ApplyConferenceList) {}
+  //根据SessionConferenceId获取ApplyConferenceList
+  rpc GetApplyConferenceBySessionConferenceIdList (IdRequest) returns (ApplyConferenceList) {}
+  //新增或修改ApplyConference多个对象
+  rpc CreateOrUpdateApplyConferenceInfo (ApplyConferenceListToCreateOrUpdate) returns (ModifyReply) {}
+
+  //============InviteLetter==============
+
+  //根据主键id获取单个对象
+  rpc GetInviteLetterById (IdRequest) returns (InviteLetterStruct) {}
+  //创建InviteLetter单个对象
+  rpc CreateInviteLetterInfo (InviteLetterStruct) returns (ModifyReplyForCreateOther) {}
+
+  //============TagType==============
+
+  //获取TagType字典项
+  rpc GetTagTypeDic (Empty) returns (TagTypeForDicList) {}
+  //根据code获取YearConfig
+  rpc GetTagTypeByCode (CodeRequest) returns (TagTypeStruct) {}
+  //创建TagType单个对象
+  rpc CreateTagTypeInfo (TagTypeStruct) returns (ModifyReply) {}
+  //修改TagType单个对象
+  rpc UpdateTagTypeInfo (TagTypeStruct) returns (ModifyReply) {}
+  //删除TagType单个对象
+  rpc DeleteTagTypeById (IdRequest) returns (ModifyReply) {}
+
+  //============YearConfig==============
+
+  //获取YearConfig字典项
+  rpc GetYearConfigDic (Empty) returns (YearConfigForDicList) {}
+  //根据SearchStruct内isUse字段获取YearConfig字典项
+  rpc GetYearConfigByIsUse (SearchStruct) returns (YearConfigForDicList) {}
+  //创建YearConfig单个对象
+  rpc CreateYearConfigInfo (YearConfigStruct) returns (ModifyReply) {}
+  //修改YearConfig单个对象
+  rpc UpdateYearConfigInfo (YearConfigStruct) returns (ModifyReply) {}
+
+  //============ConferenceOnsite==============
+
+  //获取ConferenceOnsite列表，搜索条件为SearchStruct内contractNumber，companyName，companyServicePackId，userName,year
+  rpc GetConferenceOnsiteList (PaginationRequestSearch) returns (ConferenceOnsiteList) {}
+  //根据主键id获取单个对象
+  rpc GetConferenceOnsiteById (IdIntRequest) returns (ConferenceOnsiteStruct) {}
+  //创建ConferenceOnsite单个对象
+  rpc CreateConferenceOnsiteInfo (ConferenceOnsiteStruct) returns (ModifyReplyForConferenceOnsite) {}
+  //修改ConferenceOnsite单个对象
+  rpc UpdateConferenceOnsiteInfo (ConferenceOnsiteStruct) returns (ModifyReply) {}
+  //删除ConferenceOnsite单个对象
+  rpc DeleteConferenceOnsiteById (IdIntRequest) returns (ModifyReply) {}
+
+  //============InviteCode==============
+
+  //获取某表内所有数据包含分页，搜索条件为SearchStruct内inviteCodeNumber,webSite，isNotFullUseInviteCode(是否未完全使用的邀请码（即已使用数量<数量）)，isFullUseInviteCode(是否完全使用的邀请码（即已使用数量=数量））)，companyServicePackId,year
+  rpc GetInviteCodeList (PaginationRequestSearch) returns (InviteCodeList) {}
+  //根据主键id获取单个对象
+  rpc GetInviteCodeById (IdRequest) returns (InviteCodeCSPVMStruct) {}
+  //根据SearchStruct内InviteCodeNumber获取单个对象
+  rpc GetInviteCodeByInviteCodeNumber (SearchStruct) returns (InviteCodeCSPVMStruct) {}
+  //创建InviteCode单个对象
+  rpc CreateInviteCodeInfo (InviteCodeStruct) returns (ModifyReply) {}
+  //修改InviteCode单个对象
+  rpc UpdateInviteCodeInfo (InviteCodeStruct) returns (ModifyReply) {}
+  //删除InviteCode单个对象
+  rpc DeleteInviteCodeById (IdRequest) returns (ModifyReply) {}
+
+  //============InviteCodeRecord==============
+
+  //获取某表内所有数据包含分页，搜索条件为SearchStruct内perContractNumber，memberPK,memTranslation，inviteCodeId
+  rpc GetInviteCodeRecordList (PaginationRequestSearch) returns (InviteCodeRecordList) {}
+  //根据主键id获取单个对象
+  rpc GetInviteCodeRecordById (IdRequest) returns (InviteCodeRecordStruct) {}
+  //创建InviteCodeRecord单个对象
+  rpc CreateInviteCodeRecordInfo (InviteCodeRecordStruct) returns (ModifyReply) {}
+  //修改InviteCodeRecord单个对象
+  rpc UpdateInviteCodeRecordInfo (InviteCodeRecordStruct) returns (ModifyReply) {}
+  //删除InviteCodeRecord单个对象
+  rpc DeleteInviteCodeRecordById (IdRequest) returns (ModifyReply) {}
+
+  //============其他接口==============
+
+  //复制CompanyServicePack表和ServicePack表数据,
+  //传入SearchStruct内id(前一年的ConferenceId值，根据该值区分不同的会议套餐),year,conferenceId(新一年的会议id),conferenceName(新一年的会议名字，CompanyServicePack内ConferenceName字段string),Translation(ServicePack内ConferenceName字段Json格式)字段值
+  rpc CopyPackInfoByYear (SearchStruct) returns (ModifyReply) {}
+  //复制CompanyServicePack表和ServicePack表数据和CompanyServicePackMap表数据（关于储能），
+  //传入SearchStruct内year,conferenceId,conferenceName(CompanyServicePack内ConferenceName字段string),Translation(ServicePack内ConferenceName字段Json格式)字段值
+  //rpc CopyPackInfoByYearForESH (SearchStruct) returns (ModifyReply) {}
+  //把复制后的CompanyServicePack表和ServicePack表新数据，通过此接口在关联起来
+  rpc CreateCompanyServicePackMap (CompanyServicePackMapList) returns (ModifyReply) {}
+
+  //根据SearchStruct内isGive，year字段获取ContractStatisticsList
+  rpc GetContractStatisticsList (SearchStruct) returns (ContractStatisticsList) {}
+  //根据SearchStruct内companyId，year字段,如果这个公司year年的所有二级合同中MaxContractNumber为正数的二级合同底下三级合同数量和最大数保持一致的，返回true，否则返回false
+  rpc IsMaxContractNumberEqualsPCCountByCompanyPKAndYear (SearchStruct) returns (BoolReply) {}
+  //根据SearchStruct内sessionConferenceId(必传，多个用","分隔)，perContractNumber，memTranslation，owerid，comNameTranslation，companyServicePackId,IsCheckIn,year字段获取参会晚宴数据
+  rpc GetPersonContractListForLunch (PaginationRequestSearch) returns (PersonContractAndSessionConferenceIdList) {}
+  //根据SearchStruct内sessionConferenceId,tagtypeCode,year获取PersonContractList（带分页）
+  rpc GetPersonContractListAndApplyConference (PaginationRequestSearch) returns (PersonContractList) {}
+  //导出个人合同表数据（IsPrint为false）
+  //（带查询条件SearchStruct内查询字段为perContractNumber,comNameTranslation,memTranslation,companyServicePackId,owerid,cTypeCode,conferenceId,pcIsdelete,companyId,year,memberPK,contractCode,exTypeCode(区分snec或者esh等合同，传空字符串取全部)）
+  rpc ExportPersonContractList (SearchStruct) returns (PersonContractList) {}
+  //PersonContractActivityMap数据重整使用（不对外）
+  //rpc CreatePersonContractActivityMapImport (Empty) returns (ModifyReplyForCreateOther) {}
+}
+
+message Empty {
+}
+
+message IdRequest {
+  string id = 1;
+}
+
+message IdIntRequest {
+  int32 id = 1;
+}
+
+message IdsRequest {
+  string ids = 1;
+}
+
+message CodeRequest {
+  string code = 1;
+}
+
+message PaginationRequest {
+  int32 id = 1;
+  int32 offset = 2;
+  int32 limit = 3;
+}
+
+message PaginationRequestSearch {
+  int32 id = 1;
+  int32 offset = 2;
+  int32 limit = 3;
+  SearchStruct search = 4;
+}
+
+message SearchStruct{
+  //公司名称
+  string comNameTranslation = 1;
+  //公司合同号
+  string comContractNumber = 2;
+  string contractTypeId = 3;
+  string conferenceId = 4;
+  bool ccIsdelete = 5;
+  string Translation = 6;
+  string perContractNumber = 7;
+  string memTranslation = 8;
+  bool pcIsdelete = 9;
+  string contractId = 10;
+  bool isDiscount = 11;
+  bool isCheckIn = 12;
+  bool isVerify = 13;
+  bool isDelete = 14;
+  string extraContractNumber = 15;
+  string memberPK = 16;
+  string activityId = 17;
+  string year = 18;
+  bool isFillPC = 19;	
+  bool isConfirm = 20;
+  //业务员id
+  string owerid = 21; 
+  string cTypeCode = 22;
+  string companyServicePackId = 23;
+  bool isContractTypeWithECode = 24;	
+  string sessionConferenceId = 25;
+  string companyId = 26;
+  string comPrice = 27;
+  string contractStatusCode = 28;
+  bool isGive = 29;
+  bool isUse = 30;
+  string orderings = 31;
+  string tagtypeCode = 32;
+  bool isNowYear = 33;
+  string contractCode = 34;
+  bool isOwer = 35;
+  string conferenceName = 36;
+  string conferenceContractId = 37;
+  string modifyPermission = 38;
+  string enterpriseType = 39;
+  string contractNumber = 40;
+  string companyName = 41;
+  string exTypeCode = 42;
+  string userName = 43;
+  string webSite = 44;
+  bool isFullUseInviteCode = 45;
+  bool isNotFullUseInviteCode = 46;
+  string inviteCodeNumber = 47;
+  string inviteCodeId = 48;
+  bool isPrint = 49;
+  bool isVerifyGive = 50;
+  string perContractId = 51;
+  string id = 52;
+}
+
+
+message ConferenceContractCidList {
+  //ConferenceContractId的列表
+  repeated string Cidlistdata = 1;
+}
+
+message PersonContractPidList {
+  //PersonContractId的列表
+  repeated string Pidlistdata = 1;
+}
+
+message PersonContractPCNoRequest {
+  //PersonContractNumber的列表对象
+  repeated PersonContractPCNoStruct listdata = 1;
+}
+
+message PersonContractPCNoStruct {
+  //PersonContractNumber的列表
+  string PerContractNumber = 1;
+  //是否有财务记录
+  bool Comfirmed = 2; 
+}
+
+message CompanyContractCidList {
+  //CompanyContractId的列表
+  repeated string Cidlistdata = 1;
+}
+
+message ConferenceContractList {
+  repeated ConferenceContractStruct listdata = 1;
+  int32 total = 2;
+}
+
+message CompanyContractList {
+  repeated CompanyContractStruct listdata = 1;
+  int32 total = 2;
+}
+
+message PersonContractList {
+  repeated PersonContractStruct listdata = 1;
+  int32 total = 2;
+}
+
+message CompanyServicePackList {
+  repeated CompanyServicePackStruct listdata = 1;
+  int32 total = 2;
+}
+
+message ExtraServiceList {
+  repeated ExtraServiceStruct listdata = 1;
+  int32 total = 2;
+}
+
+message ServicePackList {
+  repeated ServicePackStruct listdata = 1;
+  int32 total = 2;
+}
+
+message CCNumberConfigList {
+  repeated CCNumberConfigStruct listdata = 1;
+  int32 total = 2;
+}
+
+message ContractTypeList {
+  repeated ContractTypeStruct listdata = 1;
+  int32 total = 2;
+}
+
+message DelegateServicePackDiscountList {
+  repeated DelegateServicePackDiscountListStruct listdata = 1;
+  int32 total = 2;
+}
+
+message DelegateServicePackDiscountForConferenceContractList {
+  repeated DelegateServicePackDiscountForConferenceContractListStruct listdata = 1;
+  int32 total = 2;
+}
+
+message ConferenceOnsiteList {
+  repeated ConferenceOnsiteStruct listdata = 1;
+  int32 total = 2;
+}
+
+message InviteCodeList {
+  repeated InviteCodeCSPVMStruct listdata = 1;
+  int32 total = 2;
+}
+
+message InviteCodeRecordList {
+  repeated InviteCodeRecordStruct listdata = 1;
+  int32 total = 2;
+}
+
+
+message PersonContractAndSessionConferenceIdList {
+  repeated PersonContractAndSessionConferenceIdsStruct listdata = 1;
+  int32 total = 2;
+  int32 allTotal = 3;
+}
+
+message PersonContractActivityMapList {
+  repeated PersonContractActivityMapStruct listdata = 1;
+}
+
+message CompanyServicePackMapList {
+  repeated CompanyServicePackMapVMStruct listdata = 1;
+}
+
+message ContractStatisticsList {
+  repeated ContractStatisticsStruct listdata = 1;
+}
+
+
+message PersonContractActivityMapListToUpdate {
+  //MemberPK
+  string MemberPK = 1;
+  //PersonContractActivityMap列表，如果没有可以为空
+  repeated PersonContractActivityMapStruct listdata = 2;
+}
+
+
+message ConferenceContractStruct {
+  //主键
+  string ConferenceContractId = 1;
+  //公司id
+  string CompanyId = 2;
+  //公司中英文名字
+  ComNameTranslationStruct ComNameTranslation = 3;
+  //合同号
+  string ContractNumber = 4;
+  //CF2019SNEC0010CW合同编号最后二位Code（CW/CS,EW/ES）
+  string ContractCode = 5;
+  //是否删除
+  bool IsDelete = 6;
+  //业务员id
+  string Owerid = 7; 
+  //业务员姓名
+  string Ower = 8; 
+  string CreatedOn = 9;
+  string CreatedBy = 10;
+  string ModefieldOn = 11;
+  string ModefieldBy = 12;
+  //二级合同列表
+  repeated CompanyContractStruct Clistdata = 13;
+  //合同年份
+  string ContractYear = 14;
+  //一级合同折扣列表
+  repeated DelegateServicePackDiscountForConferenceContractStruct dlistdata = 15;
+  //ConferenceId
+  string ConferenceId = 16;
+  string AlternativeContractNumber = 17;
+  //合同状态Code
+  string ContractStatusCode = 18;
+  //支付状态Code
+  string PaymentStatusCode = 19;
+  //是否发送Email
+  bool IsSendEmail = 20;
+  //是否修改
+  bool IsModify = 21;
+  //修改许可
+  string ModifyPermission = 22;
+}
+
+message CompanyContractStruct {
+  //主键
+  string ContractId = 1;
+  //CompanyServicePackId
+  string CompanyServicePackId = 2;
+  //CompanyId
+  string CompanyId = 3;
+  //string  ComNameTranslation = 4;
+  //公司中英文名
+  ComNameTranslationStruct ComNameTranslation = 4;
+  //二级合同号
+  string ComContractNumber = 5;
+  //国家
+  string Country = 6;
+  //string AddressTranslation = 7;
+  //地址中英文
+  AddressTranslationStruct AddressTranslation = 7;
+  //最大合同数
+  string MaxContractNumber = 8;
+  //是否删除
+  bool CCIsdelete = 9;
+  //0代表内资;1代表外资
+  int32 EnterpriseType = 10; 
+  //是否审核
+  bool IsVerify = 11;
+  //业务员id
+  string Owerid = 12; 
+  //业务员姓名
+  string Ower = 13; 
+  string CreatedOn = 14;
+  string CreatedBy = 15;
+  string ModefieldOn = 16;
+  string ModefieldBy = 17;
+  //套餐对象
+  CompanyServicePackStruct CompanyServicePack = 18;
+  //二级折扣合同列表
+  repeated DelegateServicePackDiscountStruct dlistdata = 19;
+  //CF2019SNEC0010CW合同编号最后二位Code（CW/CS,EW/ES）C中资 E外资 S后台合同 W前台合同
+  string ContractCode = 20;
+  //ConferenceId
+  string ConferenceId = 21;
+  //会议名称
+  string ConferenceName = 22;
+  //是否报道
+  bool IsCheckIn = 23;
+  //PPTUrl
+  string PPTUrl = 24;
+  //合同状态Code
+  string ContractStatusCode = 25;
+  //ConferenceContractId
+  string ConferenceContractId = 26;
+  //个人合同列表
+  repeated PersonContractStruct plistdata = 27;
+  //二级合同价格
+  string ComPrice = 28;
+}
+
+message PersonContractStruct {
+  //主键
+  string PersonContractId = 1;
+  //ContractId
+  string ContractId = 2;
+  //个人合同号
+  string PerContractNumber = 3;
+  //MemberPK
+  string MemberPK = 4;
+  //会员姓名
+  MemTranslationStruct MemTranslation = 5;
+  //是否删除
+  bool PCIsdelete = 6;
+  string CreatedOn = 7;
+  string CreatedBy = 8;
+  string ModefieldOn = 9;
+  string ModefieldBy = 10;
+  //业务员id
+  string Owerid = 11; 
+  //业务员姓名
+  string Ower = 12; 
+  //ConferenceContractId
+  string ConferenceContractId = 13;
+  //ContractType合同大类
+  string CTypeCode = 14;
+  //二级合同对象
+  CompanyContractStruct CompanyContract = 15;
+  //是否报道
+  bool IsCheckIn = 16;
+  //是否发送Email
+  bool IsSendEmail = 17;
+  //是否修改
+  bool IsModify = 18;
+  //ConferenceId
+  string ConferenceId = 19;
+  //是否有财务记录
+  bool IsFianceRecord = 20;
+  //是否是邀请码创建合同
+  bool IsInviteCode = 21;
+  //InviteCodeId邀请码Id
+  string InviteCodeId = 22;
+  //是否提交摘要
+  bool IsCommitAbstract = 23;
+  //是否打印
+  bool IsPrint = 24;
+  //已付金额
+  string PaidAmount = 25;
+}
+
+message CompanyServicePackStruct {
+  //主键
+  string CompanyServicePackId = 1;
+  //ContractTypeId
+  string ContractTypeId = 2;
+  //排序
+  int32 Sort = 3;
+  //套餐名称
+  TranslationStruct Translation = 4;
+  //人民币
+  string PriceRMB = 5;
+  //美金
+  string PriceUSD = 6;
+  //是否在前端显示
+  bool IsShownOnFront = 7;
+  string CreatedOn = 8;
+  string CreatedBy = 9;
+  string ModefieldOn = 10;
+  string ModefieldBy = 11;
+  //备注
+  TranslationStruct RemarkTranslation = 12;
+  //ConferenceId
+  string ConferenceId = 13;
+  //会议名称
+  string ConferenceName = 14;
+  //是否是演讲人
+  bool IsSpeaker = 15;
+  //合同大类Code
+  string CTypeCode = 16;
+  //是否赠送
+  bool IsGive = 17;
+  //年份
+  string Year = 18;
+  //说明Code
+  string RemarkCode = 19;
+}
+
+message CompanyServicePackVMStruct {
+  //公司套餐对象
+  CompanyServicePackStruct CompanyServicePack = 1;
+  //子套餐列表
+  repeated ServicePackStruct servicepack_listdata = 2;
+}
+
+message ExtraServiceVMStruct {
+  //额外服务对象
+  ExtraServiceStruct ExtraService = 1;
+  //子套餐列表
+  repeated ServicePackStruct servicepack_listdata = 2;
+}
+
+message ServicePackVMStruct {
+  //ServicePack对象
+  ServicePackStruct ServicePack = 1;
+  //Activity列表
+  repeated ActivityStruct activity_listdata = 2;
+}
+
+message ExtraServiceStruct {
+  //主键
+  string ExtraServiceId = 1;
+  //额外服务合同的合同号
+  string ExtraContractNumber = 2;
+  //MemberPK
+  string MemberPK = 3;
+  //会员中英文名json格式
+  MemTranslationStruct MemTranslation = 4;
+  //业务员id
+  string Owerid = 5; 
+  //业务员姓名
+  string Ower = 6; 
+  string CreatedOn = 7;
+  string CreatedBy = 8;
+  string ModefieldOn = 9;
+  string ModefieldBy = 10;
+}
+
+message ServicePackStruct {
+  //主键
+  string ServicePackId = 1;
+  //主键
+  TranslationStruct Translation = 2;
+  //主键
+  string PriceRMB = 3;
+  //主键
+  string PriceUSD = 4;
+  string CreatedOn = 5;
+  string CreatedBy = 6;
+  string ModefieldOn = 7;
+  string ModefieldBy = 8;
+  //ConferenceId
+  string ConferenceId = 9;
+  //ConferenceName
+  string ConferenceName = 10;
+  //SessionConferenceId
+  string SessionConferenceId = 11;
+  //SessionConferenceName
+  string SessionConferenceName = 12;
+  //SessionDate
+  string SessionDate = 13;
+  //SessionStartTime
+  string SessionStartTime = 14;
+  //ThirdSessionConferenceId
+  string ThirdSessionConferenceId = 15;
+  //ThirdSessionConferenceName
+  string ThirdSessionConferenceName = 16;
+  //地址
+  string SessionAddress = 17;
+  //年份
+  string Year = 18;
+}
+
+message ActivityStruct {
+  string ActivityId = 1;
+  TranslationStruct ActivityName = 2;
+  string SessionConferenceID = 3;
+  TranslationStruct SessionConferenceName = 4;
+  int32 Sort = 5;
+  string SessionIDs = 6;
+}
+
+message CCNumberConfigStruct {
+  //主键
+  string Id = 1;
+  //前缀
+  string Prefix = 2;
+  //年份
+  string Year = 3;
+  //合同规则英文简称
+  string CNano = 4;
+  //合同计数
+  int32 Count = 5;
+  //合同规则使用状态
+  int32 Status = 6;
+  //是否删除
+  bool IsDelete = 7;
+  string ConferenceId = 8;
+  string ConferenceName = 9;
+}
+
+message ContractTypeStruct {
+  //主键
+  string ContractTypeId = 1;
+  //排序
+  int32 Sort = 2;
+  //合同类别名称
+  TranslationStruct Translation = 3;
+  //合同类别Code
+  string CTypeCode = 4;
+  string CreatedOn = 5;
+  string CreatedBy = 6;
+  string ModefieldOn = 7;
+  string ModefieldBy = 8;
+  //是否是演讲人
+  bool IsSpeaker = 9;
+  //是否赠送
+  bool IsGive = 10;
+}
+
+message DelegateServicePackDiscountListStruct {
+  //主键
+  string DiscountId = 1;
+  //CompanyContract对象
+  CompanyContractStruct CompanyContract = 2;
+  //人民币
+  string PriceAfterDiscountRMB = 3;
+  //美金
+  string PriceAfterDiscountUSD = 4;
+  string CreatedOn = 5;
+  string CreatedBy = 6;
+  string ModefieldOn = 7;
+  string ModefieldBy = 8;
+  string Year = 9;
+}
+
+message DelegateServicePackDiscountForConferenceContractListStruct {
+  //主键
+  string DiscountId = 1;
+  //ConferenceContract对象
+  ConferenceContractStruct ConferenceContract = 2;
+  //人民币
+  string PriceAfterDiscountRMB = 3;
+  //美金
+  string PriceAfterDiscountUSD = 4;
+  string CreatedOn = 5;
+  string CreatedBy = 6;
+  string ModefieldOn = 7;
+  string ModefieldBy = 8;
+}
+
+message DelegateServicePackDiscountForConferenceContractStruct {
+  //主键
+  string DiscountId = 1;
+  //ConferenceContractId
+  string ConferenceContractId = 2;
+  //人民币
+  string PriceAfterDiscountRMB = 3;
+  //美金
+  string PriceAfterDiscountUSD = 4;
+  string CreatedOn = 5;
+  string CreatedBy = 6;
+  string ModefieldOn = 7;
+  string ModefieldBy = 8;
+}
+
+
+message DelegateServicePackDiscountStruct {
+  //主键
+  string DiscountId = 1;
+  //ContractId
+  string ContractId = 2;
+  //人民币
+  string PriceAfterDiscountRMB = 3;
+  //美金
+  string PriceAfterDiscountUSD = 4;
+  string CreatedOn = 5;
+  string CreatedBy = 6;
+  string ModefieldOn = 7;
+  string ModefieldBy = 8;
+  string Year = 9;
+}
+
+message TranslationStruct{
+	string CN = 1;
+	string EN = 2;
+	string JP = 3;
+}
+
+message ComNameTranslationStruct{
+	string CompanyCN = 1;
+	string CompanyEN = 2;
+}
+
+message AddressTranslationStruct{
+	string AddressCN = 1;
+	string AddressEN = 2;
+}
+
+message MemTranslationStruct{
+	string MemberCN = 1;
+	string MemberEN = 2;
+}
+
+message ModifyRequest {
+  //主键
+  string Id = 1;
+  //是否报道
+  bool IsCheckIn = 2;
+}
+
+message ModifyReply {
+  //是否成功
+  bool success = 1;
+  //成功的条数
+  int32 modified_count = 2;
+  //返回的消息
+  string msg = 3;
+}
+
+message ModifyReplyForConferenceOnsite {
+  //是否成功
+  bool success = 1;
+  //成功的条数
+  int32 modified_count = 2;
+  //返回的消息
+  string msg = 3;
+  //ConferenceOnsite对象
+  ConferenceOnsiteStruct ConferenceOnsite = 4;
+}
+
+message ResultReply {
+  bool result = 1;
+}
+
+message ContractStatusDicForDicList{
+  repeated ContractStatusDicStruct listdata = 1;
+}
+
+message RemarkDicForDicList{
+  repeated RemarkDicStruct listdata = 1;
+}
+
+
+message TagTypeForDicList{
+  repeated TagTypeStruct listdata = 1;
+}
+
+message YearConfigForDicList{
+  repeated YearConfigStruct listdata = 1;
+}
+
+
+message ContractStatusDicList {
+  repeated ContractStatusDicStruct listdata = 1;
+  int32 total = 2;
+}
+
+message RemarkDicList {
+  repeated RemarkDicStruct listdata = 1;
+  int32 total = 2;
+}
+
+message ContractStatusDicStruct {
+  //主键
+  string Id = 1;
+  //状态名称
+  string StatusName = 2;
+  //状态Code
+  string StatusCode = 3;
+  string CreatedOn = 4;
+  string CreatedBy = 5;
+  string ModefieldOn = 6;
+  string ModefieldBy = 7;
+}
+
+message RemarkDicStruct {
+  //主键
+  string Id = 1;
+  //说明内容中文
+  string ContentCn = 2;
+  //说明内容英文
+  string ContentEn = 3;
+  //说明内容日文
+  string ContentJp = 4;
+  //说明内容Code
+  string ContentCode = 5;
+}
+
+
+message ModifyReplyForCreateOther {
+  bool success = 1;
+  int32 modified_count = 2;
+  string msg = 3;
+  string ext1 = 4;
+  string ext2 = 5;
+}
+
+message PersonContractActivityMapStruct {
+  //主键
+  string MapId = 1;
+  //MemberPK
+  string MemberPK = 2;
+  //ActivityId
+  string ActivityId = 3;
+  //ActivityName活动名称
+  string ActivityName = 4;
+  //年份
+  string Year = 5;
+  //是否确认
+  bool IsConfirm = 6;
+  //是否选中
+  bool IsCheck = 7;
+  //PersonContractId
+  string PersonContractId = 8;
+  //SessionConferenceId
+  string SessionConferenceId = 9;
+  //SessionConferenceName
+  string SessionConferenceName = 10;
+}
+
+message CompanyServicePackMapStruct {
+  string Id = 1;
+  string CompanyServicePackId = 2;
+  string ServicePackId = 3;
+}
+
+message CompanyServicePackMapVMStruct {
+  string MapId = 1;
+  string CompanyServicePackId = 2;
+  string ServicePackId = 3;
+  string ConferenceId = 4;
+  string ConferenceName = 5;
+}
+
+
+message ApplyConferenceList {
+  repeated ApplyConferenceStruct listdata = 1;
+  int32 total = 2;
+}
+
+message ApplyConferenceStruct {
+  //主键
+  string Id = 1;
+  string PersonContractId = 2;
+  string MemberPK = 3;
+  string SessionConferenceId = 4;
+  //是否确认
+  bool IsConfirm = 5;
+  string CompanyId = 6;
+  //多个标签Code，用“，”分隔
+  string TagTypeCodes = 7;
+  //备注
+  string RemarkTranslation = 8;
+  //年份
+  string Year = 9;
+  //SessionConferenceId列表
+  repeated string SessionConferenceIds = 10;
+  //IsParticularConf
+  bool IsParticularConf = 11;
+  //业务员id
+  string Owerid = 12;
+}
+
+message ConferenceOnsiteStruct {
+  //主键
+  int32 Id = 1;
+  //现场付款生成的合同号
+  string ContractNumber = 2;
+  //公司名称
+  string CompanyName = 3;
+  //货币类型
+  string Currency = 4;
+  //付款方式
+  string PayType = 5;
+  //入账单位
+  string Credited = 6;
+  //付款日期
+  string AddDate = 7;
+  //价格
+  string Cost = 8;
+  //备注
+  string Remark = 9; 
+  //合同年份
+  string ContractYear = 10;
+  //参会套餐id
+  string CompanyServicePackId = 11;
+  string CreatedOn = 12;
+  string CreatedBy = 13;
+  string ModefieldOn = 14;
+  string ModefieldBy = 15;
+  //姓名
+  string UserName = 16;
+  //参会套餐类型
+  string CompanyServicePackName = 17;
+}
+
+message PersonContractAndSessionConferenceIdsStruct{
+  //CompanyContract对象
+  CompanyContractStruct CompanyContract = 1;
+  //PersonContract对象
+  PersonContractStruct PersonContract = 2;
+  //SessionConferenceId列表
+  repeated string SessionConferenceIds = 3;
+  //参会类型名
+  string CompanyServicePackName = 4;
+}
+
+
+message ApplyConferenceListToCreateOrUpdate {
+  string PersonContractId = 1;
+  repeated ApplyConferenceStruct listdata = 2;
+}
+
+message InviteLetterStruct {
+  //主键
+  string Id = 1;
+  //公司
+  string Company = 2;
+  //展馆号
+  string EHall = 3;
+  //展位号
+  string ENo = 4;
+  //公司
+  string Profile = 5;
+  //活动
+  string EAcitvity = 6;
+  //语言
+  string Language = 7;
+  string CreatedOn = 8;
+}
+
+message InviteCodeStruct {
+  //主键
+  string Id = 1;
+  //邀请码
+  string InviteCodeNumber = 2;
+  //公司套餐id
+  string CompanyServicePackId = 3;
+  //数量
+  int32 Count = 4;
+  //年份
+  string Year = 5;
+  //网站
+  string WebSite = 6;
+  string CreatedOn = 7;
+  string CreatedBy = 8;
+  string ModefieldOn = 9;
+  string ModefieldBy = 10;
+}
+
+message InviteCodeCSPVMStruct {
+  //邀请码对象
+  InviteCodeStruct InviteCode = 1;
+  //公司套餐对象
+  CompanyServicePackStruct CompanyServicePack = 2;
+  //已记录使用数量
+  string InviteRecordCount = 3;
+}
+
+
+message InviteCodeRecordStruct {
+  //主键
+  string Id = 1;
+  //邀请码Id
+  string InviteCodeId = 2;
+  //会员pk
+  string MemberPK = 3;
+  //会员名 存json格式{ "MemberCN": "zzz", "MemberEN": "zzz" }
+  string MemberName = 4;
+  //使用日期
+  string UseDate = 5;
+  //个人合同id
+  string PersonContractId = 6;
+  //个人合同号
+  string PersonContractNumber = 7;
+  //是否删除
+  bool IsDelete = 8;
+
+}
+
+
+message TagTypeStruct {
+  //主键
+  string Id = 1;
+  //标签名称
+  string NameTranslation = 2;
+  //标签Code
+  string Code = 3;
+}
+
+message YearConfigStruct {
+  //主键
+  string Id = 1;
+  //年份
+  string Year = 2;
+  //是否是当前使用
+  bool IsUse = 3;
+  //年月日（格式为：2020-08-27）
+  string Date = 4;
+}
+
+message CheckInRequest {
+  //personContractId列表
+  repeated string Ids = 1;
+  //是否报到
+  bool IsCheckIn = 2;
+}
+
+
+message ContractStatisticsStruct {
+  string CompanyServicePackId = 1;
+  string CompanyServicePackName = 2;
+  //个人合同号数量
+  string PersonCount = 3;
+  //最大合同号数量
+  string MaxContractNumberSum = 4;
+}
+
+message ModifyCCPCOwerInfoStruct {
+  //ContractId二级合同id
+  string ContractId = 1;
+  //业务员id
+  string Owerid = 2;
+  //业务员
+  string Ower = 3;
+  //最大合同数
+  int32 MaxContractNumber = 4;
+}
+
+message BoolReply {
+  bool result = 1;
+}
+
+
+
+
+
+

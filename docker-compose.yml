@@ -1,0 +1,48 @@
+version: '3.4'
+
+services:
+
+  conferencecontract.data:
+    image: postgres:11.1
+    environment:
+      POSTGRES_DB: conferencecontract
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+    ports:
+     - "3433:5432"
+    volumes:
+      - conferencecontract-data-volume:/var/lib/postgresql/data
+    restart: unless-stopped
+    networks:
+      - network1
+
+  conferencecontractapi:
+    image: ${DOCKER_REGISTRY}conferencecontractapi
+    build:
+      context: .
+      dockerfile: ConferenceContractAPI/Dockerfile
+    depends_on:
+      - conferencecontract.data
+    links:
+      - conferencecontract.data
+    networks:
+      - network1
+
+  testccdemoapi:
+    image: ${DOCKER_REGISTRY-}testccdemoapi
+    build:
+      context: .
+      dockerfile: TestCCDemoAPI/Dockerfile
+    networks:
+      - network1
+
+volumes:
+    conferencecontract-data-volume:
+      external: true
+
+networks:
+  network1:
+    external: true
+
+
+

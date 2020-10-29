@@ -1,0 +1,492 @@
+﻿syntax = "proto3";
+
+package GrpcMembersService;
+//version_20190222_0.1
+// tag<gRPC>
+// host<member.api>
+// port<40001> 
+service MemberServiceToGrpc{
+  //案例
+  rpc GetSum(GetMsgNumRequest) returns (GetMsgSumReply){}
+
+  //单点登陆（返回数据，不生成jwt），通过Member账号登录
+  rpc LoginToMember(MemberRequest) returns (LoginInfoReply){}
+
+  //单点登陆（返回数据，不生成jwt），通过合同号登录
+  rpc LoginToMemContract(MemContractRequest) returns (LoginInfoReply){}
+
+  //============MemberContract==============
+  //创建MemberContract单个对象
+  rpc CreateMemberContractInfo (MemberContractStruct) returns (ModifyReply) {}
+
+  //获取栏目
+  rpc GetMemContractByMemContract (MemberContractRequest) returns (MemberContractStruct) {}
+
+  //根据MemContract删除MemberContract单个对象
+  rpc DeleteMemContractByMemContract (MemberContractRequest) returns (ModifyReply) {}
+
+  //============Member==============
+  //获取某表内所有数据包含分页（带查询条件SearchStruct内查询字段为memEmail,memberName,companyName,memIsDelete,sourcePk）
+  rpc GetMemberList (PaginationRequestSearch) returns (MemberList) {}
+
+  //根据SearchStruct内companyPk获取MemberList列表(带分页)
+  rpc GetMemberListByCompanyPK (PaginationRequestSearch) returns (MemberList) {}
+
+  //在根据member名字和公司名搜索相应的用户列表
+  rpc GetMemberListByMemberSearchToAll (MemberSearch) returns (MemberList) {}
+
+  //在创建个人合同之前根据账号名和公司名获取用户列表
+  rpc GetMemberListByMemberSearch (MemberSearch) returns (MemberList) {}
+
+  //获取栏目
+  rpc GetMemberById (IdRequest) returns (MemberStruct) {}
+
+  //注册Member账号（用户自行注册成为SNEC账号）
+  rpc CreateMemberAccountInfo (MemberAccountStruct) returns (ModifyReplyForCreateMember) {}
+
+  //创建用户时去拿出所有Compay表中公司账号的信息（调用GetCompanyDic()接口），可以提供选择，如果未选择的话CompanyPK就为空，选择了的话就把Company表中的CompanyPK传入到Member表内的CompanyPK字段
+  //创建Member单个对象（如果客户或SNEC后台人员或在创建公司合同的时候时创建member账号时不需要传入CompanyPK参数，CompanyPK可为空）
+  //SNEC后台管理人员给客户注册member账号（如客户或是SNEC后台人员在创建该公司账户下其他个人会议合同时创建新member账号时，需要传入CompanyPK参数）
+  rpc CreateMemberInfo (MemberStruct) returns (ModifyReplyForCreateMember) {}
+
+  //修改Member单个对象
+  rpc UpdateMemberInfo (MemberStruct) returns (ModifyReply) {}
+  //删除Member单个对象
+  rpc DeleteMemberById (IdRequest) returns (ModifyReply) {}
+  //删除Member多个对象
+  rpc DeleteMemberByList (MemberIdList) returns (ModifyReply) {}
+  //激活会员账号通过邮箱（传ActivationStruct内MemberPK和Email字段）
+  rpc ActivateMemAccountByEmail (ActivationStruct) returns (ModifyReply) {}
+  //激活会员账号通过手机（传ActivationStruct内MemberPK和Mobile字段）
+  rpc ActivateMemAccountByMobile (ActivationStruct) returns (ModifyReply) {}
+  //重置Member密码
+  rpc ResetMemPwdInfo (PwdRequest) returns (ModifyReply) {}
+
+  //============Company==============
+  //获取Company所有公司账号信息的字典项
+  rpc GetCompanyDic (Empty) returns (CompanyDicList) {}
+  //获取某表内所有数据包含分页（带查询条件SearchStruct内查询字段为comNameCn,comNameEn,comIsDelete,comIsVerify）
+  rpc GetCompanyList (PaginationRequestSearch) returns (CompanyList) {}
+  //在创建公司合同之前根据账号名和公司名获取用户列表（SNEC后台管理员使用）
+  rpc GetComAccountListByMemberSearch (MemberSearch) returns (CompanyList) {}
+
+  //根据SearchStruct内companyName字段精准查找Company对象
+  rpc GetCompanyByCompanyName (SearchStruct) returns (CompanyStruct) {}
+
+  //根据SearchStruct内comNameCn字段验证公司是否已存在
+  rpc IsExitCompanyCn (SearchStruct) returns (BoolReply) {}
+
+  //根据SearchStruct内comNameEn字段验证公司是否已存在
+  rpc IsExitCompanyEn (SearchStruct) returns (BoolReply) {}
+
+  //获取栏目
+  rpc GetCompanyById (IdRequest) returns (CompanyStruct) {}
+  //客户自己创建Company单个对象（客户自己申请为公司账户时使用）
+  rpc CreateCompanyInfo (CompanyStruct) returns (ModifyReplyForCreateOther) {}
+
+  //snec后台管理创建Company单个对象（snec后台管理人员创建公司账户时使用）
+  rpc CreateCompanyInfoForSnecAdmin (CompanyStruct) returns (ModifyReplyForCreateOther) {}
+  //修改Company单个对象
+  rpc UpdateCompanyInfo (CompanyStruct) returns (ModifyReply) {}
+
+  //修改Company表中MemberPK，传SearchStruct内companyPk和memberPk（更换公司管理员）
+  rpc UpdateCompanyManagerByMemberPK (SearchStruct) returns (ModifyReply) {}
+
+  //删除Company单个对象
+  rpc DeleteCompanyById (IdRequest) returns (ModifyReply) {}
+  //删除Company多个对象
+  rpc DeleteCompanyByList (ComnpanyIdList) returns (ModifyReply) {}
+  //审核账号是否成为公司账号
+  rpc VerifyComAccount (IdRequest) returns (ModifyReply) {}
+
+  //============Source==============
+  //获取Source字典项
+  rpc GetSourceDic (Empty) returns (SourceDicList) {}
+  //获取某表内所有数据包含分页
+  rpc GetSourceList (PaginationRequest) returns (SourceList) {}
+  //获取栏目
+  rpc GetSourceById (IdRequest) returns (SourceStruct) {}
+  //创建Source单个对象
+  rpc CreateSourceInfo (SourceStruct) returns (ModifyReply) {}
+  //修改Source单个对象
+  rpc UpdateSourceInfo (SourceStruct) returns (ModifyReply) {}
+  //删除Source单个对象
+  rpc DeleteSourceById (IdRequest) returns (ModifyReply) {}
+
+  //============IndustryType==============
+  //获取IndustryType字典项
+  rpc GetIndustryTypeDic (Empty) returns (IndustryTypeDicList) {}
+  //获取某表内所有数据包含分页
+  rpc GetIndustryTypeList (PaginationRequest) returns (IndustryTypeList) {}
+  //获取栏目
+  rpc GetIndustryTypeById (IdRequest) returns (IndustryTypeStruct) {}
+  //创建IndustryType单个对象
+  rpc CreateIndustryTypeInfo (IndustryTypeStruct) returns (ModifyReply) {}
+  //修改IndustryType单个对象
+  rpc UpdateIndustryTypeInfo (IndustryTypeStruct) returns (ModifyReply) {}
+  //删除IndustryType单个对象
+  rpc DeleteIndustryTypeById (IdRequest) returns (ModifyReply) {}
+
+  //============CompanyType==============
+  //获取CompanyType字典项
+  rpc GetCompanyTypeDic (Empty) returns (CompanyTypeDicList) {}
+  //获取某表内所有数据包含分页
+  rpc GetCompanyTypeList (PaginationRequest) returns (CompanyTypeList) {}
+  //获取栏目
+  rpc GetCompanyTypeById (IdRequest) returns (CompanyTypeStruct) {}
+  //创建CompanyType单个对象
+  rpc CreateCompanyTypeInfo (CompanyTypeStruct) returns (ModifyReply) {}
+  //修改CompanyType单个对象
+  rpc UpdateCompanyTypeInfo (CompanyTypeStruct) returns (ModifyReply) {}
+  //删除CompanyType单个对象
+  rpc DeleteCompanyTypeById (IdRequest) returns (ModifyReply) {}
+
+  //============Area==============
+  //获取某表内所有数据包含分页
+  rpc GetAreasList (PaginationRequest) returns (AreaList) {}
+  //获取栏目
+  rpc GetAreaById (IdRequest) returns (AreaStruct) {}
+  //创建Area单个对象
+  rpc CreateAreaInfo (AreaStruct) returns (ModifyReply) {}
+  //修改Area单个对象
+  rpc UpdateAreaInfo (AreaStruct) returns (ModifyReply) {}
+  //删除Area单个对象
+  rpc DeleteAreaById (IdRequest) returns (ModifyReply) {}
+
+  //============Source==============
+  //获取Country字典项
+  rpc GetCountryDic (Empty) returns (CountryDicList) {}
+
+}
+
+message GetMsgNumRequest {
+  int32 Num1 = 1;
+  int32 Num2 = 2;
+
+}
+
+message GetMsgSumReply {
+  int32 Sum = 1;
+}
+
+message PwdRequest {
+  string MemberPk = 1;
+  string MemberPwd = 2;
+
+}
+
+message MemberRequest {
+  string MemEmail = 1;
+  string MemPassword = 2;
+
+}
+
+message MemContractRequest {
+  string MemContract = 1;
+  string MemPassword = 2;
+
+}
+
+message LoginInfoReply {
+  bool success = 1;
+  string memberPk = 2;
+  string memberAccount = 3;
+  string companyPk = 4;
+  string msg = 5;
+}
+
+message Empty {
+}
+
+message IdRequest {
+  string id = 1;
+}
+
+message MemberContractRequest {
+  string MemberContract = 1;
+}
+
+
+message PaginationRequest {
+  int32 id = 1;
+  int32 offset = 2;
+  int32 limit = 3;
+}
+
+message PaginationRequestSearch {
+  int32 id = 1;
+  int32 offset = 2;
+  int32 limit = 3;
+  SearchStruct search = 4;
+}
+
+message MemberSearch {
+  SearchStruct search = 4;
+}
+
+message SearchStruct{
+	string memEmail = 1;
+	bool memIsDelete = 2;
+	bool memIsActivation = 3;
+    string comNameCn = 4;
+    string comNameEn = 5;
+	bool comIsDelete = 6;
+	bool comIsVerify = 7;
+	string memberName = 8;
+	string companyName = 9;
+	string companyPk = 10;
+	string sourcePk = 11;
+	string memberPk = 12;
+}
+
+message AreaList {
+  repeated AreaStruct listdata = 1;
+  int32 total = 2;
+}
+
+message MemberList {
+  repeated MemberStruct listdata = 1;
+  int32 total = 2;
+}
+
+message MemberIdList {
+  repeated string listdata = 1;
+}
+
+message SourceList {
+  repeated SourceStruct listdata = 1;
+  int32 total = 2;
+}
+
+message CompanyList {
+  repeated CompanyStruct listdata = 1;
+  int32 total = 2;
+}
+
+message ComnpanyIdList {
+  repeated string listdata = 1;
+}
+
+message IndustryTypeList {
+  repeated IndustryTypeStruct listdata = 1;
+  int32 total = 2;
+}
+
+message CompanyTypeList {
+  repeated CompanyTypeStruct listdata = 1;
+  int32 total = 2;
+}
+
+message AreaStruct {
+  string AreaPK = 1;
+  string AreaNumber = 2;
+  string AreaName = 3;
+  string CityNumber = 4;
+}
+
+message MemberContractStruct {
+  string MCPk = 1;
+  string MemeberPK = 2;
+  string MemContract = 3;
+  string MemContractType = 4;
+  string CreatedOn = 5;
+  string CreatedBy = 6;
+}
+
+message MemberStruct {
+  string MemberPK = 1;
+  string SourcePK = 2;
+  string MemNameCn = 3;
+  string MemNameEn = 4;
+  string MemEmail = 5;
+  string MemPassword = 6;
+  string MemType = 7;
+  string MemGender = 8;
+  string MemDepartment = 9;
+  string MemTitle = 10;
+  string MemPosition = 11;
+  string MemProTitle = 12;
+  string MemQQ = 13;
+  string MemFax = 14;
+  string MemMSN = 15;
+  string MemMobile = 16;
+  string MemTel = 17;
+  string MemPostCode = 18;
+  string MemLastLoginTime = 19;
+  string MemAddress = 20;
+  string MemAddressDetail = 21;
+  bool MemIsDelete = 22;
+  bool MemIsActivation = 23;
+  string CreatedOn = 24;
+  string CreatedBy = 25;
+  string ModefieldOn = 26;
+  string ModefieldBy = 27;
+  string CompanyPK = 28;
+  string MemCountryNameCn = 29;
+  string MemCountryNameEn = 30;
+  string MemCompany = 31;
+  string AssistantName = 32;
+  string AssistantPosition = 33;
+  string AssistantMobile = 34;
+  string AssistantEmail = 35;
+}
+
+message MemberAccountStruct {
+  string MemberPK = 1;
+  string SourcePK = 2;
+  string MemNameCn = 3;
+  string MemNameEn = 4;
+  string MemEmail = 5;
+  string MemPassword = 6;
+  string MemType = 7;
+  string MemGender = 8;
+  string MemDepartment = 9;
+  string MemTitle = 10;
+  string MemPosition = 11;
+  string MemProTitle = 12;
+  string MemQQ = 13;
+  string MemFax = 14;
+  string MemMSN = 15;
+  string MemMobile = 16;
+  string MemTel = 17;
+  string MemPostCode = 18;
+  string MemLastLoginTime = 19;
+  string MemAddress = 20;
+  string MemAddressDetail = 21;
+  string CreatedOn = 22;
+  string CreatedBy = 23;
+  string ModefieldOn = 24;
+  string ModefieldBy = 25;
+  string MemCountryNameCn = 26;
+  string MemCountryNameEn = 27;
+  string MemCompany = 28;
+  string CompanyPK = 29;
+  string AssistantName = 30;
+  string AssistantPosition = 31;
+  string AssistantMobile = 32;
+  string AssistantEmail = 33;
+}
+
+message SourceStruct {
+  string SourcePK = 1;
+  string SourceAbbr = 2;
+  string SourceNameCn = 3;
+  string SourceNameEn = 4;
+  string SourceBeginTime = 5;
+  string SourceEndTime = 6;
+  string CreatedOn = 7;
+  string CreatedBy = 8;
+  string ModefieldOn = 9;
+  string ModefieldBy = 10;
+  string SourceCode = 11;
+}
+
+message CompanyStruct {
+  string CompanyPK = 1;
+  string CompanyTypePK = 2;
+  string IndustryTypePK = 3;
+  string MemberPK = 4;
+  string ComNameCn = 5;
+  string ComNameEn = 6;
+  string ComAreaDetail = 7;
+  string ComContactEmail = 8;
+  string ComPostCode = 9;
+  string ComFax = 10;
+  string ComTel = 11;
+  string ComWebSite = 12;
+  string ComClient = 13;
+  string ComNature = 14;
+  string ComLang = 15;
+  string ComRemark = 16;
+  bool ComIsDelete = 17;
+  bool ComIsVerify = 18;
+  bool ComIsWebSite = 19;
+  string ComAddress = 20;
+  string CreatedOn = 21;
+  string CreatedBy = 22;
+  string ModefieldOn = 23;
+  string ModefieldBy = 24;
+}
+
+
+message IndustryTypeStruct {
+  string IndustryTypePK = 1;
+  string IndustryTypeNameCn = 2;
+  string IndustryTypeNameEn = 3;
+  int32 IndustryOrderNumber = 4;
+  string CreatedOn = 5;
+  string CreatedBy = 6;
+  string ModefieldOn = 7;
+  string ModefieldBy = 8;
+}
+
+message CompanyTypeStruct {
+  string CompanyTypePK = 1;
+  string CompanyTypeNameCn = 2;
+  string CompanyTypeNameEn = 3;
+  string CreatedOn = 4;
+  string CreatedBy = 5;
+  string ModefieldOn = 6;
+  string ModefieldBy = 7;
+}
+
+message CountryStruct {
+  string Id = 1;
+  string NameCn = 2;
+  string NameEn = 3;
+}
+
+message CompanyDicList{
+  repeated CompanyStruct listdata = 1;
+}
+
+message SourceDicList{
+  repeated SourceStruct listdata = 1;
+}
+
+message CountryDicList{
+  repeated CountryStruct listdata = 1;
+}
+
+message IndustryTypeDicList{
+  repeated IndustryTypeStruct listdata = 1;
+}
+
+message CompanyTypeDicList{
+  repeated CompanyTypeStruct listdata = 1;
+}
+
+message ModifyReply {
+  bool success = 1;
+  int32 modified_count = 2;
+  string msg = 3;
+}
+
+message ModifyReplyForCreateMember {
+  bool success = 1;
+  int32 modified_count = 2;
+  string msg = 3;
+  string ext1 = 4;
+}
+
+message ModifyReplyForCreateOther {
+  bool success = 1;
+  int32 modified_count = 2;
+  string msg = 3;
+  string ext1 = 4;
+}
+
+
+message BoolReply {
+  bool result = 1;
+}
+
+message ActivationStruct {
+  string MemberPK = 1;
+  string Email = 2;
+  string Mobile = 3;
+}
+
+
+
+

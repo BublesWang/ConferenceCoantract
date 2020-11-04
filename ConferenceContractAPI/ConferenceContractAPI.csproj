@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Log\" />
     <Folder Include="wwwroot\" />
     <Folder Include="ConferenceProtocol\" />
   </ItemGroup>

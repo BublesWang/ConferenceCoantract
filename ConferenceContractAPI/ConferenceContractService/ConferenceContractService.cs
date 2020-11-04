@@ -3,14 +3,14 @@ using ConferenceContractAPI.CCDBContext;
 using ConferenceContractAPI.Common;
 using ConferenceContractAPI.DBModels;
 using Grpc.Core;
-using GrpcServer.Web.ConferenceContract.Protos;
+using GrpcConferenceContractServiceNew;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using static GrpcServer.Web.ConferenceContract.Protos.NewConferenceContractService;
+using static GrpcConferenceContractServiceNew.NewConferenceContractService;
 
 namespace ConferenceContractAPI.ConferenceContractService
 {
@@ -57,8 +57,8 @@ namespace ConferenceContractAPI.ConferenceContractService
             }
             catch (Exception ex)
             {
-                LogHelper.Error(this, ex.Message);
-                throw new Exception(ex.Message);
+                LogHelper.Error(this, ex);
+                throw ex;
             }
         }
 
@@ -90,64 +90,103 @@ namespace ConferenceContractAPI.ConferenceContractService
             return expression;
         }
 
-        
 
-        public override Task<modifyResponse> new_AddServicePack(new_ServicePackStruct request, ServerCallContext context)
+
+        public override async Task<modifyResponse> new_AddServicePack(new_ServicePackStruct request, ServerCallContext context)
         {
             try
             {
+                request.ContractId = Guid.NewGuid().ToString();
+                request.ConferenceContractId = Guid.Empty.ToString();
+                request.CreatedOn = DateTime.UtcNow.ToString();
+                request.ModifiedOn = new DateTime().ToUniversalTime().ToString();
+
+                var comContract = Mapper.Map<CompanyContract>(request);
                 modifyResponse response = new modifyResponse();
                 using (var dbContext = new ConCDBContext(_options.Options))
                 {
-                    var CompanyContractModel = Mapper.Map<CompanyContract>(request);
-                    var ConferenceContract = Mapper.Map<ConferenceContract>(request);
+                  
                     //1.根据公司Id、conferenceId和年份去公司一级合同中查询是否存在一级合同
                     //2.若已经存在，则返回一级合同的合同号
                     //2.1添加二级合同
                     //3.若不存在，添加一级合同，后将一级合同的合同号返回出来
                     //3.1添加二级合同
-                    var conferenceContract = dbContext.ConferenceContract.FirstOrDefault(x => x.ConferenceId == request.ConferenceId && x.ContractYear == request.ContractYear && x.CompanyId == request.CompanyId);
+                    var conferenceContract = dbContext.ConferenceContract.FirstOrDefault(x => x.ConferenceId == request.ConferenceId && x.ContractYear == request.Year && x.CompanyId == request.CompanyId);
                     if (conferenceContract != null)
                     {
-                        CompanyContractModel.ComContractNumber = conferenceContract.ContractNumber;
-                        CompanyContractModel.CCIsdelete = false;
-                        CompanyContractModel.CreatedOn = DateTime.UtcNow;
-                        CompanyContractModel.ModefieldOn = DateTime.UtcNow;
-                        dbContext.CompanyContract.Add(CompanyContractModel);
+                        var companyContractCount = dbContext.CompanyContract.Count(x => x.ConferenceContractId == conferenceContract.ConferenceContractId) + 1;
+                        comContract.ComContractNumber= conferenceContract.ContractNumber+ companyContractCount.ToString().PadLeft(2, '0');
+                        comContract.ConferenceContractId = conferenceContract.ConferenceContractId;
                     }
                     else
                     {
                         //添加一级合同
-                        var config = dbContext.CCNumberConfig.FirstOrDefault(n => (n.ConferenceId == request.ConferenceId) && (n.Status == 1) && (n.IsDelete == false) && (n.Year == request.ContractYear));
+                        var config = dbContext.CCNumberConfig.FirstOrDefault(n => (n.ConferenceId == request.ConferenceId) && (n.Status == 1) && (n.IsDelete == false) && (n.Year == request.Year));
                         if (config != null)
                         {
+                            ConferenceContract model = new ConferenceContract();
+                            model.ConferenceContractId = Guid.NewGuid();
+                            comContract.ConferenceContractId = model.ConferenceContractId;
                             var count = config.Count + 1;
                             //合同规则为：21SNECC0001CS
-                            ConferenceContract.ContractNumber = config.Year.Substring(2) + config.CNano + request.ContractCode.Substring(0, 1) + count.ToString().PadLeft(4, '0') + request.ContractCode;
+                            model.ContractNumber = config.Year.Substring(2) + config.CNano + request.ContractCode.Substring(0, 1) + count.ToString().PadLeft(4, '0') + request.ContractCode;
+                            var companyContractCount = dbContext.CompanyContract.Count(x => x.ConferenceContractId == model.ConferenceContractId) + 1;
+                            comContract.ComContractNumber = model.ContractNumber+ companyContractCount.ToString().PadLeft(2, '0');
+                            model.ConferenceId = comContract.ConferenceId;
+                            model.ContractStatusCode = "W";
+                            model.ModifyPermission = "0";
+                            model.ContractCode = comContract.ContractCode;
+                            model.ComNameTranslation = request.ComNameTranslation;
+                            model.CompanyId = request.CompanyId;
+                            model.ContractYear = request.Year;
+                            model.CreatedBy = request.CreatedBy;
+                            model.CreatedOn = comContract.CreatedOn;
+                            model.IsDelete = false;
+                            model.IsModify = false;
+                            model.IsSendEmail = false;
+                            model.ModifiedBy = request.ModifiedBy;
+                            model.ModifiedOn = comContract.ModifiedOn;
+                            model.Ower = request.Ower;
+                            model.Owerid = request.Owerid;
+                            model.PaymentStatusCode = "N";
+                            await dbContext.ConferenceContract.AddAsync(model);
+                        }
+                        else
+                        {
+                            response.IsSuccess = false;
+                            response.Msg = $"CCNumberConfig配置表中不存在当前{request.Year}年份,ConferenceId为{request.ConferenceId}的配置项";
+                            return response;
                         }
                     }
-
-                    //dbContext.Add(request);
-                    var result = dbContext.SaveChanges();
-                    modifyResponse modify = new modifyResponse();
+                    comContract.CCIsdelete = false;
+                    comContract.IsVerify = false;
+                    comContract.IsCheckIn = false;
+                    await dbContext.CompanyContract.AddAsync(comContract);
+                    var result = await dbContext.SaveChangesAsync();
+                
                     if (result > 0)
                     {
-                        modify.IsSuccess = true;
-                        modify.Msg = "添加成功";
+                        response.IsSuccess = true;
+                        response.Msg = "添加成功";
                     }
                     else
                     {
-                        modify.IsSuccess = false;
-                        modify.Msg = "添加失败";
+                        response.IsSuccess = false;
+                        response.Msg = "添加失败";
                     }
-                    return Task.FromResult(modify);
+                    return response;
                 }
             }
             catch (Exception ex)
             {
-                LogHelper.Error(this, ex.Message);
-                throw new Exception(ex.Message);
+                LogHelper.Error(this, ex);
+                throw ex;
             }
         }
+
+        //public override async Task<modifyResponse> new_AddServicePackDiscount(new_ServicePackStructDiscount request, ServerCallContext context)
+        //{
+        //    //return base.new_AddServicePackDiscount(request, context);
+        //}
     }
 }

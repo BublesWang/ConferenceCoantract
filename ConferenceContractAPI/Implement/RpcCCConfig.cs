@@ -1,6 +1,6 @@
 ﻿using Grpc.Core;
 using GrpcConferenceContractService;
-using GrpcServer.Web.ConferenceContract.Protos;
+using GrpcConferenceContractServiceNew;
 using System;
 using System.Collections.Generic;
 using System.Linq;

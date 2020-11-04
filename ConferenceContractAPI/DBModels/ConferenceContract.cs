@@ -61,10 +61,10 @@ namespace ConferenceContractAPI.DBModels
         [MaxLength(50)]
         public string CreatedBy { get; set; }
 
-        public DateTime? ModefieldOn { get; set; }
+        public DateTime? ModifiedOn { get; set; }
 
         [MaxLength(50)]
-        public string ModefieldBy { get; set; }
+        public string ModifiedBy { get; set; }
 
         public virtual ICollection<CompanyContract> companyContract { get; set; }
 

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Grpc.Core;
-using GrpcServer.Web.ConferenceContract.Protos;
+using GrpcConferenceContractServiceNew;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using static GrpcServer.Web.ConferenceContract.Protos.NewConferenceContractService;
+using static GrpcConferenceContractServiceNew.NewConferenceContractService;
 
 namespace TestCCDemoAPI.Controllers
 {
@@ -47,6 +47,16 @@ namespace TestCCDemoAPI.Controllers
 
             return Ok(result);
         }
-        
+
+        [HttpPost(nameof(new_AddServicePack))]
+        public async Task<IActionResult> new_AddServicePack(new_ServicePackStruct request)
+        {
+            var result = await _client.new_AddServicePackAsync(request);
+
+            return Ok(result);
+        }
+
+
+
     }
 }

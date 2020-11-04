@@ -1,14 +1,12 @@
 ﻿syntax = "proto3";
 
-package GrpcServer.Web.ConferenceContract.Protos;
+package GrpcConferenceContractServiceNew;
 
 service NewConferenceContractService{
  //================V2.0 Begin===================
 
  //勾选套餐接口 参数：conferenceId，上级分类Id（ContractTypeId）,Year,IsGive(是否赠送)
  rpc new_GetServicePack(new_GetServicePackRequest) returns(new_GetServicePackResponse){}
-
-
 
 
 //付费合同和赠送合同添加二级合同（套餐）接口。
@@ -20,6 +18,9 @@ service NewConferenceContractService{
 //注：付款状态、合同状态需要及时更新
 //返回：是否插入成功
 rpc  new_AddServicePack(new_ServicePackStruct) returns(modifyResponse){}
+
+
+
 
 //当公司、套餐、业务员、合同状态、套餐价格、年份都一致时，更新子合同数（原来的子合同数+新加的子合同数）注：点击确定按钮之前先查询是否有和该套餐一致的合同
 rpc new_ModifyServicePack(new_ServicePackStruct) returns(modifyResponse){}
@@ -84,54 +85,35 @@ message idRequest{
 
 //付费合同和赠送合同添加二级合同时需要传的参数
 message new_ServicePackStruct{
-//公司合同信息
-string ConferenceId=1;
-string CompanyId=2;
-string ComNameTranslation=3;
-string ContractNumber=4;
-string ContractYear=5;
-string ContractCode=6;
-string ContractStatusCode=7;
-bool IsDelete=8;
-bool IsSendEmail=9;
-bool IsModify=10;
-string ModifyPermission=11;
-string ConfConOwerid=12;
-string ConfConOwner=13;
-string CreatedOn=14;
-string CreatedBy=15;
-string ModifiedOn=16;
-string ModifiedBy=17;
-string PaymentStatusCode=18;
-string TotalPrice=19;
-string TotalPaid=20;
-bool IsOpPayStatudCode=21;
-int32 EnterpriseType=22;
-string ConfConOtherOwnerId=23;
-string ConfConOtherOwner=24;
-
-//二级合同信息
-string ConferenceContractId=25;
-string CompanyServicePackId=26;
-string ComContractNumber	 =27;
-string Country				 =28;
-string AddressTranslation	 =29;
-string ComPrice				 =30;
-int32 MaxContractNumber		 =31;
-int32 MaxContractNumberSatUse=32;
-bool CCIsdelete				 =33;
-bool IsVerify				 =34;
-string ComConOwerid			 =35;
-string ComConOwer			 =36;
-string ComConCreatedOn			 =37;
-string ComConCreatedBy			 =38;
-string ComConModifiedOn			 =39;
-string ComConModifiedBy			 =40;
-bool IsCheckIn				 =41;
-string PPTUrl				 =42;
-string ConferenceName		 =43;
-string ComConOtherOwnerId	 =44;
-string ComConOtherOwner		 =45;
+string ContractId=1;
+string ConferenceContractId=2;
+string CompanyServicePackId=3;
+string ConferenceId=4;
+string CompanyId=5;
+string ComNameTranslation=6;
+string ComContractNumber=7;
+string Country=8;
+string AddressTranslation=9;
+string ComPrice=10;
+int32 MaxContractNumber=11;
+int32 MaxContractNumberSatUse=12;
+bool CCIsdelete=13;
+int32 EnterpriseType=14;
+bool IsVerify=15;
+string Owerid=16;
+string Ower=17;
+string ContractCode=18;
+bool IsCheckIn=19;
+string PPTUrl=20;
+string ContractStatusCode=21;
+string ConferenceName=22;
+string OtherOwnerId=23;
+string OtherOwner=24;
+string CreatedOn=25;
+string CreatedBy=26;
+string ModifiedOn=27;
+string ModifiedBy=28;
+string Year=29;
 
 }
 

@@ -478,8 +478,8 @@ namespace ConferenceContractAPI.ConferenceContractService
                     modified_model.ContractCode = model.ContractCode;
                     modified_model.Owerid = model.Owerid;
                     modified_model.Ower = model.Ower;
-                    modified_model.ModefieldOn = DateTime.UtcNow.ToUniversalTime();
-                    modified_model.ModefieldBy = model.ModefieldBy;
+                    modified_model.ModifiedOn = DateTime.UtcNow.ToUniversalTime();
+                    modified_model.ModifiedBy = model.ModifiedBy;
 
                     count = await _context.SaveChangesAsync();
 
@@ -616,7 +616,7 @@ namespace ConferenceContractAPI.ConferenceContractService
                         Id = Guid.NewGuid(),
                         ContractNumber = modified_model.ContractNumber,
                         OperateTime = DateTime.Now.ToString("yyyy-MM-dd hh:ss:mm"),
-                        Operator = model.ModefieldBy,
+                        Operator = model.ModifiedBy,
                         OperateContent = "接口为ModifyConferenceContractByOwer，原内容：" + op_ower + ",修改内容：" + model.Ower
                     };
 
@@ -1177,8 +1177,8 @@ namespace ConferenceContractAPI.ConferenceContractService
                     modified_model.ComPrice = model.ComPrice;
                     modified_model.IsVerify = model.IsVerify;
                     modified_model.IsCheckIn = model.IsCheckIn;
-                    modified_model.ModefieldOn = DateTime.UtcNow.ToUniversalTime();
-                    modified_model.ModefieldBy = model.ModefieldBy;
+                    modified_model.ModifiedOn = DateTime.UtcNow.ToUniversalTime();
+                    modified_model.ModifiedBy = model.ModifiedBy;
 
                     count = await _context.SaveChangesAsync();
 

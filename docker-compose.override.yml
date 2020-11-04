@@ -1,26 +1,28 @@
 version: '3.4'
 
 services:
-  conferencecontractapi:
+  testccdemoapi:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=https://+:443;http://+:80
       - ASPNETCORE_HTTPS_PORT=44328
     ports:
-      - "51275:80"
+      - "51211:80"
       - "44328:443"
     volumes:
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
-  testccdemoapi:
+  conferencecontractapi:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=https://+:443;http://+:80
       - ASPNETCORE_HTTPS_PORT=44361
     ports:
-      - "51211:80"
+      - "51275:80"
       - "44361:443"
     volumes:
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+

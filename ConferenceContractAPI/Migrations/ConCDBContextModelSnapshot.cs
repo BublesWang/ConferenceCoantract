@@ -199,6 +199,9 @@ namespace ConferenceContractAPI.Migrations
                         .HasMaxLength(50)
                         .HasDefaultValue("");
 
+                    b.Property<string>("Code")
+                        .HasMaxLength(50);
+
                     b.Property<string>("ConferenceId")
                         .HasMaxLength(500);
 
@@ -230,6 +233,9 @@ namespace ConferenceContractAPI.Migrations
                         .HasMaxLength(50);
 
                     b.Property<DateTime?>("ModefieldOn");
+
+                    b.Property<string>("PriceJP")
+                        .HasMaxLength(50);
 
                     b.Property<string>("PriceRMB")
                         .HasMaxLength(50);

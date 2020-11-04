@@ -14,6 +14,8 @@ namespace ConferenceContractAPI.CCDBContext
 
         }
 
+        
+
         public DbSet<ConferenceContract> ConferenceContract { get; set; }
         public DbSet<CompanyContract> CompanyContract { get; set; }
 

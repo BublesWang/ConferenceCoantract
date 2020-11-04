@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ConferenceContractAPI.Migrations
 {
     [DbContext(typeof(ConCDBContext))]
-    [Migration("20200303053321__20191018004909_first_migration53")]
-    partial class _20191018004909_first_migration53
+    [Migration("20201103074551_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -39,6 +39,11 @@ namespace ConferenceContractAPI.Migrations
 
                     b.Property<string>("MemberPK")
                         .HasMaxLength(150);
+
+                    b.Property<string>("Owerid")
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(500)
+                        .HasDefaultValue("");
 
                     b.Property<string>("PersonContractId")
                         .HasMaxLength(150);
@@ -196,6 +201,9 @@ namespace ConferenceContractAPI.Migrations
                         .HasMaxLength(50)
                         .HasDefaultValue("");
 
+                    b.Property<string>("Code")
+                        .HasMaxLength(50);
+
                     b.Property<string>("ConferenceId")
                         .HasMaxLength(500);
 
@@ -228,11 +236,19 @@ namespace ConferenceContractAPI.Migrations
 
                     b.Property<DateTime?>("ModefieldOn");
 
+                    b.Property<string>("PriceJP")
+                        .HasMaxLength(50);
+
                     b.Property<string>("PriceRMB")
                         .HasMaxLength(50);
 
                     b.Property<string>("PriceUSD")
                         .HasMaxLength(50);
+
+                    b.Property<string>("RemarkCode")
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(500)
+                        .HasDefaultValue("");
 
                     b.Property<string>("RemarkTranslation")
                         .HasMaxLength(1000);
@@ -346,17 +362,23 @@ namespace ConferenceContractAPI.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("ActiviType")
-                        .HasMaxLength(150);
-
                     b.Property<string>("AddDate")
                         .HasMaxLength(150);
 
                     b.Property<string>("CompanyName")
                         .HasMaxLength(150);
 
+                    b.Property<string>("CompanyServicePackId")
+                        .HasMaxLength(1500);
+
+                    b.Property<string>("CompanyServicePackName")
+                        .HasMaxLength(1500);
+
                     b.Property<string>("ContractNumber")
                         .HasMaxLength(150);
+
+                    b.Property<string>("ContractYear")
+                        .HasMaxLength(50);
 
                     b.Property<decimal>("Cost");
 
@@ -381,6 +403,9 @@ namespace ConferenceContractAPI.Migrations
 
                     b.Property<string>("Remark")
                         .HasColumnType("text");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(150);
 
                     b.HasKey("Id");
 
@@ -479,9 +504,7 @@ namespace ConferenceContractAPI.Migrations
                         .HasMaxLength(50);
 
                     b.Property<string>("Year")
-                        .ValueGeneratedOnAdd()
-                        .HasMaxLength(50)
-                        .HasDefaultValue("2019");
+                        .HasMaxLength(50);
 
                     b.HasKey("DiscountId");
 
@@ -574,6 +597,71 @@ namespace ConferenceContractAPI.Migrations
                     b.ToTable("ExtraServicePackMap");
                 });
 
+            modelBuilder.Entity("ConferenceContractAPI.DBModels.InviteCode", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("CompanyServicePackId")
+                        .HasMaxLength(500);
+
+                    b.Property<int>("Count");
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(50);
+
+                    b.Property<DateTime?>("CreatedOn");
+
+                    b.Property<string>("InviteCodeNumber")
+                        .HasMaxLength(500);
+
+                    b.Property<string>("ModefieldBy")
+                        .HasMaxLength(50);
+
+                    b.Property<DateTime?>("ModefieldOn");
+
+                    b.Property<string>("WebSite")
+                        .HasMaxLength(500);
+
+                    b.Property<string>("Year")
+                        .HasMaxLength(50);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("InviteCode");
+                });
+
+            modelBuilder.Entity("ConferenceContractAPI.DBModels.InviteCodeRecord", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<Guid?>("InviteCodeId");
+
+                    b.Property<bool?>("IsDelete");
+
+                    b.Property<string>("MemberName")
+                        .HasMaxLength(500);
+
+                    b.Property<string>("MemberPK")
+                        .HasMaxLength(500);
+
+                    b.Property<string>("PersonContractId")
+                        .HasMaxLength(500);
+
+                    b.Property<string>("PersonContractNumber")
+                        .HasMaxLength(1000);
+
+                    b.Property<string>("UseDate")
+                        .HasMaxLength(500);
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("InviteCodeId");
+
+                    b.ToTable("InviteCodeRecord");
+                });
+
             modelBuilder.Entity("ConferenceContractAPI.DBModels.InviteLetter", b =>
                 {
                     b.Property<Guid>("Id")
@@ -604,6 +692,30 @@ namespace ConferenceContractAPI.Migrations
                     b.ToTable("InviteLetter");
                 });
 
+            modelBuilder.Entity("ConferenceContractAPI.DBModels.OperateRecord", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("ContractNumber")
+                        .HasMaxLength(500);
+
+                    b.Property<string>("OperateContent")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("text")
+                        .HasDefaultValue("");
+
+                    b.Property<string>("OperateTime")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("Operator")
+                        .HasMaxLength(50);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("OperateRecord");
+                });
+
             modelBuilder.Entity("ConferenceContractAPI.DBModels.PersonContract", b =>
                 {
                     b.Property<Guid>("PersonContractId")
@@ -626,7 +738,16 @@ namespace ConferenceContractAPI.Migrations
 
                     b.Property<DateTime?>("CreatedOn");
 
+                    b.Property<string>("InviteCodeId")
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(500)
+                        .HasDefaultValue("");
+
                     b.Property<bool?>("IsCheckIn")
+                        .ValueGeneratedOnAdd()
+                        .HasDefaultValue(false);
+
+                    b.Property<bool?>("IsCommitAbstract")
                         .ValueGeneratedOnAdd()
                         .HasDefaultValue(false);
 
@@ -634,9 +755,17 @@ namespace ConferenceContractAPI.Migrations
                         .ValueGeneratedOnAdd()
                         .HasDefaultValue(false);
 
+                    b.Property<bool?>("IsInviteCode")
+                        .ValueGeneratedOnAdd()
+                        .HasDefaultValue(false);
+
                     b.Property<bool?>("IsModify")
                         .ValueGeneratedOnAdd()
                         .HasDefaultValue(true);
+
+                    b.Property<bool?>("IsPrint")
+                        .ValueGeneratedOnAdd()
+                        .HasDefaultValue(false);
 
                     b.Property<bool?>("IsSendEmail")
                         .ValueGeneratedOnAdd()
@@ -663,6 +792,11 @@ namespace ConferenceContractAPI.Migrations
                         .HasDefaultValue("");
 
                     b.Property<bool?>("PCIsdelete");
+
+                    b.Property<string>("PaidAmount")
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(150)
+                        .HasDefaultValue("");
 
                     b.Property<string>("PerContractNumber")
                         .HasMaxLength(150);
@@ -704,12 +838,47 @@ namespace ConferenceContractAPI.Migrations
                         .HasMaxLength(150)
                         .HasDefaultValue("");
 
+                    b.Property<string>("SessionConferenceID")
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(500)
+                        .HasDefaultValue("");
+
+                    b.Property<string>("SessionConferenceName")
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(1000)
+                        .HasDefaultValue("");
+
                     b.Property<string>("Year")
                         .HasMaxLength(100);
 
                     b.HasKey("MapId");
 
                     b.ToTable("PersonContractActivityMap");
+                });
+
+            modelBuilder.Entity("ConferenceContractAPI.DBModels.RemarkDic", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("ContentCn")
+                        .HasColumnType("text");
+
+                    b.Property<string>("ContentCode")
+                        .HasMaxLength(500);
+
+                    b.Property<string>("ContentEn")
+                        .HasColumnType("text");
+
+                    b.Property<string>("ContentJp")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ContentCode")
+                        .IsUnique();
+
+                    b.ToTable("RemarkDic");
                 });
 
             modelBuilder.Entity("ConferenceContractAPI.DBModels.ServicePack", b =>
@@ -842,6 +1011,11 @@ namespace ConferenceContractAPI.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("Date")
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(50)
+                        .HasDefaultValue("");
+
                     b.Property<bool>("IsUse");
 
                     b.Property<string>("Year")
@@ -904,6 +1078,13 @@ namespace ConferenceContractAPI.Migrations
                     b.HasOne("ConferenceContractAPI.DBModels.ServicePack", "servicePack")
                         .WithMany("extraServicePackMap")
                         .HasForeignKey("ServicePackId");
+                });
+
+            modelBuilder.Entity("ConferenceContractAPI.DBModels.InviteCodeRecord", b =>
+                {
+                    b.HasOne("ConferenceContractAPI.DBModels.InviteCode", "inviteCode")
+                        .WithMany("inviteCodeRecord")
+                        .HasForeignKey("InviteCodeId");
                 });
 
             modelBuilder.Entity("ConferenceContractAPI.DBModels.PersonContract", b =>

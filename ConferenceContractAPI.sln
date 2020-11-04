@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29806.167
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConferenceContractAPI", "ConferenceContractAPI\ConferenceContractAPI.csproj", "{73467210-B117-4428-8F60-CA3DD9AC8565}"
 EndProject
@@ -11,7 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{27
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestDemoAPI", "TestDemoAPI", "{A287CD4E-FFD9-4284-9FD4-5FA9F5238CE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCCDemoAPI", "TestCCDemoAPI\TestCCDemoAPI.csproj", "{D1C9640D-CFBF-4DD9-B49E-5C07F9580B20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCCDemoAPI", "TestCCDemoAPI\TestCCDemoAPI.csproj", "{D1C9640D-CFBF-4DD9-B49E-5C07F9580B20}"
+	ProjectSection(ProjectDependencies) = postProject
+		{73467210-B117-4428-8F60-CA3DD9AC8565} = {73467210-B117-4428-8F60-CA3DD9AC8565}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

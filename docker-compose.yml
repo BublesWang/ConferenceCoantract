@@ -16,6 +16,14 @@ services:
     networks:
       - network1
 
+  testccdemoapi:
+    image: ${DOCKER_REGISTRY-}testccdemoapi
+    build:
+      context: .
+      dockerfile: TestCCDemoAPI/Dockerfile
+    networks:
+      - network1
+
   conferencecontractapi:
     image: ${DOCKER_REGISTRY}conferencecontractapi
     build:
@@ -28,13 +36,7 @@ services:
     networks:
       - network1
 
-  testccdemoapi:
-    image: ${DOCKER_REGISTRY-}testccdemoapi
-    build:
-      context: .
-      dockerfile: TestCCDemoAPI/Dockerfile
-    networks:
-      - network1
+
 
 volumes:
     conferencecontract-data-volume:

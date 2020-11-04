@@ -1,5 +1,6 @@
 ﻿using Grpc.Core;
 using GrpcConferenceContractService;
+using GrpcServer.Web.ConferenceContract.Protos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,12 @@ namespace ConferenceContractAPI.Implement
         {
             _server = new Server
             {
-                Services = { ConferenceContractServiceToGrpc.BindService(new CCServiceImpl()) },
+                //Services = { ConferenceContractServiceToGrpc.BindService(new CCServiceImpl()) },
                 Ports = { new ServerPort("0.0.0.0", 40001, ServerCredentials.Insecure) }
             };
+
+            _server.Services.Add(ConferenceContractServiceToGrpc.BindService(new CCServiceImpl()));
+            _server.Services.Add(NewConferenceContractService.BindService(new ConferenceContractAPI.ConferenceContractService.ConferenceContractService()));
             _server.Start();
 
         }

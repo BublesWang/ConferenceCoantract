@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
@@ -7,16 +7,33 @@
     <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DocumentationFile>E:\software\Work\V2_ConferenceContract\TestCCDemoAPI\TestCCDemoAPI.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Google.Protobuf" Version="3.6.0" />
-    <PackageReference Include="Grpc" Version="1.13.1" />
+    <!--<PackageReference Include="Google.Protobuf" Version="3.6.0" />
+    <PackageReference Include="Grpc" Version="1.13.1" />-->
+    <PackageReference Include="Google.Protobuf" Version="3.13.0" />
+    <PackageReference Include="Grpc" Version="2.33.1" />
+    <PackageReference Include="Grpc.Tools" Version="2.33.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.1916590" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.8.2" />
+  </ItemGroup>
+
+  <!--多个proto,可以使用MSBuild变量来帮我们完成,不用依次添加-->
+  <ItemGroup>
+    <Protobuf Include="..\Protos\*.proto" GrpcServices="Client" Link="Protos\%(RecursiveDir)%(Filename)%(Extension)" />
   </ItemGroup>
 
 </Project>

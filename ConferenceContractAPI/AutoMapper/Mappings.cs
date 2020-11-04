@@ -16,6 +16,7 @@ namespace ConferenceContractAPI.AutoMapper
         {
             Mapper.Initialize(config =>
             {
+                CreateNewMap.CreateMapper(config);
                 config.CreateMap<CCNumberConfig, CCNumberConfigStruct>();
                 config.CreateMap<CCNumberConfigStruct, CCNumberConfig>();
 

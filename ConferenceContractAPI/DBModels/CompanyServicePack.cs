@@ -41,6 +41,8 @@ namespace ConferenceContractAPI.DBModels
 
         [MaxLength(50)]
         public string PriceUSD { get; set; }
+        [MaxLength(50)]
+        public string PriceJP { get; set; }
 
         public bool? IsShownOnFront { get; set; }
 
@@ -68,6 +70,9 @@ namespace ConferenceContractAPI.DBModels
 
         [MaxLength(50)]
         public string ModefieldBy { get; set; }
+
+        [MaxLength(50)]
+        public string Code { get; set; }
 
         public virtual ICollection<CompanyServicePackMap> companyServicePackMap { get; set; }
     }

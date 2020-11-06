@@ -70,6 +70,12 @@ namespace ConferenceContractAPI.DBModels
 
         [MaxLength(50)]
         public string ModefieldBy { get; set; }
+        [MaxLength(50)]
+        public string Year { get; set; }
+        [MaxLength(3000)]
+        public string  OtherOwner { get; set; }
+        [MaxLength(3000)]
+        public string  OtherownerId { get; set; }
 
         //public virtual ICollection<ExtraService> extraService { get; set; }
     }

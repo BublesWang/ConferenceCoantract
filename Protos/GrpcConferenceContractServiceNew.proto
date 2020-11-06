@@ -9,6 +9,8 @@ service NewConferenceContractService{
  rpc new_GetServicePack(new_GetServicePackRequest) returns(new_GetServicePackResponse){}
 
 
+
+
 //付费合同和赠送合同添加二级合同（套餐）接口。
 //参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
 //		2.套餐信息
@@ -20,14 +22,6 @@ service NewConferenceContractService{
 rpc  new_AddServicePack(new_ServicePackStruct) returns(modifyResponse){}
 
 
-
-
-//当公司、套餐、业务员、合同状态、套餐价格、年份都一致时，更新子合同数（原来的子合同数+新加的子合同数）注：点击确定按钮之前先查询是否有和该套餐一致的合同
-rpc new_ModifyServicePack(new_ServicePackStruct) returns(modifyResponse){}
-
-//根据公司名称获取公司信息 参数：公司名 返回：公司信息
-rpc new_GetCompanyInfoByCompanyName(new_CompanyNameRequest) returns (CompanyInfoResponse){}
-
 //付费合同添加二级合同（套餐）折扣 接口。
 //参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
 //		2.套餐信息
@@ -37,6 +31,24 @@ rpc new_GetCompanyInfoByCompanyName(new_CompanyNameRequest) returns (CompanyInfo
 //		6.现价
 //返回：是否插入成功
 rpc new_AddServicePackDiscount(new_ServicePackStructDiscount) returns(modifyResponse){}
+
+//添加个人合同
+rpc new_AddPersonContract(new_AddPersonContractRequest) returns(modifyResponse){}
+
+
+
+
+// //当公司、套餐、业务员、合同状态、套餐价格、年份都一致时，更新子合同数（原来的子合同数+新加的子合同数）注：点击确定按钮之前先查询是否有和该套餐一致的合同
+// rpc new_ModifyServicePack(new_ServicePackStruct) returns(modifyResponse){}
+
+//根据公司名称获取公司信息 参数：公司名 返回：公司信息
+rpc new_GetCompanyInfoByCompanyName(new_CompanyNameRequest) returns (CompanyInfoResponse){}
+
+
+
+
+
+
 
 //获取付费合同和赠送合同的列表（二级合同）
 //参数：1.请求页码
@@ -85,6 +97,7 @@ message idRequest{
 
 //付费合同和赠送合同添加二级合同时需要传的参数
 message new_ServicePackStruct{
+//二级合同信息
 string ContractId=1;
 string ConferenceContractId=2;
 string CompanyServicePackId=3;
@@ -119,26 +132,53 @@ string Year=29;
 
 //添加付费合同的折扣信息时需要传入的参数
 message new_ServicePackStructDiscount{
- //公司信息
-  int32 companyId=1;
-  //套餐信息
-  string servicePackId=2;
-  //业务员
-  string owner=3;
-  //子合同数
-  int32 contractCount=4;
-  //合同状态
-  int32 Status=5;
-  //折扣价
-  float discountPrice=6;
-   //创建人
-  string createdBy=7;
-  //创建时间
-  string createdOn=8;
-  //修改人
-  string modifiyBy=9;
-  //修改时间
-  string modifyOn=10;
+ new_ServicePackStruct model=1;
+ float Discount=2;
+ string PriceAfterDiscountRMB=3;
+ string PriceAfterDiscountUSD=4;
+}
+
+
+message personContractStruct{
+string PersonContractId=1;
+ string ContractId=2;
+ string ConferenceId=3;
+ string MemberPK=4;
+ string MemTranslation=5;
+ bool PCIsdelete=6;
+ string CTypeCode=7;
+ bool  IsCheckIn=8; 
+ bool  IsSendEmail=9;
+ bool  IsModify=10;
+ bool  IsFianceRecord=11;
+ string InviteCodeId=12;
+ bool  IsInviteCode=13;
+ bool  IsCommitAbstract=14;
+ bool  IsPrint=15;
+ string Owerid=16;
+ string Ower=17;
+ string CreatedOn=18;
+ string CreatedBy=19;
+ string ModifiedOn=20;
+ string ModefieldBy=21;
+ string CompanyServicePackId=22;
+ string ConferenceContractId=23;
+ string PerPrice=24;
+ string PaidAmount=25;
+ string OtherOwnerId=26;
+ string OtherOwner=27;
+ string Year=28;
+}
+
+//添加个人合同
+message new_AddPersonContractRequest{
+ personContractStruct person=1;
+ string CompanyId=2;
+ string ComPrice=3;
+ string ContractStatusCode=4;
+ string ContractCode=5;
+ new_ServicePackStruct companyContractModel=6;
+
 }
 
 //修改操作返回的结果
@@ -1105,7 +1145,7 @@ message new_GetServicePackRequest{
 string ConferenceId=1;
 string ContractTypeId=2;
 string Year=3;
-bool IsGive=4;
+string IsGive=4;
 }
 //勾选套餐时返回的对象
 message new_GetServicePackStruct{

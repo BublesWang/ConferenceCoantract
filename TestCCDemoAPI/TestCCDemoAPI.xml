@@ -9235,6 +9235,11 @@
         <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStruct.ContractIdFieldNumber">
             <summary>Field number for the "ContractId" field.</summary>
         </member>
+        <member name="P:GrpcConferenceContractServiceNew.new_ServicePackStruct.ContractId">
+             <summary>
+            二级合同信息
+             </summary>
+        </member>
         <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStruct.ConferenceContractIdFieldNumber">
             <summary>Field number for the "ConferenceContractId" field.</summary>
         </member>
@@ -9324,85 +9329,124 @@
             添加付费合同的折扣信息时需要传入的参数
              </summary>
         </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.CompanyIdFieldNumber">
-            <summary>Field number for the "companyId" field.</summary>
+        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.ModelFieldNumber">
+            <summary>Field number for the "model" field.</summary>
         </member>
-        <member name="P:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.CompanyId">
+        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.DiscountFieldNumber">
+            <summary>Field number for the "Discount" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.PriceAfterDiscountRMBFieldNumber">
+            <summary>Field number for the "PriceAfterDiscountRMB" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.PriceAfterDiscountUSDFieldNumber">
+            <summary>Field number for the "PriceAfterDiscountUSD" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.PersonContractIdFieldNumber">
+            <summary>Field number for the "PersonContractId" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.ContractIdFieldNumber">
+            <summary>Field number for the "ContractId" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.ConferenceIdFieldNumber">
+            <summary>Field number for the "ConferenceId" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.MemberPKFieldNumber">
+            <summary>Field number for the "MemberPK" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.MemTranslationFieldNumber">
+            <summary>Field number for the "MemTranslation" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.PCIsdeleteFieldNumber">
+            <summary>Field number for the "PCIsdelete" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.CTypeCodeFieldNumber">
+            <summary>Field number for the "CTypeCode" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.IsCheckInFieldNumber">
+            <summary>Field number for the "IsCheckIn" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.IsSendEmailFieldNumber">
+            <summary>Field number for the "IsSendEmail" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.IsModifyFieldNumber">
+            <summary>Field number for the "IsModify" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.IsFianceRecordFieldNumber">
+            <summary>Field number for the "IsFianceRecord" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.InviteCodeIdFieldNumber">
+            <summary>Field number for the "InviteCodeId" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.IsInviteCodeFieldNumber">
+            <summary>Field number for the "IsInviteCode" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.IsCommitAbstractFieldNumber">
+            <summary>Field number for the "IsCommitAbstract" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.IsPrintFieldNumber">
+            <summary>Field number for the "IsPrint" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.OweridFieldNumber">
+            <summary>Field number for the "Owerid" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.OwerFieldNumber">
+            <summary>Field number for the "Ower" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.CreatedOnFieldNumber">
+            <summary>Field number for the "CreatedOn" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.CreatedByFieldNumber">
+            <summary>Field number for the "CreatedBy" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.ModifiedOnFieldNumber">
+            <summary>Field number for the "ModifiedOn" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.ModefieldByFieldNumber">
+            <summary>Field number for the "ModefieldBy" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.CompanyServicePackIdFieldNumber">
+            <summary>Field number for the "CompanyServicePackId" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.ConferenceContractIdFieldNumber">
+            <summary>Field number for the "ConferenceContractId" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.PerPriceFieldNumber">
+            <summary>Field number for the "PerPrice" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.PaidAmountFieldNumber">
+            <summary>Field number for the "PaidAmount" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.OtherOwnerIdFieldNumber">
+            <summary>Field number for the "OtherOwnerId" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.OtherOwnerFieldNumber">
+            <summary>Field number for the "OtherOwner" field.</summary>
+        </member>
+        <member name="F:GrpcConferenceContractServiceNew.personContractStruct.YearFieldNumber">
+            <summary>Field number for the "Year" field.</summary>
+        </member>
+        <member name="T:GrpcConferenceContractServiceNew.new_AddPersonContractRequest">
              <summary>
-            公司信息
+            添加个人合同
              </summary>
         </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.ServicePackIdFieldNumber">
-            <summary>Field number for the "servicePackId" field.</summary>
+        <member name="F:GrpcConferenceContractServiceNew.new_AddPersonContractRequest.PersonFieldNumber">
+            <summary>Field number for the "person" field.</summary>
         </member>
-        <member name="P:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.ServicePackId">
-             <summary>
-            套餐信息
-             </summary>
+        <member name="F:GrpcConferenceContractServiceNew.new_AddPersonContractRequest.CompanyIdFieldNumber">
+            <summary>Field number for the "CompanyId" field.</summary>
         </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.OwnerFieldNumber">
-            <summary>Field number for the "owner" field.</summary>
+        <member name="F:GrpcConferenceContractServiceNew.new_AddPersonContractRequest.ComPriceFieldNumber">
+            <summary>Field number for the "ComPrice" field.</summary>
         </member>
-        <member name="P:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.Owner">
-             <summary>
-            业务员
-             </summary>
+        <member name="F:GrpcConferenceContractServiceNew.new_AddPersonContractRequest.ContractStatusCodeFieldNumber">
+            <summary>Field number for the "ContractStatusCode" field.</summary>
         </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.ContractCountFieldNumber">
-            <summary>Field number for the "contractCount" field.</summary>
+        <member name="F:GrpcConferenceContractServiceNew.new_AddPersonContractRequest.ContractCodeFieldNumber">
+            <summary>Field number for the "ContractCode" field.</summary>
         </member>
-        <member name="P:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.ContractCount">
-             <summary>
-            子合同数
-             </summary>
-        </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.StatusFieldNumber">
-            <summary>Field number for the "Status" field.</summary>
-        </member>
-        <member name="P:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.Status">
-             <summary>
-            合同状态
-             </summary>
-        </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.DiscountPriceFieldNumber">
-            <summary>Field number for the "discountPrice" field.</summary>
-        </member>
-        <member name="P:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.DiscountPrice">
-             <summary>
-            折扣价
-             </summary>
-        </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.CreatedByFieldNumber">
-            <summary>Field number for the "createdBy" field.</summary>
-        </member>
-        <member name="P:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.CreatedBy">
-             <summary>
-            创建人
-             </summary>
-        </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.CreatedOnFieldNumber">
-            <summary>Field number for the "createdOn" field.</summary>
-        </member>
-        <member name="P:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.CreatedOn">
-             <summary>
-            创建时间
-             </summary>
-        </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.ModifiyByFieldNumber">
-            <summary>Field number for the "modifiyBy" field.</summary>
-        </member>
-        <member name="P:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.ModifiyBy">
-             <summary>
-            修改人
-             </summary>
-        </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.ModifyOnFieldNumber">
-            <summary>Field number for the "modifyOn" field.</summary>
-        </member>
-        <member name="P:GrpcConferenceContractServiceNew.new_ServicePackStructDiscount.ModifyOn">
-             <summary>
-            修改时间
-             </summary>
+        <member name="F:GrpcConferenceContractServiceNew.new_AddPersonContractRequest.CompanyContractModelFieldNumber">
+            <summary>Field number for the "companyContractModel" field.</summary>
         </member>
         <member name="T:GrpcConferenceContractServiceNew.modifyResponse">
              <summary>
@@ -12628,78 +12672,6 @@
              <param name="options">The options for the call.</param>
              <returns>The call object.</returns>
         </member>
-        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_ModifyServicePack(GrpcConferenceContractServiceNew.new_ServicePackStruct,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
-             <summary>
-            当公司、套餐、业务员、合同状态、套餐价格、年份都一致时，更新子合同数（原来的子合同数+新加的子合同数）注：点击确定按钮之前先查询是否有和该套餐一致的合同
-             </summary>
-             <param name="request">The request to send to the server.</param>
-             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-             <param name="cancellationToken">An optional token for canceling the call.</param>
-             <returns>The response received from the server.</returns>
-        </member>
-        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_ModifyServicePack(GrpcConferenceContractServiceNew.new_ServicePackStruct,Grpc.Core.CallOptions)">
-             <summary>
-            当公司、套餐、业务员、合同状态、套餐价格、年份都一致时，更新子合同数（原来的子合同数+新加的子合同数）注：点击确定按钮之前先查询是否有和该套餐一致的合同
-             </summary>
-             <param name="request">The request to send to the server.</param>
-             <param name="options">The options for the call.</param>
-             <returns>The response received from the server.</returns>
-        </member>
-        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_ModifyServicePackAsync(GrpcConferenceContractServiceNew.new_ServicePackStruct,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
-             <summary>
-            当公司、套餐、业务员、合同状态、套餐价格、年份都一致时，更新子合同数（原来的子合同数+新加的子合同数）注：点击确定按钮之前先查询是否有和该套餐一致的合同
-             </summary>
-             <param name="request">The request to send to the server.</param>
-             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-             <param name="cancellationToken">An optional token for canceling the call.</param>
-             <returns>The call object.</returns>
-        </member>
-        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_ModifyServicePackAsync(GrpcConferenceContractServiceNew.new_ServicePackStruct,Grpc.Core.CallOptions)">
-             <summary>
-            当公司、套餐、业务员、合同状态、套餐价格、年份都一致时，更新子合同数（原来的子合同数+新加的子合同数）注：点击确定按钮之前先查询是否有和该套餐一致的合同
-             </summary>
-             <param name="request">The request to send to the server.</param>
-             <param name="options">The options for the call.</param>
-             <returns>The call object.</returns>
-        </member>
-        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_GetCompanyInfoByCompanyName(GrpcConferenceContractServiceNew.new_CompanyNameRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
-             <summary>
-            根据公司名称获取公司信息 参数：公司名 返回：公司信息
-             </summary>
-             <param name="request">The request to send to the server.</param>
-             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-             <param name="cancellationToken">An optional token for canceling the call.</param>
-             <returns>The response received from the server.</returns>
-        </member>
-        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_GetCompanyInfoByCompanyName(GrpcConferenceContractServiceNew.new_CompanyNameRequest,Grpc.Core.CallOptions)">
-             <summary>
-            根据公司名称获取公司信息 参数：公司名 返回：公司信息
-             </summary>
-             <param name="request">The request to send to the server.</param>
-             <param name="options">The options for the call.</param>
-             <returns>The response received from the server.</returns>
-        </member>
-        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_GetCompanyInfoByCompanyNameAsync(GrpcConferenceContractServiceNew.new_CompanyNameRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
-             <summary>
-            根据公司名称获取公司信息 参数：公司名 返回：公司信息
-             </summary>
-             <param name="request">The request to send to the server.</param>
-             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-             <param name="cancellationToken">An optional token for canceling the call.</param>
-             <returns>The call object.</returns>
-        </member>
-        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_GetCompanyInfoByCompanyNameAsync(GrpcConferenceContractServiceNew.new_CompanyNameRequest,Grpc.Core.CallOptions)">
-             <summary>
-            根据公司名称获取公司信息 参数：公司名 返回：公司信息
-             </summary>
-             <param name="request">The request to send to the server.</param>
-             <param name="options">The options for the call.</param>
-             <returns>The call object.</returns>
-        </member>
         <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_AddServicePackDiscount(GrpcConferenceContractServiceNew.new_ServicePackStructDiscount,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
              <summary>
             付费合同添加二级合同（套餐）折扣 接口。
@@ -12759,6 +12731,78 @@
             		5.合同状态,
             		6.现价
             返回：是否插入成功
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_AddPersonContract(GrpcConferenceContractServiceNew.new_AddPersonContractRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            添加个人合同
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_AddPersonContract(GrpcConferenceContractServiceNew.new_AddPersonContractRequest,Grpc.Core.CallOptions)">
+             <summary>
+            添加个人合同
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_AddPersonContractAsync(GrpcConferenceContractServiceNew.new_AddPersonContractRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            添加个人合同
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_AddPersonContractAsync(GrpcConferenceContractServiceNew.new_AddPersonContractRequest,Grpc.Core.CallOptions)">
+             <summary>
+            添加个人合同
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_GetCompanyInfoByCompanyName(GrpcConferenceContractServiceNew.new_CompanyNameRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            根据公司名称获取公司信息 参数：公司名 返回：公司信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_GetCompanyInfoByCompanyName(GrpcConferenceContractServiceNew.new_CompanyNameRequest,Grpc.Core.CallOptions)">
+             <summary>
+            根据公司名称获取公司信息 参数：公司名 返回：公司信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_GetCompanyInfoByCompanyNameAsync(GrpcConferenceContractServiceNew.new_CompanyNameRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            根据公司名称获取公司信息 参数：公司名 返回：公司信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:GrpcConferenceContractServiceNew.NewConferenceContractService.NewConferenceContractServiceClient.new_GetCompanyInfoByCompanyNameAsync(GrpcConferenceContractServiceNew.new_CompanyNameRequest,Grpc.Core.CallOptions)">
+             <summary>
+            根据公司名称获取公司信息 参数：公司名 返回：公司信息
              </summary>
              <param name="request">The request to send to the server.</param>
              <param name="options">The options for the call.</param>

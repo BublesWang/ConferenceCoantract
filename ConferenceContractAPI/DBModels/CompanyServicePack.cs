@@ -56,7 +56,7 @@ namespace ConferenceContractAPI.DBModels
 
         public bool? IsDelete { get; set; }
 
-        public bool IsGive { get; set; }
+        public bool? IsGive { get; set; }
 
         [MaxLength(150)]
         public string Year { get; set; }

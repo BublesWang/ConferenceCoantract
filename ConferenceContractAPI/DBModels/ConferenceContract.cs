@@ -65,6 +65,10 @@ namespace ConferenceContractAPI.DBModels
 
         [MaxLength(50)]
         public string ModifiedBy { get; set; }
+        [MaxLength(3000)]
+        public string OtherOwner { get; set; }
+        [MaxLength(3000)]
+        public string OtherownerId { get; set; }
 
         public virtual ICollection<CompanyContract> companyContract { get; set; }
 

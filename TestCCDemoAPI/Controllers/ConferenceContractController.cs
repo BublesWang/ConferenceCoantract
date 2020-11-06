@@ -57,6 +57,22 @@ namespace TestCCDemoAPI.Controllers
         }
 
 
+        [HttpPost(nameof(new_AddServicePackDiscount))]
+        public async Task<IActionResult> new_AddServicePackDiscount(new_ServicePackStructDiscount request)
+        {
+            var result = await _client.new_AddServicePackDiscountAsync(request);
 
+            return Ok(result);
+        }
+       
+
+
+        [HttpPost(nameof(new_AddPersonContract))]
+        public async Task<IActionResult> new_AddPersonContract(new_AddPersonContractRequest request)
+        {
+            var result = await _client.new_AddPersonContractAsync(request);
+
+            return Ok(result);
+        }
     }
 }

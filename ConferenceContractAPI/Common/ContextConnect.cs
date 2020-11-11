@@ -10,10 +10,11 @@ namespace ConferenceContractAPI.Common
 {
     public class ContextConnect
     {
-        private static string _connstr_unittest = ConfigurationManager.ConnectionStrings["connstr_unittest"].ConnectionString;
-        //private static string _connstr_unittest = ConfigurationManager.ConnectionStrings["connstr_debug_unittest"].ConnectionString;
-        //private static string _connstr_unittest = ConfigurationManager.ConnectionStrings["connstr_debug_stable"].ConnectionString;
-        private static string _connstr_stable = ConfigurationManager.ConnectionStrings["connstr_stable"].ConnectionString;
+        //private static string _connstr_unittest = ConfigurationManager.ConnectionStrings["connstr_unittest"].ConnectionString;
+        //private static string _connstr_stable = ConfigurationManager.ConnectionStrings["connstr_stable"].ConnectionString;
+
+        private static string _connstr_unittest = ConfigurationManager.ConnectionStrings["connstr_debug_unittest"].ConnectionString;
+        private static string _connstr_stable = ConfigurationManager.ConnectionStrings["connstr_debug_stable"].ConnectionString;
 
         public static string ReadConnstrContent()
         {

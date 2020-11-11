@@ -9433,20 +9433,16 @@
         <member name="F:GrpcConferenceContractServiceNew.new_AddPersonContractRequest.PersonFieldNumber">
             <summary>Field number for the "person" field.</summary>
         </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_AddPersonContractRequest.CompanyIdFieldNumber">
-            <summary>Field number for the "CompanyId" field.</summary>
-        </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_AddPersonContractRequest.ComPriceFieldNumber">
-            <summary>Field number for the "ComPrice" field.</summary>
-        </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_AddPersonContractRequest.ContractStatusCodeFieldNumber">
-            <summary>Field number for the "ContractStatusCode" field.</summary>
-        </member>
-        <member name="F:GrpcConferenceContractServiceNew.new_AddPersonContractRequest.ContractCodeFieldNumber">
-            <summary>Field number for the "ContractCode" field.</summary>
-        </member>
         <member name="F:GrpcConferenceContractServiceNew.new_AddPersonContractRequest.CompanyContractModelFieldNumber">
             <summary>Field number for the "companyContractModel" field.</summary>
+        </member>
+        <member name="P:GrpcConferenceContractServiceNew.new_AddPersonContractRequest.CompanyContractModel">
+             <summary>
+            string CompanyId=2;
+            string ComPrice=3;
+            string ContractStatusCode=4;
+            string ContractCode=5;
+             </summary>
         </member>
         <member name="T:GrpcConferenceContractServiceNew.modifyResponse">
              <summary>

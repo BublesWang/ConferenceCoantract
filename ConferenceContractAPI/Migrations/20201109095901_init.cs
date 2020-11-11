@@ -69,8 +69,14 @@ namespace ConferenceContractAPI.Migrations
                     Ower = table.Column<string>(maxLength: 50, nullable: true),
                     CreatedOn = table.Column<DateTime>(nullable: true),
                     CreatedBy = table.Column<string>(maxLength: 50, nullable: true),
-                    ModefieldOn = table.Column<DateTime>(nullable: true),
-                    ModefieldBy = table.Column<string>(maxLength: 50, nullable: true)
+                    ModifiedOn = table.Column<DateTime>(nullable: true),
+                    ModifiedBy = table.Column<string>(maxLength: 50, nullable: true),
+                    OtherOwner = table.Column<string>(maxLength: 3000, nullable: true),
+                    OtherOwnerId = table.Column<string>(maxLength: 3000, nullable: true),
+                    TotalPrice = table.Column<string>(maxLength: 150, nullable: true),
+                    TotalPaid = table.Column<string>(maxLength: 150, nullable: true),
+                    IsOpPayStatudCode = table.Column<bool>(nullable: true),
+                    EnterpriseType = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -268,11 +274,13 @@ namespace ConferenceContractAPI.Migrations
                     Translation = table.Column<string>(maxLength: 500, nullable: true),
                     PriceRMB = table.Column<string>(maxLength: 50, nullable: true),
                     PriceUSD = table.Column<string>(maxLength: 50, nullable: true),
-                    IsDelete = table.Column<bool>(nullable: true),
+                    PriceJP = table.Column<string>(maxLength: 50, nullable: true),
+                    Code = table.Column<string>(maxLength: 50, nullable: true),
                     Year = table.Column<string>(maxLength: 150, nullable: true),
                     CreatedOn = table.Column<DateTime>(nullable: true),
                     CreatedBy = table.Column<string>(maxLength: 50, nullable: true),
                     ModefieldOn = table.Column<DateTime>(nullable: true),
+                    IsDelete = table.Column<bool>(nullable: false),
                     ModefieldBy = table.Column<string>(maxLength: 50, nullable: true)
                 },
                 constraints: table =>
@@ -350,7 +358,7 @@ namespace ConferenceContractAPI.Migrations
                     RemarkCode = table.Column<string>(maxLength: 500, nullable: true, defaultValue: ""),
                     IsSpeaker = table.Column<bool>(nullable: false, defaultValue: false),
                     IsDelete = table.Column<bool>(nullable: true),
-                    IsGive = table.Column<bool>(nullable: false, defaultValue: false),
+                    IsGive = table.Column<bool>(nullable: true, defaultValue: false),
                     Year = table.Column<string>(maxLength: 150, nullable: true),
                     CreatedOn = table.Column<DateTime>(nullable: true),
                     CreatedBy = table.Column<string>(maxLength: 50, nullable: true),
@@ -470,8 +478,11 @@ namespace ConferenceContractAPI.Migrations
                     ContractCode = table.Column<string>(maxLength: 50, nullable: true),
                     CreatedOn = table.Column<DateTime>(nullable: true),
                     CreatedBy = table.Column<string>(maxLength: 50, nullable: true),
-                    ModefieldOn = table.Column<DateTime>(nullable: true),
-                    ModefieldBy = table.Column<string>(maxLength: 50, nullable: true)
+                    ModifiedOn = table.Column<DateTime>(nullable: true),
+                    ModifiedBy = table.Column<string>(maxLength: 50, nullable: true),
+                    OtherOwnerId = table.Column<string>(maxLength: 3000, nullable: true),
+                    OtherOwner = table.Column<string>(maxLength: 3000, nullable: true),
+                    Year = table.Column<string>(maxLength: 50, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -496,7 +507,10 @@ namespace ConferenceContractAPI.Migrations
                 {
                     MapId = table.Column<Guid>(nullable: false),
                     CompanyServicePackId = table.Column<Guid>(nullable: true),
-                    ServicePackId = table.Column<Guid>(nullable: true)
+                    ServicePackId = table.Column<Guid>(nullable: true),
+                    SPCCode = table.Column<string>(maxLength: 150, nullable: true),
+                    CSPCCode = table.Column<string>(maxLength: 150, nullable: true),
+                    Year = table.Column<string>(maxLength: 150, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -566,7 +580,13 @@ namespace ConferenceContractAPI.Migrations
                     CreatedOn = table.Column<DateTime>(nullable: true),
                     CreatedBy = table.Column<string>(maxLength: 50, nullable: true),
                     ModefieldOn = table.Column<DateTime>(nullable: true),
-                    ModefieldBy = table.Column<string>(maxLength: 50, nullable: true)
+                    ModefieldBy = table.Column<string>(maxLength: 50, nullable: true),
+                    Year = table.Column<string>(maxLength: 50, nullable: true),
+                    OtherOwner = table.Column<string>(maxLength: 3000, nullable: true),
+                    OtherOwnerId = table.Column<string>(maxLength: 3000, nullable: true),
+                    CompanyServicePackId = table.Column<Guid>(nullable: true),
+                    ConferenceContractId = table.Column<Guid>(nullable: true),
+                    PerPrice = table.Column<string>(maxLength: 150, nullable: true)
                 },
                 constraints: table =>
                 {

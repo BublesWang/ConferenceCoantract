@@ -68,7 +68,15 @@ namespace ConferenceContractAPI.DBModels
         [MaxLength(3000)]
         public string OtherOwner { get; set; }
         [MaxLength(3000)]
-        public string OtherownerId { get; set; }
+        public string OtherOwnerId { get; set; }
+        [MaxLength(150)]
+        public string TotalPrice { get; set; }
+        [MaxLength(150)]
+        public string TotalPaid { get; set; }
+        public bool? IsOpPayStatudCode { get; set; }
+        public Int32? EnterpriseType { get; set; }
+
+
 
         public virtual ICollection<CompanyContract> companyContract { get; set; }
 

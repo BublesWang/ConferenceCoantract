@@ -601,7 +601,8 @@ namespace ConferenceContractAPI.ConferenceContractService
                     var op_ower = modified_model.Ower;
                     modified_model.Owerid = model.Owerid;
                     modified_model.Ower = model.Ower;
-
+                    modified_model.OtherOwnerId = model.OtherOwnerId;
+                    modified_model.OtherOwner = model.OtherOwner;
                     //把ConferenceContract对象插入到队列，提供给展览合同服务使用
                     var message = JsonConvert.SerializeObject(modified_model);
                     var IsRMQ = _rabbitMQPublisher.Publish("ConContract", "conference_contract_object_queue", message);
@@ -5680,7 +5681,6 @@ namespace ConferenceContractAPI.ConferenceContractService
 
         public async Task<int> GetApplyConferenceBySessionConferenceIdAndTagTypeCodeListCount(SearchInfo searchInfo)
         {
-            var total = 0;
             try
             {
                 using (var _context = new ConCDBContext(_options.Options))

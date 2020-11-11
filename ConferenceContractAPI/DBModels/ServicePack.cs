@@ -53,8 +53,10 @@ namespace ConferenceContractAPI.DBModels
 
         [MaxLength(50)]
         public string PriceUSD { get; set; }
-
-        public bool? IsDelete { get; set; }
+        [MaxLength(50)]
+        public string PriceJP { get; set; }
+        [MaxLength(50)]
+        public string Code { get; set; }
 
         [MaxLength(150)]
         public string Year { get; set; }
@@ -65,6 +67,8 @@ namespace ConferenceContractAPI.DBModels
         public string CreatedBy { get; set; }
 
         public DateTime? ModefieldOn { get; set; }
+
+        public bool IsDelete { get; set; }
 
         [MaxLength(50)]
         public string ModefieldBy { get; set; }

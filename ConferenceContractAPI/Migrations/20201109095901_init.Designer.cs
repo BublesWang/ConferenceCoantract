@@ -10,7 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ConferenceContractAPI.Migrations
 {
     [DbContext(typeof(ConCDBContext))]
-    [Migration("20201103074551_init")]
+    [Migration("20201109095901_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -165,10 +165,16 @@ namespace ConferenceContractAPI.Migrations
                         .ValueGeneratedOnAdd()
                         .HasDefaultValue(0);
 
-                    b.Property<string>("ModefieldBy")
+                    b.Property<string>("ModifiedBy")
                         .HasMaxLength(50);
 
-                    b.Property<DateTime?>("ModefieldOn");
+                    b.Property<DateTime?>("ModifiedOn");
+
+                    b.Property<string>("OtherOwner")
+                        .HasMaxLength(3000);
+
+                    b.Property<string>("OtherOwnerId")
+                        .HasMaxLength(3000);
 
                     b.Property<string>("Ower")
                         .HasMaxLength(50);
@@ -178,6 +184,9 @@ namespace ConferenceContractAPI.Migrations
 
                     b.Property<string>("PPTUrl")
                         .HasMaxLength(5000);
+
+                    b.Property<string>("Year")
+                        .HasMaxLength(50);
 
                     b.HasKey("ContractId");
 
@@ -221,7 +230,7 @@ namespace ConferenceContractAPI.Migrations
 
                     b.Property<bool?>("IsDelete");
 
-                    b.Property<bool>("IsGive")
+                    b.Property<bool?>("IsGive")
                         .ValueGeneratedOnAdd()
                         .HasDefaultValue(false);
 
@@ -273,9 +282,18 @@ namespace ConferenceContractAPI.Migrations
                     b.Property<Guid>("MapId")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("CSPCCode")
+                        .HasMaxLength(150);
+
                     b.Property<Guid?>("CompanyServicePackId");
 
+                    b.Property<string>("SPCCode")
+                        .HasMaxLength(150);
+
                     b.Property<Guid?>("ServicePackId");
+
+                    b.Property<string>("Year")
+                        .HasMaxLength(150);
 
                     b.HasKey("MapId");
 
@@ -321,25 +339,35 @@ namespace ConferenceContractAPI.Migrations
 
                     b.Property<DateTime?>("CreatedOn");
 
+                    b.Property<int?>("EnterpriseType");
+
                     b.Property<bool?>("IsDelete");
 
                     b.Property<bool?>("IsModify")
                         .ValueGeneratedOnAdd()
                         .HasDefaultValue(true);
 
+                    b.Property<bool?>("IsOpPayStatudCode");
+
                     b.Property<bool?>("IsSendEmail")
                         .ValueGeneratedOnAdd()
                         .HasDefaultValue(false);
 
-                    b.Property<string>("ModefieldBy")
+                    b.Property<string>("ModifiedBy")
                         .HasMaxLength(50);
 
-                    b.Property<DateTime?>("ModefieldOn");
+                    b.Property<DateTime?>("ModifiedOn");
 
                     b.Property<string>("ModifyPermission")
                         .ValueGeneratedOnAdd()
                         .HasMaxLength(150)
                         .HasDefaultValue("0");
+
+                    b.Property<string>("OtherOwner")
+                        .HasMaxLength(3000);
+
+                    b.Property<string>("OtherOwnerId")
+                        .HasMaxLength(3000);
 
                     b.Property<string>("Ower")
                         .HasMaxLength(50);
@@ -351,6 +379,12 @@ namespace ConferenceContractAPI.Migrations
                         .ValueGeneratedOnAdd()
                         .HasMaxLength(50)
                         .HasDefaultValue("");
+
+                    b.Property<string>("TotalPaid")
+                        .HasMaxLength(150);
+
+                    b.Property<string>("TotalPrice")
+                        .HasMaxLength(150);
 
                     b.HasKey("ConferenceContractId");
 
@@ -726,6 +760,10 @@ namespace ConferenceContractAPI.Migrations
                         .HasMaxLength(50)
                         .HasDefaultValue("");
 
+                    b.Property<Guid?>("CompanyServicePackId");
+
+                    b.Property<Guid?>("ConferenceContractId");
+
                     b.Property<string>("ConferenceId")
                         .ValueGeneratedOnAdd()
                         .HasMaxLength(500)
@@ -781,6 +819,12 @@ namespace ConferenceContractAPI.Migrations
 
                     b.Property<DateTime?>("ModefieldOn");
 
+                    b.Property<string>("OtherOwner")
+                        .HasMaxLength(3000);
+
+                    b.Property<string>("OtherOwnerId")
+                        .HasMaxLength(3000);
+
                     b.Property<string>("Ower")
                         .ValueGeneratedOnAdd()
                         .HasMaxLength(50)
@@ -800,6 +844,12 @@ namespace ConferenceContractAPI.Migrations
 
                     b.Property<string>("PerContractNumber")
                         .HasMaxLength(150);
+
+                    b.Property<string>("PerPrice")
+                        .HasMaxLength(150);
+
+                    b.Property<string>("Year")
+                        .HasMaxLength(50);
 
                     b.HasKey("PersonContractId");
 
@@ -886,6 +936,9 @@ namespace ConferenceContractAPI.Migrations
                     b.Property<Guid>("ServicePackId")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("Code")
+                        .HasMaxLength(50);
+
                     b.Property<string>("ConferenceId")
                         .HasMaxLength(500);
 
@@ -897,12 +950,15 @@ namespace ConferenceContractAPI.Migrations
 
                     b.Property<DateTime?>("CreatedOn");
 
-                    b.Property<bool?>("IsDelete");
+                    b.Property<bool>("IsDelete");
 
                     b.Property<string>("ModefieldBy")
                         .HasMaxLength(50);
 
                     b.Property<DateTime?>("ModefieldOn");
+
+                    b.Property<string>("PriceJP")
+                        .HasMaxLength(50);
 
                     b.Property<string>("PriceRMB")
                         .HasMaxLength(50);

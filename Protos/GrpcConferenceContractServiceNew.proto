@@ -10,7 +10,6 @@ service NewConferenceContractService{
 
 
 
-
 //付费合同和赠送合同添加二级合同（套餐）接口。
 //参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
 //		2.套餐信息
@@ -43,10 +42,6 @@ rpc new_AddPersonContract(new_AddPersonContractRequest) returns(modifyResponse){
 
 //根据公司名称获取公司信息 参数：公司名 返回：公司信息
 rpc new_GetCompanyInfoByCompanyName(new_CompanyNameRequest) returns (CompanyInfoResponse){}
-
-
-
-
 
 
 
@@ -127,7 +122,6 @@ string CreatedBy=26;
 string ModifiedOn=27;
 string ModifiedBy=28;
 string Year=29;
-
 }
 
 //添加付费合同的折扣信息时需要传入的参数
@@ -173,11 +167,11 @@ string PersonContractId=1;
 //添加个人合同
 message new_AddPersonContractRequest{
  personContractStruct person=1;
- string CompanyId=2;
- string ComPrice=3;
- string ContractStatusCode=4;
- string ContractCode=5;
- new_ServicePackStruct companyContractModel=6;
+//string CompanyId=2;
+//string ComPrice=3;
+//string ContractStatusCode=4;
+//string ContractCode=5;
+ new_ServicePackStruct companyContractModel=2;
 
 }
 

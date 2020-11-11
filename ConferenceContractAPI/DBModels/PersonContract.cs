@@ -75,7 +75,14 @@ namespace ConferenceContractAPI.DBModels
         [MaxLength(3000)]
         public string  OtherOwner { get; set; }
         [MaxLength(3000)]
-        public string  OtherownerId { get; set; }
+        public string OtherOwnerId { get; set; }
+
+        public Guid? CompanyServicePackId { get; set; }
+
+        public Guid? ConferenceContractId { get; set; }
+        [MaxLength(150)]
+        public string PerPrice { get; set; }
+        
 
         //public virtual ICollection<ExtraService> extraService { get; set; }
     }

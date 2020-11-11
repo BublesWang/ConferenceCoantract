@@ -21,5 +21,12 @@ namespace ConferenceContractAPI.DBModels
 
         [ForeignKey("ServicePackId")]
         public virtual ServicePack servicePack { get; set; }
+
+        [MaxLength(150)]
+        public string  SPCCode { get; set; }
+        [MaxLength(150)]
+        public string CSPCCode { get; set; }
+        [MaxLength(150)]
+        public string Year { get; set; }
     }
 }

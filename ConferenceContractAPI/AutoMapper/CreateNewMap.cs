@@ -15,6 +15,7 @@ namespace ConferenceContractAPI.AutoMapper
             config.CreateMap<new_ServicePackStruct, CompanyContract>().ReverseMap();
 
             config.CreateMap<new_ServicePackStruct, ConferenceContract>();
+
         }
     }
 }

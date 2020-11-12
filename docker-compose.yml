@@ -24,7 +24,7 @@ services:
     networks:
       - network1
 
-  conferencecontractapi:
+  conferencecontractserver:
     image: ${DOCKER_REGISTRY}conferencecontractapi
     build:
       context: .

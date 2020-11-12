@@ -343,450 +343,802 @@ namespace GrpcConferenceContractService {
             "BCABKAkiZwoYTW9kaWZ5Q0NQQ093ZXJJbmZvU3RydWN0EhIKCkNvbnRyYWN0",
             "SWQYASABKAkSDgoGT3dlcmlkGAIgASgJEgwKBE93ZXIYAyABKAkSGQoRTWF4",
             "Q29udHJhY3ROdW1iZXIYBCABKAUiGwoJQm9vbFJlcGx5Eg4KBnJlc3VsdBgB",
-            "IAEoCDLYmwEKH0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2VUb0dycGMSjAEK",
-            "GUdldENvbmZlcmVuY2VDb250cmFjdExpc3QSNi5HcnBjQ29uZmVyZW5jZUNv",
-            "bnRyYWN0U2VydmljZS5QYWdpbmF0aW9uUmVxdWVzdFNlYXJjaBo1LkdycGND",
-            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbmZlcmVuY2VDb250cmFjdExp",
-            "c3QiABKUAQohR2V0Q29uZmVyZW5jZUNvbnRyYWN0TGlzdEJ5SXNHaXZlEjYu",
-            "R3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUGFnaW5hdGlvblJlcXVl",
-            "c3RTZWFyY2gaNS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db25m",
-            "ZXJlbmNlQ29udHJhY3RMaXN0IgASrQEKOkdldENvbmZlcmVuY2VDb250cmFj",
-            "dExpc3RCeUlzR2l2ZVdpdGhBbGxDb250cmFjdFN0YXR1c0NvZGUSNi5HcnBj",
-            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QYWdpbmF0aW9uUmVxdWVzdFNl",
-            "YXJjaBo1LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbmZlcmVu",
-            "Y2VDb250cmFjdExpc3QiABKJAQokR2V0Q29uZmVyZW5jZUNvbnRyYWN0QnlD",
-            "b21wYW55SWRMaXN0EiguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
-            "SWRSZXF1ZXN0GjUuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuQ29u",
-            "ZmVyZW5jZUNvbnRyYWN0TGlzdCIAEpMBCitHZXRDb25mZXJlbmNlQ29udHJh",
-            "Y3RCeUNvbXBhbnlJZEFuZFllYXJMaXN0EisuR3JwY0NvbmZlcmVuY2VDb250",
-            "cmFjdFNlcnZpY2UuU2VhcmNoU3RydWN0GjUuR3JwY0NvbmZlcmVuY2VDb250",
-            "cmFjdFNlcnZpY2UuQ29uZmVyZW5jZUNvbnRyYWN0TGlzdCIAEoABChlHZXRD",
-            "b25mZXJlbmNlQ29udHJhY3RCeUlkEiguR3JwY0NvbmZlcmVuY2VDb250cmFj",
-            "dFNlcnZpY2UuSWRSZXF1ZXN0GjcuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
-            "cnZpY2UuQ29uZmVyZW5jZUNvbnRyYWN0U3RydWN0IgASkwEKHENyZWF0ZUNv",
-            "bmZlcmVuY2VDb250cmFjdEluZm8SNy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
-            "U2VydmljZS5Db25mZXJlbmNlQ29udHJhY3RTdHJ1Y3QaOC5HcnBjQ29uZmVy",
-            "ZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseUZvckNyZWF0ZU90aGVy",
-            "IgAShQEKHFVwZGF0ZUNvbmZlcmVuY2VDb250cmFjdEluZm8SNy5HcnBjQ29u",
-            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db25mZXJlbmNlQ29udHJhY3RTdHJ1",
-            "Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBs",
-            "eSIAEocBCh5Nb2RpZnlDb25mZXJlbmNlQ29udHJhY3RCeU93ZXISNy5HcnBj",
-            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db25mZXJlbmNlQ29udHJhY3RT",
-            "dHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlS",
-            "ZXBseSIAEpIBCilNb2RpZnlDb25mZXJlbmNlQ29udHJhY3RQYXltZW50U3Rh",
-            "dHVzQ29kZRI3LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbmZl",
-            "cmVuY2VDb250cmFjdFN0cnVjdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
-            "ZXJ2aWNlLk1vZGlmeVJlcGx5IgASjQEKI01vZGlmeUNvbmZlcmVuY2VDb250",
-            "cmFjdElzU2VuZEVtYWlsEjguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
-            "Y2UuQ29uZmVyZW5jZUNvbnRyYWN0Q2lkTGlzdBoqLkdycGNDb25mZXJlbmNl",
-            "Q29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASdwoaTW9kaWZ5TW9kaWZ5",
-            "UGVybWlzc2lvbkJ5SWQSKy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vydmlj",
-            "ZS5TZWFyY2hTdHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vydmlj",
-            "ZS5Nb2RpZnlSZXBseSIAEnYKHERlbGV0ZUNvbmZlcmVuY2VDb250cmFjdEJ5",
-            "SWQSKC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3Qa",
+            "IAEoCCIwCg5tb2RpZnlSZXNwb25zZRIRCglpc1N1Y2Nlc3MYASABKAgSCwoD",
+            "bXNnGAIgASgJIpEFChVuZXdfU2VydmljZVBhY2tTdHJ1Y3QSEgoKQ29udHJh",
+            "Y3RJZBgBIAEoCRIcChRDb25mZXJlbmNlQ29udHJhY3RJZBgCIAEoCRIcChRD",
+            "b21wYW55U2VydmljZVBhY2tJZBgDIAEoCRIUCgxDb25mZXJlbmNlSWQYBCAB",
+            "KAkSEQoJQ29tcGFueUlkGAUgASgJEhoKEkNvbU5hbWVUcmFuc2xhdGlvbhgG",
+            "IAEoCRIZChFDb21Db250cmFjdE51bWJlchgHIAEoCRIPCgdDb3VudHJ5GAgg",
+            "ASgJEhoKEkFkZHJlc3NUcmFuc2xhdGlvbhgJIAEoCRIQCghDb21QcmljZRgK",
+            "IAEoCRIZChFNYXhDb250cmFjdE51bWJlchgLIAEoBRIfChdNYXhDb250cmFj",
+            "dE51bWJlclNhdFVzZRgMIAEoBRISCgpDQ0lzZGVsZXRlGA0gASgIEhYKDkVu",
+            "dGVycHJpc2VUeXBlGA4gASgFEhAKCElzVmVyaWZ5GA8gASgIEg4KBk93ZXJp",
+            "ZBgQIAEoCRIMCgRPd2VyGBEgASgJEhQKDENvbnRyYWN0Q29kZRgSIAEoCRIR",
+            "CglJc0NoZWNrSW4YEyABKAgSDgoGUFBUVXJsGBQgASgJEhoKEkNvbnRyYWN0",
+            "U3RhdHVzQ29kZRgVIAEoCRIWCg5Db25mZXJlbmNlTmFtZRgWIAEoCRIUCgxP",
+            "dGhlck93bmVySWQYFyABKAkSEgoKT3RoZXJPd25lchgYIAEoCRIRCglDcmVh",
+            "dGVkT24YGSABKAkSEQoJQ3JlYXRlZEJ5GBogASgJEhIKCk1vZGlmaWVkT24Y",
+            "GyABKAkSEgoKTW9kaWZpZWRCeRgcIAEoCRIMCgRZZWFyGB0gASgJIrQBCh1u",
+            "ZXdfU2VydmljZVBhY2tTdHJ1Y3REaXNjb3VudBJDCgVtb2RlbBgBIAEoCzI0",
+            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLm5ld19TZXJ2aWNlUGFj",
+            "a1N0cnVjdBIQCghEaXNjb3VudBgCIAEoAhIdChVQcmljZUFmdGVyRGlzY291",
+            "bnRSTUIYAyABKAkSHQoVUHJpY2VBZnRlckRpc2NvdW50VVNEGAQgASgJIt4E",
+            "ChduZXdQZXJzb25Db250cmFjdFN0cnVjdBIYChBQZXJzb25Db250cmFjdElk",
+            "GAEgASgJEhIKCkNvbnRyYWN0SWQYAiABKAkSFAoMQ29uZmVyZW5jZUlkGAMg",
+            "ASgJEhAKCE1lbWJlclBLGAQgASgJEhYKDk1lbVRyYW5zbGF0aW9uGAUgASgJ",
+            "EhIKClBDSXNkZWxldGUYBiABKAgSEQoJQ1R5cGVDb2RlGAcgASgJEhEKCUlz",
+            "Q2hlY2tJbhgIIAEoCBITCgtJc1NlbmRFbWFpbBgJIAEoCBIQCghJc01vZGlm",
+            "eRgKIAEoCBIWCg5Jc0ZpYW5jZVJlY29yZBgLIAEoCBIUCgxJbnZpdGVDb2Rl",
+            "SWQYDCABKAkSFAoMSXNJbnZpdGVDb2RlGA0gASgIEhgKEElzQ29tbWl0QWJz",
+            "dHJhY3QYDiABKAgSDwoHSXNQcmludBgPIAEoCBIOCgZPd2VyaWQYECABKAkS",
+            "DAoET3dlchgRIAEoCRIRCglDcmVhdGVkT24YEiABKAkSEQoJQ3JlYXRlZEJ5",
+            "GBMgASgJEhIKCk1vZGlmaWVkT24YFCABKAkSEwoLTW9kZWZpZWxkQnkYFSAB",
+            "KAkSHAoUQ29tcGFueVNlcnZpY2VQYWNrSWQYFiABKAkSHAoUQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0SWQYFyABKAkSEAoIUGVyUHJpY2UYGCABKAkSEgoKUGFpZEFt",
+            "b3VudBgZIAEoCRIUCgxPdGhlck93bmVySWQYGiABKAkSEgoKT3RoZXJPd25l",
+            "chgbIAEoCRIMCgRZZWFyGBwgASgJIroBChxuZXdfQWRkUGVyc29uQ29udHJh",
+            "Y3RSZXF1ZXN0EkYKBnBlcnNvbhgBIAEoCzI2LkdycGNDb25mZXJlbmNlQ29u",
+            "dHJhY3RTZXJ2aWNlLm5ld1BlcnNvbkNvbnRyYWN0U3RydWN0ElIKFGNvbXBh",
+            "bnlDb250cmFjdE1vZGVsGAIgASgLMjQuR3JwY0NvbmZlcmVuY2VDb250cmFj",
+            "dFNlcnZpY2UubmV3X1NlcnZpY2VQYWNrU3RydWN0IiIKEkNvbXBhbnlOYW1l",
+            "UmVxdWVzdBIMCgRuYW1lGAEgASgJInkKE0NvbXBhbnlJbmZvUmVzcG9uc2US",
+            "EgoKY29tcG55TmFtZRgBIAEoCRIVCg1jb21wYW55TmFtZUVuGAIgASgJEhUK",
+            "DWNvbXBhbnlOYW1lSnAYAyABKAkSDQoFRW1haWwYBCABKAkSEQoJY29tcGFu",
+            "eUlkGAUgASgJIuoCCh1uZXdfR2V0U2VydmljZVBhY2tMaXN0UmVxdWVzdBIM",
+            "CgRwYWdlGAEgASgFEhAKCHBhZ2VTaXplGAIgASgFEmkKBnNlYXJjaBgDIAEo",
+            "CzJZLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLm5ld19HZXRTZXJ2",
+            "aWNlUGFja0xpc3RSZXF1ZXN0Lm5ld19HZXRTZXJ2aWNlUGFja0xpc3RTZWFy",
+            "Y2gavQEKHG5ld19HZXRTZXJ2aWNlUGFja0xpc3RTZWFyY2gSDAoEeWVhchgB",
+            "IAEoCRIUCgxjb25mZXJlbmNlSWQYAiABKAkSFQoNc2VydmljZVBhY2tJZBgD",
+            "IAEoCRITCgtjb21wYW55TmFtZRgEIAEoCRIWCg5jb250cmFjdE51bWJlchgF",
+            "IAEoCRINCgVvd25lchgGIAEoCRISCgppc0Rpc2NvdW50GAcgASgIEhIKCmlz",
+            "TWF4Q291bnQYCCABKAgi2wIKHG5ld19HZXRTZXJ2aWNlUGFja0xpc3RTdHJ1",
+            "Y3QSFgoOY29udHJhY3ROdW1iZXIYASABKAkSFQoNY29tcGFueU5hbWVDbhgC",
+            "IAEoCRIVCg1jb21wYW55TmFtZUVuGAMgASgJEhkKEWRvbWVzdGljT3JGb3Jl",
+            "aWduGAQgASgJEhMKC3NlcnZpY2VQYWNrGAUgASgJEgsKA3BheRgGIAEoCRIV",
+            "Cg1jb250cmFjdENvdW50GAcgASgJEhsKE2ZpbGxlZENvbnRyYWN0Q291bnQY",
+            "CCABKAUSDQoFb3duZXIYCSABKAkSEgoKaW52aXRlQ29kZRgKIAEoCRIWCg5j",
+            "b250cmFjdFN0YXR1cxgLIAEoCRIRCgljcmVhdGVkQnkYDCABKAkSEQoJY3Jl",
+            "YXRlZE9uGA0gASgJEhEKCW1vZGlmaXlCeRgOIAEoCRIQCghtb2RpZnlPbhgP",
+            "IAEoCSJ+Ch5uZXdfR2V0U2VydmljZVBhY2tMaXN0UmVzcG9uc2USTQoIbGlz",
+            "dGRhdGEYASADKAsyOy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5u",
+            "ZXdfR2V0U2VydmljZVBhY2tMaXN0U3RydWN0Eg0KBXRvdGFsGAIgASgFIrsC",
+            "CiFuZXdfR2V0Q29tcGFueUNvbnRyYWN0TGlzdFJlcXVlc3QSDAoEcGFnZRgB",
+            "IAEoBRIQCghwYWdlU2l6ZRgCIAEoBRJxCgZzZWFyY2gYAyABKAsyYS5HcnBj",
+            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5uZXdfR2V0Q29tcGFueUNvbnRy",
+            "YWN0TGlzdFJlcXVlc3QubmV3X0dldENvbXBhbnlDb250cmFjdExpc3RTZWFy",
+            "Y2gaggEKIG5ld19HZXRDb21wYW55Q29udHJhY3RMaXN0U2VhcmNoEgwKBHll",
+            "YXIYASABKAkSFAoMY29uZmVyZW5jZUlkGAIgASgJEhMKC2NvbXBhbnlOYW1l",
+            "GAMgASgJEhYKDmNvbnRyYWN0TnVtYmVyGAQgASgJEg0KBW93bmVyGAUgASgJ",
+            "ItwCCiJuZXdfR2V0Q29tcGFueUNvbnRyYWN0TGlzdFJlc3BvbnNlEhYKDmNv",
+            "bnRyYWN0TnVtYmVyGAEgASgJEhUKDWNvbXBhbnlOYW1lQ24YAiABKAkSFQoN",
+            "Y29tcGFueU5hbWVFbhgDIAEoCRIZChFkb21lc3RpY09yRm9yZWlnbhgEIAEo",
+            "CRILCgNwYXkYBSABKAkSDAoEcGFpZBgGIAEoCRIMCgR5ZWFyGAcgASgJEhMK",
+            "C2lzU2VuZEVtYWlsGAggASgIEg0KBW93bmVyGAkgASgJEhIKCmludml0ZUNv",
+            "ZGUYCiABKAkSFgoOY29udHJhY3RTdGF0dXMYCyABKAkSEQoJcGF5U3RhdHVz",
+            "GAwgASgJEhEKCWNyZWF0ZWRCeRgNIAEoCRIRCgljcmVhdGVkT24YDiABKAkS",
+            "EQoJbW9kaWZpeUJ5GA8gASgJEhAKCG1vZGlmeU9uGBAgASgJIrYDCiBuZXdf",
+            "R2V0UGVyc29uQ29udHJhY3RMaXN0UmVxdWVzdBIMCgRwYWdlGAEgASgFEhAK",
+            "CHBhZ2VTaXplGAIgASgFEm8KBnNlYXJjaBgDIAEoCzJfLkdycGNDb25mZXJl",
+            "bmNlQ29udHJhY3RTZXJ2aWNlLm5ld19HZXRQZXJzb25Db250cmFjdExpc3RS",
+            "ZXF1ZXN0Lm5ld19HZXRQZXJzb25Db250cmFjdExpc3RTZWFyY2gagAIKH25l",
+            "d19HZXRQZXJzb25Db250cmFjdExpc3RTZWFyY2gSDAoEeWVhchgBIAEoCRIU",
+            "Cgxjb25mZXJlbmNlSWQYAiABKAkSFQoNc2VydmljZVBhY2tJZBgDIAEoCRIT",
+            "Cgtjb21wYW55TmFtZRgEIAEoCRIWCg5jb250cmFjdE51bWJlchgFIAEoCRIN",
+            "CgVvd25lchgGIAEoCRIMCgRuYW1lGAcgASgIEg0KBWVtYWlsGAggASgIEhEK",
+            "CWNyZWF0ZWRCeRgJIAEoCRIRCgljcmVhdGVkT24YCiABKAkSEQoJbW9kaWZp",
+            "eUJ5GAsgASgJEhAKCG1vZGlmeU9uGAwgASgJIuoCCiFuZXdfR2V0UGVyc29u",
+            "Q29udHJhY3RMaXN0UmVzcG9uc2USFgoOY29udHJhY3ROdW1iZXIYASABKAkS",
+            "DgoGbmFtZUNuGAIgASgJEg4KBm5hbWVFbhgDIAEoCRIVCg1jb21wYW55TmFt",
+            "ZUNuGAQgASgJEhUKDWNvbXBhbnlOYW1lRW4YBSABKAkSEAoIcG9zaXRpb24Y",
+            "BiABKAkSDQoFZW1haWwYByABKAkSDgoGbW9iaWxlGAggASgJEhMKC3NlcnZp",
+            "Y2VQYWNrGAkgASgJEgsKA3BheRgKIAEoCRIMCgRwYWlkGAsgASgJEg0KBW93",
+            "bmVyGAwgASgJEhMKC2lzU2VuZEVtYWlsGA0gASgIEg8KB2lzUHJpbnQYDiAB",
+            "KAgSEQoJY3JlYXRlZEJ5GA8gASgJEhEKCWNyZWF0ZWRPbhgQIAEoCRIRCglt",
+            "b2RpZml5QnkYESABKAkSEAoIbW9kaWZ5T24YEiABKAkiOgoabmV3X0dldFNj",
+            "aGVkdWxlTGlzdFJlcXVlc3QSHAoUcGVyc29uQ29udHJhY3ROdW1iZXIYASAB",
+            "KAkipwMKG25ld19HZXRTY2hlZHVsZUxpc3RSZXNwb25zZRIYChBwZXJzb25D",
+            "b250cmFjdElkGAEgASgJEhwKFHBlcnNvbkNvbnRyYWN0TnVtYmVyGAIgASgJ",
+            "EhMKC3NlcnZpY2VQYWNrGAMgASgJEgwKBG5hbWUYBCABKAkSDQoFdGl0bGUY",
+            "BSABKAkSDwoHcG9zaXRpbhgGIAEoCRIOCgZtb2JpbGUYByABKAkSDQoFZW1h",
+            "aWwYCCABKAkSEwoLY29tcGFueU5hbWUYCSABKAkSFAoMYWN0aXZpdHlOYW1l",
+            "GAogASgJEhQKDGFjdGl2aXR5VnVuZRgLIAEoCRIUCgxhY3Rpdml0eVRpbWUY",
+            "DCABKAkSDQoFb3duZXIYDSABKAkSEgoKb3duZXJFbWFpbBgOIAEoCRITCgtv",
+            "d25lck1vYmlsZRgPIAEoCRIUCgxvd25lckFkZHJlc3MYECABKAkSEgoKY3J0",
+            "ZWF0ZWRPbhgRIAEoCRIRCgljcmVhdGVkQnkYEiABKAkSEAoIbW9kaWZ5T24Y",
+            "EyABKAkSEAoIbW9kaWZ5QnkYFCABKAkiogMKFm5ld19BZGRTY2hlZHVsZVJl",
+            "cXVlc3QSGAoQcGVyc29uQ29udHJhY3RJZBgBIAEoCRIcChRwZXJzb25Db250",
+            "cmFjdE51bWJlchgCIAEoCRITCgtzZXJ2aWNlUGFjaxgDIAEoCRIMCgRuYW1l",
+            "GAQgASgJEg0KBXRpdGxlGAUgASgJEg8KB3Bvc2l0aW4YBiABKAkSDgoGbW9i",
+            "aWxlGAcgASgJEg0KBWVtYWlsGAggASgJEhMKC2NvbXBhbnlOYW1lGAkgASgJ",
+            "EhQKDGFjdGl2aXR5TmFtZRgKIAEoCRIUCgxhY3Rpdml0eVZ1bmUYCyABKAkS",
+            "FAoMYWN0aXZpdHlUaW1lGAwgASgJEg0KBW93bmVyGA0gASgJEhIKCm93bmVy",
+            "RW1haWwYDiABKAkSEwoLb3duZXJNb2JpbGUYDyABKAkSFAoMb3duZXJBZGRy",
+            "ZXNzGBAgASgJEhIKCmNydGVhdGVkT24YESABKAkSEQoJY3JlYXRlZEJ5GBIg",
+            "ASgJEhAKCG1vZGlmeU9uGBMgASgJEhAKCG1vZGlmeUJ5GBQgASgJIlsKM25l",
+            "d19HZXRDb21wYW55Tm90aWNlT2ZSZXBvcnRCeUNvbnRyYWN0TnVtYmVyUmVx",
+            "dWVzdBIWCg5jb250cmFjdE51bWJlchgBIAEoCRIMCgR5ZWFyGAIgASgJIuwD",
+            "ChNOZXdDb25mZXJlbmNlU3RydWN0EhQKDENvbmZlcmVuY2VJRBgBIAEoCRIQ",
+            "CghQYXJlbnRJRBgCIAEoCRI/CgtUcmFuc2xhdGlvbhgDIAEoCzIqLkdycGND",
+            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlRyYW5zbGF0aW9uEhMKC0NGQWRk",
+            "cmVzc1BLGAQgASgJEhEKCVN0YXJ0RGF0ZRgFIAEoCRIVCg1TdGFydERhdGVU",
+            "aW1lGAYgASgJEgwKBFllYXIYByABKAkSDAoEU29ydBgIIAEoCRIUCgxBYmJy",
+            "ZXZpYXRpb24YCSABKAkSGwoTQ29uZmVyZW5jZUludHJvZHVjZRgKIAEoCRIR",
+            "CglDcmVhdGVkT24YCyABKAkSEQoJQ3JlYXRlZEJ5GAwgASgJEhIKCk1vZGlm",
+            "aWVkT24YDSABKAkSEgoKTW9kaWZpZWRCeRgOIAEoCRINCgVMZXZlbBgPIAEo",
+            "BRIRCglUaW1lUmFuZ2UYECABKAkSEwoLU2hvd09uRnJvbnQYESABKAgSRAoJ",
+            "Q0ZBZGRyZXNzGBIgASgLMjEuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
+            "Y2UuTmV3Q0ZBZGRyZXNzU3RydWN0EhMKC0FwcGx5U2VhcmNoGBMgASgIItsB",
+            "ChJOZXdDRkFkZHJlc3NTdHJ1Y3QSEwoLQ0ZBZGRyZXNzUEsYASABKAkSPwoL",
+            "VHJhbnNsYXRpb24YAiABKAsyKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
+            "dmljZS5UcmFuc2xhdGlvbhIQCghQb3N0Q29kZRgDIAEoCRIPCgdDb3VudHJ5",
+            "GAQgASgJEhEKCUNyZWF0ZWRPbhgFIAEoCRIRCglDcmVhdGVkQnkYBiABKAkS",
+            "EgoKTW9kaWZpZWRPbhgHIAEoCRISCgpNb2RpZmllZEJ5GAggASgJIpwCChhO",
+            "ZXdBcHBseUNvbmZlcmVuY2VTdHJ1Y3QSCgoCSWQYASABKAkSGAoQUGVyc29u",
+            "Q29udHJhY3RJZBgCIAEoCRIQCghNZW1iZXJQSxgDIAEoCRIbChNTZXNzaW9u",
+            "Q29uZmVyZW5jZUlkGAQgASgJEhEKCUlzQ29uZmlybRgFIAEoCBIRCglDb21w",
+            "YW55SWQYBiABKAkSFAoMVGFnVHlwZUNvZGVzGAcgASgJEhkKEVJlbWFya1Ry",
+            "YW5zbGF0aW9uGAggASgJEgwKBFllYXIYCSABKAkSHAoUU2Vzc2lvbkNvbmZl",
+            "cmVuY2VJZHMYCiADKAkSGAoQSXNQYXJ0aWN1bGFyQ29uZhgLIAEoCBIOCgZP",
+            "d2VyaWQYDCABKAkipwcKGE5ld0NvbXBhbnlDb250cmFjdFN0cnVjdBISCgpD",
+            "b250cmFjdElkGAEgASgJEhwKFENvbXBhbnlTZXJ2aWNlUGFja0lkGAIgASgJ",
+            "EhEKCUNvbXBhbnlJZBgDIAEoCRJTChJDb21OYW1lVHJhbnNsYXRpb24YBCAB",
+            "KAsyNy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db21OYW1lVHJh",
+            "bnNsYXRpb25TdHJ1Y3QSGQoRQ29tQ29udHJhY3ROdW1iZXIYBSABKAkSDwoH",
+            "Q291bnRyeRgGIAEoCRJTChJBZGRyZXNzVHJhbnNsYXRpb24YByABKAsyNy5H",
+            "cnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5BZGRyZXNzVHJhbnNsYXRp",
+            "b25TdHJ1Y3QSGQoRTWF4Q29udHJhY3ROdW1iZXIYCCABKAkSEgoKQ0NJc2Rl",
+            "bGV0ZRgJIAEoCBIWCg5FbnRlcnByaXNlVHlwZRgKIAEoBRIQCghJc1Zlcmlm",
+            "eRgLIAEoCBIOCgZPd2VyaWQYDCABKAkSDAoET3dlchgNIAEoCRIRCglDcmVh",
+            "dGVkT24YDiABKAkSEQoJQ3JlYXRlZEJ5GA8gASgJEhMKC01vZGVmaWVsZE9u",
+            "GBAgASgJEhMKC01vZGVmaWVsZEJ5GBEgASgJElYKEkNvbXBhbnlTZXJ2aWNl",
+            "UGFjaxgSIAEoCzI6LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk5l",
+            "d0NvbXBhbnlTZXJ2aWNlUGFja1N0cnVjdBJTCglkbGlzdGRhdGEYEyADKAsy",
+            "QC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5EZWxlZ2F0ZVNlcnZp",
+            "Y2VQYWNrRGlzY291bnRTdHJ1Y3QSFAoMQ29udHJhY3RDb2RlGBQgASgJEhQK",
+            "DENvbmZlcmVuY2VJZBgVIAEoCRIWCg5Db25mZXJlbmNlTmFtZRgWIAEoCRIR",
+            "CglJc0NoZWNrSW4YFyABKAgSDgoGUFBUVXJsGBggASgJEhoKEkNvbnRyYWN0",
+            "U3RhdHVzQ29kZRgZIAEoCRIcChRDb25mZXJlbmNlQ29udHJhY3RJZBgaIAEo",
+            "CRJJCglwbGlzdGRhdGEYGyADKAsyNi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
+            "U2VydmljZS5OZXdQZXJzb25Db250cmFjdFN0cnVjdBIQCghDb21QcmljZRgc",
+            "IAEoCSKHBAobTmV3Q29tcGFueVNlcnZpY2VQYWNrU3RydWN0EhwKFENvbXBh",
+            "bnlTZXJ2aWNlUGFja0lkGAEgASgJEhYKDkNvbnRyYWN0VHlwZUlkGAIgASgJ",
+            "EgwKBFNvcnQYAyABKAUSRQoLVHJhbnNsYXRpb24YBCABKAsyMC5HcnBjQ29u",
+            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5UcmFuc2xhdGlvblN0cnVjdBIQCghQ",
+            "cmljZVJNQhgFIAEoCRIQCghQcmljZVVTRBgGIAEoCRIWCg5Jc1Nob3duT25G",
+            "cm9udBgHIAEoCBIRCglDcmVhdGVkT24YCCABKAkSEQoJQ3JlYXRlZEJ5GAkg",
+            "ASgJEhMKC01vZGVmaWVsZE9uGAogASgJEhMKC01vZGVmaWVsZEJ5GAsgASgJ",
+            "EksKEVJlbWFya1RyYW5zbGF0aW9uGAwgASgLMjAuR3JwY0NvbmZlcmVuY2VD",
+            "b250cmFjdFNlcnZpY2UuVHJhbnNsYXRpb25TdHJ1Y3QSFAoMQ29uZmVyZW5j",
+            "ZUlkGA0gASgJEhYKDkNvbmZlcmVuY2VOYW1lGA4gASgJEhEKCUlzU3BlYWtl",
+            "chgPIAEoCBIRCglDVHlwZUNvZGUYECABKAkSDgoGSXNHaXZlGBEgASgIEgwK",
+            "BFllYXIYEiABKAkSEgoKUmVtYXJrQ29kZRgTIAEoCSLtAwoUTmV3U2Vydmlj",
+            "ZVBhY2tTdHJ1Y3QSFQoNU2VydmljZVBhY2tJZBgBIAEoCRJFCgtUcmFuc2xh",
+            "dGlvbhgCIAEoCzIwLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlRy",
+            "YW5zbGF0aW9uU3RydWN0EhAKCFByaWNlUk1CGAMgASgJEhAKCFByaWNlVVNE",
+            "GAQgASgJEhEKCUNyZWF0ZWRPbhgFIAEoCRIRCglDcmVhdGVkQnkYBiABKAkS",
+            "EwoLTW9kZWZpZWxkT24YByABKAkSEwoLTW9kZWZpZWxkQnkYCCABKAkSFAoM",
+            "Q29uZmVyZW5jZUlkGAkgASgJEhYKDkNvbmZlcmVuY2VOYW1lGAogASgJEhsK",
+            "E1Nlc3Npb25Db25mZXJlbmNlSWQYCyABKAkSHQoVU2Vzc2lvbkNvbmZlcmVu",
+            "Y2VOYW1lGAwgASgJEhMKC1Nlc3Npb25EYXRlGA0gASgJEhgKEFNlc3Npb25T",
+            "dGFydFRpbWUYDiABKAkSIAoYVGhpcmRTZXNzaW9uQ29uZmVyZW5jZUlkGA8g",
+            "ASgJEiIKGlRoaXJkU2Vzc2lvbkNvbmZlcmVuY2VOYW1lGBAgASgJEhYKDlNl",
+            "c3Npb25BZGRyZXNzGBEgASgJEgwKBFllYXIYEiABKAki/wEKEU5ld0FjdGl2",
+            "aXR5U3RydWN0EhIKCkFjdGl2aXR5SWQYASABKAkSRgoMQWN0aXZpdHlOYW1l",
+            "GAIgASgLMjAuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuVHJhbnNs",
+            "YXRpb25TdHJ1Y3QSGwoTU2Vzc2lvbkNvbmZlcmVuY2VJRBgDIAEoCRJPChVT",
+            "ZXNzaW9uQ29uZmVyZW5jZU5hbWUYBCABKAsyMC5HcnBjQ29uZmVyZW5jZUNv",
+            "bnRyYWN0U2VydmljZS5UcmFuc2xhdGlvblN0cnVjdBIMCgRTb3J0GAUgASgF",
+            "EhIKClNlc3Npb25JRHMYBiABKAki8wMKEE5ld0NvbXBhbnlTdHJ1Y3QSEQoJ",
+            "Q29tcGFueVBLGAEgASgJEhUKDUNvbXBhbnlUeXBlUEsYAiABKAkSFgoOSW5k",
+            "dXN0cnlUeXBlUEsYAyABKAkSEAoITWVtYmVyUEsYBCABKAkSEQoJQ29tTmFt",
+            "ZUNuGAUgASgJEhEKCUNvbU5hbWVFbhgGIAEoCRIVCg1Db21BcmVhRGV0YWls",
+            "GAcgASgJEhcKD0NvbUNvbnRhY3RFbWFpbBgIIAEoCRITCgtDb21Qb3N0Q29k",
+            "ZRgJIAEoCRIOCgZDb21GYXgYCiABKAkSDgoGQ29tVGVsGAsgASgJEhIKCkNv",
+            "bVdlYlNpdGUYDCABKAkSEQoJQ29tQ2xpZW50GA0gASgJEhEKCUNvbU5hdHVy",
+            "ZRgOIAEoCRIPCgdDb21MYW5nGA8gASgJEhEKCUNvbVJlbWFyaxgQIAEoCRIT",
+            "CgtDb21Jc0RlbGV0ZRgRIAEoCBITCgtDb21Jc1ZlcmlmeRgSIAEoCBIUCgxD",
+            "b21Jc1dlYlNpdGUYEyABKAgSEgoKQ29tQWRkcmVzcxgUIAEoCRIRCglDcmVh",
+            "dGVkT24YFSABKAkSEQoJQ3JlYXRlZEJ5GBYgASgJEhMKC01vZGVmaWVsZE9u",
+            "GBcgASgJEhMKC01vZGVmaWVsZEJ5GBggASgJIuQFCg9OZXdNZW1iZXJTdHJ1",
+            "Y3QSEAoITWVtYmVyUEsYASABKAkSEAoIU291cmNlUEsYAiABKAkSEQoJTWVt",
+            "TmFtZUNuGAMgASgJEhEKCU1lbU5hbWVFbhgEIAEoCRIQCghNZW1FbWFpbBgF",
+            "IAEoCRITCgtNZW1QYXNzd29yZBgGIAEoCRIPCgdNZW1UeXBlGAcgASgJEhEK",
+            "CU1lbUdlbmRlchgIIAEoCRIVCg1NZW1EZXBhcnRtZW50GAkgASgJEhAKCE1l",
+            "bVRpdGxlGAogASgJEhMKC01lbVBvc2l0aW9uGAsgASgJEhMKC01lbVByb1Rp",
+            "dGxlGAwgASgJEg0KBU1lbVFRGA0gASgJEg4KBk1lbUZheBgOIAEoCRIOCgZN",
+            "ZW1NU04YDyABKAkSEQoJTWVtTW9iaWxlGBAgASgJEg4KBk1lbVRlbBgRIAEo",
+            "CRITCgtNZW1Qb3N0Q29kZRgSIAEoCRIYChBNZW1MYXN0TG9naW5UaW1lGBMg",
+            "ASgJEhIKCk1lbUFkZHJlc3MYFCABKAkSGAoQTWVtQWRkcmVzc0RldGFpbBgV",
+            "IAEoCRITCgtNZW1Jc0RlbGV0ZRgWIAEoCBIXCg9NZW1Jc0FjdGl2YXRpb24Y",
+            "FyABKAgSEQoJQ3JlYXRlZE9uGBggASgJEhEKCUNyZWF0ZWRCeRgZIAEoCRIT",
+            "CgtNb2RlZmllbGRPbhgaIAEoCRITCgtNb2RlZmllbGRCeRgbIAEoCRIRCglD",
+            "b21wYW55UEsYHCABKAkSGAoQTWVtQ291bnRyeU5hbWVDbhgdIAEoCRIYChBN",
+            "ZW1Db3VudHJ5TmFtZUVuGB4gASgJEhIKCk1lbUNvbXBhbnkYHyABKAkSFQoN",
+            "QXNzaXN0YW50TmFtZRggIAEoCRIZChFBc3Npc3RhbnRQb3NpdGlvbhghIAEo",
+            "CRIXCg9Bc3Npc3RhbnRNb2JpbGUYIiABKAkSFgoOQXNzaXN0YW50RW1haWwY",
+            "IyABKAkiqgQKFE5ld1BhcnRpY2lwYW50U3RydWN0EhUKDVBhcnRpY2lwYW50",
+            "SUQYASABKAkSIgoaUGFydGljaXBhbnROYW1lVHJhbnNsYXRpb24YAiABKAkS",
+            "DgoGSU1HU1JDGAMgASgJEhoKEkNvbXBhbnlUcmFuc2xhdGlvbhgEIAEoCRIW",
+            "Cg5Kb2JUcmFuc2xhdGlvbhgFIAEoCRIaChJDb3VudHJ5VHJhbnNsYXRpb24Y",
+            "BiABKAkSDQoFRW1haWwYByABKAkSDgoGTW9iaWxlGAggASgJEhwKFEludHJv",
+            "ZHVjZVRyYW5zbGF0aW9uGAkgASgJEhEKCUNyZWF0ZWRPbhgKIAEoCRIRCglD",
+            "cmVhdGVkQnkYCyABKAkSEgoKTW9kaWZpZWRPbhgMIAEoCRISCgpNb2RpZmll",
+            "ZEJ5GA0gASgJEhgKEFBlcnNvbkNvbnRyYWN0SUQYDiABKAkSGQoRUGVyQ29u",
+            "dHJhY3ROdW1iZXIYDyABKAkSEAoISXNEZWxldGUYECABKAgSDAoEU29ydBgR",
+            "IAEoBRIOCgZPd2VyaWQYEiABKAkSDAoET3dlchgTIAEoCRIeChZBcHBlbGxh",
+            "dGlvblRyYW5zbGF0aW9uGBQgASgJEhEKCUNvbXBhbnlJZBgVIAEoCRISCgpD",
+            "b25maXJtUFBUGBYgASgIEhAKCE1lbWJlclBLGBcgASgJEhIKClNob3dPbkZv",
+            "bnQYGCABKAUSDAoEWWVhchgZIAEoCSK+AgoSTmV3QWN0aXZpdHlTdHJ1Y3Qx",
+            "EhIKCkFjdGl2aXR5SUQYASABKAkSFAoMQ29uZmVyZW5jZUlEGAIgASgJEhYK",
+            "DkFjdGl2aXR5VHlwZUlEGAMgASgJEhIKClRpbWVMZW5ndGgYBCABKAkSDAoE",
+            "U29ydBgFIAEoBRIRCglTdGFydERhdGUYBiABKAkSPwoLVHJhbnNsYXRpb24Y",
+            "ByABKAsyKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5UcmFuc2xh",
+            "dGlvbhIRCglDcmVhdGVkT24YCCABKAkSEQoJQ3JlYXRlZEJ5GAkgASgJEhIK",
+            "Ck1vZGlmaWVkT24YCiABKAkSEgoKTW9kaWZpZWRCeRgLIAEoCRIRCglTdGFy",
+            "dFRpbWUYDCABKAkSDwoHRW5kVGltZRgNIAEoCSLXAgoNTmV3VGFsa1N0cnVj",
+            "dBIOCgZUYWxrSUQYASABKAkSEgoKQWN0aXZpdHlJRBgCIAEoCRISCgpUYWxr",
+            "VHlwZUlEGAMgASgJEhEKCUNGVG9waWNQSxgEIAEoCRI/CgtUcmFuc2xhdGlv",
+            "bhgGIAEoCzIqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlRyYW5z",
+            "bGF0aW9uEhEKCUNyZWF0ZWRPbhgHIAEoCRIRCglDcmVhdGVkQnkYCCABKAkS",
+            "EgoKTW9kaWZpZWRPbhgJIAEoCRISCgpNb2RpZmllZEJ5GAogASgJEhEKCVN0",
+            "YXJ0RGF0ZRgLIAEoCRISCgpUaW1lTGVuZ3RoGAwgASgJEgwKBFNvcnQYDSAB",
+            "KAUSEQoJU3RhcnRUaW1lGA4gASgJEg8KB0VuZFRpbWUYDyABKAkSEwoLQ0ZU",
+            "b3BpY05hbWUYECABKAkiowIKGE5ld1BhcnRpY2lwYW50SW5mb1N0cnVjdBIi",
+            "ChpQYXJ0aWNpcGFudE5hbWVUcmFuc2xhdGlvbhgBIAEoCRIaChJDb21wYW55",
+            "VHJhbnNsYXRpb24YAiABKAkSFgoOSm9iVHJhbnNsYXRpb24YAyABKAkSGgoS",
+            "Q291bnRyeVRyYW5zbGF0aW9uGAQgASgJEh4KFkFwcGVsbGF0aW9uVHJhbnNs",
+            "YXRpb24YBSABKAkSIgoaUGFydGljaXBhbnRUeXBlVHJhbnNsYXRpb24YBiAB",
+            "KAkSFQoNUGFydGljaXBhbnRJRBgHIAEoCRIZChFQYXJ0aWNpcGFudFR5cGVJ",
+            "RBgIIAEoCRINCgVFTWFpbBgJIAEoCRIOCgZNb2JpbGUYCiABKAkijQkKNG5l",
+            "d19HZXRDb21wYW55Tm90aWNlT2ZSZXBvcnRCeUNvbnRyYWN0TnVtYmVyUmVz",
+            "cG9uc2USVAoYQ29uZmVyZW5jZVN0cnVjdExpc3RkYXRhGAEgAygLMjIuR3Jw",
+            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTmV3Q29uZmVyZW5jZVN0cnVj",
+            "dBJSChdDRkFkZHJlc3NTdHJ1Y3RMaXN0ZGF0YRgCIAMoCzIxLkdycGNDb25m",
+            "ZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk5ld0NGQWRkcmVzc1N0cnVjdBJeCh1B",
+            "cHBseUNvbmZlcmVuY2VTdHJ1Y3RMaXN0ZGF0YRgDIAMoCzI3LkdycGNDb25m",
+            "ZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk5ld0FwcGx5Q29uZmVyZW5jZVN0cnVj",
+            "dBJeCh1Db21wYW55Q29udHJhY3RTdHJ1Y3RMaXN0ZGF0YRgEIAMoCzI3Lkdy",
+            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk5ld0NvbXBhbnlDb250cmFj",
+            "dFN0cnVjdBJkCiBDb21wYW55U2VydmljZVBhY2tTdHJ1Y3RMaXN0ZGF0YRgF",
+            "IAMoCzI6LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk5ld0NvbXBh",
+            "bnlTZXJ2aWNlUGFja1N0cnVjdBJRChRzZXJ2aWNlcGFja19saXN0ZGF0YRgG",
+            "IAMoCzIzLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk5ld1NlcnZp",
+            "Y2VQYWNrU3RydWN0EkwKEWFjdGl2aXR5X2xpc3RkYXRhGAcgAygLMjEuR3Jw",
+            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTmV3QWN0aXZpdHlTdHJ1Y3Qx",
+            "Ek4KFUNvbXBhbnlTdHJ1Y3RMaXN0ZGF0YRgIIAMoCzIvLkdycGNDb25mZXJl",
+            "bmNlQ29udHJhY3RTZXJ2aWNlLk5ld0NvbXBhbnlTdHJ1Y3QSTAoUTWVtYmVy",
+            "U3RydWN0TGlzdGRhdGEYCSADKAsyLi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
+            "U2VydmljZS5OZXdNZW1iZXJTdHJ1Y3QSVgoZUGFydGljaXBhbnRTdHJ1Y3RM",
+            "aXN0ZGF0YRgKIAMoCzIzLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNl",
+            "Lk5ld1BhcnRpY2lwYW50U3RydWN0EkwKEkFjdGl2aXR5U3RydWN0TGlzdBgL",
+            "IAMoCzIwLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk5ld0FjdGl2",
+            "aXR5U3RydWN0EloKGVBhcnRpY2lwYW50SW5mb1N0cnVjdExpc3QYDCADKAsy",
+            "Ny5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5OZXdQYXJ0aWNpcGFu",
+            "dEluZm9TdHJ1Y3QSRAoOVGFsa1N0cnVjdExpc3QYDSADKAsyLC5HcnBjQ29u",
+            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5OZXdUYWxrU3RydWN0IlIKMm5ld19H",
+            "ZXRQZXJzb25Ob3RpY2VPZlJlcG9ydEJ5Q29udHJhY3ROdW1iZXJSZXF1ZXN0",
+            "EhwKFHBlcnNvbkNvbnRyYWN0TnVtYmVyGAEgASgJIvwCCjNuZXdfR2V0UGVy",
+            "c29uTm90aWNlT2ZSZXBvcnRCeUNvbnRyYWN0TnVtYmVyUmVzcG9uc2USFgoO",
+            "Y29udHJhY3ROdW1iZXIYASABKAkSDAoEbmFtZRgCIAEoCRITCgtjb21wYW55",
+            "TmFtZRgDIAEoCRITCgtzZXJ2aWNlUGFjaxgEIAEoCRILCgNmZWUYBSABKAIS",
+            "DQoFdG90YWwYBiABKAISFAoMYWN0aXZpdHlOYW1lGAcgASgJEhQKDGFjdGl2",
+            "aXR5VnVuZRgIIAEoCRIUCgxhY3Rpdml0eVRpbWUYCSABKAkSDQoFb3duZXIY",
+            "CiABKAkSEwoLb3duZXJNb2JpbGUYCyABKAkSEgoKb3duZXJFbWFpbBgMIAEo",
+            "CRIUCgxvd25lckFkZHJlc3MYDSABKAkSEQoJY3JlYXRlZEJ5GA4gASgJEhEK",
+            "CWNyZWF0ZWRPbhgPIAEoCRIRCgltb2RpZml5QnkYECABKAkSEAoIbW9kaWZ5",
+            "T24YESABKAkiJgoWbmV3X0NvbXBhbnlOYW1lUmVxdWVzdBIMCgRuYW1lGAEg",
+            "ASgJIjEKC1RyYW5zbGF0aW9uEgoKAkNOGAEgASgJEgoKAkVOGAIgASgJEgoK",
+            "AkpQGAMgASgJIpkFChdOZXdQZXJzb25Db250cmFjdFN0cnVjdBIYChBQZXJz",
+            "b25Db250cmFjdElkGAEgASgJEhIKCkNvbnRyYWN0SWQYAiABKAkSGQoRUGVy",
+            "Q29udHJhY3ROdW1iZXIYAyABKAkSEAoITWVtYmVyUEsYBCABKAkSSwoOTWVt",
+            "VHJhbnNsYXRpb24YBSABKAsyMy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
+            "dmljZS5NZW1UcmFuc2xhdGlvblN0cnVjdBISCgpQQ0lzZGVsZXRlGAYgASgI",
+            "EhEKCUNyZWF0ZWRPbhgHIAEoCRIRCglDcmVhdGVkQnkYCCABKAkSEwoLTW9k",
+            "ZWZpZWxkT24YCSABKAkSEwoLTW9kZWZpZWxkQnkYCiABKAkSDgoGT3dlcmlk",
+            "GAsgASgJEgwKBE93ZXIYDCABKAkSHAoUQ29uZmVyZW5jZUNvbnRyYWN0SWQY",
+            "DSABKAkSEQoJQ1R5cGVDb2RlGA4gASgJElAKD0NvbXBhbnlDb250cmFjdBgP",
+            "IAEoCzI3LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk5ld0NvbXBh",
+            "bnlDb250cmFjdFN0cnVjdBIRCglJc0NoZWNrSW4YECABKAgSEwoLSXNTZW5k",
+            "RW1haWwYESABKAgSEAoISXNNb2RpZnkYEiABKAgSFAoMQ29uZmVyZW5jZUlk",
+            "GBMgASgJEhYKDklzRmlhbmNlUmVjb3JkGBQgASgIEhQKDElzSW52aXRlQ29k",
+            "ZRgVIAEoCBIUCgxJbnZpdGVDb2RlSWQYFiABKAkSGAoQSXNDb21taXRBYnN0",
+            "cmFjdBgXIAEoCBIPCgdJc1ByaW50GBggASgIEhIKClBhaWRBbW91bnQYGSAB",
+            "KAkiZwoZbmV3X0dldFNlcnZpY2VQYWNrUmVxdWVzdBIUCgxDb25mZXJlbmNl",
+            "SWQYASABKAkSFgoOQ29udHJhY3RUeXBlSWQYAiABKAkSDAoEWWVhchgDIAEo",
+            "CRIOCgZJc0dpdmUYBCABKAkirgEKGG5ld19HZXRTZXJ2aWNlUGFja1N0cnVj",
+            "dBIcChRDb21wYW55U2VydmljZVBhY2tJZBgBIAEoCRIMCgRDb2RlGAIgASgJ",
+            "EhMKC1RyYW5zbGF0aW9uGAMgASgJEhAKCFByaWNlUk1CGAQgASgJEhAKCFBy",
+            "aWNlVVNEGAUgASgJEg8KB1ByaWNlSlAYBiABKAkSDgoGSXNHaXZlGAcgASgI",
+            "EgwKBFllYXIYCCABKAkiZwoabmV3X0dldFNlcnZpY2VQYWNrUmVzcG9uc2US",
+            "SQoIbGlzdGRhdGEYASADKAsyNy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
+            "dmljZS5uZXdfR2V0U2VydmljZVBhY2tTdHJ1Y3Qy2JsBCh9Db25mZXJlbmNl",
+            "Q29udHJhY3RTZXJ2aWNlVG9HcnBjEowBChlHZXRDb25mZXJlbmNlQ29udHJh",
+            "Y3RMaXN0EjYuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUGFnaW5h",
+            "dGlvblJlcXVlc3RTZWFyY2gaNS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
+            "dmljZS5Db25mZXJlbmNlQ29udHJhY3RMaXN0IgASlAEKIUdldENvbmZlcmVu",
+            "Y2VDb250cmFjdExpc3RCeUlzR2l2ZRI2LkdycGNDb25mZXJlbmNlQ29udHJh",
+            "Y3RTZXJ2aWNlLlBhZ2luYXRpb25SZXF1ZXN0U2VhcmNoGjUuR3JwY0NvbmZl",
+            "cmVuY2VDb250cmFjdFNlcnZpY2UuQ29uZmVyZW5jZUNvbnRyYWN0TGlzdCIA",
+            "Eq0BCjpHZXRDb25mZXJlbmNlQ29udHJhY3RMaXN0QnlJc0dpdmVXaXRoQWxs",
+            "Q29udHJhY3RTdGF0dXNDb2RlEjYuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
+            "cnZpY2UuUGFnaW5hdGlvblJlcXVlc3RTZWFyY2gaNS5HcnBjQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0U2VydmljZS5Db25mZXJlbmNlQ29udHJhY3RMaXN0IgASiQEK",
+            "JEdldENvbmZlcmVuY2VDb250cmFjdEJ5Q29tcGFueUlkTGlzdBIoLkdycGND",
+            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBo1LkdycGNDb25m",
+            "ZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbmZlcmVuY2VDb250cmFjdExpc3Qi",
+            "ABKTAQorR2V0Q29uZmVyZW5jZUNvbnRyYWN0QnlDb21wYW55SWRBbmRZZWFy",
+            "TGlzdBIrLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNlYXJjaFN0",
+            "cnVjdBo1LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbmZlcmVu",
+            "Y2VDb250cmFjdExpc3QiABKAAQoZR2V0Q29uZmVyZW5jZUNvbnRyYWN0QnlJ",
+            "ZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBo3",
+            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbmZlcmVuY2VDb250",
+            "cmFjdFN0cnVjdCIAEpMBChxDcmVhdGVDb25mZXJlbmNlQ29udHJhY3RJbmZv",
+            "EjcuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuQ29uZmVyZW5jZUNv",
+            "bnRyYWN0U3RydWN0GjguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
+            "TW9kaWZ5UmVwbHlGb3JDcmVhdGVPdGhlciIAEoUBChxVcGRhdGVDb25mZXJl",
+            "bmNlQ29udHJhY3RJbmZvEjcuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
+            "Y2UuQ29uZmVyZW5jZUNvbnRyYWN0U3RydWN0GiouR3JwY0NvbmZlcmVuY2VD",
+            "b250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABKHAQoeTW9kaWZ5Q29uZmVy",
+            "ZW5jZUNvbnRyYWN0QnlPd2VyEjcuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
+            "cnZpY2UuQ29uZmVyZW5jZUNvbnRyYWN0U3RydWN0GiouR3JwY0NvbmZlcmVu",
+            "Y2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABKSAQopTW9kaWZ5Q29u",
+            "ZmVyZW5jZUNvbnRyYWN0UGF5bWVudFN0YXR1c0NvZGUSNy5HcnBjQ29uZmVy",
+            "ZW5jZUNvbnRyYWN0U2VydmljZS5Db25mZXJlbmNlQ29udHJhY3RTdHJ1Y3Qa",
             "Ki5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIA",
-            "EogBCh5EZWxldGVDb25mZXJlbmNlQ29udHJhY3RCeUxpc3QSOC5HcnBjQ29u",
-            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db25mZXJlbmNlQ29udHJhY3RDaWRM",
-            "aXN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVw",
-            "bHkiABKJAQofRGVsZXRlQ29uQ0FuZENDQW5kUENCeUNvbklkTGlzdBI4Lkdy",
+            "Eo0BCiNNb2RpZnlDb25mZXJlbmNlQ29udHJhY3RJc1NlbmRFbWFpbBI4Lkdy",
             "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbmZlcmVuY2VDb250cmFj",
             "dENpZExpc3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2Rp",
-            "ZnlSZXBseSIAEoYBChZHZXRDb21wYW55Q29udHJhY3RMaXN0EjYuR3JwY0Nv",
-            "bmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUGFnaW5hdGlvblJlcXVlc3RTZWFy",
-            "Y2gaMi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db21wYW55Q29u",
-            "dHJhY3RMaXN0IgASjgEKLEdldENvbXBhbnlDb250cmFjdEJ5Q29uZmVyZW5j",
-            "ZUNvbnRyYWN0SWRMaXN0EiguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
-            "Y2UuSWRSZXF1ZXN0GjIuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
-            "Q29tcGFueUNvbnRyYWN0TGlzdCIAEoMBCiFHZXRDb21wYW55Q29udHJhY3RC",
-            "eUNvbXBhbnlJZExpc3QSKC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vydmlj",
-            "ZS5JZFJlcXVlc3QaMi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5D",
-            "b21wYW55Q29udHJhY3RMaXN0IgASegoWR2V0Q29tcGFueUNvbnRyYWN0QnlJ",
-            "ZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBo0",
+            "ZnlSZXBseSIAEncKGk1vZGlmeU1vZGlmeVBlcm1pc3Npb25CeUlkEisuR3Jw",
+            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuU2VhcmNoU3RydWN0GiouR3Jw",
+            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJ2ChxE",
+            "ZWxldGVDb25mZXJlbmNlQ29udHJhY3RCeUlkEiguR3JwY0NvbmZlcmVuY2VD",
+            "b250cmFjdFNlcnZpY2UuSWRSZXF1ZXN0GiouR3JwY0NvbmZlcmVuY2VDb250",
+            "cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABKIAQoeRGVsZXRlQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0QnlMaXN0EjguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
+            "Y2UuQ29uZmVyZW5jZUNvbnRyYWN0Q2lkTGlzdBoqLkdycGNDb25mZXJlbmNl",
+            "Q29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASiQEKH0RlbGV0ZUNvbkNB",
+            "bmRDQ0FuZFBDQnlDb25JZExpc3QSOC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
+            "U2VydmljZS5Db25mZXJlbmNlQ29udHJhY3RDaWRMaXN0GiouR3JwY0NvbmZl",
+            "cmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABKGAQoWR2V0Q29t",
+            "cGFueUNvbnRyYWN0TGlzdBI2LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2",
+            "aWNlLlBhZ2luYXRpb25SZXF1ZXN0U2VhcmNoGjIuR3JwY0NvbmZlcmVuY2VD",
+            "b250cmFjdFNlcnZpY2UuQ29tcGFueUNvbnRyYWN0TGlzdCIAEo4BCixHZXRD",
+            "b21wYW55Q29udHJhY3RCeUNvbmZlcmVuY2VDb250cmFjdElkTGlzdBIoLkdy",
+            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBoyLkdycGND",
+            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbXBhbnlDb250cmFjdExpc3Qi",
+            "ABKDAQohR2V0Q29tcGFueUNvbnRyYWN0QnlDb21wYW55SWRMaXN0EiguR3Jw",
+            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuSWRSZXF1ZXN0GjIuR3JwY0Nv",
+            "bmZlcmVuY2VDb250cmFjdFNlcnZpY2UuQ29tcGFueUNvbnRyYWN0TGlzdCIA",
+            "EnoKFkdldENvbXBhbnlDb250cmFjdEJ5SWQSKC5HcnBjQ29uZmVyZW5jZUNv",
+            "bnRyYWN0U2VydmljZS5JZFJlcXVlc3QaNC5HcnBjQ29uZmVyZW5jZUNvbnRy",
+            "YWN0U2VydmljZS5Db21wYW55Q29udHJhY3RTdHJ1Y3QiABKNAQoZQ3JlYXRl",
+            "Q29tcGFueUNvbnRyYWN0SW5mbxI0LkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
+            "ZXJ2aWNlLkNvbXBhbnlDb250cmFjdFN0cnVjdBo4LkdycGNDb25mZXJlbmNl",
+            "Q29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5Rm9yQ3JlYXRlT3RoZXIiABJ/",
+            "ChlVcGRhdGVDb21wYW55Q29udHJhY3RJbmZvEjQuR3JwY0NvbmZlcmVuY2VD",
+            "b250cmFjdFNlcnZpY2UuQ29tcGFueUNvbnRyYWN0U3RydWN0GiouR3JwY0Nv",
+            "bmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJ9ChdNb2Rp",
+            "ZnlNYXhDb250cmFjdE51bWJlchI0LkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
+            "ZXJ2aWNlLkNvbXBhbnlDb250cmFjdFN0cnVjdBoqLkdycGNDb25mZXJlbmNl",
+            "Q29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASdwoOTW9kaWZ5Q0NQQ093",
+            "ZXISNy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlDQ1BD",
+            "T3dlckluZm9TdHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vydmlj",
+            "ZS5Nb2RpZnlSZXBseSIAEnMKGURlbGV0ZUNvbXBhbnlDb250cmFjdEJ5SWQS",
+            "KC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3QaKi5H",
+            "cnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEpIB",
+            "CipSZW1vdmVDb21wYW55Q29udHJhY3RJZlBlcnNvbkNvbnRyYWN0RW1wdHkS",
+            "KC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3QaOC5H",
+            "cnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseUZvckNy",
+            "ZWF0ZU90aGVyIgASggEKG0RlbGV0ZUNvbXBhbnlDb250cmFjdEJ5TGlzdBI1",
             "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbXBhbnlDb250cmFj",
-            "dFN0cnVjdCIAEo0BChlDcmVhdGVDb21wYW55Q29udHJhY3RJbmZvEjQuR3Jw",
-            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuQ29tcGFueUNvbnRyYWN0U3Ry",
-            "dWN0GjguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVw",
-            "bHlGb3JDcmVhdGVPdGhlciIAEn8KGVVwZGF0ZUNvbXBhbnlDb250cmFjdElu",
-            "Zm8SNC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db21wYW55Q29u",
-            "dHJhY3RTdHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5N",
-            "b2RpZnlSZXBseSIAEn0KF01vZGlmeU1heENvbnRyYWN0TnVtYmVyEjQuR3Jw",
-            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuQ29tcGFueUNvbnRyYWN0U3Ry",
-            "dWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVw",
-            "bHkiABJ3Cg5Nb2RpZnlDQ1BDT3dlchI3LkdycGNDb25mZXJlbmNlQ29udHJh",
-            "Y3RTZXJ2aWNlLk1vZGlmeUNDUENPd2VySW5mb1N0cnVjdBoqLkdycGNDb25m",
-            "ZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgAScwoZRGVsZXRl",
-            "Q29tcGFueUNvbnRyYWN0QnlJZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
-            "ZXJ2aWNlLklkUmVxdWVzdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2",
-            "aWNlLk1vZGlmeVJlcGx5IgASkgEKKlJlbW92ZUNvbXBhbnlDb250cmFjdElm",
-            "UGVyc29uQ29udHJhY3RFbXB0eRIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
-            "ZXJ2aWNlLklkUmVxdWVzdBo4LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2",
-            "aWNlLk1vZGlmeVJlcGx5Rm9yQ3JlYXRlT3RoZXIiABKCAQobRGVsZXRlQ29t",
-            "cGFueUNvbnRyYWN0QnlMaXN0EjUuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
-            "cnZpY2UuQ29tcGFueUNvbnRyYWN0Q2lkTGlzdBoqLkdycGNDb25mZXJlbmNl",
-            "Q29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASfQoWRGVsZXRlQ0NBbmRQ",
-            "Q0J5Q2lkTGlzdBI1LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNv",
-            "bXBhbnlDb250cmFjdENpZExpc3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
-            "U2VydmljZS5Nb2RpZnlSZXBseSIAEoQBChVHZXRQZXJzb25Db250cmFjdExp",
-            "c3QSNi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QYWdpbmF0aW9u",
-            "UmVxdWVzdFNlYXJjaBoxLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNl",
-            "LlBlcnNvbkNvbnRyYWN0TGlzdCIAEpABCiFHZXRQZXJzb25Db250cmFjdEJ5",
-            "Q29udHJhY3RJZExpc3QSNi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vydmlj",
-            "ZS5QYWdpbmF0aW9uUmVxdWVzdFNlYXJjaBoxLkdycGNDb25mZXJlbmNlQ29u",
-            "dHJhY3RTZXJ2aWNlLlBlcnNvbkNvbnRyYWN0TGlzdCIAEokBChpHZXRQZXJz",
-            "b25Db250cmFjdEJ5TmV3TGlzdBI2LkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
-            "ZXJ2aWNlLlBhZ2luYXRpb25SZXF1ZXN0U2VhcmNoGjEuR3JwY0NvbmZlcmVu",
-            "Y2VDb250cmFjdFNlcnZpY2UuUGVyc29uQ29udHJhY3RMaXN0IgASjgEKH0dl",
-            "dFBlcnNvbkNvbnRyYWN0QnlNZW1iZXJQS0xpc3QSNi5HcnBjQ29uZmVyZW5j",
-            "ZUNvbnRyYWN0U2VydmljZS5QYWdpbmF0aW9uUmVxdWVzdFNlYXJjaBoxLkdy",
-            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBlcnNvbkNvbnRyYWN0TGlz",
-            "dCIAEpMBCi9HZXRQZXJzb25Db250cmFjdEJ5TWVtYmVyUEtMaXN0V2l0aE5v",
-            "UGFnaW5hdGlvbhIrLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNl",
-            "YXJjaFN0cnVjdBoxLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBl",
-            "cnNvbkNvbnRyYWN0TGlzdCIAEngKFUdldFBlcnNvbkNvbnRyYWN0QnlJZBIo",
-            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBozLkdy",
-            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBlcnNvbkNvbnRyYWN0U3Ry",
-            "dWN0IgASjQEKJ0dldFBlcnNvbkNvbnRyYWN0QnlQZXJzb25Db250cmFjdE51",
-            "bWJlchIrLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNlYXJjaFN0",
-            "cnVjdBozLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBlcnNvbkNv",
-            "bnRyYWN0U3RydWN0IgASiwEKGENyZWF0ZVBlcnNvbkNvbnRyYWN0SW5mbxIz",
-            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBlcnNvbkNvbnRyYWN0",
-            "U3RydWN0GjguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5",
-            "UmVwbHlGb3JDcmVhdGVPdGhlciIAEn0KGFVwZGF0ZVBlcnNvbkNvbnRyYWN0",
-            "SW5mbxIzLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBlcnNvbkNv",
-            "bnRyYWN0U3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
-            "TW9kaWZ5UmVwbHkiABJ9Ch9Nb2RpZnlQZXJzb25Db250cmFjdEJ5SXNDaGVj",
-            "a0luEiwuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVx",
-            "dWVzdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJl",
-            "cGx5IgAShAEKJU1vZGlmeVBlcnNvbkNvbnRyYWN0SXNDaGVja0luQnlJZExp",
-            "c3QSLS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5DaGVja0luUmVx",
-            "dWVzdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJl",
-            "cGx5IgAShQEKH01vZGlmeVBlcnNvbkNvbnRyYWN0SXNTZW5kRW1haWwSNC5H",
-            "cnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QZXJzb25Db250cmFjdFBp",
-            "ZExpc3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlS",
-            "ZXBseSIAEowBCiJNb2RpZnlQZXJzb25Db250cmFjdElzRmlhbmNlUmVjb3Jk",
-            "EjguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUGVyc29uQ29udHJh",
-            "Y3RQQ05vUmVxdWVzdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNl",
-            "Lk1vZGlmeVJlcGx5IgASgAEKI01vZGlmeVBlcnNvbkNvbnRyYWN0SXNQcmlu",
-            "dEJ5T3dlcmlkEisuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuU2Vh",
-            "cmNoU3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9k",
-            "aWZ5UmVwbHkiABJ7CiBNb2RpZnlQZXJzb25Db250cmFjdElzUHJpbnRCeWlk",
-            "cxIpLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkc1JlcXVlc3Qa",
-            "Ki5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIA",
-            "EnIKGERlbGV0ZVBlcnNvbkNvbnRyYWN0QnlJZBIoLkdycGNDb25mZXJlbmNl",
-            "Q29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBoqLkdycGNDb25mZXJlbmNlQ29u",
-            "dHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASgAEKGkRlbGV0ZVBlcnNvbkNv",
-            "bnRyYWN0QnlMaXN0EjQuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
-            "UGVyc29uQ29udHJhY3RQaWRMaXN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFj",
-            "dFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJ4Ch5EZWxldGVQZXJzb25Db250cmFj",
-            "dEJ5SWRGb3JXZWISKC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5J",
-            "ZFJlcXVlc3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2Rp",
-            "ZnlSZXBseSIAEnkKGEdldENvbXBhbnlTZXJ2aWNlUGFja0RpYxIkLkdycGND",
-            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkVtcHR5GjUuR3JwY0NvbmZlcmVu",
-            "Y2VDb250cmFjdFNlcnZpY2UuQ29tcGFueVNlcnZpY2VQYWNrTGlzdCIAEoYB",
-            "Ch5HZXRDb21wYW55U2VydmljZVBhY2tEaWNCeVllYXISKy5HcnBjQ29uZmVy",
-            "ZW5jZUNvbnRyYWN0U2VydmljZS5TZWFyY2hTdHJ1Y3QaNS5HcnBjQ29uZmVy",
-            "ZW5jZUNvbnRyYWN0U2VydmljZS5Db21wYW55U2VydmljZVBhY2tMaXN0IgAS",
-            "kQEKKUdldENvbXBhbnlTZXJ2aWNlUGFja0xpc3RCeUlzU2hvd25PbkZyb250",
-            "EisuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuU2VhcmNoU3RydWN0",
-            "GjUuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuQ29tcGFueVNlcnZp",
-            "Y2VQYWNrTGlzdCIAEowBChlHZXRDb21wYW55U2VydmljZVBhY2tMaXN0EjYu",
-            "R3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUGFnaW5hdGlvblJlcXVl",
-            "c3RTZWFyY2gaNS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db21w",
-            "YW55U2VydmljZVBhY2tMaXN0IgASjgEKKUdldENvbXBhbnlTZXJ2aWNlUGFj",
-            "a0xpc3RCeUNvbnRyYWN0VHlwZUlkEiguR3JwY0NvbmZlcmVuY2VDb250cmFj",
-            "dFNlcnZpY2UuSWRSZXF1ZXN0GjUuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
-            "cnZpY2UuQ29tcGFueVNlcnZpY2VQYWNrTGlzdCIAEpEBCilHZXRDb21wYW55",
-            "U2VydmljZVBhY2tMaXN0Rm9yTHVuY2hPckRpbm5lchIrLkdycGNDb25mZXJl",
-            "bmNlQ29udHJhY3RTZXJ2aWNlLlNlYXJjaFN0cnVjdBo1LkdycGNDb25mZXJl",
-            "bmNlQ29udHJhY3RTZXJ2aWNlLkNvbXBhbnlTZXJ2aWNlUGFja0xpc3QiABKC",
-            "AQoZR2V0Q29tcGFueVNlcnZpY2VQYWNrQnlJZBIoLkdycGNDb25mZXJlbmNl",
-            "Q29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBo5LkdycGNDb25mZXJlbmNlQ29u",
-            "dHJhY3RTZXJ2aWNlLkNvbXBhbnlTZXJ2aWNlUGFja1ZNU3RydWN0IgAShwEK",
-            "HENyZWF0ZUNvbXBhbnlTZXJ2aWNlUGFja0luZm8SOS5HcnBjQ29uZmVyZW5j",
-            "ZUNvbnRyYWN0U2VydmljZS5Db21wYW55U2VydmljZVBhY2tWTVN0cnVjdBoq",
-            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgAS",
-            "hwEKHFVwZGF0ZUNvbXBhbnlTZXJ2aWNlUGFja0luZm8SOS5HcnBjQ29uZmVy",
-            "ZW5jZUNvbnRyYWN0U2VydmljZS5Db21wYW55U2VydmljZVBhY2tWTVN0cnVj",
+            "dENpZExpc3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2Rp",
+            "ZnlSZXBseSIAEn0KFkRlbGV0ZUNDQW5kUENCeUNpZExpc3QSNS5HcnBjQ29u",
+            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db21wYW55Q29udHJhY3RDaWRMaXN0",
+            "GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHki",
+            "ABKEAQoVR2V0UGVyc29uQ29udHJhY3RMaXN0EjYuR3JwY0NvbmZlcmVuY2VD",
+            "b250cmFjdFNlcnZpY2UuUGFnaW5hdGlvblJlcXVlc3RTZWFyY2gaMS5HcnBj",
+            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QZXJzb25Db250cmFjdExpc3Qi",
+            "ABKQAQohR2V0UGVyc29uQ29udHJhY3RCeUNvbnRyYWN0SWRMaXN0EjYuR3Jw",
+            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUGFnaW5hdGlvblJlcXVlc3RT",
+            "ZWFyY2gaMS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QZXJzb25D",
+            "b250cmFjdExpc3QiABKJAQoaR2V0UGVyc29uQ29udHJhY3RCeU5ld0xpc3QS",
+            "Ni5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QYWdpbmF0aW9uUmVx",
+            "dWVzdFNlYXJjaBoxLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBl",
+            "cnNvbkNvbnRyYWN0TGlzdCIAEo4BCh9HZXRQZXJzb25Db250cmFjdEJ5TWVt",
+            "YmVyUEtMaXN0EjYuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUGFn",
+            "aW5hdGlvblJlcXVlc3RTZWFyY2gaMS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
+            "U2VydmljZS5QZXJzb25Db250cmFjdExpc3QiABKTAQovR2V0UGVyc29uQ29u",
+            "dHJhY3RCeU1lbWJlclBLTGlzdFdpdGhOb1BhZ2luYXRpb24SKy5HcnBjQ29u",
+            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5TZWFyY2hTdHJ1Y3QaMS5HcnBjQ29u",
+            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QZXJzb25Db250cmFjdExpc3QiABJ4",
+            "ChVHZXRQZXJzb25Db250cmFjdEJ5SWQSKC5HcnBjQ29uZmVyZW5jZUNvbnRy",
+            "YWN0U2VydmljZS5JZFJlcXVlc3QaMy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
+            "U2VydmljZS5QZXJzb25Db250cmFjdFN0cnVjdCIAEo0BCidHZXRQZXJzb25D",
+            "b250cmFjdEJ5UGVyc29uQ29udHJhY3ROdW1iZXISKy5HcnBjQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0U2VydmljZS5TZWFyY2hTdHJ1Y3QaMy5HcnBjQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0U2VydmljZS5QZXJzb25Db250cmFjdFN0cnVjdCIAEosBChhD",
+            "cmVhdGVQZXJzb25Db250cmFjdEluZm8SMy5HcnBjQ29uZmVyZW5jZUNvbnRy",
+            "YWN0U2VydmljZS5QZXJzb25Db250cmFjdFN0cnVjdBo4LkdycGNDb25mZXJl",
+            "bmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5Rm9yQ3JlYXRlT3RoZXIi",
+            "ABJ9ChhVcGRhdGVQZXJzb25Db250cmFjdEluZm8SMy5HcnBjQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0U2VydmljZS5QZXJzb25Db250cmFjdFN0cnVjdBoqLkdycGND",
+            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASfQofTW9k",
+            "aWZ5UGVyc29uQ29udHJhY3RCeUlzQ2hlY2tJbhIsLkdycGNDb25mZXJlbmNl",
+            "Q29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcXVlc3QaKi5HcnBjQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEoQBCiVNb2RpZnlQZXJz",
+            "b25Db250cmFjdElzQ2hlY2tJbkJ5SWRMaXN0Ei0uR3JwY0NvbmZlcmVuY2VD",
+            "b250cmFjdFNlcnZpY2UuQ2hlY2tJblJlcXVlc3QaKi5HcnBjQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEoUBCh9Nb2RpZnlQZXJz",
+            "b25Db250cmFjdElzU2VuZEVtYWlsEjQuR3JwY0NvbmZlcmVuY2VDb250cmFj",
+            "dFNlcnZpY2UuUGVyc29uQ29udHJhY3RQaWRMaXN0GiouR3JwY0NvbmZlcmVu",
+            "Y2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABKMAQoiTW9kaWZ5UGVy",
+            "c29uQ29udHJhY3RJc0ZpYW5jZVJlY29yZBI4LkdycGNDb25mZXJlbmNlQ29u",
+            "dHJhY3RTZXJ2aWNlLlBlcnNvbkNvbnRyYWN0UENOb1JlcXVlc3QaKi5HcnBj",
+            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEoABCiNN",
+            "b2RpZnlQZXJzb25Db250cmFjdElzUHJpbnRCeU93ZXJpZBIrLkdycGNDb25m",
+            "ZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNlYXJjaFN0cnVjdBoqLkdycGNDb25m",
+            "ZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASewogTW9kaWZ5",
+            "UGVyc29uQ29udHJhY3RJc1ByaW50QnlpZHMSKS5HcnBjQ29uZmVyZW5jZUNv",
+            "bnRyYWN0U2VydmljZS5JZHNSZXF1ZXN0GiouR3JwY0NvbmZlcmVuY2VDb250",
+            "cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJyChhEZWxldGVQZXJzb25Db250",
+            "cmFjdEJ5SWQSKC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJl",
+            "cXVlc3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlS",
+            "ZXBseSIAEoABChpEZWxldGVQZXJzb25Db250cmFjdEJ5TGlzdBI0LkdycGND",
+            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBlcnNvbkNvbnRyYWN0UGlkTGlz",
             "dBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5",
-            "IgASdgocRGVsZXRlQ29tcGFueVNlcnZpY2VQYWNrQnlJZBIoLkdycGNDb25m",
-            "ZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBoqLkdycGNDb25mZXJl",
-            "bmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASmQEKLUdldENvbXBh",
-            "bnlTZXJ2aWNlUGFja1ZNQnlQZXJzb25Db250cmFjdE51bWJlchIrLkdycGND",
-            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNlYXJjaFN0cnVjdBo5LkdycGND",
-            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbXBhbnlTZXJ2aWNlUGFja1ZN",
-            "U3RydWN0IgASgAEKE0dldEV4dHJhU2VydmljZUxpc3QSNi5HcnBjQ29uZmVy",
-            "ZW5jZUNvbnRyYWN0U2VydmljZS5QYWdpbmF0aW9uUmVxdWVzdFNlYXJjaBov",
-            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkV4dHJhU2VydmljZUxp",
-            "c3QiABJ2ChNHZXRFeHRyYVNlcnZpY2VCeUlkEiguR3JwY0NvbmZlcmVuY2VD",
-            "b250cmFjdFNlcnZpY2UuSWRSZXF1ZXN0GjMuR3JwY0NvbmZlcmVuY2VDb250",
-            "cmFjdFNlcnZpY2UuRXh0cmFTZXJ2aWNlVk1TdHJ1Y3QiABJ7ChZDcmVhdGVF",
-            "eHRyYVNlcnZpY2VJbmZvEjMuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
-            "Y2UuRXh0cmFTZXJ2aWNlVk1TdHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRy",
-            "YWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEnsKFlVwZGF0ZUV4dHJhU2Vydmlj",
-            "ZUluZm8SMy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5FeHRyYVNl",
-            "cnZpY2VWTVN0cnVjdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNl",
-            "Lk1vZGlmeVJlcGx5IgAScAoWRGVsZXRlRXh0cmFTZXJ2aWNlQnlJZBIoLkdy",
-            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBoqLkdycGND",
-            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASbwoVR2V0",
-            "U2VydmljZVBhY2tMaXN0QWxsEiQuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
-            "cnZpY2UuRW1wdHkaLi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5T",
-            "ZXJ2aWNlUGFja0xpc3QiABJ+CiBHZXRTZXJ2aWNlUGFja0J5Q29uZmVyZW5j",
-            "ZUlkTGlzdBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVx",
-            "dWVzdBouLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNlcnZpY2VQ",
-            "YWNrTGlzdCIAEn4KEkdldFNlcnZpY2VQYWNrTGlzdBI2LkdycGNDb25mZXJl",
-            "bmNlQ29udHJhY3RTZXJ2aWNlLlBhZ2luYXRpb25SZXF1ZXN0U2VhcmNoGi4u",
-            "R3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuU2VydmljZVBhY2tMaXN0",
-            "IgASdAoSR2V0U2VydmljZVBhY2tCeUlkEiguR3JwY0NvbmZlcmVuY2VDb250",
-            "cmFjdFNlcnZpY2UuSWRSZXF1ZXN0GjIuR3JwY0NvbmZlcmVuY2VDb250cmFj",
-            "dFNlcnZpY2UuU2VydmljZVBhY2tWTVN0cnVjdCIAEnkKFUNyZWF0ZVNlcnZp",
-            "Y2VQYWNrSW5mbxIyLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNl",
-            "cnZpY2VQYWNrVk1TdHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
-            "dmljZS5Nb2RpZnlSZXBseSIAEnkKFVVwZGF0ZVNlcnZpY2VQYWNrSW5mbxIy",
-            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNlcnZpY2VQYWNrVk1T",
-            "dHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlS",
-            "ZXBseSIAEm8KFURlbGV0ZVNlcnZpY2VQYWNrQnlJZBIoLkdycGNDb25mZXJl",
-            "bmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBoqLkdycGNDb25mZXJlbmNl",
-            "Q29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASbQoTSXNDYW5EZWxldGVB",
-            "Y2l0dml0eRIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVx",
-            "dWVzdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlJlc3VsdFJl",
-            "cGx5IgASdwoaSXNFeGlzdFNlc3Npb25Db25mZXJlbmNkSWQSKy5HcnBjQ29u",
-            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5TZWFyY2hTdHJ1Y3QaKi5HcnBjQ29u",
-            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5SZXN1bHRSZXBseSIAEnoKHVJlbW92",
-            "ZVNDQnlTZXNzaW9uQ29uZmVyZW5jZElkEisuR3JwY0NvbmZlcmVuY2VDb250",
-            "cmFjdFNlcnZpY2UuU2VhcmNoU3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250",
-            "cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJtChJHZXRDb250cmFjdFR5cGVE",
-            "aWMSJC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5FbXB0eRovLkdy",
-            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbnRyYWN0VHlwZUxpc3Qi",
-            "ABJ6ChNHZXRDb250cmFjdFR5cGVMaXN0EjAuR3JwY0NvbmZlcmVuY2VDb250",
-            "cmFjdFNlcnZpY2UuUGFnaW5hdGlvblJlcXVlc3QaLy5HcnBjQ29uZmVyZW5j",
-            "ZUNvbnRyYWN0U2VydmljZS5Db250cmFjdFR5cGVMaXN0IgASdAoTR2V0Q29u",
-            "dHJhY3RUeXBlQnlJZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNl",
-            "LklkUmVxdWVzdBoxLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNv",
-            "bnRyYWN0VHlwZVN0cnVjdCIAEnkKFkNyZWF0ZUNvbnRyYWN0VHlwZUluZm8S",
-            "MS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db250cmFjdFR5cGVT",
-            "dHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlS",
-            "ZXBseSIAEnkKFlVwZGF0ZUNvbnRyYWN0VHlwZUluZm8SMS5HcnBjQ29uZmVy",
-            "ZW5jZUNvbnRyYWN0U2VydmljZS5Db250cmFjdFR5cGVTdHJ1Y3QaKi5HcnBj",
+            "IgASeAoeRGVsZXRlUGVyc29uQ29udHJhY3RCeUlkRm9yV2ViEiguR3JwY0Nv",
+            "bmZlcmVuY2VDb250cmFjdFNlcnZpY2UuSWRSZXF1ZXN0GiouR3JwY0NvbmZl",
+            "cmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJ5ChhHZXRDb21w",
+            "YW55U2VydmljZVBhY2tEaWMSJC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
+            "dmljZS5FbXB0eRo1LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNv",
+            "bXBhbnlTZXJ2aWNlUGFja0xpc3QiABKGAQoeR2V0Q29tcGFueVNlcnZpY2VQ",
+            "YWNrRGljQnlZZWFyEisuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
+            "U2VhcmNoU3RydWN0GjUuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
+            "Q29tcGFueVNlcnZpY2VQYWNrTGlzdCIAEpEBCilHZXRDb21wYW55U2Vydmlj",
+            "ZVBhY2tMaXN0QnlJc1Nob3duT25Gcm9udBIrLkdycGNDb25mZXJlbmNlQ29u",
+            "dHJhY3RTZXJ2aWNlLlNlYXJjaFN0cnVjdBo1LkdycGNDb25mZXJlbmNlQ29u",
+            "dHJhY3RTZXJ2aWNlLkNvbXBhbnlTZXJ2aWNlUGFja0xpc3QiABKMAQoZR2V0",
+            "Q29tcGFueVNlcnZpY2VQYWNrTGlzdBI2LkdycGNDb25mZXJlbmNlQ29udHJh",
+            "Y3RTZXJ2aWNlLlBhZ2luYXRpb25SZXF1ZXN0U2VhcmNoGjUuR3JwY0NvbmZl",
+            "cmVuY2VDb250cmFjdFNlcnZpY2UuQ29tcGFueVNlcnZpY2VQYWNrTGlzdCIA",
+            "Eo4BCilHZXRDb21wYW55U2VydmljZVBhY2tMaXN0QnlDb250cmFjdFR5cGVJ",
+            "ZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBo1",
+            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbXBhbnlTZXJ2aWNl",
+            "UGFja0xpc3QiABKRAQopR2V0Q29tcGFueVNlcnZpY2VQYWNrTGlzdEZvckx1",
+            "bmNoT3JEaW5uZXISKy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5T",
+            "ZWFyY2hTdHJ1Y3QaNS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5D",
+            "b21wYW55U2VydmljZVBhY2tMaXN0IgASggEKGUdldENvbXBhbnlTZXJ2aWNl",
+            "UGFja0J5SWQSKC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJl",
+            "cXVlc3QaOS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db21wYW55",
+            "U2VydmljZVBhY2tWTVN0cnVjdCIAEocBChxDcmVhdGVDb21wYW55U2Vydmlj",
+            "ZVBhY2tJbmZvEjkuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuQ29t",
+            "cGFueVNlcnZpY2VQYWNrVk1TdHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRy",
+            "YWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEocBChxVcGRhdGVDb21wYW55U2Vy",
+            "dmljZVBhY2tJbmZvEjkuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
+            "Q29tcGFueVNlcnZpY2VQYWNrVk1TdHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNv",
+            "bnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEnYKHERlbGV0ZUNvbXBhbnlT",
+            "ZXJ2aWNlUGFja0J5SWQSKC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vydmlj",
+            "ZS5JZFJlcXVlc3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5N",
+            "b2RpZnlSZXBseSIAEpkBCi1HZXRDb21wYW55U2VydmljZVBhY2tWTUJ5UGVy",
+            "c29uQ29udHJhY3ROdW1iZXISKy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
+            "dmljZS5TZWFyY2hTdHJ1Y3QaOS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
+            "dmljZS5Db21wYW55U2VydmljZVBhY2tWTVN0cnVjdCIAEoABChNHZXRFeHRy",
+            "YVNlcnZpY2VMaXN0EjYuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
+            "UGFnaW5hdGlvblJlcXVlc3RTZWFyY2gaLy5HcnBjQ29uZmVyZW5jZUNvbnRy",
+            "YWN0U2VydmljZS5FeHRyYVNlcnZpY2VMaXN0IgASdgoTR2V0RXh0cmFTZXJ2",
+            "aWNlQnlJZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVx",
+            "dWVzdBozLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkV4dHJhU2Vy",
+            "dmljZVZNU3RydWN0IgASewoWQ3JlYXRlRXh0cmFTZXJ2aWNlSW5mbxIzLkdy",
+            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkV4dHJhU2VydmljZVZNU3Ry",
+            "dWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVw",
+            "bHkiABJ7ChZVcGRhdGVFeHRyYVNlcnZpY2VJbmZvEjMuR3JwY0NvbmZlcmVu",
+            "Y2VDb250cmFjdFNlcnZpY2UuRXh0cmFTZXJ2aWNlVk1TdHJ1Y3QaKi5HcnBj",
             "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEnAKFkRl",
-            "bGV0ZUNvbnRyYWN0VHlwZUJ5SWQSKC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
+            "bGV0ZUV4dHJhU2VydmljZUJ5SWQSKC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
             "U2VydmljZS5JZFJlcXVlc3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
-            "dmljZS5Nb2RpZnlSZXBseSIAEnEKFEdldENDTnVtYmVyQ29uZmlnRGljEiQu",
-            "R3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuRW1wdHkaMS5HcnBjQ29u",
-            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5DQ051bWJlckNvbmZpZ0xpc3QiABJ+",
-            "ChVHZXRDQ051bWJlckNvbmZpZ0xpc3QSMC5HcnBjQ29uZmVyZW5jZUNvbnRy",
-            "YWN0U2VydmljZS5QYWdpbmF0aW9uUmVxdWVzdBoxLkdycGNDb25mZXJlbmNl",
-            "Q29udHJhY3RTZXJ2aWNlLkNDTnVtYmVyQ29uZmlnTGlzdCIAEngKFUdldEND",
-            "TnVtYmVyQ29uZmlnQnlJZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2",
-            "aWNlLklkUmVxdWVzdBozLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNl",
-            "LkNDTnVtYmVyQ29uZmlnU3RydWN0IgASfQoYQ3JlYXRlQ0NOdW1iZXJDb25m",
-            "aWdJbmZvEjMuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuQ0NOdW1i",
-            "ZXJDb25maWdTdHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vydmlj",
-            "ZS5Nb2RpZnlSZXBseSIAEn0KGFVwZGF0ZUNDTnVtYmVyQ29uZmlnSW5mbxIz",
-            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNDTnVtYmVyQ29uZmln",
-            "U3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5",
-            "UmVwbHkiABJyChhEZWxldGVDQ051bWJlckNvbmZpZ0J5SWQSKC5HcnBjQ29u",
-            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3QaKi5HcnBjQ29uZmVy",
-            "ZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEocBCgtHZXREU1BE",
-            "TGlzdBI2LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBhZ2luYXRp",
-            "b25SZXF1ZXN0U2VhcmNoGj4uR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
-            "Y2UuRGVsZWdhdGVTZXJ2aWNlUGFja0Rpc2NvdW50TGlzdCIAEn8KC0dldERT",
-            "UERCeUlkEiguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuSWRSZXF1",
-            "ZXN0GkQuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuRGVsZWdhdGVT",
-            "ZXJ2aWNlUGFja0Rpc2NvdW50TGlzdFN0cnVjdCIAEoABCg5DcmVhdGVEU1BE",
-            "SW5mbxJALkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkRlbGVnYXRl",
-            "U2VydmljZVBhY2tEaXNjb3VudFN0cnVjdBoqLkdycGNDb25mZXJlbmNlQ29u",
-            "dHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASgAEKDlVwZGF0ZURTUERJbmZv",
-            "EkAuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuRGVsZWdhdGVTZXJ2",
-            "aWNlUGFja0Rpc2NvdW50U3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFj",
-            "dFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJoCg5EZWxldGVEU1BEQnlJZBIoLkdy",
-            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBoqLkdycGND",
-            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASnwEKDkdl",
-            "dERTUERGQ0NMaXN0EjYuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
-            "UGFnaW5hdGlvblJlcXVlc3RTZWFyY2gaUy5HcnBjQ29uZmVyZW5jZUNvbnRy",
-            "YWN0U2VydmljZS5EZWxlZ2F0ZVNlcnZpY2VQYWNrRGlzY291bnRGb3JDb25m",
-            "ZXJlbmNlQ29udHJhY3RMaXN0IgASlwEKDkdldERTUERGQ0NCeUlkEiguR3Jw",
-            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuSWRSZXF1ZXN0GlkuR3JwY0Nv",
-            "bmZlcmVuY2VDb250cmFjdFNlcnZpY2UuRGVsZWdhdGVTZXJ2aWNlUGFja0Rp",
-            "c2NvdW50Rm9yQ29uZmVyZW5jZUNvbnRyYWN0TGlzdFN0cnVjdCIAEpgBChFD",
-            "cmVhdGVEU1BERkNDSW5mbxJVLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2",
+            "dmljZS5Nb2RpZnlSZXBseSIAEm8KFUdldFNlcnZpY2VQYWNrTGlzdEFsbBIk",
+            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkVtcHR5Gi4uR3JwY0Nv",
+            "bmZlcmVuY2VDb250cmFjdFNlcnZpY2UuU2VydmljZVBhY2tMaXN0IgASfgog",
+            "R2V0U2VydmljZVBhY2tCeUNvbmZlcmVuY2VJZExpc3QSKC5HcnBjQ29uZmVy",
+            "ZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3QaLi5HcnBjQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0U2VydmljZS5TZXJ2aWNlUGFja0xpc3QiABJ+ChJHZXRTZXJ2",
+            "aWNlUGFja0xpc3QSNi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Q",
+            "YWdpbmF0aW9uUmVxdWVzdFNlYXJjaBouLkdycGNDb25mZXJlbmNlQ29udHJh",
+            "Y3RTZXJ2aWNlLlNlcnZpY2VQYWNrTGlzdCIAEnQKEkdldFNlcnZpY2VQYWNr",
+            "QnlJZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVz",
+            "dBoyLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNlcnZpY2VQYWNr",
+            "Vk1TdHJ1Y3QiABJ5ChVDcmVhdGVTZXJ2aWNlUGFja0luZm8SMi5HcnBjQ29u",
+            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5TZXJ2aWNlUGFja1ZNU3RydWN0Giou",
+            "R3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJ5",
+            "ChVVcGRhdGVTZXJ2aWNlUGFja0luZm8SMi5HcnBjQ29uZmVyZW5jZUNvbnRy",
+            "YWN0U2VydmljZS5TZXJ2aWNlUGFja1ZNU3RydWN0GiouR3JwY0NvbmZlcmVu",
+            "Y2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJvChVEZWxldGVTZXJ2",
+            "aWNlUGFja0J5SWQSKC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5J",
+            "ZFJlcXVlc3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2Rp",
+            "ZnlSZXBseSIAEm0KE0lzQ2FuRGVsZXRlQWNpdHZpdHkSKC5HcnBjQ29uZmVy",
+            "ZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3QaKi5HcnBjQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0U2VydmljZS5SZXN1bHRSZXBseSIAEncKGklzRXhpc3RTZXNz",
+            "aW9uQ29uZmVyZW5jZElkEisuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
+            "Y2UuU2VhcmNoU3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
+            "Y2UuUmVzdWx0UmVwbHkiABJ6Ch1SZW1vdmVTQ0J5U2Vzc2lvbkNvbmZlcmVu",
+            "Y2RJZBIrLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNlYXJjaFN0",
+            "cnVjdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJl",
+            "cGx5IgASbQoSR2V0Q29udHJhY3RUeXBlRGljEiQuR3JwY0NvbmZlcmVuY2VD",
+            "b250cmFjdFNlcnZpY2UuRW1wdHkaLy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
+            "U2VydmljZS5Db250cmFjdFR5cGVMaXN0IgASegoTR2V0Q29udHJhY3RUeXBl",
+            "TGlzdBIwLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBhZ2luYXRp",
+            "b25SZXF1ZXN0Gi8uR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuQ29u",
+            "dHJhY3RUeXBlTGlzdCIAEnQKE0dldENvbnRyYWN0VHlwZUJ5SWQSKC5HcnBj",
+            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3QaMS5HcnBjQ29u",
+            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db250cmFjdFR5cGVTdHJ1Y3QiABJ5",
+            "ChZDcmVhdGVDb250cmFjdFR5cGVJbmZvEjEuR3JwY0NvbmZlcmVuY2VDb250",
+            "cmFjdFNlcnZpY2UuQ29udHJhY3RUeXBlU3RydWN0GiouR3JwY0NvbmZlcmVu",
+            "Y2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJ5ChZVcGRhdGVDb250",
+            "cmFjdFR5cGVJbmZvEjEuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
+            "Q29udHJhY3RUeXBlU3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
+            "cnZpY2UuTW9kaWZ5UmVwbHkiABJwChZEZWxldGVDb250cmFjdFR5cGVCeUlk",
+            "EiguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuSWRSZXF1ZXN0Giou",
+            "R3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJx",
+            "ChRHZXRDQ051bWJlckNvbmZpZ0RpYxIkLkdycGNDb25mZXJlbmNlQ29udHJh",
+            "Y3RTZXJ2aWNlLkVtcHR5GjEuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
+            "Y2UuQ0NOdW1iZXJDb25maWdMaXN0IgASfgoVR2V0Q0NOdW1iZXJDb25maWdM",
+            "aXN0EjAuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUGFnaW5hdGlv",
+            "blJlcXVlc3QaMS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5DQ051",
+            "bWJlckNvbmZpZ0xpc3QiABJ4ChVHZXRDQ051bWJlckNvbmZpZ0J5SWQSKC5H",
+            "cnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3QaMy5HcnBj",
+            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5DQ051bWJlckNvbmZpZ1N0cnVj",
+            "dCIAEn0KGENyZWF0ZUNDTnVtYmVyQ29uZmlnSW5mbxIzLkdycGNDb25mZXJl",
+            "bmNlQ29udHJhY3RTZXJ2aWNlLkNDTnVtYmVyQ29uZmlnU3RydWN0GiouR3Jw",
+            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJ9ChhV",
+            "cGRhdGVDQ051bWJlckNvbmZpZ0luZm8SMy5HcnBjQ29uZmVyZW5jZUNvbnRy",
+            "YWN0U2VydmljZS5DQ051bWJlckNvbmZpZ1N0cnVjdBoqLkdycGNDb25mZXJl",
+            "bmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgAScgoYRGVsZXRlQ0NO",
+            "dW1iZXJDb25maWdCeUlkEiguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
+            "Y2UuSWRSZXF1ZXN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
+            "TW9kaWZ5UmVwbHkiABKHAQoLR2V0RFNQRExpc3QSNi5HcnBjQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0U2VydmljZS5QYWdpbmF0aW9uUmVxdWVzdFNlYXJjaBo+Lkdy",
+            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkRlbGVnYXRlU2VydmljZVBh",
+            "Y2tEaXNjb3VudExpc3QiABJ/CgtHZXREU1BEQnlJZBIoLkdycGNDb25mZXJl",
+            "bmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBpELkdycGNDb25mZXJlbmNl",
+            "Q29udHJhY3RTZXJ2aWNlLkRlbGVnYXRlU2VydmljZVBhY2tEaXNjb3VudExp",
+            "c3RTdHJ1Y3QiABKAAQoOQ3JlYXRlRFNQREluZm8SQC5HcnBjQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0U2VydmljZS5EZWxlZ2F0ZVNlcnZpY2VQYWNrRGlzY291bnRT",
+            "dHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlS",
+            "ZXBseSIAEoABCg5VcGRhdGVEU1BESW5mbxJALkdycGNDb25mZXJlbmNlQ29u",
+            "dHJhY3RTZXJ2aWNlLkRlbGVnYXRlU2VydmljZVBhY2tEaXNjb3VudFN0cnVj",
+            "dBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5",
+            "IgASaAoORGVsZXRlRFNQREJ5SWQSKC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
+            "U2VydmljZS5JZFJlcXVlc3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
+            "dmljZS5Nb2RpZnlSZXBseSIAEp8BCg5HZXREU1BERkNDTGlzdBI2LkdycGND",
+            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBhZ2luYXRpb25SZXF1ZXN0U2Vh",
+            "cmNoGlMuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuRGVsZWdhdGVT",
+            "ZXJ2aWNlUGFja0Rpc2NvdW50Rm9yQ29uZmVyZW5jZUNvbnRyYWN0TGlzdCIA",
+            "EpcBCg5HZXREU1BERkNDQnlJZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
+            "ZXJ2aWNlLklkUmVxdWVzdBpZLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2",
+            "aWNlLkRlbGVnYXRlU2VydmljZVBhY2tEaXNjb3VudEZvckNvbmZlcmVuY2VD",
+            "b250cmFjdExpc3RTdHJ1Y3QiABKYAQoRQ3JlYXRlRFNQREZDQ0luZm8SVS5H",
+            "cnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5EZWxlZ2F0ZVNlcnZpY2VQ",
+            "YWNrRGlzY291bnRGb3JDb25mZXJlbmNlQ29udHJhY3RTdHJ1Y3QaKi5HcnBj",
+            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEpgBChFV",
+            "cGRhdGVEU1BERkNDSW5mbxJVLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2",
             "aWNlLkRlbGVnYXRlU2VydmljZVBhY2tEaXNjb3VudEZvckNvbmZlcmVuY2VD",
             "b250cmFjdFN0cnVjdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNl",
-            "Lk1vZGlmeVJlcGx5IgASmAEKEVVwZGF0ZURTUERGQ0NJbmZvElUuR3JwY0Nv",
-            "bmZlcmVuY2VDb250cmFjdFNlcnZpY2UuRGVsZWdhdGVTZXJ2aWNlUGFja0Rp",
-            "c2NvdW50Rm9yQ29uZmVyZW5jZUNvbnRyYWN0U3RydWN0GiouR3JwY0NvbmZl",
-            "cmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJrChFEZWxldGVE",
-            "U1BERkNDQnlJZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklk",
-            "UmVxdWVzdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlm",
-            "eVJlcGx5IgASegoUR2V0Q29udHJhY3RTdGF0dXNEaWMSJC5HcnBjQ29uZmVy",
-            "ZW5jZUNvbnRyYWN0U2VydmljZS5FbXB0eRo6LkdycGNDb25mZXJlbmNlQ29u",
-            "dHJhY3RTZXJ2aWNlLkNvbnRyYWN0U3RhdHVzRGljRm9yRGljTGlzdCIAEoQB",
-            "ChhHZXRDb250cmFjdFN0YXR1c0RpY0xpc3QSMC5HcnBjQ29uZmVyZW5jZUNv",
-            "bnRyYWN0U2VydmljZS5QYWdpbmF0aW9uUmVxdWVzdBo0LkdycGNDb25mZXJl",
-            "bmNlQ29udHJhY3RTZXJ2aWNlLkNvbnRyYWN0U3RhdHVzRGljTGlzdCIAEn4K",
-            "GEdldENvbnRyYWN0U3RhdHVzRGljQnlJZBIoLkdycGNDb25mZXJlbmNlQ29u",
-            "dHJhY3RTZXJ2aWNlLklkUmVxdWVzdBo2LkdycGNDb25mZXJlbmNlQ29udHJh",
-            "Y3RTZXJ2aWNlLkNvbnRyYWN0U3RhdHVzRGljU3RydWN0IgASgwEKG0NyZWF0",
-            "ZUNvbnRyYWN0U3RhdHVzRGljSW5mbxI2LkdycGNDb25mZXJlbmNlQ29udHJh",
-            "Y3RTZXJ2aWNlLkNvbnRyYWN0U3RhdHVzRGljU3RydWN0GiouR3JwY0NvbmZl",
-            "cmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABKDAQobVXBkYXRl",
-            "Q29udHJhY3RTdGF0dXNEaWNJbmZvEjYuR3JwY0NvbmZlcmVuY2VDb250cmFj",
-            "dFNlcnZpY2UuQ29udHJhY3RTdGF0dXNEaWNTdHJ1Y3QaKi5HcnBjQ29uZmVy",
-            "ZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEnUKG0RlbGV0ZUNv",
-            "bnRyYWN0U3RhdHVzRGljQnlJZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
-            "ZXJ2aWNlLklkUmVxdWVzdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2",
-            "aWNlLk1vZGlmeVJlcGx5IgASagoMR2V0UmVtYXJrRGljEiQuR3JwY0NvbmZl",
-            "cmVuY2VDb250cmFjdFNlcnZpY2UuRW1wdHkaMi5HcnBjQ29uZmVyZW5jZUNv",
-            "bnRyYWN0U2VydmljZS5SZW1hcmtEaWNGb3JEaWNMaXN0IgASdAoQR2V0UmVt",
-            "YXJrRGljTGlzdBIwLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBh",
-            "Z2luYXRpb25SZXF1ZXN0GiwuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
-            "Y2UuUmVtYXJrRGljTGlzdCIAEm4KEEdldFJlbWFya0RpY0J5SWQSKC5HcnBj",
-            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3QaLi5HcnBjQ29u",
-            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5SZW1hcmtEaWNTdHJ1Y3QiABJzChND",
-            "cmVhdGVSZW1hcmtEaWNJbmZvEi4uR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
-            "cnZpY2UuUmVtYXJrRGljU3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFj",
-            "dFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJzChNVcGRhdGVSZW1hcmtEaWNJbmZv",
-            "Ei4uR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUmVtYXJrRGljU3Ry",
-            "dWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVw",
-            "bHkiABJtChNEZWxldGVSZW1hcmtEaWNCeUlkEiguR3JwY0NvbmZlcmVuY2VD",
-            "b250cmFjdFNlcnZpY2UuSWRSZXF1ZXN0GiouR3JwY0NvbmZlcmVuY2VDb250",
-            "cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABKZAQoqR2V0UGVyc29uQ29udHJh",
-            "Y3RBY3Rpdml0eU1hcEJ5TWVtYmVyUEtMaXN0EisuR3JwY0NvbmZlcmVuY2VD",
-            "b250cmFjdFNlcnZpY2UuU2VhcmNoU3RydWN0GjwuR3JwY0NvbmZlcmVuY2VD",
-            "b250cmFjdFNlcnZpY2UuUGVyc29uQ29udHJhY3RBY3Rpdml0eU1hcExpc3Qi",
-            "ABKbAQosR2V0UGVyc29uQ29udHJhY3RBY3Rpdml0eU1hcEJ5QWN0aXZpdHlJ",
-            "ZExpc3QSKy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5TZWFyY2hT",
-            "dHJ1Y3QaPC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QZXJzb25D",
-            "b250cmFjdEFjdGl2aXR5TWFwTGlzdCIAEqUBCjZHZXRQZXJzb25Db250cmFj",
-            "dEFjdGl2aXR5TWFwQnlQZXJzb25Db250cmFjdE51bWJlckxpc3QSKy5HcnBj",
-            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5TZWFyY2hTdHJ1Y3QaPC5HcnBj",
-            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QZXJzb25Db250cmFjdEFjdGl2",
-            "aXR5TWFwTGlzdCIAEpEBCiNDcmVhdGVQZXJzb25Db250cmFjdEFjdGl2aXR5",
-            "TWFwSW5mbxI8LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBlcnNv",
-            "bkNvbnRyYWN0QWN0aXZpdHlNYXBMaXN0GiouR3JwY0NvbmZlcmVuY2VDb250",
-            "cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABKZAQojVXBkYXRlUGVyc29uQ29u",
-            "dHJhY3RBY3Rpdml0eU1hcEluZm8SRC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
-            "U2VydmljZS5QZXJzb25Db250cmFjdEFjdGl2aXR5TWFwTGlzdFRvVXBkYXRl",
-            "GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHki",
-            "ABKlAQo1R2V0QXBwbHlDb25mZXJlbmNlQnlTZXNzaW9uQ29uZmVyZW5jZUlk",
-            "TGlzdFBhZ2luYXRpb24SNi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vydmlj",
-            "ZS5QYWdpbmF0aW9uUmVxdWVzdFNlYXJjaBoyLkdycGNDb25mZXJlbmNlQ29u",
-            "dHJhY3RTZXJ2aWNlLkFwcGx5Q29uZmVyZW5jZUxpc3QiABKIAQojR2V0QXBw",
-            "bHlDb25mZXJlbmNlQnlNZW1iZXJQa0FuZFllYXISKy5HcnBjQ29uZmVyZW5j",
-            "ZUNvbnRyYWN0U2VydmljZS5TZWFyY2hTdHJ1Y3QaMi5HcnBjQ29uZmVyZW5j",
-            "ZUNvbnRyYWN0U2VydmljZS5BcHBseUNvbmZlcmVuY2VMaXN0IgASqQEKOUdl",
-            "dEFwcGx5Q29uZmVyZW5jZUJ5U2Vzc2lvbkNvbmZlcmVuY2VJZEFuZFRhZ1R5",
-            "cGVDb2RlTGlzdBI2LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBh",
-            "Z2luYXRpb25SZXF1ZXN0U2VhcmNoGjIuR3JwY0NvbmZlcmVuY2VDb250cmFj",
-            "dFNlcnZpY2UuQXBwbHlDb25mZXJlbmNlTGlzdCIAEooBCiVHZXRBcHBseUNv",
-            "bmZlcmVuY2VCeVBlckNvbnRyYWN0SWRMaXN0EisuR3JwY0NvbmZlcmVuY2VD",
-            "b250cmFjdFNlcnZpY2UuU2VhcmNoU3RydWN0GjIuR3JwY0NvbmZlcmVuY2VD",
-            "b250cmFjdFNlcnZpY2UuQXBwbHlDb25mZXJlbmNlTGlzdCIAEoMBCiFHZXRB",
-            "cHBseUNvbmZlcmVuY2VCeUNvbXBhbnlJZExpc3QSKC5HcnBjQ29uZmVyZW5j",
-            "ZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3QaMi5HcnBjQ29uZmVyZW5jZUNv",
-            "bnRyYWN0U2VydmljZS5BcHBseUNvbmZlcmVuY2VMaXN0IgASjQEKK0dldEFw",
-            "cGx5Q29uZmVyZW5jZUJ5U2Vzc2lvbkNvbmZlcmVuY2VJZExpc3QSKC5HcnBj",
-            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3QaMi5HcnBjQ29u",
-            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5BcHBseUNvbmZlcmVuY2VMaXN0IgAS",
-            "lQEKIUNyZWF0ZU9yVXBkYXRlQXBwbHlDb25mZXJlbmNlSW5mbxJCLkdycGND",
-            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkFwcGx5Q29uZmVyZW5jZUxpc3RU",
-            "b0NyZWF0ZU9yVXBkYXRlGiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
-            "Y2UuTW9kaWZ5UmVwbHkiABJ0ChNHZXRJbnZpdGVMZXR0ZXJCeUlkEiguR3Jw",
-            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuSWRSZXF1ZXN0GjEuR3JwY0Nv",
-            "bmZlcmVuY2VDb250cmFjdFNlcnZpY2UuSW52aXRlTGV0dGVyU3RydWN0IgAS",
-            "hwEKFkNyZWF0ZUludml0ZUxldHRlckluZm8SMS5HcnBjQ29uZmVyZW5jZUNv",
-            "bnRyYWN0U2VydmljZS5JbnZpdGVMZXR0ZXJTdHJ1Y3QaOC5HcnBjQ29uZmVy",
-            "ZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseUZvckNyZWF0ZU90aGVy",
-            "IgASaQoNR2V0VGFnVHlwZURpYxIkLkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
-            "ZXJ2aWNlLkVtcHR5GjAuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
-            "VGFnVHlwZUZvckRpY0xpc3QiABJuChBHZXRUYWdUeXBlQnlDb2RlEiouR3Jw",
-            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuQ29kZVJlcXVlc3QaLC5HcnBj",
-            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5UYWdUeXBlU3RydWN0IgASbwoR",
-            "Q3JlYXRlVGFnVHlwZUluZm8SLC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
-            "dmljZS5UYWdUeXBlU3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
-            "cnZpY2UuTW9kaWZ5UmVwbHkiABJvChFVcGRhdGVUYWdUeXBlSW5mbxIsLkdy",
-            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlRhZ1R5cGVTdHJ1Y3QaKi5H",
-            "cnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEmsK",
-            "EURlbGV0ZVRhZ1R5cGVCeUlkEiguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
-            "cnZpY2UuSWRSZXF1ZXN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
-            "Y2UuTW9kaWZ5UmVwbHkiABJvChBHZXRZZWFyQ29uZmlnRGljEiQuR3JwY0Nv",
-            "bmZlcmVuY2VDb250cmFjdFNlcnZpY2UuRW1wdHkaMy5HcnBjQ29uZmVyZW5j",
-            "ZUNvbnRyYWN0U2VydmljZS5ZZWFyQ29uZmlnRm9yRGljTGlzdCIAEnoKFEdl",
-            "dFllYXJDb25maWdCeUlzVXNlEisuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
-            "cnZpY2UuU2VhcmNoU3RydWN0GjMuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
-            "cnZpY2UuWWVhckNvbmZpZ0ZvckRpY0xpc3QiABJ1ChRDcmVhdGVZZWFyQ29u",
-            "ZmlnSW5mbxIvLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlllYXJD",
-            "b25maWdTdHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5N",
-            "b2RpZnlSZXBseSIAEnUKFFVwZGF0ZVllYXJDb25maWdJbmZvEi8uR3JwY0Nv",
-            "bmZlcmVuY2VDb250cmFjdFNlcnZpY2UuWWVhckNvbmZpZ1N0cnVjdBoqLkdy",
-            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASiAEK",
-            "F0dldENvbmZlcmVuY2VPbnNpdGVMaXN0EjYuR3JwY0NvbmZlcmVuY2VDb250",
-            "cmFjdFNlcnZpY2UuUGFnaW5hdGlvblJlcXVlc3RTZWFyY2gaMy5HcnBjQ29u",
-            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db25mZXJlbmNlT25zaXRlTGlzdCIA",
-            "En8KF0dldENvbmZlcmVuY2VPbnNpdGVCeUlkEisuR3JwY0NvbmZlcmVuY2VD",
-            "b250cmFjdFNlcnZpY2UuSWRJbnRSZXF1ZXN0GjUuR3JwY0NvbmZlcmVuY2VD",
-            "b250cmFjdFNlcnZpY2UuQ29uZmVyZW5jZU9uc2l0ZVN0cnVjdCIAEpQBChpD",
-            "cmVhdGVDb25mZXJlbmNlT25zaXRlSW5mbxI1LkdycGNDb25mZXJlbmNlQ29u",
-            "dHJhY3RTZXJ2aWNlLkNvbmZlcmVuY2VPbnNpdGVTdHJ1Y3QaPS5HcnBjQ29u",
-            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseUZvckNvbmZlcmVu",
-            "Y2VPbnNpdGUiABKBAQoaVXBkYXRlQ29uZmVyZW5jZU9uc2l0ZUluZm8SNS5H",
-            "cnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db25mZXJlbmNlT25zaXRl",
-            "U3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5",
-            "UmVwbHkiABJ3ChpEZWxldGVDb25mZXJlbmNlT25zaXRlQnlJZBIrLkdycGND",
-            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkSW50UmVxdWVzdBoqLkdycGND",
-            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASfAoRR2V0",
-            "SW52aXRlQ29kZUxpc3QSNi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vydmlj",
-            "ZS5QYWdpbmF0aW9uUmVxdWVzdFNlYXJjaBotLkdycGNDb25mZXJlbmNlQ29u",
-            "dHJhY3RTZXJ2aWNlLkludml0ZUNvZGVMaXN0IgASdQoRR2V0SW52aXRlQ29k",
-            "ZUJ5SWQSKC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVl",
-            "c3QaNC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JbnZpdGVDb2Rl",
-            "Q1NQVk1TdHJ1Y3QiABKGAQofR2V0SW52aXRlQ29kZUJ5SW52aXRlQ29kZU51",
-            "bWJlchIrLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNlYXJjaFN0",
-            "cnVjdBo0LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkludml0ZUNv",
-            "ZGVDU1BWTVN0cnVjdCIAEnUKFENyZWF0ZUludml0ZUNvZGVJbmZvEi8uR3Jw",
-            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuSW52aXRlQ29kZVN0cnVjdBoq",
-            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgAS",
-            "dQoUVXBkYXRlSW52aXRlQ29kZUluZm8SLy5HcnBjQ29uZmVyZW5jZUNvbnRy",
-            "YWN0U2VydmljZS5JbnZpdGVDb2RlU3RydWN0GiouR3JwY0NvbmZlcmVuY2VD",
-            "b250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJuChREZWxldGVJbnZpdGVD",
-            "b2RlQnlJZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVx",
+            "Lk1vZGlmeVJlcGx5IgASawoRRGVsZXRlRFNQREZDQ0J5SWQSKC5HcnBjQ29u",
+            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3QaKi5HcnBjQ29uZmVy",
+            "ZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEnoKFEdldENvbnRy",
+            "YWN0U3RhdHVzRGljEiQuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
+            "RW1wdHkaOi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db250cmFj",
+            "dFN0YXR1c0RpY0ZvckRpY0xpc3QiABKEAQoYR2V0Q29udHJhY3RTdGF0dXNE",
+            "aWNMaXN0EjAuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUGFnaW5h",
+            "dGlvblJlcXVlc3QaNC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5D",
+            "b250cmFjdFN0YXR1c0RpY0xpc3QiABJ+ChhHZXRDb250cmFjdFN0YXR1c0Rp",
+            "Y0J5SWQSKC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVl",
+            "c3QaNi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db250cmFjdFN0",
+            "YXR1c0RpY1N0cnVjdCIAEoMBChtDcmVhdGVDb250cmFjdFN0YXR1c0RpY0lu",
+            "Zm8SNi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db250cmFjdFN0",
+            "YXR1c0RpY1N0cnVjdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNl",
+            "Lk1vZGlmeVJlcGx5IgASgwEKG1VwZGF0ZUNvbnRyYWN0U3RhdHVzRGljSW5m",
+            "bxI2LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbnRyYWN0U3Rh",
+            "dHVzRGljU3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
+            "TW9kaWZ5UmVwbHkiABJ1ChtEZWxldGVDb250cmFjdFN0YXR1c0RpY0J5SWQS",
+            "KC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3QaKi5H",
+            "cnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEmoK",
+            "DEdldFJlbWFya0RpYxIkLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNl",
+            "LkVtcHR5GjIuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUmVtYXJr",
+            "RGljRm9yRGljTGlzdCIAEnQKEEdldFJlbWFya0RpY0xpc3QSMC5HcnBjQ29u",
+            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QYWdpbmF0aW9uUmVxdWVzdBosLkdy",
+            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlJlbWFya0RpY0xpc3QiABJu",
+            "ChBHZXRSZW1hcmtEaWNCeUlkEiguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
+            "cnZpY2UuSWRSZXF1ZXN0Gi4uR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
+            "Y2UuUmVtYXJrRGljU3RydWN0IgAScwoTQ3JlYXRlUmVtYXJrRGljSW5mbxIu",
+            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlJlbWFya0RpY1N0cnVj",
+            "dBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5",
+            "IgAScwoTVXBkYXRlUmVtYXJrRGljSW5mbxIuLkdycGNDb25mZXJlbmNlQ29u",
+            "dHJhY3RTZXJ2aWNlLlJlbWFya0RpY1N0cnVjdBoqLkdycGNDb25mZXJlbmNl",
+            "Q29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASbQoTRGVsZXRlUmVtYXJr",
+            "RGljQnlJZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVx",
             "dWVzdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJl",
-            "cGx5IgASiAEKF0dldEludml0ZUNvZGVSZWNvcmRMaXN0EjYuR3JwY0NvbmZl",
-            "cmVuY2VDb250cmFjdFNlcnZpY2UuUGFnaW5hdGlvblJlcXVlc3RTZWFyY2ga",
-            "My5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JbnZpdGVDb2RlUmVj",
-            "b3JkTGlzdCIAEnwKF0dldEludml0ZUNvZGVSZWNvcmRCeUlkEiguR3JwY0Nv",
-            "bmZlcmVuY2VDb250cmFjdFNlcnZpY2UuSWRSZXF1ZXN0GjUuR3JwY0NvbmZl",
-            "cmVuY2VDb250cmFjdFNlcnZpY2UuSW52aXRlQ29kZVJlY29yZFN0cnVjdCIA",
-            "EoEBChpDcmVhdGVJbnZpdGVDb2RlUmVjb3JkSW5mbxI1LkdycGNDb25mZXJl",
-            "bmNlQ29udHJhY3RTZXJ2aWNlLkludml0ZUNvZGVSZWNvcmRTdHJ1Y3QaKi5H",
-            "cnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEoEB",
-            "ChpVcGRhdGVJbnZpdGVDb2RlUmVjb3JkSW5mbxI1LkdycGNDb25mZXJlbmNl",
-            "Q29udHJhY3RTZXJ2aWNlLkludml0ZUNvZGVSZWNvcmRTdHJ1Y3QaKi5HcnBj",
-            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEnQKGkRl",
-            "bGV0ZUludml0ZUNvZGVSZWNvcmRCeUlkEiguR3JwY0NvbmZlcmVuY2VDb250",
-            "cmFjdFNlcnZpY2UuSWRSZXF1ZXN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFj",
-            "dFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJvChJDb3B5UGFja0luZm9CeVllYXIS",
-            "Ky5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5TZWFyY2hTdHJ1Y3Qa",
-            "Ki5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIA",
-            "EoUBChtDcmVhdGVDb21wYW55U2VydmljZVBhY2tNYXASOC5HcnBjQ29uZmVy",
-            "ZW5jZUNvbnRyYWN0U2VydmljZS5Db21wYW55U2VydmljZVBhY2tNYXBMaXN0",
-            "GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHki",
-            "ABKBAQoZR2V0Q29udHJhY3RTdGF0aXN0aWNzTGlzdBIrLkdycGNDb25mZXJl",
-            "bmNlQ29udHJhY3RTZXJ2aWNlLlNlYXJjaFN0cnVjdBo1LkdycGNDb25mZXJl",
-            "bmNlQ29udHJhY3RTZXJ2aWNlLkNvbnRyYWN0U3RhdGlzdGljc0xpc3QiABKN",
-            "AQoySXNNYXhDb250cmFjdE51bWJlckVxdWFsc1BDQ291bnRCeUNvbXBhbnlQ",
-            "S0FuZFllYXISKy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5TZWFy",
-            "Y2hTdHJ1Y3QaKC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Cb29s",
-            "UmVwbHkiABKiAQodR2V0UGVyc29uQ29udHJhY3RMaXN0Rm9yTHVuY2gSNi5H",
-            "cnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QYWdpbmF0aW9uUmVxdWVz",
-            "dFNlYXJjaBpHLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBlcnNv",
-            "bkNvbnRyYWN0QW5kU2Vzc2lvbkNvbmZlcmVuY2VJZExpc3QiABKWAQonR2V0",
-            "UGVyc29uQ29udHJhY3RMaXN0QW5kQXBwbHlDb25mZXJlbmNlEjYuR3JwY0Nv",
-            "bmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUGFnaW5hdGlvblJlcXVlc3RTZWFy",
-            "Y2gaMS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QZXJzb25Db250",
-            "cmFjdExpc3QiABJ8ChhFeHBvcnRQZXJzb25Db250cmFjdExpc3QSKy5HcnBj",
-            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5TZWFyY2hTdHJ1Y3QaMS5HcnBj",
-            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QZXJzb25Db250cmFjdExpc3Qi",
-            "AGIGcHJvdG8z"));
+            "cGx5IgASmQEKKkdldFBlcnNvbkNvbnRyYWN0QWN0aXZpdHlNYXBCeU1lbWJl",
+            "clBLTGlzdBIrLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNlYXJj",
+            "aFN0cnVjdBo8LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBlcnNv",
+            "bkNvbnRyYWN0QWN0aXZpdHlNYXBMaXN0IgASmwEKLEdldFBlcnNvbkNvbnRy",
+            "YWN0QWN0aXZpdHlNYXBCeUFjdGl2aXR5SWRMaXN0EisuR3JwY0NvbmZlcmVu",
+            "Y2VDb250cmFjdFNlcnZpY2UuU2VhcmNoU3RydWN0GjwuR3JwY0NvbmZlcmVu",
+            "Y2VDb250cmFjdFNlcnZpY2UuUGVyc29uQ29udHJhY3RBY3Rpdml0eU1hcExp",
+            "c3QiABKlAQo2R2V0UGVyc29uQ29udHJhY3RBY3Rpdml0eU1hcEJ5UGVyc29u",
+            "Q29udHJhY3ROdW1iZXJMaXN0EisuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
+            "cnZpY2UuU2VhcmNoU3RydWN0GjwuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
+            "cnZpY2UuUGVyc29uQ29udHJhY3RBY3Rpdml0eU1hcExpc3QiABKRAQojQ3Jl",
+            "YXRlUGVyc29uQ29udHJhY3RBY3Rpdml0eU1hcEluZm8SPC5HcnBjQ29uZmVy",
+            "ZW5jZUNvbnRyYWN0U2VydmljZS5QZXJzb25Db250cmFjdEFjdGl2aXR5TWFw",
+            "TGlzdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJl",
+            "cGx5IgASmQEKI1VwZGF0ZVBlcnNvbkNvbnRyYWN0QWN0aXZpdHlNYXBJbmZv",
+            "EkQuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUGVyc29uQ29udHJh",
+            "Y3RBY3Rpdml0eU1hcExpc3RUb1VwZGF0ZRoqLkdycGNDb25mZXJlbmNlQ29u",
+            "dHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASpQEKNUdldEFwcGx5Q29uZmVy",
+            "ZW5jZUJ5U2Vzc2lvbkNvbmZlcmVuY2VJZExpc3RQYWdpbmF0aW9uEjYuR3Jw",
+            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUGFnaW5hdGlvblJlcXVlc3RT",
+            "ZWFyY2gaMi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5BcHBseUNv",
+            "bmZlcmVuY2VMaXN0IgASiAEKI0dldEFwcGx5Q29uZmVyZW5jZUJ5TWVtYmVy",
+            "UGtBbmRZZWFyEisuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuU2Vh",
+            "cmNoU3RydWN0GjIuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuQXBw",
+            "bHlDb25mZXJlbmNlTGlzdCIAEqkBCjlHZXRBcHBseUNvbmZlcmVuY2VCeVNl",
+            "c3Npb25Db25mZXJlbmNlSWRBbmRUYWdUeXBlQ29kZUxpc3QSNi5HcnBjQ29u",
+            "ZmVyZW5jZUNvbnRyYWN0U2VydmljZS5QYWdpbmF0aW9uUmVxdWVzdFNlYXJj",
+            "aBoyLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkFwcGx5Q29uZmVy",
+            "ZW5jZUxpc3QiABKKAQolR2V0QXBwbHlDb25mZXJlbmNlQnlQZXJDb250cmFj",
+            "dElkTGlzdBIrLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNlYXJj",
+            "aFN0cnVjdBoyLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkFwcGx5",
+            "Q29uZmVyZW5jZUxpc3QiABKDAQohR2V0QXBwbHlDb25mZXJlbmNlQnlDb21w",
+            "YW55SWRMaXN0EiguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuSWRS",
+            "ZXF1ZXN0GjIuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuQXBwbHlD",
+            "b25mZXJlbmNlTGlzdCIAEo0BCitHZXRBcHBseUNvbmZlcmVuY2VCeVNlc3Np",
+            "b25Db25mZXJlbmNlSWRMaXN0EiguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
+            "cnZpY2UuSWRSZXF1ZXN0GjIuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
+            "Y2UuQXBwbHlDb25mZXJlbmNlTGlzdCIAEpUBCiFDcmVhdGVPclVwZGF0ZUFw",
+            "cGx5Q29uZmVyZW5jZUluZm8SQi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
+            "dmljZS5BcHBseUNvbmZlcmVuY2VMaXN0VG9DcmVhdGVPclVwZGF0ZRoqLkdy",
+            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASdAoT",
+            "R2V0SW52aXRlTGV0dGVyQnlJZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
+            "ZXJ2aWNlLklkUmVxdWVzdBoxLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2",
+            "aWNlLkludml0ZUxldHRlclN0cnVjdCIAEocBChZDcmVhdGVJbnZpdGVMZXR0",
+            "ZXJJbmZvEjEuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuSW52aXRl",
+            "TGV0dGVyU3RydWN0GjguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
+            "TW9kaWZ5UmVwbHlGb3JDcmVhdGVPdGhlciIAEmkKDUdldFRhZ1R5cGVEaWMS",
+            "JC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5FbXB0eRowLkdycGND",
+            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlRhZ1R5cGVGb3JEaWNMaXN0IgAS",
+            "bgoQR2V0VGFnVHlwZUJ5Q29kZRIqLkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
+            "ZXJ2aWNlLkNvZGVSZXF1ZXN0GiwuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
+            "cnZpY2UuVGFnVHlwZVN0cnVjdCIAEm8KEUNyZWF0ZVRhZ1R5cGVJbmZvEiwu",
+            "R3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuVGFnVHlwZVN0cnVjdBoq",
+            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgAS",
+            "bwoRVXBkYXRlVGFnVHlwZUluZm8SLC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
+            "U2VydmljZS5UYWdUeXBlU3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFj",
+            "dFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJrChFEZWxldGVUYWdUeXBlQnlJZBIo",
+            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVzdBoqLkdy",
+            "cGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASbwoQ",
+            "R2V0WWVhckNvbmZpZ0RpYxIkLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2",
+            "aWNlLkVtcHR5GjMuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuWWVh",
+            "ckNvbmZpZ0ZvckRpY0xpc3QiABJ6ChRHZXRZZWFyQ29uZmlnQnlJc1VzZRIr",
+            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlNlYXJjaFN0cnVjdBoz",
+            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlllYXJDb25maWdGb3JE",
+            "aWNMaXN0IgASdQoUQ3JlYXRlWWVhckNvbmZpZ0luZm8SLy5HcnBjQ29uZmVy",
+            "ZW5jZUNvbnRyYWN0U2VydmljZS5ZZWFyQ29uZmlnU3RydWN0GiouR3JwY0Nv",
+            "bmZlcmVuY2VDb250cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABJ1ChRVcGRh",
+            "dGVZZWFyQ29uZmlnSW5mbxIvLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2",
+            "aWNlLlllYXJDb25maWdTdHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0",
+            "U2VydmljZS5Nb2RpZnlSZXBseSIAEogBChdHZXRDb25mZXJlbmNlT25zaXRl",
+            "TGlzdBI2LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLlBhZ2luYXRp",
+            "b25SZXF1ZXN0U2VhcmNoGjMuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
+            "Y2UuQ29uZmVyZW5jZU9uc2l0ZUxpc3QiABJ/ChdHZXRDb25mZXJlbmNlT25z",
+            "aXRlQnlJZBIrLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkSW50",
+            "UmVxdWVzdBo1LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLkNvbmZl",
+            "cmVuY2VPbnNpdGVTdHJ1Y3QiABKUAQoaQ3JlYXRlQ29uZmVyZW5jZU9uc2l0",
+            "ZUluZm8SNS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5Db25mZXJl",
+            "bmNlT25zaXRlU3RydWN0Gj0uR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
+            "Y2UuTW9kaWZ5UmVwbHlGb3JDb25mZXJlbmNlT25zaXRlIgASgQEKGlVwZGF0",
+            "ZUNvbmZlcmVuY2VPbnNpdGVJbmZvEjUuR3JwY0NvbmZlcmVuY2VDb250cmFj",
+            "dFNlcnZpY2UuQ29uZmVyZW5jZU9uc2l0ZVN0cnVjdBoqLkdycGNDb25mZXJl",
+            "bmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASdwoaRGVsZXRlQ29u",
+            "ZmVyZW5jZU9uc2l0ZUJ5SWQSKy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
+            "dmljZS5JZEludFJlcXVlc3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vy",
+            "dmljZS5Nb2RpZnlSZXBseSIAEnwKEUdldEludml0ZUNvZGVMaXN0EjYuR3Jw",
+            "Y0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuUGFnaW5hdGlvblJlcXVlc3RT",
+            "ZWFyY2gaLS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JbnZpdGVD",
+            "b2RlTGlzdCIAEnUKEUdldEludml0ZUNvZGVCeUlkEiguR3JwY0NvbmZlcmVu",
+            "Y2VDb250cmFjdFNlcnZpY2UuSWRSZXF1ZXN0GjQuR3JwY0NvbmZlcmVuY2VD",
+            "b250cmFjdFNlcnZpY2UuSW52aXRlQ29kZUNTUFZNU3RydWN0IgAShgEKH0dl",
+            "dEludml0ZUNvZGVCeUludml0ZUNvZGVOdW1iZXISKy5HcnBjQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0U2VydmljZS5TZWFyY2hTdHJ1Y3QaNC5HcnBjQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0U2VydmljZS5JbnZpdGVDb2RlQ1NQVk1TdHJ1Y3QiABJ1ChRD",
+            "cmVhdGVJbnZpdGVDb2RlSW5mbxIvLkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
+            "ZXJ2aWNlLkludml0ZUNvZGVTdHJ1Y3QaKi5HcnBjQ29uZmVyZW5jZUNvbnRy",
+            "YWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEnUKFFVwZGF0ZUludml0ZUNvZGVJ",
+            "bmZvEi8uR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UuSW52aXRlQ29k",
+            "ZVN0cnVjdBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlm",
+            "eVJlcGx5IgASbgoURGVsZXRlSW52aXRlQ29kZUJ5SWQSKC5HcnBjQ29uZmVy",
+            "ZW5jZUNvbnRyYWN0U2VydmljZS5JZFJlcXVlc3QaKi5HcnBjQ29uZmVyZW5j",
+            "ZUNvbnRyYWN0U2VydmljZS5Nb2RpZnlSZXBseSIAEogBChdHZXRJbnZpdGVD",
+            "b2RlUmVjb3JkTGlzdBI2LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNl",
+            "LlBhZ2luYXRpb25SZXF1ZXN0U2VhcmNoGjMuR3JwY0NvbmZlcmVuY2VDb250",
+            "cmFjdFNlcnZpY2UuSW52aXRlQ29kZVJlY29yZExpc3QiABJ8ChdHZXRJbnZp",
+            "dGVDb2RlUmVjb3JkQnlJZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2",
+            "aWNlLklkUmVxdWVzdBo1LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNl",
+            "Lkludml0ZUNvZGVSZWNvcmRTdHJ1Y3QiABKBAQoaQ3JlYXRlSW52aXRlQ29k",
+            "ZVJlY29yZEluZm8SNS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5J",
+            "bnZpdGVDb2RlUmVjb3JkU3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFj",
+            "dFNlcnZpY2UuTW9kaWZ5UmVwbHkiABKBAQoaVXBkYXRlSW52aXRlQ29kZVJl",
+            "Y29yZEluZm8SNS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5JbnZp",
+            "dGVDb2RlUmVjb3JkU3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
+            "cnZpY2UuTW9kaWZ5UmVwbHkiABJ0ChpEZWxldGVJbnZpdGVDb2RlUmVjb3Jk",
+            "QnlJZBIoLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLklkUmVxdWVz",
+            "dBoqLkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5",
+            "IgASbwoSQ29weVBhY2tJbmZvQnlZZWFyEisuR3JwY0NvbmZlcmVuY2VDb250",
+            "cmFjdFNlcnZpY2UuU2VhcmNoU3RydWN0GiouR3JwY0NvbmZlcmVuY2VDb250",
+            "cmFjdFNlcnZpY2UuTW9kaWZ5UmVwbHkiABKFAQobQ3JlYXRlQ29tcGFueVNl",
+            "cnZpY2VQYWNrTWFwEjguR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
+            "Q29tcGFueVNlcnZpY2VQYWNrTWFwTGlzdBoqLkdycGNDb25mZXJlbmNlQ29u",
+            "dHJhY3RTZXJ2aWNlLk1vZGlmeVJlcGx5IgASgQEKGUdldENvbnRyYWN0U3Rh",
+            "dGlzdGljc0xpc3QSKy5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5T",
+            "ZWFyY2hTdHJ1Y3QaNS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5D",
+            "b250cmFjdFN0YXRpc3RpY3NMaXN0IgASjQEKMklzTWF4Q29udHJhY3ROdW1i",
+            "ZXJFcXVhbHNQQ0NvdW50QnlDb21wYW55UEtBbmRZZWFyEisuR3JwY0NvbmZl",
+            "cmVuY2VDb250cmFjdFNlcnZpY2UuU2VhcmNoU3RydWN0GiguR3JwY0NvbmZl",
+            "cmVuY2VDb250cmFjdFNlcnZpY2UuQm9vbFJlcGx5IgASogEKHUdldFBlcnNv",
+            "bkNvbnRyYWN0TGlzdEZvckx1bmNoEjYuR3JwY0NvbmZlcmVuY2VDb250cmFj",
+            "dFNlcnZpY2UuUGFnaW5hdGlvblJlcXVlc3RTZWFyY2gaRy5HcnBjQ29uZmVy",
+            "ZW5jZUNvbnRyYWN0U2VydmljZS5QZXJzb25Db250cmFjdEFuZFNlc3Npb25D",
+            "b25mZXJlbmNlSWRMaXN0IgASlgEKJ0dldFBlcnNvbkNvbnRyYWN0TGlzdEFu",
+            "ZEFwcGx5Q29uZmVyZW5jZRI2LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2",
+            "aWNlLlBhZ2luYXRpb25SZXF1ZXN0U2VhcmNoGjEuR3JwY0NvbmZlcmVuY2VD",
+            "b250cmFjdFNlcnZpY2UuUGVyc29uQ29udHJhY3RMaXN0IgASfAoYRXhwb3J0",
+            "UGVyc29uQ29udHJhY3RMaXN0EisuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
+            "cnZpY2UuU2VhcmNoU3RydWN0GjEuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
+            "cnZpY2UuUGVyc29uQ29udHJhY3RMaXN0IgAy+A4KIEdycGNDb25mZXJlbmNl",
+            "Q29udHJhY3RTZXJ2aWNlTmV3EosBChJuZXdfR2V0U2VydmljZVBhY2sSOC5H",
+            "cnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5uZXdfR2V0U2VydmljZVBh",
+            "Y2tSZXF1ZXN0GjkuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UubmV3",
+            "X0dldFNlcnZpY2VQYWNrUmVzcG9uc2UiABJ7ChJuZXdfQWRkU2VydmljZVBh",
+            "Y2sSNC5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5uZXdfU2Vydmlj",
+            "ZVBhY2tTdHJ1Y3QaLS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5t",
+            "b2RpZnlSZXNwb25zZSIAEosBChpuZXdfQWRkU2VydmljZVBhY2tEaXNjb3Vu",
+            "dBI8LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLm5ld19TZXJ2aWNl",
+            "UGFja1N0cnVjdERpc2NvdW50Gi0uR3JwY0NvbmZlcmVuY2VDb250cmFjdFNl",
+            "cnZpY2UubW9kaWZ5UmVzcG9uc2UiABKFAQoVbmV3X0FkZFBlcnNvbkNvbnRy",
+            "YWN0EjsuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2UubmV3X0FkZFBl",
+            "cnNvbkNvbnRyYWN0UmVxdWVzdBotLkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
+            "ZXJ2aWNlLm1vZGlmeVJlc3BvbnNlIgASjgEKH25ld19HZXRDb21wYW55SW5m",
+            "b0J5Q29tcGFueU5hbWUSNS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vydmlj",
+            "ZS5uZXdfQ29tcGFueU5hbWVSZXF1ZXN0GjIuR3JwY0NvbmZlcmVuY2VDb250",
+            "cmFjdFNlcnZpY2UuQ29tcGFueUluZm9SZXNwb25zZSIAEpcBChZuZXdfR2V0",
+            "U2VydmljZVBhY2tMaXN0EjwuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZp",
+            "Y2UubmV3X0dldFNlcnZpY2VQYWNrTGlzdFJlcXVlc3QaPS5HcnBjQ29uZmVy",
+            "ZW5jZUNvbnRyYWN0U2VydmljZS5uZXdfR2V0U2VydmljZVBhY2tMaXN0UmVz",
+            "cG9uc2UiABKjAQoabmV3X0dldENvbXBhbnlDb250cmFjdExpc3QSQC5HcnBj",
+            "Q29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5uZXdfR2V0Q29tcGFueUNvbnRy",
+            "YWN0TGlzdFJlcXVlc3QaQS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2Vydmlj",
+            "ZS5uZXdfR2V0Q29tcGFueUNvbnRyYWN0TGlzdFJlc3BvbnNlIgASoAEKGW5l",
+            "d19HZXRQZXJzb25Db250cmFjdExpc3QSPy5HcnBjQ29uZmVyZW5jZUNvbnRy",
+            "YWN0U2VydmljZS5uZXdfR2V0UGVyc29uQ29udHJhY3RMaXN0UmVxdWVzdBpA",
+            "LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLm5ld19HZXRQZXJzb25D",
+            "b250cmFjdExpc3RSZXNwb25zZSIAEtkBCixuZXdfR2V0Q29tcGFueU5vdGlj",
+            "ZU9mUmVwb3J0QnlDb250cmFjdE51bWJlchJSLkdycGNDb25mZXJlbmNlQ29u",
+            "dHJhY3RTZXJ2aWNlLm5ld19HZXRDb21wYW55Tm90aWNlT2ZSZXBvcnRCeUNv",
+            "bnRyYWN0TnVtYmVyUmVxdWVzdBpTLkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
+            "ZXJ2aWNlLm5ld19HZXRDb21wYW55Tm90aWNlT2ZSZXBvcnRCeUNvbnRyYWN0",
+            "TnVtYmVyUmVzcG9uc2UiABLWAQorbmV3X0dldFBlcnNvbk5vdGljZU9mUmVw",
+            "b3J0QnlDb250cmFjdE51bWJlchJRLkdycGNDb25mZXJlbmNlQ29udHJhY3RT",
+            "ZXJ2aWNlLm5ld19HZXRQZXJzb25Ob3RpY2VPZlJlcG9ydEJ5Q29udHJhY3RO",
+            "dW1iZXJSZXF1ZXN0GlIuR3JwY0NvbmZlcmVuY2VDb250cmFjdFNlcnZpY2Uu",
+            "bmV3X0dldFBlcnNvbk5vdGljZU9mUmVwb3J0QnlDb250cmFjdE51bWJlclJl",
+            "c3BvbnNlIgASjgEKE25ld19HZXRTY2hlZHVsZUxpc3QSOS5HcnBjQ29uZmVy",
+            "ZW5jZUNvbnRyYWN0U2VydmljZS5uZXdfR2V0U2NoZWR1bGVMaXN0UmVxdWVz",
+            "dBo6LkdycGNDb25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLm5ld19HZXRTY2hl",
+            "ZHVsZUxpc3RSZXNwb25zZSIAEnkKD25ld19BZGRTY2hlZHVsZRI1LkdycGND",
+            "b25mZXJlbmNlQ29udHJhY3RTZXJ2aWNlLm5ld19BZGRTY2hlZHVsZVJlcXVl",
+            "c3QaLS5HcnBjQ29uZmVyZW5jZUNvbnRyYWN0U2VydmljZS5tb2RpZnlSZXNw",
+            "b25zZSIAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -871,7 +1223,47 @@ namespace GrpcConferenceContractService {
             new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.CheckInRequest), global::GrpcConferenceContractService.CheckInRequest.Parser, new[]{ "Ids", "IsCheckIn" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.ContractStatisticsStruct), global::GrpcConferenceContractService.ContractStatisticsStruct.Parser, new[]{ "CompanyServicePackId", "CompanyServicePackName", "PersonCount", "MaxContractNumberSum" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.ModifyCCPCOwerInfoStruct), global::GrpcConferenceContractService.ModifyCCPCOwerInfoStruct.Parser, new[]{ "ContractId", "Owerid", "Ower", "MaxContractNumber" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.BoolReply), global::GrpcConferenceContractService.BoolReply.Parser, new[]{ "Result" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.BoolReply), global::GrpcConferenceContractService.BoolReply.Parser, new[]{ "Result" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.modifyResponse), global::GrpcConferenceContractService.modifyResponse.Parser, new[]{ "IsSuccess", "Msg" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_ServicePackStruct), global::GrpcConferenceContractService.new_ServicePackStruct.Parser, new[]{ "ContractId", "ConferenceContractId", "CompanyServicePackId", "ConferenceId", "CompanyId", "ComNameTranslation", "ComContractNumber", "Country", "AddressTranslation", "ComPrice", "MaxContractNumber", "MaxContractNumberSatUse", "CCIsdelete", "EnterpriseType", "IsVerify", "Owerid", "Ower", "ContractCode", "IsCheckIn", "PPTUrl", "ContractStatusCode", "ConferenceName", "OtherOwnerId", "OtherOwner", "CreatedOn", "CreatedBy", "ModifiedOn", "ModifiedBy", "Year" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_ServicePackStructDiscount), global::GrpcConferenceContractService.new_ServicePackStructDiscount.Parser, new[]{ "Model", "Discount", "PriceAfterDiscountRMB", "PriceAfterDiscountUSD" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.newPersonContractStruct), global::GrpcConferenceContractService.newPersonContractStruct.Parser, new[]{ "PersonContractId", "ContractId", "ConferenceId", "MemberPK", "MemTranslation", "PCIsdelete", "CTypeCode", "IsCheckIn", "IsSendEmail", "IsModify", "IsFianceRecord", "InviteCodeId", "IsInviteCode", "IsCommitAbstract", "IsPrint", "Owerid", "Ower", "CreatedOn", "CreatedBy", "ModifiedOn", "ModefieldBy", "CompanyServicePackId", "ConferenceContractId", "PerPrice", "PaidAmount", "OtherOwnerId", "OtherOwner", "Year" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_AddPersonContractRequest), global::GrpcConferenceContractService.new_AddPersonContractRequest.Parser, new[]{ "Person", "CompanyContractModel" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.CompanyNameRequest), global::GrpcConferenceContractService.CompanyNameRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.CompanyInfoResponse), global::GrpcConferenceContractService.CompanyInfoResponse.Parser, new[]{ "CompnyName", "CompanyNameEn", "CompanyNameJp", "Email", "CompanyId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetServicePackListRequest), global::GrpcConferenceContractService.new_GetServicePackListRequest.Parser, new[]{ "Page", "PageSize", "Search" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetServicePackListRequest.Types.new_GetServicePackListSearch), global::GrpcConferenceContractService.new_GetServicePackListRequest.Types.new_GetServicePackListSearch.Parser, new[]{ "Year", "ConferenceId", "ServicePackId", "CompanyName", "ContractNumber", "Owner", "IsDiscount", "IsMaxCount" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetServicePackListStruct), global::GrpcConferenceContractService.new_GetServicePackListStruct.Parser, new[]{ "ContractNumber", "CompanyNameCn", "CompanyNameEn", "DomesticOrForeign", "ServicePack", "Pay", "ContractCount", "FilledContractCount", "Owner", "InviteCode", "ContractStatus", "CreatedBy", "CreatedOn", "ModifiyBy", "ModifyOn" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetServicePackListResponse), global::GrpcConferenceContractService.new_GetServicePackListResponse.Parser, new[]{ "Listdata", "Total" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetCompanyContractListRequest), global::GrpcConferenceContractService.new_GetCompanyContractListRequest.Parser, new[]{ "Page", "PageSize", "Search" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetCompanyContractListRequest.Types.new_GetCompanyContractListSearch), global::GrpcConferenceContractService.new_GetCompanyContractListRequest.Types.new_GetCompanyContractListSearch.Parser, new[]{ "Year", "ConferenceId", "CompanyName", "ContractNumber", "Owner" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetCompanyContractListResponse), global::GrpcConferenceContractService.new_GetCompanyContractListResponse.Parser, new[]{ "ContractNumber", "CompanyNameCn", "CompanyNameEn", "DomesticOrForeign", "Pay", "Paid", "Year", "IsSendEmail", "Owner", "InviteCode", "ContractStatus", "PayStatus", "CreatedBy", "CreatedOn", "ModifiyBy", "ModifyOn" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetPersonContractListRequest), global::GrpcConferenceContractService.new_GetPersonContractListRequest.Parser, new[]{ "Page", "PageSize", "Search" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetPersonContractListRequest.Types.new_GetPersonContractListSearch), global::GrpcConferenceContractService.new_GetPersonContractListRequest.Types.new_GetPersonContractListSearch.Parser, new[]{ "Year", "ConferenceId", "ServicePackId", "CompanyName", "ContractNumber", "Owner", "Name", "Email", "CreatedBy", "CreatedOn", "ModifiyBy", "ModifyOn" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetPersonContractListResponse), global::GrpcConferenceContractService.new_GetPersonContractListResponse.Parser, new[]{ "ContractNumber", "NameCn", "NameEn", "CompanyNameCn", "CompanyNameEn", "Position", "Email", "Mobile", "ServicePack", "Pay", "Paid", "Owner", "IsSendEmail", "IsPrint", "CreatedBy", "CreatedOn", "ModifiyBy", "ModifyOn" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetScheduleListRequest), global::GrpcConferenceContractService.new_GetScheduleListRequest.Parser, new[]{ "PersonContractNumber" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetScheduleListResponse), global::GrpcConferenceContractService.new_GetScheduleListResponse.Parser, new[]{ "PersonContractId", "PersonContractNumber", "ServicePack", "Name", "Title", "Positin", "Mobile", "Email", "CompanyName", "ActivityName", "ActivityVune", "ActivityTime", "Owner", "OwnerEmail", "OwnerMobile", "OwnerAddress", "CrteatedOn", "CreatedBy", "ModifyOn", "ModifyBy" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_AddScheduleRequest), global::GrpcConferenceContractService.new_AddScheduleRequest.Parser, new[]{ "PersonContractId", "PersonContractNumber", "ServicePack", "Name", "Title", "Positin", "Mobile", "Email", "CompanyName", "ActivityName", "ActivityVune", "ActivityTime", "Owner", "OwnerEmail", "OwnerMobile", "OwnerAddress", "CrteatedOn", "CreatedBy", "ModifyOn", "ModifyBy" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberRequest), global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberRequest.Parser, new[]{ "ContractNumber", "Year" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewConferenceStruct), global::GrpcConferenceContractService.NewConferenceStruct.Parser, new[]{ "ConferenceID", "ParentID", "Translation", "CFAddressPK", "StartDate", "StartDateTime", "Year", "Sort", "Abbreviation", "ConferenceIntroduce", "CreatedOn", "CreatedBy", "ModifiedOn", "ModifiedBy", "Level", "TimeRange", "ShowOnFront", "CFAddress", "ApplySearch" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewCFAddressStruct), global::GrpcConferenceContractService.NewCFAddressStruct.Parser, new[]{ "CFAddressPK", "Translation", "PostCode", "Country", "CreatedOn", "CreatedBy", "ModifiedOn", "ModifiedBy" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewApplyConferenceStruct), global::GrpcConferenceContractService.NewApplyConferenceStruct.Parser, new[]{ "Id", "PersonContractId", "MemberPK", "SessionConferenceId", "IsConfirm", "CompanyId", "TagTypeCodes", "RemarkTranslation", "Year", "SessionConferenceIds", "IsParticularConf", "Owerid" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewCompanyContractStruct), global::GrpcConferenceContractService.NewCompanyContractStruct.Parser, new[]{ "ContractId", "CompanyServicePackId", "CompanyId", "ComNameTranslation", "ComContractNumber", "Country", "AddressTranslation", "MaxContractNumber", "CCIsdelete", "EnterpriseType", "IsVerify", "Owerid", "Ower", "CreatedOn", "CreatedBy", "ModefieldOn", "ModefieldBy", "CompanyServicePack", "Dlistdata", "ContractCode", "ConferenceId", "ConferenceName", "IsCheckIn", "PPTUrl", "ContractStatusCode", "ConferenceContractId", "Plistdata", "ComPrice" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewCompanyServicePackStruct), global::GrpcConferenceContractService.NewCompanyServicePackStruct.Parser, new[]{ "CompanyServicePackId", "ContractTypeId", "Sort", "Translation", "PriceRMB", "PriceUSD", "IsShownOnFront", "CreatedOn", "CreatedBy", "ModefieldOn", "ModefieldBy", "RemarkTranslation", "ConferenceId", "ConferenceName", "IsSpeaker", "CTypeCode", "IsGive", "Year", "RemarkCode" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewServicePackStruct), global::GrpcConferenceContractService.NewServicePackStruct.Parser, new[]{ "ServicePackId", "Translation", "PriceRMB", "PriceUSD", "CreatedOn", "CreatedBy", "ModefieldOn", "ModefieldBy", "ConferenceId", "ConferenceName", "SessionConferenceId", "SessionConferenceName", "SessionDate", "SessionStartTime", "ThirdSessionConferenceId", "ThirdSessionConferenceName", "SessionAddress", "Year" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewActivityStruct), global::GrpcConferenceContractService.NewActivityStruct.Parser, new[]{ "ActivityId", "ActivityName", "SessionConferenceID", "SessionConferenceName", "Sort", "SessionIDs" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewCompanyStruct), global::GrpcConferenceContractService.NewCompanyStruct.Parser, new[]{ "CompanyPK", "CompanyTypePK", "IndustryTypePK", "MemberPK", "ComNameCn", "ComNameEn", "ComAreaDetail", "ComContactEmail", "ComPostCode", "ComFax", "ComTel", "ComWebSite", "ComClient", "ComNature", "ComLang", "ComRemark", "ComIsDelete", "ComIsVerify", "ComIsWebSite", "ComAddress", "CreatedOn", "CreatedBy", "ModefieldOn", "ModefieldBy" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewMemberStruct), global::GrpcConferenceContractService.NewMemberStruct.Parser, new[]{ "MemberPK", "SourcePK", "MemNameCn", "MemNameEn", "MemEmail", "MemPassword", "MemType", "MemGender", "MemDepartment", "MemTitle", "MemPosition", "MemProTitle", "MemQQ", "MemFax", "MemMSN", "MemMobile", "MemTel", "MemPostCode", "MemLastLoginTime", "MemAddress", "MemAddressDetail", "MemIsDelete", "MemIsActivation", "CreatedOn", "CreatedBy", "ModefieldOn", "ModefieldBy", "CompanyPK", "MemCountryNameCn", "MemCountryNameEn", "MemCompany", "AssistantName", "AssistantPosition", "AssistantMobile", "AssistantEmail" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewParticipantStruct), global::GrpcConferenceContractService.NewParticipantStruct.Parser, new[]{ "ParticipantID", "ParticipantNameTranslation", "IMGSRC", "CompanyTranslation", "JobTranslation", "CountryTranslation", "Email", "Mobile", "IntroduceTranslation", "CreatedOn", "CreatedBy", "ModifiedOn", "ModifiedBy", "PersonContractID", "PerContractNumber", "IsDelete", "Sort", "Owerid", "Ower", "AppellationTranslation", "CompanyId", "ConfirmPPT", "MemberPK", "ShowOnFont", "Year" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewActivityStruct1), global::GrpcConferenceContractService.NewActivityStruct1.Parser, new[]{ "ActivityID", "ConferenceID", "ActivityTypeID", "TimeLength", "Sort", "StartDate", "Translation", "CreatedOn", "CreatedBy", "ModifiedOn", "ModifiedBy", "StartTime", "EndTime" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewTalkStruct), global::GrpcConferenceContractService.NewTalkStruct.Parser, new[]{ "TalkID", "ActivityID", "TalkTypeID", "CFTopicPK", "Translation", "CreatedOn", "CreatedBy", "ModifiedOn", "ModifiedBy", "StartDate", "TimeLength", "Sort", "StartTime", "EndTime", "CFTopicName" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewParticipantInfoStruct), global::GrpcConferenceContractService.NewParticipantInfoStruct.Parser, new[]{ "ParticipantNameTranslation", "CompanyTranslation", "JobTranslation", "CountryTranslation", "AppellationTranslation", "ParticipantTypeTranslation", "ParticipantID", "ParticipantTypeID", "EMail", "Mobile" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberResponse), global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberResponse.Parser, new[]{ "ConferenceStructListdata", "CFAddressStructListdata", "ApplyConferenceStructListdata", "CompanyContractStructListdata", "CompanyServicePackStructListdata", "ServicepackListdata", "ActivityListdata", "CompanyStructListdata", "MemberStructListdata", "ParticipantStructListdata", "ActivityStructList", "ParticipantInfoStructList", "TalkStructList" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberRequest), global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberRequest.Parser, new[]{ "PersonContractNumber" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberResponse), global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberResponse.Parser, new[]{ "ContractNumber", "Name", "CompanyName", "ServicePack", "Fee", "Total", "ActivityName", "ActivityVune", "ActivityTime", "Owner", "OwnerMobile", "OwnerEmail", "OwnerAddress", "CreatedBy", "CreatedOn", "ModifiyBy", "ModifyOn" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_CompanyNameRequest), global::GrpcConferenceContractService.new_CompanyNameRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.Translation), global::GrpcConferenceContractService.Translation.Parser, new[]{ "CN", "EN", "JP" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.NewPersonContractStruct), global::GrpcConferenceContractService.NewPersonContractStruct.Parser, new[]{ "PersonContractId", "ContractId", "PerContractNumber", "MemberPK", "MemTranslation", "PCIsdelete", "CreatedOn", "CreatedBy", "ModefieldOn", "ModefieldBy", "Owerid", "Ower", "ConferenceContractId", "CTypeCode", "CompanyContract", "IsCheckIn", "IsSendEmail", "IsModify", "ConferenceId", "IsFianceRecord", "IsInviteCode", "InviteCodeId", "IsCommitAbstract", "IsPrint", "PaidAmount" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetServicePackRequest), global::GrpcConferenceContractService.new_GetServicePackRequest.Parser, new[]{ "ConferenceId", "ContractTypeId", "Year", "IsGive" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetServicePackStruct), global::GrpcConferenceContractService.new_GetServicePackStruct.Parser, new[]{ "CompanyServicePackId", "Code", "Translation", "PriceRMB", "PriceUSD", "PriceJP", "IsGive", "Year" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcConferenceContractService.new_GetServicePackResponse), global::GrpcConferenceContractService.new_GetServicePackResponse.Parser, new[]{ "Listdata" }, null, null, null)
           }));
     }
     #endregion
@@ -21888,6 +22280,19489 @@ namespace GrpcConferenceContractService {
             break;
           case 8: {
             Result = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class modifyResponse : pb::IMessage<modifyResponse> {
+    private static readonly pb::MessageParser<modifyResponse> _parser = new pb::MessageParser<modifyResponse>(() => new modifyResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<modifyResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[82]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public modifyResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public modifyResponse(modifyResponse other) : this() {
+      isSuccess_ = other.isSuccess_;
+      msg_ = other.msg_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public modifyResponse Clone() {
+      return new modifyResponse(this);
+    }
+
+    /// <summary>Field number for the "isSuccess" field.</summary>
+    public const int IsSuccessFieldNumber = 1;
+    private bool isSuccess_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsSuccess {
+      get { return isSuccess_; }
+      set {
+        isSuccess_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "msg" field.</summary>
+    public const int MsgFieldNumber = 2;
+    private string msg_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Msg {
+      get { return msg_; }
+      set {
+        msg_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as modifyResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(modifyResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (IsSuccess != other.IsSuccess) return false;
+      if (Msg != other.Msg) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (IsSuccess != false) hash ^= IsSuccess.GetHashCode();
+      if (Msg.Length != 0) hash ^= Msg.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (IsSuccess != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(IsSuccess);
+      }
+      if (Msg.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Msg);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (IsSuccess != false) {
+        size += 1 + 1;
+      }
+      if (Msg.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Msg);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(modifyResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.IsSuccess != false) {
+        IsSuccess = other.IsSuccess;
+      }
+      if (other.Msg.Length != 0) {
+        Msg = other.Msg;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            IsSuccess = input.ReadBool();
+            break;
+          }
+          case 18: {
+            Msg = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///付费合同和赠送合同添加二级合同时需要传的参数
+  /// </summary>
+  public sealed partial class new_ServicePackStruct : pb::IMessage<new_ServicePackStruct> {
+    private static readonly pb::MessageParser<new_ServicePackStruct> _parser = new pb::MessageParser<new_ServicePackStruct>(() => new new_ServicePackStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_ServicePackStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[83]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_ServicePackStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_ServicePackStruct(new_ServicePackStruct other) : this() {
+      contractId_ = other.contractId_;
+      conferenceContractId_ = other.conferenceContractId_;
+      companyServicePackId_ = other.companyServicePackId_;
+      conferenceId_ = other.conferenceId_;
+      companyId_ = other.companyId_;
+      comNameTranslation_ = other.comNameTranslation_;
+      comContractNumber_ = other.comContractNumber_;
+      country_ = other.country_;
+      addressTranslation_ = other.addressTranslation_;
+      comPrice_ = other.comPrice_;
+      maxContractNumber_ = other.maxContractNumber_;
+      maxContractNumberSatUse_ = other.maxContractNumberSatUse_;
+      cCIsdelete_ = other.cCIsdelete_;
+      enterpriseType_ = other.enterpriseType_;
+      isVerify_ = other.isVerify_;
+      owerid_ = other.owerid_;
+      ower_ = other.ower_;
+      contractCode_ = other.contractCode_;
+      isCheckIn_ = other.isCheckIn_;
+      pPTUrl_ = other.pPTUrl_;
+      contractStatusCode_ = other.contractStatusCode_;
+      conferenceName_ = other.conferenceName_;
+      otherOwnerId_ = other.otherOwnerId_;
+      otherOwner_ = other.otherOwner_;
+      createdOn_ = other.createdOn_;
+      createdBy_ = other.createdBy_;
+      modifiedOn_ = other.modifiedOn_;
+      modifiedBy_ = other.modifiedBy_;
+      year_ = other.year_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_ServicePackStruct Clone() {
+      return new new_ServicePackStruct(this);
+    }
+
+    /// <summary>Field number for the "ContractId" field.</summary>
+    public const int ContractIdFieldNumber = 1;
+    private string contractId_ = "";
+    /// <summary>
+    ///二级合同信息
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractId {
+      get { return contractId_; }
+      set {
+        contractId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceContractId" field.</summary>
+    public const int ConferenceContractIdFieldNumber = 2;
+    private string conferenceContractId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceContractId {
+      get { return conferenceContractId_; }
+      set {
+        conferenceContractId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CompanyServicePackId" field.</summary>
+    public const int CompanyServicePackIdFieldNumber = 3;
+    private string companyServicePackId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyServicePackId {
+      get { return companyServicePackId_; }
+      set {
+        companyServicePackId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceId" field.</summary>
+    public const int ConferenceIdFieldNumber = 4;
+    private string conferenceId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceId {
+      get { return conferenceId_; }
+      set {
+        conferenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CompanyId" field.</summary>
+    public const int CompanyIdFieldNumber = 5;
+    private string companyId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyId {
+      get { return companyId_; }
+      set {
+        companyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComNameTranslation" field.</summary>
+    public const int ComNameTranslationFieldNumber = 6;
+    private string comNameTranslation_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComNameTranslation {
+      get { return comNameTranslation_; }
+      set {
+        comNameTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComContractNumber" field.</summary>
+    public const int ComContractNumberFieldNumber = 7;
+    private string comContractNumber_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComContractNumber {
+      get { return comContractNumber_; }
+      set {
+        comContractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Country" field.</summary>
+    public const int CountryFieldNumber = 8;
+    private string country_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Country {
+      get { return country_; }
+      set {
+        country_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "AddressTranslation" field.</summary>
+    public const int AddressTranslationFieldNumber = 9;
+    private string addressTranslation_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AddressTranslation {
+      get { return addressTranslation_; }
+      set {
+        addressTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComPrice" field.</summary>
+    public const int ComPriceFieldNumber = 10;
+    private string comPrice_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComPrice {
+      get { return comPrice_; }
+      set {
+        comPrice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MaxContractNumber" field.</summary>
+    public const int MaxContractNumberFieldNumber = 11;
+    private int maxContractNumber_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int MaxContractNumber {
+      get { return maxContractNumber_; }
+      set {
+        maxContractNumber_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "MaxContractNumberSatUse" field.</summary>
+    public const int MaxContractNumberSatUseFieldNumber = 12;
+    private int maxContractNumberSatUse_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int MaxContractNumberSatUse {
+      get { return maxContractNumberSatUse_; }
+      set {
+        maxContractNumberSatUse_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CCIsdelete" field.</summary>
+    public const int CCIsdeleteFieldNumber = 13;
+    private bool cCIsdelete_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool CCIsdelete {
+      get { return cCIsdelete_; }
+      set {
+        cCIsdelete_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "EnterpriseType" field.</summary>
+    public const int EnterpriseTypeFieldNumber = 14;
+    private int enterpriseType_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int EnterpriseType {
+      get { return enterpriseType_; }
+      set {
+        enterpriseType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "IsVerify" field.</summary>
+    public const int IsVerifyFieldNumber = 15;
+    private bool isVerify_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsVerify {
+      get { return isVerify_; }
+      set {
+        isVerify_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Owerid" field.</summary>
+    public const int OweridFieldNumber = 16;
+    private string owerid_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Owerid {
+      get { return owerid_; }
+      set {
+        owerid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Ower" field.</summary>
+    public const int OwerFieldNumber = 17;
+    private string ower_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Ower {
+      get { return ower_; }
+      set {
+        ower_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ContractCode" field.</summary>
+    public const int ContractCodeFieldNumber = 18;
+    private string contractCode_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractCode {
+      get { return contractCode_; }
+      set {
+        contractCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IsCheckIn" field.</summary>
+    public const int IsCheckInFieldNumber = 19;
+    private bool isCheckIn_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsCheckIn {
+      get { return isCheckIn_; }
+      set {
+        isCheckIn_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "PPTUrl" field.</summary>
+    public const int PPTUrlFieldNumber = 20;
+    private string pPTUrl_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PPTUrl {
+      get { return pPTUrl_; }
+      set {
+        pPTUrl_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ContractStatusCode" field.</summary>
+    public const int ContractStatusCodeFieldNumber = 21;
+    private string contractStatusCode_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractStatusCode {
+      get { return contractStatusCode_; }
+      set {
+        contractStatusCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceName" field.</summary>
+    public const int ConferenceNameFieldNumber = 22;
+    private string conferenceName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceName {
+      get { return conferenceName_; }
+      set {
+        conferenceName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "OtherOwnerId" field.</summary>
+    public const int OtherOwnerIdFieldNumber = 23;
+    private string otherOwnerId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OtherOwnerId {
+      get { return otherOwnerId_; }
+      set {
+        otherOwnerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "OtherOwner" field.</summary>
+    public const int OtherOwnerFieldNumber = 24;
+    private string otherOwner_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OtherOwner {
+      get { return otherOwner_; }
+      set {
+        otherOwner_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedOn" field.</summary>
+    public const int CreatedOnFieldNumber = 25;
+    private string createdOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedBy" field.</summary>
+    public const int CreatedByFieldNumber = 26;
+    private string createdBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModifiedOn" field.</summary>
+    public const int ModifiedOnFieldNumber = 27;
+    private string modifiedOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiedOn {
+      get { return modifiedOn_; }
+      set {
+        modifiedOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModifiedBy" field.</summary>
+    public const int ModifiedByFieldNumber = 28;
+    private string modifiedBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiedBy {
+      get { return modifiedBy_; }
+      set {
+        modifiedBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Year" field.</summary>
+    public const int YearFieldNumber = 29;
+    private string year_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Year {
+      get { return year_; }
+      set {
+        year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_ServicePackStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_ServicePackStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ContractId != other.ContractId) return false;
+      if (ConferenceContractId != other.ConferenceContractId) return false;
+      if (CompanyServicePackId != other.CompanyServicePackId) return false;
+      if (ConferenceId != other.ConferenceId) return false;
+      if (CompanyId != other.CompanyId) return false;
+      if (ComNameTranslation != other.ComNameTranslation) return false;
+      if (ComContractNumber != other.ComContractNumber) return false;
+      if (Country != other.Country) return false;
+      if (AddressTranslation != other.AddressTranslation) return false;
+      if (ComPrice != other.ComPrice) return false;
+      if (MaxContractNumber != other.MaxContractNumber) return false;
+      if (MaxContractNumberSatUse != other.MaxContractNumberSatUse) return false;
+      if (CCIsdelete != other.CCIsdelete) return false;
+      if (EnterpriseType != other.EnterpriseType) return false;
+      if (IsVerify != other.IsVerify) return false;
+      if (Owerid != other.Owerid) return false;
+      if (Ower != other.Ower) return false;
+      if (ContractCode != other.ContractCode) return false;
+      if (IsCheckIn != other.IsCheckIn) return false;
+      if (PPTUrl != other.PPTUrl) return false;
+      if (ContractStatusCode != other.ContractStatusCode) return false;
+      if (ConferenceName != other.ConferenceName) return false;
+      if (OtherOwnerId != other.OtherOwnerId) return false;
+      if (OtherOwner != other.OtherOwner) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModifiedOn != other.ModifiedOn) return false;
+      if (ModifiedBy != other.ModifiedBy) return false;
+      if (Year != other.Year) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ContractId.Length != 0) hash ^= ContractId.GetHashCode();
+      if (ConferenceContractId.Length != 0) hash ^= ConferenceContractId.GetHashCode();
+      if (CompanyServicePackId.Length != 0) hash ^= CompanyServicePackId.GetHashCode();
+      if (ConferenceId.Length != 0) hash ^= ConferenceId.GetHashCode();
+      if (CompanyId.Length != 0) hash ^= CompanyId.GetHashCode();
+      if (ComNameTranslation.Length != 0) hash ^= ComNameTranslation.GetHashCode();
+      if (ComContractNumber.Length != 0) hash ^= ComContractNumber.GetHashCode();
+      if (Country.Length != 0) hash ^= Country.GetHashCode();
+      if (AddressTranslation.Length != 0) hash ^= AddressTranslation.GetHashCode();
+      if (ComPrice.Length != 0) hash ^= ComPrice.GetHashCode();
+      if (MaxContractNumber != 0) hash ^= MaxContractNumber.GetHashCode();
+      if (MaxContractNumberSatUse != 0) hash ^= MaxContractNumberSatUse.GetHashCode();
+      if (CCIsdelete != false) hash ^= CCIsdelete.GetHashCode();
+      if (EnterpriseType != 0) hash ^= EnterpriseType.GetHashCode();
+      if (IsVerify != false) hash ^= IsVerify.GetHashCode();
+      if (Owerid.Length != 0) hash ^= Owerid.GetHashCode();
+      if (Ower.Length != 0) hash ^= Ower.GetHashCode();
+      if (ContractCode.Length != 0) hash ^= ContractCode.GetHashCode();
+      if (IsCheckIn != false) hash ^= IsCheckIn.GetHashCode();
+      if (PPTUrl.Length != 0) hash ^= PPTUrl.GetHashCode();
+      if (ContractStatusCode.Length != 0) hash ^= ContractStatusCode.GetHashCode();
+      if (ConferenceName.Length != 0) hash ^= ConferenceName.GetHashCode();
+      if (OtherOwnerId.Length != 0) hash ^= OtherOwnerId.GetHashCode();
+      if (OtherOwner.Length != 0) hash ^= OtherOwner.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModifiedOn.Length != 0) hash ^= ModifiedOn.GetHashCode();
+      if (ModifiedBy.Length != 0) hash ^= ModifiedBy.GetHashCode();
+      if (Year.Length != 0) hash ^= Year.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ContractId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ContractId);
+      }
+      if (ConferenceContractId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ConferenceContractId);
+      }
+      if (CompanyServicePackId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(CompanyServicePackId);
+      }
+      if (ConferenceId.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(ConferenceId);
+      }
+      if (CompanyId.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(CompanyId);
+      }
+      if (ComNameTranslation.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(ComNameTranslation);
+      }
+      if (ComContractNumber.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(ComContractNumber);
+      }
+      if (Country.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Country);
+      }
+      if (AddressTranslation.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(AddressTranslation);
+      }
+      if (ComPrice.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(ComPrice);
+      }
+      if (MaxContractNumber != 0) {
+        output.WriteRawTag(88);
+        output.WriteInt32(MaxContractNumber);
+      }
+      if (MaxContractNumberSatUse != 0) {
+        output.WriteRawTag(96);
+        output.WriteInt32(MaxContractNumberSatUse);
+      }
+      if (CCIsdelete != false) {
+        output.WriteRawTag(104);
+        output.WriteBool(CCIsdelete);
+      }
+      if (EnterpriseType != 0) {
+        output.WriteRawTag(112);
+        output.WriteInt32(EnterpriseType);
+      }
+      if (IsVerify != false) {
+        output.WriteRawTag(120);
+        output.WriteBool(IsVerify);
+      }
+      if (Owerid.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(Owerid);
+      }
+      if (Ower.Length != 0) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(Ower);
+      }
+      if (ContractCode.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(ContractCode);
+      }
+      if (IsCheckIn != false) {
+        output.WriteRawTag(152, 1);
+        output.WriteBool(IsCheckIn);
+      }
+      if (PPTUrl.Length != 0) {
+        output.WriteRawTag(162, 1);
+        output.WriteString(PPTUrl);
+      }
+      if (ContractStatusCode.Length != 0) {
+        output.WriteRawTag(170, 1);
+        output.WriteString(ContractStatusCode);
+      }
+      if (ConferenceName.Length != 0) {
+        output.WriteRawTag(178, 1);
+        output.WriteString(ConferenceName);
+      }
+      if (OtherOwnerId.Length != 0) {
+        output.WriteRawTag(186, 1);
+        output.WriteString(OtherOwnerId);
+      }
+      if (OtherOwner.Length != 0) {
+        output.WriteRawTag(194, 1);
+        output.WriteString(OtherOwner);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(202, 1);
+        output.WriteString(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(210, 1);
+        output.WriteString(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        output.WriteRawTag(218, 1);
+        output.WriteString(ModifiedOn);
+      }
+      if (ModifiedBy.Length != 0) {
+        output.WriteRawTag(226, 1);
+        output.WriteString(ModifiedBy);
+      }
+      if (Year.Length != 0) {
+        output.WriteRawTag(234, 1);
+        output.WriteString(Year);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ContractId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractId);
+      }
+      if (ConferenceContractId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceContractId);
+      }
+      if (CompanyServicePackId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyServicePackId);
+      }
+      if (ConferenceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceId);
+      }
+      if (CompanyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyId);
+      }
+      if (ComNameTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComNameTranslation);
+      }
+      if (ComContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComContractNumber);
+      }
+      if (Country.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Country);
+      }
+      if (AddressTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AddressTranslation);
+      }
+      if (ComPrice.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComPrice);
+      }
+      if (MaxContractNumber != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(MaxContractNumber);
+      }
+      if (MaxContractNumberSatUse != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(MaxContractNumberSatUse);
+      }
+      if (CCIsdelete != false) {
+        size += 1 + 1;
+      }
+      if (EnterpriseType != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(EnterpriseType);
+      }
+      if (IsVerify != false) {
+        size += 1 + 1;
+      }
+      if (Owerid.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Owerid);
+      }
+      if (Ower.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Ower);
+      }
+      if (ContractCode.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ContractCode);
+      }
+      if (IsCheckIn != false) {
+        size += 2 + 1;
+      }
+      if (PPTUrl.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(PPTUrl);
+      }
+      if (ContractStatusCode.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ContractStatusCode);
+      }
+      if (ConferenceName.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ConferenceName);
+      }
+      if (OtherOwnerId.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(OtherOwnerId);
+      }
+      if (OtherOwner.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(OtherOwner);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModifiedOn);
+      }
+      if (ModifiedBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModifiedBy);
+      }
+      if (Year.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Year);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_ServicePackStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ContractId.Length != 0) {
+        ContractId = other.ContractId;
+      }
+      if (other.ConferenceContractId.Length != 0) {
+        ConferenceContractId = other.ConferenceContractId;
+      }
+      if (other.CompanyServicePackId.Length != 0) {
+        CompanyServicePackId = other.CompanyServicePackId;
+      }
+      if (other.ConferenceId.Length != 0) {
+        ConferenceId = other.ConferenceId;
+      }
+      if (other.CompanyId.Length != 0) {
+        CompanyId = other.CompanyId;
+      }
+      if (other.ComNameTranslation.Length != 0) {
+        ComNameTranslation = other.ComNameTranslation;
+      }
+      if (other.ComContractNumber.Length != 0) {
+        ComContractNumber = other.ComContractNumber;
+      }
+      if (other.Country.Length != 0) {
+        Country = other.Country;
+      }
+      if (other.AddressTranslation.Length != 0) {
+        AddressTranslation = other.AddressTranslation;
+      }
+      if (other.ComPrice.Length != 0) {
+        ComPrice = other.ComPrice;
+      }
+      if (other.MaxContractNumber != 0) {
+        MaxContractNumber = other.MaxContractNumber;
+      }
+      if (other.MaxContractNumberSatUse != 0) {
+        MaxContractNumberSatUse = other.MaxContractNumberSatUse;
+      }
+      if (other.CCIsdelete != false) {
+        CCIsdelete = other.CCIsdelete;
+      }
+      if (other.EnterpriseType != 0) {
+        EnterpriseType = other.EnterpriseType;
+      }
+      if (other.IsVerify != false) {
+        IsVerify = other.IsVerify;
+      }
+      if (other.Owerid.Length != 0) {
+        Owerid = other.Owerid;
+      }
+      if (other.Ower.Length != 0) {
+        Ower = other.Ower;
+      }
+      if (other.ContractCode.Length != 0) {
+        ContractCode = other.ContractCode;
+      }
+      if (other.IsCheckIn != false) {
+        IsCheckIn = other.IsCheckIn;
+      }
+      if (other.PPTUrl.Length != 0) {
+        PPTUrl = other.PPTUrl;
+      }
+      if (other.ContractStatusCode.Length != 0) {
+        ContractStatusCode = other.ContractStatusCode;
+      }
+      if (other.ConferenceName.Length != 0) {
+        ConferenceName = other.ConferenceName;
+      }
+      if (other.OtherOwnerId.Length != 0) {
+        OtherOwnerId = other.OtherOwnerId;
+      }
+      if (other.OtherOwner.Length != 0) {
+        OtherOwner = other.OtherOwner;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModifiedOn.Length != 0) {
+        ModifiedOn = other.ModifiedOn;
+      }
+      if (other.ModifiedBy.Length != 0) {
+        ModifiedBy = other.ModifiedBy;
+      }
+      if (other.Year.Length != 0) {
+        Year = other.Year;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ContractId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ConferenceContractId = input.ReadString();
+            break;
+          }
+          case 26: {
+            CompanyServicePackId = input.ReadString();
+            break;
+          }
+          case 34: {
+            ConferenceId = input.ReadString();
+            break;
+          }
+          case 42: {
+            CompanyId = input.ReadString();
+            break;
+          }
+          case 50: {
+            ComNameTranslation = input.ReadString();
+            break;
+          }
+          case 58: {
+            ComContractNumber = input.ReadString();
+            break;
+          }
+          case 66: {
+            Country = input.ReadString();
+            break;
+          }
+          case 74: {
+            AddressTranslation = input.ReadString();
+            break;
+          }
+          case 82: {
+            ComPrice = input.ReadString();
+            break;
+          }
+          case 88: {
+            MaxContractNumber = input.ReadInt32();
+            break;
+          }
+          case 96: {
+            MaxContractNumberSatUse = input.ReadInt32();
+            break;
+          }
+          case 104: {
+            CCIsdelete = input.ReadBool();
+            break;
+          }
+          case 112: {
+            EnterpriseType = input.ReadInt32();
+            break;
+          }
+          case 120: {
+            IsVerify = input.ReadBool();
+            break;
+          }
+          case 130: {
+            Owerid = input.ReadString();
+            break;
+          }
+          case 138: {
+            Ower = input.ReadString();
+            break;
+          }
+          case 146: {
+            ContractCode = input.ReadString();
+            break;
+          }
+          case 152: {
+            IsCheckIn = input.ReadBool();
+            break;
+          }
+          case 162: {
+            PPTUrl = input.ReadString();
+            break;
+          }
+          case 170: {
+            ContractStatusCode = input.ReadString();
+            break;
+          }
+          case 178: {
+            ConferenceName = input.ReadString();
+            break;
+          }
+          case 186: {
+            OtherOwnerId = input.ReadString();
+            break;
+          }
+          case 194: {
+            OtherOwner = input.ReadString();
+            break;
+          }
+          case 202: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 210: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 218: {
+            ModifiedOn = input.ReadString();
+            break;
+          }
+          case 226: {
+            ModifiedBy = input.ReadString();
+            break;
+          }
+          case 234: {
+            Year = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///添加付费合同的折扣信息时需要传入的参数
+  /// </summary>
+  public sealed partial class new_ServicePackStructDiscount : pb::IMessage<new_ServicePackStructDiscount> {
+    private static readonly pb::MessageParser<new_ServicePackStructDiscount> _parser = new pb::MessageParser<new_ServicePackStructDiscount>(() => new new_ServicePackStructDiscount());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_ServicePackStructDiscount> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[84]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_ServicePackStructDiscount() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_ServicePackStructDiscount(new_ServicePackStructDiscount other) : this() {
+      Model = other.model_ != null ? other.Model.Clone() : null;
+      discount_ = other.discount_;
+      priceAfterDiscountRMB_ = other.priceAfterDiscountRMB_;
+      priceAfterDiscountUSD_ = other.priceAfterDiscountUSD_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_ServicePackStructDiscount Clone() {
+      return new new_ServicePackStructDiscount(this);
+    }
+
+    /// <summary>Field number for the "model" field.</summary>
+    public const int ModelFieldNumber = 1;
+    private global::GrpcConferenceContractService.new_ServicePackStruct model_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.new_ServicePackStruct Model {
+      get { return model_; }
+      set {
+        model_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Discount" field.</summary>
+    public const int DiscountFieldNumber = 2;
+    private float discount_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Discount {
+      get { return discount_; }
+      set {
+        discount_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "PriceAfterDiscountRMB" field.</summary>
+    public const int PriceAfterDiscountRMBFieldNumber = 3;
+    private string priceAfterDiscountRMB_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PriceAfterDiscountRMB {
+      get { return priceAfterDiscountRMB_; }
+      set {
+        priceAfterDiscountRMB_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "PriceAfterDiscountUSD" field.</summary>
+    public const int PriceAfterDiscountUSDFieldNumber = 4;
+    private string priceAfterDiscountUSD_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PriceAfterDiscountUSD {
+      get { return priceAfterDiscountUSD_; }
+      set {
+        priceAfterDiscountUSD_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_ServicePackStructDiscount);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_ServicePackStructDiscount other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Model, other.Model)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Discount, other.Discount)) return false;
+      if (PriceAfterDiscountRMB != other.PriceAfterDiscountRMB) return false;
+      if (PriceAfterDiscountUSD != other.PriceAfterDiscountUSD) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (model_ != null) hash ^= Model.GetHashCode();
+      if (Discount != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Discount);
+      if (PriceAfterDiscountRMB.Length != 0) hash ^= PriceAfterDiscountRMB.GetHashCode();
+      if (PriceAfterDiscountUSD.Length != 0) hash ^= PriceAfterDiscountUSD.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (model_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Model);
+      }
+      if (Discount != 0F) {
+        output.WriteRawTag(21);
+        output.WriteFloat(Discount);
+      }
+      if (PriceAfterDiscountRMB.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(PriceAfterDiscountRMB);
+      }
+      if (PriceAfterDiscountUSD.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(PriceAfterDiscountUSD);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (model_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Model);
+      }
+      if (Discount != 0F) {
+        size += 1 + 4;
+      }
+      if (PriceAfterDiscountRMB.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PriceAfterDiscountRMB);
+      }
+      if (PriceAfterDiscountUSD.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PriceAfterDiscountUSD);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_ServicePackStructDiscount other) {
+      if (other == null) {
+        return;
+      }
+      if (other.model_ != null) {
+        if (model_ == null) {
+          model_ = new global::GrpcConferenceContractService.new_ServicePackStruct();
+        }
+        Model.MergeFrom(other.Model);
+      }
+      if (other.Discount != 0F) {
+        Discount = other.Discount;
+      }
+      if (other.PriceAfterDiscountRMB.Length != 0) {
+        PriceAfterDiscountRMB = other.PriceAfterDiscountRMB;
+      }
+      if (other.PriceAfterDiscountUSD.Length != 0) {
+        PriceAfterDiscountUSD = other.PriceAfterDiscountUSD;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (model_ == null) {
+              model_ = new global::GrpcConferenceContractService.new_ServicePackStruct();
+            }
+            input.ReadMessage(model_);
+            break;
+          }
+          case 21: {
+            Discount = input.ReadFloat();
+            break;
+          }
+          case 26: {
+            PriceAfterDiscountRMB = input.ReadString();
+            break;
+          }
+          case 34: {
+            PriceAfterDiscountUSD = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class newPersonContractStruct : pb::IMessage<newPersonContractStruct> {
+    private static readonly pb::MessageParser<newPersonContractStruct> _parser = new pb::MessageParser<newPersonContractStruct>(() => new newPersonContractStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<newPersonContractStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[85]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public newPersonContractStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public newPersonContractStruct(newPersonContractStruct other) : this() {
+      personContractId_ = other.personContractId_;
+      contractId_ = other.contractId_;
+      conferenceId_ = other.conferenceId_;
+      memberPK_ = other.memberPK_;
+      memTranslation_ = other.memTranslation_;
+      pCIsdelete_ = other.pCIsdelete_;
+      cTypeCode_ = other.cTypeCode_;
+      isCheckIn_ = other.isCheckIn_;
+      isSendEmail_ = other.isSendEmail_;
+      isModify_ = other.isModify_;
+      isFianceRecord_ = other.isFianceRecord_;
+      inviteCodeId_ = other.inviteCodeId_;
+      isInviteCode_ = other.isInviteCode_;
+      isCommitAbstract_ = other.isCommitAbstract_;
+      isPrint_ = other.isPrint_;
+      owerid_ = other.owerid_;
+      ower_ = other.ower_;
+      createdOn_ = other.createdOn_;
+      createdBy_ = other.createdBy_;
+      modifiedOn_ = other.modifiedOn_;
+      modefieldBy_ = other.modefieldBy_;
+      companyServicePackId_ = other.companyServicePackId_;
+      conferenceContractId_ = other.conferenceContractId_;
+      perPrice_ = other.perPrice_;
+      paidAmount_ = other.paidAmount_;
+      otherOwnerId_ = other.otherOwnerId_;
+      otherOwner_ = other.otherOwner_;
+      year_ = other.year_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public newPersonContractStruct Clone() {
+      return new newPersonContractStruct(this);
+    }
+
+    /// <summary>Field number for the "PersonContractId" field.</summary>
+    public const int PersonContractIdFieldNumber = 1;
+    private string personContractId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PersonContractId {
+      get { return personContractId_; }
+      set {
+        personContractId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ContractId" field.</summary>
+    public const int ContractIdFieldNumber = 2;
+    private string contractId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractId {
+      get { return contractId_; }
+      set {
+        contractId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceId" field.</summary>
+    public const int ConferenceIdFieldNumber = 3;
+    private string conferenceId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceId {
+      get { return conferenceId_; }
+      set {
+        conferenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemberPK" field.</summary>
+    public const int MemberPKFieldNumber = 4;
+    private string memberPK_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemberPK {
+      get { return memberPK_; }
+      set {
+        memberPK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemTranslation" field.</summary>
+    public const int MemTranslationFieldNumber = 5;
+    private string memTranslation_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemTranslation {
+      get { return memTranslation_; }
+      set {
+        memTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "PCIsdelete" field.</summary>
+    public const int PCIsdeleteFieldNumber = 6;
+    private bool pCIsdelete_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool PCIsdelete {
+      get { return pCIsdelete_; }
+      set {
+        pCIsdelete_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CTypeCode" field.</summary>
+    public const int CTypeCodeFieldNumber = 7;
+    private string cTypeCode_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CTypeCode {
+      get { return cTypeCode_; }
+      set {
+        cTypeCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IsCheckIn" field.</summary>
+    public const int IsCheckInFieldNumber = 8;
+    private bool isCheckIn_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsCheckIn {
+      get { return isCheckIn_; }
+      set {
+        isCheckIn_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "IsSendEmail" field.</summary>
+    public const int IsSendEmailFieldNumber = 9;
+    private bool isSendEmail_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsSendEmail {
+      get { return isSendEmail_; }
+      set {
+        isSendEmail_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "IsModify" field.</summary>
+    public const int IsModifyFieldNumber = 10;
+    private bool isModify_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsModify {
+      get { return isModify_; }
+      set {
+        isModify_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "IsFianceRecord" field.</summary>
+    public const int IsFianceRecordFieldNumber = 11;
+    private bool isFianceRecord_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsFianceRecord {
+      get { return isFianceRecord_; }
+      set {
+        isFianceRecord_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "InviteCodeId" field.</summary>
+    public const int InviteCodeIdFieldNumber = 12;
+    private string inviteCodeId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InviteCodeId {
+      get { return inviteCodeId_; }
+      set {
+        inviteCodeId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IsInviteCode" field.</summary>
+    public const int IsInviteCodeFieldNumber = 13;
+    private bool isInviteCode_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsInviteCode {
+      get { return isInviteCode_; }
+      set {
+        isInviteCode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "IsCommitAbstract" field.</summary>
+    public const int IsCommitAbstractFieldNumber = 14;
+    private bool isCommitAbstract_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsCommitAbstract {
+      get { return isCommitAbstract_; }
+      set {
+        isCommitAbstract_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "IsPrint" field.</summary>
+    public const int IsPrintFieldNumber = 15;
+    private bool isPrint_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsPrint {
+      get { return isPrint_; }
+      set {
+        isPrint_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Owerid" field.</summary>
+    public const int OweridFieldNumber = 16;
+    private string owerid_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Owerid {
+      get { return owerid_; }
+      set {
+        owerid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Ower" field.</summary>
+    public const int OwerFieldNumber = 17;
+    private string ower_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Ower {
+      get { return ower_; }
+      set {
+        ower_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedOn" field.</summary>
+    public const int CreatedOnFieldNumber = 18;
+    private string createdOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedBy" field.</summary>
+    public const int CreatedByFieldNumber = 19;
+    private string createdBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModifiedOn" field.</summary>
+    public const int ModifiedOnFieldNumber = 20;
+    private string modifiedOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiedOn {
+      get { return modifiedOn_; }
+      set {
+        modifiedOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModefieldBy" field.</summary>
+    public const int ModefieldByFieldNumber = 21;
+    private string modefieldBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModefieldBy {
+      get { return modefieldBy_; }
+      set {
+        modefieldBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CompanyServicePackId" field.</summary>
+    public const int CompanyServicePackIdFieldNumber = 22;
+    private string companyServicePackId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyServicePackId {
+      get { return companyServicePackId_; }
+      set {
+        companyServicePackId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceContractId" field.</summary>
+    public const int ConferenceContractIdFieldNumber = 23;
+    private string conferenceContractId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceContractId {
+      get { return conferenceContractId_; }
+      set {
+        conferenceContractId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "PerPrice" field.</summary>
+    public const int PerPriceFieldNumber = 24;
+    private string perPrice_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PerPrice {
+      get { return perPrice_; }
+      set {
+        perPrice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "PaidAmount" field.</summary>
+    public const int PaidAmountFieldNumber = 25;
+    private string paidAmount_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PaidAmount {
+      get { return paidAmount_; }
+      set {
+        paidAmount_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "OtherOwnerId" field.</summary>
+    public const int OtherOwnerIdFieldNumber = 26;
+    private string otherOwnerId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OtherOwnerId {
+      get { return otherOwnerId_; }
+      set {
+        otherOwnerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "OtherOwner" field.</summary>
+    public const int OtherOwnerFieldNumber = 27;
+    private string otherOwner_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OtherOwner {
+      get { return otherOwner_; }
+      set {
+        otherOwner_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Year" field.</summary>
+    public const int YearFieldNumber = 28;
+    private string year_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Year {
+      get { return year_; }
+      set {
+        year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as newPersonContractStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(newPersonContractStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PersonContractId != other.PersonContractId) return false;
+      if (ContractId != other.ContractId) return false;
+      if (ConferenceId != other.ConferenceId) return false;
+      if (MemberPK != other.MemberPK) return false;
+      if (MemTranslation != other.MemTranslation) return false;
+      if (PCIsdelete != other.PCIsdelete) return false;
+      if (CTypeCode != other.CTypeCode) return false;
+      if (IsCheckIn != other.IsCheckIn) return false;
+      if (IsSendEmail != other.IsSendEmail) return false;
+      if (IsModify != other.IsModify) return false;
+      if (IsFianceRecord != other.IsFianceRecord) return false;
+      if (InviteCodeId != other.InviteCodeId) return false;
+      if (IsInviteCode != other.IsInviteCode) return false;
+      if (IsCommitAbstract != other.IsCommitAbstract) return false;
+      if (IsPrint != other.IsPrint) return false;
+      if (Owerid != other.Owerid) return false;
+      if (Ower != other.Ower) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModifiedOn != other.ModifiedOn) return false;
+      if (ModefieldBy != other.ModefieldBy) return false;
+      if (CompanyServicePackId != other.CompanyServicePackId) return false;
+      if (ConferenceContractId != other.ConferenceContractId) return false;
+      if (PerPrice != other.PerPrice) return false;
+      if (PaidAmount != other.PaidAmount) return false;
+      if (OtherOwnerId != other.OtherOwnerId) return false;
+      if (OtherOwner != other.OtherOwner) return false;
+      if (Year != other.Year) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (PersonContractId.Length != 0) hash ^= PersonContractId.GetHashCode();
+      if (ContractId.Length != 0) hash ^= ContractId.GetHashCode();
+      if (ConferenceId.Length != 0) hash ^= ConferenceId.GetHashCode();
+      if (MemberPK.Length != 0) hash ^= MemberPK.GetHashCode();
+      if (MemTranslation.Length != 0) hash ^= MemTranslation.GetHashCode();
+      if (PCIsdelete != false) hash ^= PCIsdelete.GetHashCode();
+      if (CTypeCode.Length != 0) hash ^= CTypeCode.GetHashCode();
+      if (IsCheckIn != false) hash ^= IsCheckIn.GetHashCode();
+      if (IsSendEmail != false) hash ^= IsSendEmail.GetHashCode();
+      if (IsModify != false) hash ^= IsModify.GetHashCode();
+      if (IsFianceRecord != false) hash ^= IsFianceRecord.GetHashCode();
+      if (InviteCodeId.Length != 0) hash ^= InviteCodeId.GetHashCode();
+      if (IsInviteCode != false) hash ^= IsInviteCode.GetHashCode();
+      if (IsCommitAbstract != false) hash ^= IsCommitAbstract.GetHashCode();
+      if (IsPrint != false) hash ^= IsPrint.GetHashCode();
+      if (Owerid.Length != 0) hash ^= Owerid.GetHashCode();
+      if (Ower.Length != 0) hash ^= Ower.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModifiedOn.Length != 0) hash ^= ModifiedOn.GetHashCode();
+      if (ModefieldBy.Length != 0) hash ^= ModefieldBy.GetHashCode();
+      if (CompanyServicePackId.Length != 0) hash ^= CompanyServicePackId.GetHashCode();
+      if (ConferenceContractId.Length != 0) hash ^= ConferenceContractId.GetHashCode();
+      if (PerPrice.Length != 0) hash ^= PerPrice.GetHashCode();
+      if (PaidAmount.Length != 0) hash ^= PaidAmount.GetHashCode();
+      if (OtherOwnerId.Length != 0) hash ^= OtherOwnerId.GetHashCode();
+      if (OtherOwner.Length != 0) hash ^= OtherOwner.GetHashCode();
+      if (Year.Length != 0) hash ^= Year.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (PersonContractId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(PersonContractId);
+      }
+      if (ContractId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ContractId);
+      }
+      if (ConferenceId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(ConferenceId);
+      }
+      if (MemberPK.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(MemberPK);
+      }
+      if (MemTranslation.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(MemTranslation);
+      }
+      if (PCIsdelete != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(PCIsdelete);
+      }
+      if (CTypeCode.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(CTypeCode);
+      }
+      if (IsCheckIn != false) {
+        output.WriteRawTag(64);
+        output.WriteBool(IsCheckIn);
+      }
+      if (IsSendEmail != false) {
+        output.WriteRawTag(72);
+        output.WriteBool(IsSendEmail);
+      }
+      if (IsModify != false) {
+        output.WriteRawTag(80);
+        output.WriteBool(IsModify);
+      }
+      if (IsFianceRecord != false) {
+        output.WriteRawTag(88);
+        output.WriteBool(IsFianceRecord);
+      }
+      if (InviteCodeId.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(InviteCodeId);
+      }
+      if (IsInviteCode != false) {
+        output.WriteRawTag(104);
+        output.WriteBool(IsInviteCode);
+      }
+      if (IsCommitAbstract != false) {
+        output.WriteRawTag(112);
+        output.WriteBool(IsCommitAbstract);
+      }
+      if (IsPrint != false) {
+        output.WriteRawTag(120);
+        output.WriteBool(IsPrint);
+      }
+      if (Owerid.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(Owerid);
+      }
+      if (Ower.Length != 0) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(Ower);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(154, 1);
+        output.WriteString(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        output.WriteRawTag(162, 1);
+        output.WriteString(ModifiedOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        output.WriteRawTag(170, 1);
+        output.WriteString(ModefieldBy);
+      }
+      if (CompanyServicePackId.Length != 0) {
+        output.WriteRawTag(178, 1);
+        output.WriteString(CompanyServicePackId);
+      }
+      if (ConferenceContractId.Length != 0) {
+        output.WriteRawTag(186, 1);
+        output.WriteString(ConferenceContractId);
+      }
+      if (PerPrice.Length != 0) {
+        output.WriteRawTag(194, 1);
+        output.WriteString(PerPrice);
+      }
+      if (PaidAmount.Length != 0) {
+        output.WriteRawTag(202, 1);
+        output.WriteString(PaidAmount);
+      }
+      if (OtherOwnerId.Length != 0) {
+        output.WriteRawTag(210, 1);
+        output.WriteString(OtherOwnerId);
+      }
+      if (OtherOwner.Length != 0) {
+        output.WriteRawTag(218, 1);
+        output.WriteString(OtherOwner);
+      }
+      if (Year.Length != 0) {
+        output.WriteRawTag(226, 1);
+        output.WriteString(Year);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (PersonContractId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PersonContractId);
+      }
+      if (ContractId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractId);
+      }
+      if (ConferenceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceId);
+      }
+      if (MemberPK.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemberPK);
+      }
+      if (MemTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemTranslation);
+      }
+      if (PCIsdelete != false) {
+        size += 1 + 1;
+      }
+      if (CTypeCode.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CTypeCode);
+      }
+      if (IsCheckIn != false) {
+        size += 1 + 1;
+      }
+      if (IsSendEmail != false) {
+        size += 1 + 1;
+      }
+      if (IsModify != false) {
+        size += 1 + 1;
+      }
+      if (IsFianceRecord != false) {
+        size += 1 + 1;
+      }
+      if (InviteCodeId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InviteCodeId);
+      }
+      if (IsInviteCode != false) {
+        size += 1 + 1;
+      }
+      if (IsCommitAbstract != false) {
+        size += 1 + 1;
+      }
+      if (IsPrint != false) {
+        size += 1 + 1;
+      }
+      if (Owerid.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Owerid);
+      }
+      if (Ower.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Ower);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModifiedOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModefieldBy);
+      }
+      if (CompanyServicePackId.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CompanyServicePackId);
+      }
+      if (ConferenceContractId.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ConferenceContractId);
+      }
+      if (PerPrice.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(PerPrice);
+      }
+      if (PaidAmount.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(PaidAmount);
+      }
+      if (OtherOwnerId.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(OtherOwnerId);
+      }
+      if (OtherOwner.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(OtherOwner);
+      }
+      if (Year.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Year);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(newPersonContractStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.PersonContractId.Length != 0) {
+        PersonContractId = other.PersonContractId;
+      }
+      if (other.ContractId.Length != 0) {
+        ContractId = other.ContractId;
+      }
+      if (other.ConferenceId.Length != 0) {
+        ConferenceId = other.ConferenceId;
+      }
+      if (other.MemberPK.Length != 0) {
+        MemberPK = other.MemberPK;
+      }
+      if (other.MemTranslation.Length != 0) {
+        MemTranslation = other.MemTranslation;
+      }
+      if (other.PCIsdelete != false) {
+        PCIsdelete = other.PCIsdelete;
+      }
+      if (other.CTypeCode.Length != 0) {
+        CTypeCode = other.CTypeCode;
+      }
+      if (other.IsCheckIn != false) {
+        IsCheckIn = other.IsCheckIn;
+      }
+      if (other.IsSendEmail != false) {
+        IsSendEmail = other.IsSendEmail;
+      }
+      if (other.IsModify != false) {
+        IsModify = other.IsModify;
+      }
+      if (other.IsFianceRecord != false) {
+        IsFianceRecord = other.IsFianceRecord;
+      }
+      if (other.InviteCodeId.Length != 0) {
+        InviteCodeId = other.InviteCodeId;
+      }
+      if (other.IsInviteCode != false) {
+        IsInviteCode = other.IsInviteCode;
+      }
+      if (other.IsCommitAbstract != false) {
+        IsCommitAbstract = other.IsCommitAbstract;
+      }
+      if (other.IsPrint != false) {
+        IsPrint = other.IsPrint;
+      }
+      if (other.Owerid.Length != 0) {
+        Owerid = other.Owerid;
+      }
+      if (other.Ower.Length != 0) {
+        Ower = other.Ower;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModifiedOn.Length != 0) {
+        ModifiedOn = other.ModifiedOn;
+      }
+      if (other.ModefieldBy.Length != 0) {
+        ModefieldBy = other.ModefieldBy;
+      }
+      if (other.CompanyServicePackId.Length != 0) {
+        CompanyServicePackId = other.CompanyServicePackId;
+      }
+      if (other.ConferenceContractId.Length != 0) {
+        ConferenceContractId = other.ConferenceContractId;
+      }
+      if (other.PerPrice.Length != 0) {
+        PerPrice = other.PerPrice;
+      }
+      if (other.PaidAmount.Length != 0) {
+        PaidAmount = other.PaidAmount;
+      }
+      if (other.OtherOwnerId.Length != 0) {
+        OtherOwnerId = other.OtherOwnerId;
+      }
+      if (other.OtherOwner.Length != 0) {
+        OtherOwner = other.OtherOwner;
+      }
+      if (other.Year.Length != 0) {
+        Year = other.Year;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            PersonContractId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ContractId = input.ReadString();
+            break;
+          }
+          case 26: {
+            ConferenceId = input.ReadString();
+            break;
+          }
+          case 34: {
+            MemberPK = input.ReadString();
+            break;
+          }
+          case 42: {
+            MemTranslation = input.ReadString();
+            break;
+          }
+          case 48: {
+            PCIsdelete = input.ReadBool();
+            break;
+          }
+          case 58: {
+            CTypeCode = input.ReadString();
+            break;
+          }
+          case 64: {
+            IsCheckIn = input.ReadBool();
+            break;
+          }
+          case 72: {
+            IsSendEmail = input.ReadBool();
+            break;
+          }
+          case 80: {
+            IsModify = input.ReadBool();
+            break;
+          }
+          case 88: {
+            IsFianceRecord = input.ReadBool();
+            break;
+          }
+          case 98: {
+            InviteCodeId = input.ReadString();
+            break;
+          }
+          case 104: {
+            IsInviteCode = input.ReadBool();
+            break;
+          }
+          case 112: {
+            IsCommitAbstract = input.ReadBool();
+            break;
+          }
+          case 120: {
+            IsPrint = input.ReadBool();
+            break;
+          }
+          case 130: {
+            Owerid = input.ReadString();
+            break;
+          }
+          case 138: {
+            Ower = input.ReadString();
+            break;
+          }
+          case 146: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 154: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 162: {
+            ModifiedOn = input.ReadString();
+            break;
+          }
+          case 170: {
+            ModefieldBy = input.ReadString();
+            break;
+          }
+          case 178: {
+            CompanyServicePackId = input.ReadString();
+            break;
+          }
+          case 186: {
+            ConferenceContractId = input.ReadString();
+            break;
+          }
+          case 194: {
+            PerPrice = input.ReadString();
+            break;
+          }
+          case 202: {
+            PaidAmount = input.ReadString();
+            break;
+          }
+          case 210: {
+            OtherOwnerId = input.ReadString();
+            break;
+          }
+          case 218: {
+            OtherOwner = input.ReadString();
+            break;
+          }
+          case 226: {
+            Year = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///添加个人合同
+  /// </summary>
+  public sealed partial class new_AddPersonContractRequest : pb::IMessage<new_AddPersonContractRequest> {
+    private static readonly pb::MessageParser<new_AddPersonContractRequest> _parser = new pb::MessageParser<new_AddPersonContractRequest>(() => new new_AddPersonContractRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_AddPersonContractRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[86]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_AddPersonContractRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_AddPersonContractRequest(new_AddPersonContractRequest other) : this() {
+      Person = other.person_ != null ? other.Person.Clone() : null;
+      CompanyContractModel = other.companyContractModel_ != null ? other.CompanyContractModel.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_AddPersonContractRequest Clone() {
+      return new new_AddPersonContractRequest(this);
+    }
+
+    /// <summary>Field number for the "person" field.</summary>
+    public const int PersonFieldNumber = 1;
+    private global::GrpcConferenceContractService.newPersonContractStruct person_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.newPersonContractStruct Person {
+      get { return person_; }
+      set {
+        person_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "companyContractModel" field.</summary>
+    public const int CompanyContractModelFieldNumber = 2;
+    private global::GrpcConferenceContractService.new_ServicePackStruct companyContractModel_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.new_ServicePackStruct CompanyContractModel {
+      get { return companyContractModel_; }
+      set {
+        companyContractModel_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_AddPersonContractRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_AddPersonContractRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Person, other.Person)) return false;
+      if (!object.Equals(CompanyContractModel, other.CompanyContractModel)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (person_ != null) hash ^= Person.GetHashCode();
+      if (companyContractModel_ != null) hash ^= CompanyContractModel.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (person_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Person);
+      }
+      if (companyContractModel_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(CompanyContractModel);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (person_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Person);
+      }
+      if (companyContractModel_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CompanyContractModel);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_AddPersonContractRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.person_ != null) {
+        if (person_ == null) {
+          person_ = new global::GrpcConferenceContractService.newPersonContractStruct();
+        }
+        Person.MergeFrom(other.Person);
+      }
+      if (other.companyContractModel_ != null) {
+        if (companyContractModel_ == null) {
+          companyContractModel_ = new global::GrpcConferenceContractService.new_ServicePackStruct();
+        }
+        CompanyContractModel.MergeFrom(other.CompanyContractModel);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (person_ == null) {
+              person_ = new global::GrpcConferenceContractService.newPersonContractStruct();
+            }
+            input.ReadMessage(person_);
+            break;
+          }
+          case 18: {
+            if (companyContractModel_ == null) {
+              companyContractModel_ = new global::GrpcConferenceContractService.new_ServicePackStruct();
+            }
+            input.ReadMessage(companyContractModel_);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class CompanyNameRequest : pb::IMessage<CompanyNameRequest> {
+    private static readonly pb::MessageParser<CompanyNameRequest> _parser = new pb::MessageParser<CompanyNameRequest>(() => new CompanyNameRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<CompanyNameRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[87]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CompanyNameRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CompanyNameRequest(CompanyNameRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CompanyNameRequest Clone() {
+      return new CompanyNameRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    ///公司名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as CompanyNameRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(CompanyNameRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(CompanyNameRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///公司信息
+  /// </summary>
+  public sealed partial class CompanyInfoResponse : pb::IMessage<CompanyInfoResponse> {
+    private static readonly pb::MessageParser<CompanyInfoResponse> _parser = new pb::MessageParser<CompanyInfoResponse>(() => new CompanyInfoResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<CompanyInfoResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[88]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CompanyInfoResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CompanyInfoResponse(CompanyInfoResponse other) : this() {
+      compnyName_ = other.compnyName_;
+      companyNameEn_ = other.companyNameEn_;
+      companyNameJp_ = other.companyNameJp_;
+      email_ = other.email_;
+      companyId_ = other.companyId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CompanyInfoResponse Clone() {
+      return new CompanyInfoResponse(this);
+    }
+
+    /// <summary>Field number for the "compnyName" field.</summary>
+    public const int CompnyNameFieldNumber = 1;
+    private string compnyName_ = "";
+    /// <summary>
+    ///公司中文名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompnyName {
+      get { return compnyName_; }
+      set {
+        compnyName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "companyNameEn" field.</summary>
+    public const int CompanyNameEnFieldNumber = 2;
+    private string companyNameEn_ = "";
+    /// <summary>
+    ///公司英文名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyNameEn {
+      get { return companyNameEn_; }
+      set {
+        companyNameEn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "companyNameJp" field.</summary>
+    public const int CompanyNameJpFieldNumber = 3;
+    private string companyNameJp_ = "";
+    /// <summary>
+    ///公司日文名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyNameJp {
+      get { return companyNameJp_; }
+      set {
+        companyNameJp_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Email" field.</summary>
+    public const int EmailFieldNumber = 4;
+    private string email_ = "";
+    /// <summary>
+    ///邮箱
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Email {
+      get { return email_; }
+      set {
+        email_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "companyId" field.</summary>
+    public const int CompanyIdFieldNumber = 5;
+    private string companyId_ = "";
+    /// <summary>
+    ///公司Id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyId {
+      get { return companyId_; }
+      set {
+        companyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as CompanyInfoResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(CompanyInfoResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (CompnyName != other.CompnyName) return false;
+      if (CompanyNameEn != other.CompanyNameEn) return false;
+      if (CompanyNameJp != other.CompanyNameJp) return false;
+      if (Email != other.Email) return false;
+      if (CompanyId != other.CompanyId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (CompnyName.Length != 0) hash ^= CompnyName.GetHashCode();
+      if (CompanyNameEn.Length != 0) hash ^= CompanyNameEn.GetHashCode();
+      if (CompanyNameJp.Length != 0) hash ^= CompanyNameJp.GetHashCode();
+      if (Email.Length != 0) hash ^= Email.GetHashCode();
+      if (CompanyId.Length != 0) hash ^= CompanyId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (CompnyName.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(CompnyName);
+      }
+      if (CompanyNameEn.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(CompanyNameEn);
+      }
+      if (CompanyNameJp.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(CompanyNameJp);
+      }
+      if (Email.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Email);
+      }
+      if (CompanyId.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(CompanyId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (CompnyName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompnyName);
+      }
+      if (CompanyNameEn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyNameEn);
+      }
+      if (CompanyNameJp.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyNameJp);
+      }
+      if (Email.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Email);
+      }
+      if (CompanyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(CompanyInfoResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.CompnyName.Length != 0) {
+        CompnyName = other.CompnyName;
+      }
+      if (other.CompanyNameEn.Length != 0) {
+        CompanyNameEn = other.CompanyNameEn;
+      }
+      if (other.CompanyNameJp.Length != 0) {
+        CompanyNameJp = other.CompanyNameJp;
+      }
+      if (other.Email.Length != 0) {
+        Email = other.Email;
+      }
+      if (other.CompanyId.Length != 0) {
+        CompanyId = other.CompanyId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            CompnyName = input.ReadString();
+            break;
+          }
+          case 18: {
+            CompanyNameEn = input.ReadString();
+            break;
+          }
+          case 26: {
+            CompanyNameJp = input.ReadString();
+            break;
+          }
+          case 34: {
+            Email = input.ReadString();
+            break;
+          }
+          case 42: {
+            CompanyId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///付费合同列表页码的搜索与请求条件
+  /// </summary>
+  public sealed partial class new_GetServicePackListRequest : pb::IMessage<new_GetServicePackListRequest> {
+    private static readonly pb::MessageParser<new_GetServicePackListRequest> _parser = new pb::MessageParser<new_GetServicePackListRequest>(() => new new_GetServicePackListRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetServicePackListRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[89]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackListRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackListRequest(new_GetServicePackListRequest other) : this() {
+      page_ = other.page_;
+      pageSize_ = other.pageSize_;
+      Search = other.search_ != null ? other.Search.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackListRequest Clone() {
+      return new new_GetServicePackListRequest(this);
+    }
+
+    /// <summary>Field number for the "page" field.</summary>
+    public const int PageFieldNumber = 1;
+    private int page_;
+    /// <summary>
+    ///请求页码
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Page {
+      get { return page_; }
+      set {
+        page_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pageSize" field.</summary>
+    public const int PageSizeFieldNumber = 2;
+    private int pageSize_;
+    /// <summary>
+    ///每页数据条数
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "search" field.</summary>
+    public const int SearchFieldNumber = 3;
+    private global::GrpcConferenceContractService.new_GetServicePackListRequest.Types.new_GetServicePackListSearch search_;
+    /// <summary>
+    ///查询条件
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.new_GetServicePackListRequest.Types.new_GetServicePackListSearch Search {
+      get { return search_; }
+      set {
+        search_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetServicePackListRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetServicePackListRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Page != other.Page) return false;
+      if (PageSize != other.PageSize) return false;
+      if (!object.Equals(Search, other.Search)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Page != 0) hash ^= Page.GetHashCode();
+      if (PageSize != 0) hash ^= PageSize.GetHashCode();
+      if (search_ != null) hash ^= Search.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Page != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Page);
+      }
+      if (PageSize != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(PageSize);
+      }
+      if (search_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Search);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Page != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Page);
+      }
+      if (PageSize != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PageSize);
+      }
+      if (search_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Search);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetServicePackListRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Page != 0) {
+        Page = other.Page;
+      }
+      if (other.PageSize != 0) {
+        PageSize = other.PageSize;
+      }
+      if (other.search_ != null) {
+        if (search_ == null) {
+          search_ = new global::GrpcConferenceContractService.new_GetServicePackListRequest.Types.new_GetServicePackListSearch();
+        }
+        Search.MergeFrom(other.Search);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Page = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            PageSize = input.ReadInt32();
+            break;
+          }
+          case 26: {
+            if (search_ == null) {
+              search_ = new global::GrpcConferenceContractService.new_GetServicePackListRequest.Types.new_GetServicePackListSearch();
+            }
+            input.ReadMessage(search_);
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the new_GetServicePackListRequest message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public sealed partial class new_GetServicePackListSearch : pb::IMessage<new_GetServicePackListSearch> {
+        private static readonly pb::MessageParser<new_GetServicePackListSearch> _parser = new pb::MessageParser<new_GetServicePackListSearch>(() => new new_GetServicePackListSearch());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<new_GetServicePackListSearch> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::GrpcConferenceContractService.new_GetServicePackListRequest.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public new_GetServicePackListSearch() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public new_GetServicePackListSearch(new_GetServicePackListSearch other) : this() {
+          year_ = other.year_;
+          conferenceId_ = other.conferenceId_;
+          servicePackId_ = other.servicePackId_;
+          companyName_ = other.companyName_;
+          contractNumber_ = other.contractNumber_;
+          owner_ = other.owner_;
+          isDiscount_ = other.isDiscount_;
+          isMaxCount_ = other.isMaxCount_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public new_GetServicePackListSearch Clone() {
+          return new new_GetServicePackListSearch(this);
+        }
+
+        /// <summary>Field number for the "year" field.</summary>
+        public const int YearFieldNumber = 1;
+        private string year_ = "";
+        /// <summary>
+        ///年份
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Year {
+          get { return year_; }
+          set {
+            year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "conferenceId" field.</summary>
+        public const int ConferenceIdFieldNumber = 2;
+        private string conferenceId_ = "";
+        /// <summary>
+        ///会议Id
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string ConferenceId {
+          get { return conferenceId_; }
+          set {
+            conferenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "servicePackId" field.</summary>
+        public const int ServicePackIdFieldNumber = 3;
+        private string servicePackId_ = "";
+        /// <summary>
+        ///套餐Id
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string ServicePackId {
+          get { return servicePackId_; }
+          set {
+            servicePackId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "companyName" field.</summary>
+        public const int CompanyNameFieldNumber = 4;
+        private string companyName_ = "";
+        /// <summary>
+        ///公司名
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string CompanyName {
+          get { return companyName_; }
+          set {
+            companyName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "contractNumber" field.</summary>
+        public const int ContractNumberFieldNumber = 5;
+        private string contractNumber_ = "";
+        /// <summary>
+        ///合同号
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string ContractNumber {
+          get { return contractNumber_; }
+          set {
+            contractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "owner" field.</summary>
+        public const int OwnerFieldNumber = 6;
+        private string owner_ = "";
+        /// <summary>
+        ///业务员
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Owner {
+          get { return owner_; }
+          set {
+            owner_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "isDiscount" field.</summary>
+        public const int IsDiscountFieldNumber = 7;
+        private bool isDiscount_;
+        /// <summary>
+        ///是否为无折扣合同
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool IsDiscount {
+          get { return isDiscount_; }
+          set {
+            isDiscount_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "isMaxCount" field.</summary>
+        public const int IsMaxCountFieldNumber = 8;
+        private bool isMaxCount_;
+        /// <summary>
+        ///参会人员是否达到上限
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool IsMaxCount {
+          get { return isMaxCount_; }
+          set {
+            isMaxCount_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as new_GetServicePackListSearch);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(new_GetServicePackListSearch other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Year != other.Year) return false;
+          if (ConferenceId != other.ConferenceId) return false;
+          if (ServicePackId != other.ServicePackId) return false;
+          if (CompanyName != other.CompanyName) return false;
+          if (ContractNumber != other.ContractNumber) return false;
+          if (Owner != other.Owner) return false;
+          if (IsDiscount != other.IsDiscount) return false;
+          if (IsMaxCount != other.IsMaxCount) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Year.Length != 0) hash ^= Year.GetHashCode();
+          if (ConferenceId.Length != 0) hash ^= ConferenceId.GetHashCode();
+          if (ServicePackId.Length != 0) hash ^= ServicePackId.GetHashCode();
+          if (CompanyName.Length != 0) hash ^= CompanyName.GetHashCode();
+          if (ContractNumber.Length != 0) hash ^= ContractNumber.GetHashCode();
+          if (Owner.Length != 0) hash ^= Owner.GetHashCode();
+          if (IsDiscount != false) hash ^= IsDiscount.GetHashCode();
+          if (IsMaxCount != false) hash ^= IsMaxCount.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (Year.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Year);
+          }
+          if (ConferenceId.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(ConferenceId);
+          }
+          if (ServicePackId.Length != 0) {
+            output.WriteRawTag(26);
+            output.WriteString(ServicePackId);
+          }
+          if (CompanyName.Length != 0) {
+            output.WriteRawTag(34);
+            output.WriteString(CompanyName);
+          }
+          if (ContractNumber.Length != 0) {
+            output.WriteRawTag(42);
+            output.WriteString(ContractNumber);
+          }
+          if (Owner.Length != 0) {
+            output.WriteRawTag(50);
+            output.WriteString(Owner);
+          }
+          if (IsDiscount != false) {
+            output.WriteRawTag(56);
+            output.WriteBool(IsDiscount);
+          }
+          if (IsMaxCount != false) {
+            output.WriteRawTag(64);
+            output.WriteBool(IsMaxCount);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (Year.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Year);
+          }
+          if (ConferenceId.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceId);
+          }
+          if (ServicePackId.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ServicePackId);
+          }
+          if (CompanyName.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyName);
+          }
+          if (ContractNumber.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractNumber);
+          }
+          if (Owner.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Owner);
+          }
+          if (IsDiscount != false) {
+            size += 1 + 1;
+          }
+          if (IsMaxCount != false) {
+            size += 1 + 1;
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(new_GetServicePackListSearch other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Year.Length != 0) {
+            Year = other.Year;
+          }
+          if (other.ConferenceId.Length != 0) {
+            ConferenceId = other.ConferenceId;
+          }
+          if (other.ServicePackId.Length != 0) {
+            ServicePackId = other.ServicePackId;
+          }
+          if (other.CompanyName.Length != 0) {
+            CompanyName = other.CompanyName;
+          }
+          if (other.ContractNumber.Length != 0) {
+            ContractNumber = other.ContractNumber;
+          }
+          if (other.Owner.Length != 0) {
+            Owner = other.Owner;
+          }
+          if (other.IsDiscount != false) {
+            IsDiscount = other.IsDiscount;
+          }
+          if (other.IsMaxCount != false) {
+            IsMaxCount = other.IsMaxCount;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Year = input.ReadString();
+                break;
+              }
+              case 18: {
+                ConferenceId = input.ReadString();
+                break;
+              }
+              case 26: {
+                ServicePackId = input.ReadString();
+                break;
+              }
+              case 34: {
+                CompanyName = input.ReadString();
+                break;
+              }
+              case 42: {
+                ContractNumber = input.ReadString();
+                break;
+              }
+              case 50: {
+                Owner = input.ReadString();
+                break;
+              }
+              case 56: {
+                IsDiscount = input.ReadBool();
+                break;
+              }
+              case 64: {
+                IsMaxCount = input.ReadBool();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
+
+  }
+
+  /// <summary>
+  ///得到付费合同和赠送合同列表
+  /// </summary>
+  public sealed partial class new_GetServicePackListStruct : pb::IMessage<new_GetServicePackListStruct> {
+    private static readonly pb::MessageParser<new_GetServicePackListStruct> _parser = new pb::MessageParser<new_GetServicePackListStruct>(() => new new_GetServicePackListStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetServicePackListStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[90]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackListStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackListStruct(new_GetServicePackListStruct other) : this() {
+      contractNumber_ = other.contractNumber_;
+      companyNameCn_ = other.companyNameCn_;
+      companyNameEn_ = other.companyNameEn_;
+      domesticOrForeign_ = other.domesticOrForeign_;
+      servicePack_ = other.servicePack_;
+      pay_ = other.pay_;
+      contractCount_ = other.contractCount_;
+      filledContractCount_ = other.filledContractCount_;
+      owner_ = other.owner_;
+      inviteCode_ = other.inviteCode_;
+      contractStatus_ = other.contractStatus_;
+      createdBy_ = other.createdBy_;
+      createdOn_ = other.createdOn_;
+      modifiyBy_ = other.modifiyBy_;
+      modifyOn_ = other.modifyOn_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackListStruct Clone() {
+      return new new_GetServicePackListStruct(this);
+    }
+
+    /// <summary>Field number for the "contractNumber" field.</summary>
+    public const int ContractNumberFieldNumber = 1;
+    private string contractNumber_ = "";
+    /// <summary>
+    ///合同号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractNumber {
+      get { return contractNumber_; }
+      set {
+        contractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "companyNameCn" field.</summary>
+    public const int CompanyNameCnFieldNumber = 2;
+    private string companyNameCn_ = "";
+    /// <summary>
+    ///公司中文名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyNameCn {
+      get { return companyNameCn_; }
+      set {
+        companyNameCn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "companyNameEn" field.</summary>
+    public const int CompanyNameEnFieldNumber = 3;
+    private string companyNameEn_ = "";
+    /// <summary>
+    ///公司英文名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyNameEn {
+      get { return companyNameEn_; }
+      set {
+        companyNameEn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "domesticOrForeign" field.</summary>
+    public const int DomesticOrForeignFieldNumber = 4;
+    private string domesticOrForeign_ = "";
+    /// <summary>
+    ///内资还是外资
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string DomesticOrForeign {
+      get { return domesticOrForeign_; }
+      set {
+        domesticOrForeign_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "servicePack" field.</summary>
+    public const int ServicePackFieldNumber = 5;
+    private string servicePack_ = "";
+    /// <summary>
+    ///参会类型
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ServicePack {
+      get { return servicePack_; }
+      set {
+        servicePack_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "pay" field.</summary>
+    public const int PayFieldNumber = 6;
+    private string pay_ = "";
+    /// <summary>
+    ///应付费
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Pay {
+      get { return pay_; }
+      set {
+        pay_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "contractCount" field.</summary>
+    public const int ContractCountFieldNumber = 7;
+    private string contractCount_ = "";
+    /// <summary>
+    ///子合同数
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractCount {
+      get { return contractCount_; }
+      set {
+        contractCount_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "filledContractCount" field.</summary>
+    public const int FilledContractCountFieldNumber = 8;
+    private int filledContractCount_;
+    /// <summary>
+    ///已填子合同数
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int FilledContractCount {
+      get { return filledContractCount_; }
+      set {
+        filledContractCount_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "owner" field.</summary>
+    public const int OwnerFieldNumber = 9;
+    private string owner_ = "";
+    /// <summary>
+    ///业务员
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Owner {
+      get { return owner_; }
+      set {
+        owner_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "inviteCode" field.</summary>
+    public const int InviteCodeFieldNumber = 10;
+    private string inviteCode_ = "";
+    /// <summary>
+    ///邀请码
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InviteCode {
+      get { return inviteCode_; }
+      set {
+        inviteCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "contractStatus" field.</summary>
+    public const int ContractStatusFieldNumber = 11;
+    private string contractStatus_ = "";
+    /// <summary>
+    ///合同状态
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractStatus {
+      get { return contractStatus_; }
+      set {
+        contractStatus_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "createdBy" field.</summary>
+    public const int CreatedByFieldNumber = 12;
+    private string createdBy_ = "";
+    /// <summary>
+    ///创建人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "createdOn" field.</summary>
+    public const int CreatedOnFieldNumber = 13;
+    private string createdOn_ = "";
+    /// <summary>
+    ///创建时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modifiyBy" field.</summary>
+    public const int ModifiyByFieldNumber = 14;
+    private string modifiyBy_ = "";
+    /// <summary>
+    ///修改人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiyBy {
+      get { return modifiyBy_; }
+      set {
+        modifiyBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modifyOn" field.</summary>
+    public const int ModifyOnFieldNumber = 15;
+    private string modifyOn_ = "";
+    /// <summary>
+    ///修改时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifyOn {
+      get { return modifyOn_; }
+      set {
+        modifyOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetServicePackListStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetServicePackListStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ContractNumber != other.ContractNumber) return false;
+      if (CompanyNameCn != other.CompanyNameCn) return false;
+      if (CompanyNameEn != other.CompanyNameEn) return false;
+      if (DomesticOrForeign != other.DomesticOrForeign) return false;
+      if (ServicePack != other.ServicePack) return false;
+      if (Pay != other.Pay) return false;
+      if (ContractCount != other.ContractCount) return false;
+      if (FilledContractCount != other.FilledContractCount) return false;
+      if (Owner != other.Owner) return false;
+      if (InviteCode != other.InviteCode) return false;
+      if (ContractStatus != other.ContractStatus) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (ModifiyBy != other.ModifiyBy) return false;
+      if (ModifyOn != other.ModifyOn) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ContractNumber.Length != 0) hash ^= ContractNumber.GetHashCode();
+      if (CompanyNameCn.Length != 0) hash ^= CompanyNameCn.GetHashCode();
+      if (CompanyNameEn.Length != 0) hash ^= CompanyNameEn.GetHashCode();
+      if (DomesticOrForeign.Length != 0) hash ^= DomesticOrForeign.GetHashCode();
+      if (ServicePack.Length != 0) hash ^= ServicePack.GetHashCode();
+      if (Pay.Length != 0) hash ^= Pay.GetHashCode();
+      if (ContractCount.Length != 0) hash ^= ContractCount.GetHashCode();
+      if (FilledContractCount != 0) hash ^= FilledContractCount.GetHashCode();
+      if (Owner.Length != 0) hash ^= Owner.GetHashCode();
+      if (InviteCode.Length != 0) hash ^= InviteCode.GetHashCode();
+      if (ContractStatus.Length != 0) hash ^= ContractStatus.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (ModifiyBy.Length != 0) hash ^= ModifiyBy.GetHashCode();
+      if (ModifyOn.Length != 0) hash ^= ModifyOn.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ContractNumber.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ContractNumber);
+      }
+      if (CompanyNameCn.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(CompanyNameCn);
+      }
+      if (CompanyNameEn.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(CompanyNameEn);
+      }
+      if (DomesticOrForeign.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(DomesticOrForeign);
+      }
+      if (ServicePack.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(ServicePack);
+      }
+      if (Pay.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(Pay);
+      }
+      if (ContractCount.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(ContractCount);
+      }
+      if (FilledContractCount != 0) {
+        output.WriteRawTag(64);
+        output.WriteInt32(FilledContractCount);
+      }
+      if (Owner.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(Owner);
+      }
+      if (InviteCode.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(InviteCode);
+      }
+      if (ContractStatus.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(ContractStatus);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(CreatedBy);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(CreatedOn);
+      }
+      if (ModifiyBy.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(ModifiyBy);
+      }
+      if (ModifyOn.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(ModifyOn);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractNumber);
+      }
+      if (CompanyNameCn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyNameCn);
+      }
+      if (CompanyNameEn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyNameEn);
+      }
+      if (DomesticOrForeign.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DomesticOrForeign);
+      }
+      if (ServicePack.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ServicePack);
+      }
+      if (Pay.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Pay);
+      }
+      if (ContractCount.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractCount);
+      }
+      if (FilledContractCount != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(FilledContractCount);
+      }
+      if (Owner.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Owner);
+      }
+      if (InviteCode.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InviteCode);
+      }
+      if (ContractStatus.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractStatus);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (ModifiyBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifiyBy);
+      }
+      if (ModifyOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifyOn);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetServicePackListStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ContractNumber.Length != 0) {
+        ContractNumber = other.ContractNumber;
+      }
+      if (other.CompanyNameCn.Length != 0) {
+        CompanyNameCn = other.CompanyNameCn;
+      }
+      if (other.CompanyNameEn.Length != 0) {
+        CompanyNameEn = other.CompanyNameEn;
+      }
+      if (other.DomesticOrForeign.Length != 0) {
+        DomesticOrForeign = other.DomesticOrForeign;
+      }
+      if (other.ServicePack.Length != 0) {
+        ServicePack = other.ServicePack;
+      }
+      if (other.Pay.Length != 0) {
+        Pay = other.Pay;
+      }
+      if (other.ContractCount.Length != 0) {
+        ContractCount = other.ContractCount;
+      }
+      if (other.FilledContractCount != 0) {
+        FilledContractCount = other.FilledContractCount;
+      }
+      if (other.Owner.Length != 0) {
+        Owner = other.Owner;
+      }
+      if (other.InviteCode.Length != 0) {
+        InviteCode = other.InviteCode;
+      }
+      if (other.ContractStatus.Length != 0) {
+        ContractStatus = other.ContractStatus;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.ModifiyBy.Length != 0) {
+        ModifiyBy = other.ModifiyBy;
+      }
+      if (other.ModifyOn.Length != 0) {
+        ModifyOn = other.ModifyOn;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ContractNumber = input.ReadString();
+            break;
+          }
+          case 18: {
+            CompanyNameCn = input.ReadString();
+            break;
+          }
+          case 26: {
+            CompanyNameEn = input.ReadString();
+            break;
+          }
+          case 34: {
+            DomesticOrForeign = input.ReadString();
+            break;
+          }
+          case 42: {
+            ServicePack = input.ReadString();
+            break;
+          }
+          case 50: {
+            Pay = input.ReadString();
+            break;
+          }
+          case 58: {
+            ContractCount = input.ReadString();
+            break;
+          }
+          case 64: {
+            FilledContractCount = input.ReadInt32();
+            break;
+          }
+          case 74: {
+            Owner = input.ReadString();
+            break;
+          }
+          case 82: {
+            InviteCode = input.ReadString();
+            break;
+          }
+          case 90: {
+            ContractStatus = input.ReadString();
+            break;
+          }
+          case 98: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 106: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 114: {
+            ModifiyBy = input.ReadString();
+            break;
+          }
+          case 122: {
+            ModifyOn = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///获取付费合同和赠送合同的列表
+  /// </summary>
+  public sealed partial class new_GetServicePackListResponse : pb::IMessage<new_GetServicePackListResponse> {
+    private static readonly pb::MessageParser<new_GetServicePackListResponse> _parser = new pb::MessageParser<new_GetServicePackListResponse>(() => new new_GetServicePackListResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetServicePackListResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[91]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackListResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackListResponse(new_GetServicePackListResponse other) : this() {
+      listdata_ = other.listdata_.Clone();
+      total_ = other.total_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackListResponse Clone() {
+      return new new_GetServicePackListResponse(this);
+    }
+
+    /// <summary>Field number for the "listdata" field.</summary>
+    public const int ListdataFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.new_GetServicePackListStruct> _repeated_listdata_codec
+        = pb::FieldCodec.ForMessage(10, global::GrpcConferenceContractService.new_GetServicePackListStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.new_GetServicePackListStruct> listdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.new_GetServicePackListStruct>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.new_GetServicePackListStruct> Listdata {
+      get { return listdata_; }
+    }
+
+    /// <summary>Field number for the "total" field.</summary>
+    public const int TotalFieldNumber = 2;
+    private int total_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Total {
+      get { return total_; }
+      set {
+        total_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetServicePackListResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetServicePackListResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!listdata_.Equals(other.listdata_)) return false;
+      if (Total != other.Total) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= listdata_.GetHashCode();
+      if (Total != 0) hash ^= Total.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      listdata_.WriteTo(output, _repeated_listdata_codec);
+      if (Total != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(Total);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += listdata_.CalculateSize(_repeated_listdata_codec);
+      if (Total != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Total);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetServicePackListResponse other) {
+      if (other == null) {
+        return;
+      }
+      listdata_.Add(other.listdata_);
+      if (other.Total != 0) {
+        Total = other.Total;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            listdata_.AddEntriesFrom(input, _repeated_listdata_codec);
+            break;
+          }
+          case 16: {
+            Total = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///获取公司合同（一级合同）时传入的参数
+  /// </summary>
+  public sealed partial class new_GetCompanyContractListRequest : pb::IMessage<new_GetCompanyContractListRequest> {
+    private static readonly pb::MessageParser<new_GetCompanyContractListRequest> _parser = new pb::MessageParser<new_GetCompanyContractListRequest>(() => new new_GetCompanyContractListRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetCompanyContractListRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[92]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetCompanyContractListRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetCompanyContractListRequest(new_GetCompanyContractListRequest other) : this() {
+      page_ = other.page_;
+      pageSize_ = other.pageSize_;
+      Search = other.search_ != null ? other.Search.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetCompanyContractListRequest Clone() {
+      return new new_GetCompanyContractListRequest(this);
+    }
+
+    /// <summary>Field number for the "page" field.</summary>
+    public const int PageFieldNumber = 1;
+    private int page_;
+    /// <summary>
+    ///请求页码
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Page {
+      get { return page_; }
+      set {
+        page_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pageSize" field.</summary>
+    public const int PageSizeFieldNumber = 2;
+    private int pageSize_;
+    /// <summary>
+    ///每页数据条数
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "search" field.</summary>
+    public const int SearchFieldNumber = 3;
+    private global::GrpcConferenceContractService.new_GetCompanyContractListRequest.Types.new_GetCompanyContractListSearch search_;
+    /// <summary>
+    ///查询条件
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.new_GetCompanyContractListRequest.Types.new_GetCompanyContractListSearch Search {
+      get { return search_; }
+      set {
+        search_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetCompanyContractListRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetCompanyContractListRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Page != other.Page) return false;
+      if (PageSize != other.PageSize) return false;
+      if (!object.Equals(Search, other.Search)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Page != 0) hash ^= Page.GetHashCode();
+      if (PageSize != 0) hash ^= PageSize.GetHashCode();
+      if (search_ != null) hash ^= Search.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Page != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Page);
+      }
+      if (PageSize != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(PageSize);
+      }
+      if (search_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Search);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Page != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Page);
+      }
+      if (PageSize != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PageSize);
+      }
+      if (search_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Search);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetCompanyContractListRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Page != 0) {
+        Page = other.Page;
+      }
+      if (other.PageSize != 0) {
+        PageSize = other.PageSize;
+      }
+      if (other.search_ != null) {
+        if (search_ == null) {
+          search_ = new global::GrpcConferenceContractService.new_GetCompanyContractListRequest.Types.new_GetCompanyContractListSearch();
+        }
+        Search.MergeFrom(other.Search);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Page = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            PageSize = input.ReadInt32();
+            break;
+          }
+          case 26: {
+            if (search_ == null) {
+              search_ = new global::GrpcConferenceContractService.new_GetCompanyContractListRequest.Types.new_GetCompanyContractListSearch();
+            }
+            input.ReadMessage(search_);
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the new_GetCompanyContractListRequest message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public sealed partial class new_GetCompanyContractListSearch : pb::IMessage<new_GetCompanyContractListSearch> {
+        private static readonly pb::MessageParser<new_GetCompanyContractListSearch> _parser = new pb::MessageParser<new_GetCompanyContractListSearch>(() => new new_GetCompanyContractListSearch());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<new_GetCompanyContractListSearch> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::GrpcConferenceContractService.new_GetCompanyContractListRequest.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public new_GetCompanyContractListSearch() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public new_GetCompanyContractListSearch(new_GetCompanyContractListSearch other) : this() {
+          year_ = other.year_;
+          conferenceId_ = other.conferenceId_;
+          companyName_ = other.companyName_;
+          contractNumber_ = other.contractNumber_;
+          owner_ = other.owner_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public new_GetCompanyContractListSearch Clone() {
+          return new new_GetCompanyContractListSearch(this);
+        }
+
+        /// <summary>Field number for the "year" field.</summary>
+        public const int YearFieldNumber = 1;
+        private string year_ = "";
+        /// <summary>
+        ///年份
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Year {
+          get { return year_; }
+          set {
+            year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "conferenceId" field.</summary>
+        public const int ConferenceIdFieldNumber = 2;
+        private string conferenceId_ = "";
+        /// <summary>
+        ///会议Id
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string ConferenceId {
+          get { return conferenceId_; }
+          set {
+            conferenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "companyName" field.</summary>
+        public const int CompanyNameFieldNumber = 3;
+        private string companyName_ = "";
+        /// <summary>
+        ///公司名
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string CompanyName {
+          get { return companyName_; }
+          set {
+            companyName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "contractNumber" field.</summary>
+        public const int ContractNumberFieldNumber = 4;
+        private string contractNumber_ = "";
+        /// <summary>
+        ///合同号
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string ContractNumber {
+          get { return contractNumber_; }
+          set {
+            contractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "owner" field.</summary>
+        public const int OwnerFieldNumber = 5;
+        private string owner_ = "";
+        /// <summary>
+        ///业务员
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Owner {
+          get { return owner_; }
+          set {
+            owner_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as new_GetCompanyContractListSearch);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(new_GetCompanyContractListSearch other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Year != other.Year) return false;
+          if (ConferenceId != other.ConferenceId) return false;
+          if (CompanyName != other.CompanyName) return false;
+          if (ContractNumber != other.ContractNumber) return false;
+          if (Owner != other.Owner) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Year.Length != 0) hash ^= Year.GetHashCode();
+          if (ConferenceId.Length != 0) hash ^= ConferenceId.GetHashCode();
+          if (CompanyName.Length != 0) hash ^= CompanyName.GetHashCode();
+          if (ContractNumber.Length != 0) hash ^= ContractNumber.GetHashCode();
+          if (Owner.Length != 0) hash ^= Owner.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (Year.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Year);
+          }
+          if (ConferenceId.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(ConferenceId);
+          }
+          if (CompanyName.Length != 0) {
+            output.WriteRawTag(26);
+            output.WriteString(CompanyName);
+          }
+          if (ContractNumber.Length != 0) {
+            output.WriteRawTag(34);
+            output.WriteString(ContractNumber);
+          }
+          if (Owner.Length != 0) {
+            output.WriteRawTag(42);
+            output.WriteString(Owner);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (Year.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Year);
+          }
+          if (ConferenceId.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceId);
+          }
+          if (CompanyName.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyName);
+          }
+          if (ContractNumber.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractNumber);
+          }
+          if (Owner.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Owner);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(new_GetCompanyContractListSearch other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Year.Length != 0) {
+            Year = other.Year;
+          }
+          if (other.ConferenceId.Length != 0) {
+            ConferenceId = other.ConferenceId;
+          }
+          if (other.CompanyName.Length != 0) {
+            CompanyName = other.CompanyName;
+          }
+          if (other.ContractNumber.Length != 0) {
+            ContractNumber = other.ContractNumber;
+          }
+          if (other.Owner.Length != 0) {
+            Owner = other.Owner;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Year = input.ReadString();
+                break;
+              }
+              case 18: {
+                ConferenceId = input.ReadString();
+                break;
+              }
+              case 26: {
+                CompanyName = input.ReadString();
+                break;
+              }
+              case 34: {
+                ContractNumber = input.ReadString();
+                break;
+              }
+              case 42: {
+                Owner = input.ReadString();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
+
+  }
+
+  /// <summary>
+  ///得到公司合同列表（一级合同）
+  /// </summary>
+  public sealed partial class new_GetCompanyContractListResponse : pb::IMessage<new_GetCompanyContractListResponse> {
+    private static readonly pb::MessageParser<new_GetCompanyContractListResponse> _parser = new pb::MessageParser<new_GetCompanyContractListResponse>(() => new new_GetCompanyContractListResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetCompanyContractListResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[93]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetCompanyContractListResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetCompanyContractListResponse(new_GetCompanyContractListResponse other) : this() {
+      contractNumber_ = other.contractNumber_;
+      companyNameCn_ = other.companyNameCn_;
+      companyNameEn_ = other.companyNameEn_;
+      domesticOrForeign_ = other.domesticOrForeign_;
+      pay_ = other.pay_;
+      paid_ = other.paid_;
+      year_ = other.year_;
+      isSendEmail_ = other.isSendEmail_;
+      owner_ = other.owner_;
+      inviteCode_ = other.inviteCode_;
+      contractStatus_ = other.contractStatus_;
+      payStatus_ = other.payStatus_;
+      createdBy_ = other.createdBy_;
+      createdOn_ = other.createdOn_;
+      modifiyBy_ = other.modifiyBy_;
+      modifyOn_ = other.modifyOn_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetCompanyContractListResponse Clone() {
+      return new new_GetCompanyContractListResponse(this);
+    }
+
+    /// <summary>Field number for the "contractNumber" field.</summary>
+    public const int ContractNumberFieldNumber = 1;
+    private string contractNumber_ = "";
+    /// <summary>
+    ///合同号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractNumber {
+      get { return contractNumber_; }
+      set {
+        contractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "companyNameCn" field.</summary>
+    public const int CompanyNameCnFieldNumber = 2;
+    private string companyNameCn_ = "";
+    /// <summary>
+    ///公司中文名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyNameCn {
+      get { return companyNameCn_; }
+      set {
+        companyNameCn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "companyNameEn" field.</summary>
+    public const int CompanyNameEnFieldNumber = 3;
+    private string companyNameEn_ = "";
+    /// <summary>
+    ///公司英文名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyNameEn {
+      get { return companyNameEn_; }
+      set {
+        companyNameEn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "domesticOrForeign" field.</summary>
+    public const int DomesticOrForeignFieldNumber = 4;
+    private string domesticOrForeign_ = "";
+    /// <summary>
+    ///内资还是外资
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string DomesticOrForeign {
+      get { return domesticOrForeign_; }
+      set {
+        domesticOrForeign_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "pay" field.</summary>
+    public const int PayFieldNumber = 5;
+    private string pay_ = "";
+    /// <summary>
+    ///应付费
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Pay {
+      get { return pay_; }
+      set {
+        pay_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "paid" field.</summary>
+    public const int PaidFieldNumber = 6;
+    private string paid_ = "";
+    /// <summary>
+    ///实付费
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Paid {
+      get { return paid_; }
+      set {
+        paid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "year" field.</summary>
+    public const int YearFieldNumber = 7;
+    private string year_ = "";
+    /// <summary>
+    ///参会年份
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Year {
+      get { return year_; }
+      set {
+        year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "isSendEmail" field.</summary>
+    public const int IsSendEmailFieldNumber = 8;
+    private bool isSendEmail_;
+    /// <summary>
+    ///是否发送邮件
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsSendEmail {
+      get { return isSendEmail_; }
+      set {
+        isSendEmail_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "owner" field.</summary>
+    public const int OwnerFieldNumber = 9;
+    private string owner_ = "";
+    /// <summary>
+    ///业务员
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Owner {
+      get { return owner_; }
+      set {
+        owner_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "inviteCode" field.</summary>
+    public const int InviteCodeFieldNumber = 10;
+    private string inviteCode_ = "";
+    /// <summary>
+    ///邀请码
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InviteCode {
+      get { return inviteCode_; }
+      set {
+        inviteCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "contractStatus" field.</summary>
+    public const int ContractStatusFieldNumber = 11;
+    private string contractStatus_ = "";
+    /// <summary>
+    ///合同状态
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractStatus {
+      get { return contractStatus_; }
+      set {
+        contractStatus_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "payStatus" field.</summary>
+    public const int PayStatusFieldNumber = 12;
+    private string payStatus_ = "";
+    /// <summary>
+    ///付款状态
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PayStatus {
+      get { return payStatus_; }
+      set {
+        payStatus_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "createdBy" field.</summary>
+    public const int CreatedByFieldNumber = 13;
+    private string createdBy_ = "";
+    /// <summary>
+    ///创建人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "createdOn" field.</summary>
+    public const int CreatedOnFieldNumber = 14;
+    private string createdOn_ = "";
+    /// <summary>
+    ///创建时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modifiyBy" field.</summary>
+    public const int ModifiyByFieldNumber = 15;
+    private string modifiyBy_ = "";
+    /// <summary>
+    ///修改人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiyBy {
+      get { return modifiyBy_; }
+      set {
+        modifiyBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modifyOn" field.</summary>
+    public const int ModifyOnFieldNumber = 16;
+    private string modifyOn_ = "";
+    /// <summary>
+    ///修改时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifyOn {
+      get { return modifyOn_; }
+      set {
+        modifyOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetCompanyContractListResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetCompanyContractListResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ContractNumber != other.ContractNumber) return false;
+      if (CompanyNameCn != other.CompanyNameCn) return false;
+      if (CompanyNameEn != other.CompanyNameEn) return false;
+      if (DomesticOrForeign != other.DomesticOrForeign) return false;
+      if (Pay != other.Pay) return false;
+      if (Paid != other.Paid) return false;
+      if (Year != other.Year) return false;
+      if (IsSendEmail != other.IsSendEmail) return false;
+      if (Owner != other.Owner) return false;
+      if (InviteCode != other.InviteCode) return false;
+      if (ContractStatus != other.ContractStatus) return false;
+      if (PayStatus != other.PayStatus) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (ModifiyBy != other.ModifiyBy) return false;
+      if (ModifyOn != other.ModifyOn) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ContractNumber.Length != 0) hash ^= ContractNumber.GetHashCode();
+      if (CompanyNameCn.Length != 0) hash ^= CompanyNameCn.GetHashCode();
+      if (CompanyNameEn.Length != 0) hash ^= CompanyNameEn.GetHashCode();
+      if (DomesticOrForeign.Length != 0) hash ^= DomesticOrForeign.GetHashCode();
+      if (Pay.Length != 0) hash ^= Pay.GetHashCode();
+      if (Paid.Length != 0) hash ^= Paid.GetHashCode();
+      if (Year.Length != 0) hash ^= Year.GetHashCode();
+      if (IsSendEmail != false) hash ^= IsSendEmail.GetHashCode();
+      if (Owner.Length != 0) hash ^= Owner.GetHashCode();
+      if (InviteCode.Length != 0) hash ^= InviteCode.GetHashCode();
+      if (ContractStatus.Length != 0) hash ^= ContractStatus.GetHashCode();
+      if (PayStatus.Length != 0) hash ^= PayStatus.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (ModifiyBy.Length != 0) hash ^= ModifiyBy.GetHashCode();
+      if (ModifyOn.Length != 0) hash ^= ModifyOn.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ContractNumber.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ContractNumber);
+      }
+      if (CompanyNameCn.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(CompanyNameCn);
+      }
+      if (CompanyNameEn.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(CompanyNameEn);
+      }
+      if (DomesticOrForeign.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(DomesticOrForeign);
+      }
+      if (Pay.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Pay);
+      }
+      if (Paid.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(Paid);
+      }
+      if (Year.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(Year);
+      }
+      if (IsSendEmail != false) {
+        output.WriteRawTag(64);
+        output.WriteBool(IsSendEmail);
+      }
+      if (Owner.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(Owner);
+      }
+      if (InviteCode.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(InviteCode);
+      }
+      if (ContractStatus.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(ContractStatus);
+      }
+      if (PayStatus.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(PayStatus);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(CreatedBy);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(CreatedOn);
+      }
+      if (ModifiyBy.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(ModifiyBy);
+      }
+      if (ModifyOn.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(ModifyOn);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractNumber);
+      }
+      if (CompanyNameCn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyNameCn);
+      }
+      if (CompanyNameEn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyNameEn);
+      }
+      if (DomesticOrForeign.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DomesticOrForeign);
+      }
+      if (Pay.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Pay);
+      }
+      if (Paid.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Paid);
+      }
+      if (Year.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Year);
+      }
+      if (IsSendEmail != false) {
+        size += 1 + 1;
+      }
+      if (Owner.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Owner);
+      }
+      if (InviteCode.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InviteCode);
+      }
+      if (ContractStatus.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractStatus);
+      }
+      if (PayStatus.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PayStatus);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (ModifiyBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifiyBy);
+      }
+      if (ModifyOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModifyOn);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetCompanyContractListResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ContractNumber.Length != 0) {
+        ContractNumber = other.ContractNumber;
+      }
+      if (other.CompanyNameCn.Length != 0) {
+        CompanyNameCn = other.CompanyNameCn;
+      }
+      if (other.CompanyNameEn.Length != 0) {
+        CompanyNameEn = other.CompanyNameEn;
+      }
+      if (other.DomesticOrForeign.Length != 0) {
+        DomesticOrForeign = other.DomesticOrForeign;
+      }
+      if (other.Pay.Length != 0) {
+        Pay = other.Pay;
+      }
+      if (other.Paid.Length != 0) {
+        Paid = other.Paid;
+      }
+      if (other.Year.Length != 0) {
+        Year = other.Year;
+      }
+      if (other.IsSendEmail != false) {
+        IsSendEmail = other.IsSendEmail;
+      }
+      if (other.Owner.Length != 0) {
+        Owner = other.Owner;
+      }
+      if (other.InviteCode.Length != 0) {
+        InviteCode = other.InviteCode;
+      }
+      if (other.ContractStatus.Length != 0) {
+        ContractStatus = other.ContractStatus;
+      }
+      if (other.PayStatus.Length != 0) {
+        PayStatus = other.PayStatus;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.ModifiyBy.Length != 0) {
+        ModifiyBy = other.ModifiyBy;
+      }
+      if (other.ModifyOn.Length != 0) {
+        ModifyOn = other.ModifyOn;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ContractNumber = input.ReadString();
+            break;
+          }
+          case 18: {
+            CompanyNameCn = input.ReadString();
+            break;
+          }
+          case 26: {
+            CompanyNameEn = input.ReadString();
+            break;
+          }
+          case 34: {
+            DomesticOrForeign = input.ReadString();
+            break;
+          }
+          case 42: {
+            Pay = input.ReadString();
+            break;
+          }
+          case 50: {
+            Paid = input.ReadString();
+            break;
+          }
+          case 58: {
+            Year = input.ReadString();
+            break;
+          }
+          case 64: {
+            IsSendEmail = input.ReadBool();
+            break;
+          }
+          case 74: {
+            Owner = input.ReadString();
+            break;
+          }
+          case 82: {
+            InviteCode = input.ReadString();
+            break;
+          }
+          case 90: {
+            ContractStatus = input.ReadString();
+            break;
+          }
+          case 98: {
+            PayStatus = input.ReadString();
+            break;
+          }
+          case 106: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 114: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 122: {
+            ModifiyBy = input.ReadString();
+            break;
+          }
+          case 130: {
+            ModifyOn = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///获取个人合同（三级合同）时传入的参数
+  /// </summary>
+  public sealed partial class new_GetPersonContractListRequest : pb::IMessage<new_GetPersonContractListRequest> {
+    private static readonly pb::MessageParser<new_GetPersonContractListRequest> _parser = new pb::MessageParser<new_GetPersonContractListRequest>(() => new new_GetPersonContractListRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetPersonContractListRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[94]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetPersonContractListRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetPersonContractListRequest(new_GetPersonContractListRequest other) : this() {
+      page_ = other.page_;
+      pageSize_ = other.pageSize_;
+      Search = other.search_ != null ? other.Search.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetPersonContractListRequest Clone() {
+      return new new_GetPersonContractListRequest(this);
+    }
+
+    /// <summary>Field number for the "page" field.</summary>
+    public const int PageFieldNumber = 1;
+    private int page_;
+    /// <summary>
+    /// 请求页码
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Page {
+      get { return page_; }
+      set {
+        page_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pageSize" field.</summary>
+    public const int PageSizeFieldNumber = 2;
+    private int pageSize_;
+    /// <summary>
+    ///每页数据条数
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "search" field.</summary>
+    public const int SearchFieldNumber = 3;
+    private global::GrpcConferenceContractService.new_GetPersonContractListRequest.Types.new_GetPersonContractListSearch search_;
+    /// <summary>
+    ///查询条件
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.new_GetPersonContractListRequest.Types.new_GetPersonContractListSearch Search {
+      get { return search_; }
+      set {
+        search_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetPersonContractListRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetPersonContractListRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Page != other.Page) return false;
+      if (PageSize != other.PageSize) return false;
+      if (!object.Equals(Search, other.Search)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Page != 0) hash ^= Page.GetHashCode();
+      if (PageSize != 0) hash ^= PageSize.GetHashCode();
+      if (search_ != null) hash ^= Search.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Page != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Page);
+      }
+      if (PageSize != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(PageSize);
+      }
+      if (search_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Search);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Page != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Page);
+      }
+      if (PageSize != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PageSize);
+      }
+      if (search_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Search);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetPersonContractListRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Page != 0) {
+        Page = other.Page;
+      }
+      if (other.PageSize != 0) {
+        PageSize = other.PageSize;
+      }
+      if (other.search_ != null) {
+        if (search_ == null) {
+          search_ = new global::GrpcConferenceContractService.new_GetPersonContractListRequest.Types.new_GetPersonContractListSearch();
+        }
+        Search.MergeFrom(other.Search);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Page = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            PageSize = input.ReadInt32();
+            break;
+          }
+          case 26: {
+            if (search_ == null) {
+              search_ = new global::GrpcConferenceContractService.new_GetPersonContractListRequest.Types.new_GetPersonContractListSearch();
+            }
+            input.ReadMessage(search_);
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the new_GetPersonContractListRequest message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public sealed partial class new_GetPersonContractListSearch : pb::IMessage<new_GetPersonContractListSearch> {
+        private static readonly pb::MessageParser<new_GetPersonContractListSearch> _parser = new pb::MessageParser<new_GetPersonContractListSearch>(() => new new_GetPersonContractListSearch());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<new_GetPersonContractListSearch> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::GrpcConferenceContractService.new_GetPersonContractListRequest.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public new_GetPersonContractListSearch() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public new_GetPersonContractListSearch(new_GetPersonContractListSearch other) : this() {
+          year_ = other.year_;
+          conferenceId_ = other.conferenceId_;
+          servicePackId_ = other.servicePackId_;
+          companyName_ = other.companyName_;
+          contractNumber_ = other.contractNumber_;
+          owner_ = other.owner_;
+          name_ = other.name_;
+          email_ = other.email_;
+          createdBy_ = other.createdBy_;
+          createdOn_ = other.createdOn_;
+          modifiyBy_ = other.modifiyBy_;
+          modifyOn_ = other.modifyOn_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public new_GetPersonContractListSearch Clone() {
+          return new new_GetPersonContractListSearch(this);
+        }
+
+        /// <summary>Field number for the "year" field.</summary>
+        public const int YearFieldNumber = 1;
+        private string year_ = "";
+        /// <summary>
+        ///年份
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Year {
+          get { return year_; }
+          set {
+            year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "conferenceId" field.</summary>
+        public const int ConferenceIdFieldNumber = 2;
+        private string conferenceId_ = "";
+        /// <summary>
+        ///会议Id
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string ConferenceId {
+          get { return conferenceId_; }
+          set {
+            conferenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "servicePackId" field.</summary>
+        public const int ServicePackIdFieldNumber = 3;
+        private string servicePackId_ = "";
+        /// <summary>
+        ///套餐Id
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string ServicePackId {
+          get { return servicePackId_; }
+          set {
+            servicePackId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "companyName" field.</summary>
+        public const int CompanyNameFieldNumber = 4;
+        private string companyName_ = "";
+        /// <summary>
+        ///公司名
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string CompanyName {
+          get { return companyName_; }
+          set {
+            companyName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "contractNumber" field.</summary>
+        public const int ContractNumberFieldNumber = 5;
+        private string contractNumber_ = "";
+        /// <summary>
+        ///合同号
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string ContractNumber {
+          get { return contractNumber_; }
+          set {
+            contractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "owner" field.</summary>
+        public const int OwnerFieldNumber = 6;
+        private string owner_ = "";
+        /// <summary>
+        ///业务员
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Owner {
+          get { return owner_; }
+          set {
+            owner_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "name" field.</summary>
+        public const int NameFieldNumber = 7;
+        private bool name_;
+        /// <summary>
+        ///姓名
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Name {
+          get { return name_; }
+          set {
+            name_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "email" field.</summary>
+        public const int EmailFieldNumber = 8;
+        private bool email_;
+        /// <summary>
+        ///邮箱
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Email {
+          get { return email_; }
+          set {
+            email_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "createdBy" field.</summary>
+        public const int CreatedByFieldNumber = 9;
+        private string createdBy_ = "";
+        /// <summary>
+        ///创建人
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string CreatedBy {
+          get { return createdBy_; }
+          set {
+            createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "createdOn" field.</summary>
+        public const int CreatedOnFieldNumber = 10;
+        private string createdOn_ = "";
+        /// <summary>
+        ///创建时间
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string CreatedOn {
+          get { return createdOn_; }
+          set {
+            createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "modifiyBy" field.</summary>
+        public const int ModifiyByFieldNumber = 11;
+        private string modifiyBy_ = "";
+        /// <summary>
+        ///修改人
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string ModifiyBy {
+          get { return modifiyBy_; }
+          set {
+            modifiyBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "modifyOn" field.</summary>
+        public const int ModifyOnFieldNumber = 12;
+        private string modifyOn_ = "";
+        /// <summary>
+        ///修改时间
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string ModifyOn {
+          get { return modifyOn_; }
+          set {
+            modifyOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as new_GetPersonContractListSearch);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(new_GetPersonContractListSearch other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Year != other.Year) return false;
+          if (ConferenceId != other.ConferenceId) return false;
+          if (ServicePackId != other.ServicePackId) return false;
+          if (CompanyName != other.CompanyName) return false;
+          if (ContractNumber != other.ContractNumber) return false;
+          if (Owner != other.Owner) return false;
+          if (Name != other.Name) return false;
+          if (Email != other.Email) return false;
+          if (CreatedBy != other.CreatedBy) return false;
+          if (CreatedOn != other.CreatedOn) return false;
+          if (ModifiyBy != other.ModifiyBy) return false;
+          if (ModifyOn != other.ModifyOn) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Year.Length != 0) hash ^= Year.GetHashCode();
+          if (ConferenceId.Length != 0) hash ^= ConferenceId.GetHashCode();
+          if (ServicePackId.Length != 0) hash ^= ServicePackId.GetHashCode();
+          if (CompanyName.Length != 0) hash ^= CompanyName.GetHashCode();
+          if (ContractNumber.Length != 0) hash ^= ContractNumber.GetHashCode();
+          if (Owner.Length != 0) hash ^= Owner.GetHashCode();
+          if (Name != false) hash ^= Name.GetHashCode();
+          if (Email != false) hash ^= Email.GetHashCode();
+          if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+          if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+          if (ModifiyBy.Length != 0) hash ^= ModifiyBy.GetHashCode();
+          if (ModifyOn.Length != 0) hash ^= ModifyOn.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (Year.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Year);
+          }
+          if (ConferenceId.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(ConferenceId);
+          }
+          if (ServicePackId.Length != 0) {
+            output.WriteRawTag(26);
+            output.WriteString(ServicePackId);
+          }
+          if (CompanyName.Length != 0) {
+            output.WriteRawTag(34);
+            output.WriteString(CompanyName);
+          }
+          if (ContractNumber.Length != 0) {
+            output.WriteRawTag(42);
+            output.WriteString(ContractNumber);
+          }
+          if (Owner.Length != 0) {
+            output.WriteRawTag(50);
+            output.WriteString(Owner);
+          }
+          if (Name != false) {
+            output.WriteRawTag(56);
+            output.WriteBool(Name);
+          }
+          if (Email != false) {
+            output.WriteRawTag(64);
+            output.WriteBool(Email);
+          }
+          if (CreatedBy.Length != 0) {
+            output.WriteRawTag(74);
+            output.WriteString(CreatedBy);
+          }
+          if (CreatedOn.Length != 0) {
+            output.WriteRawTag(82);
+            output.WriteString(CreatedOn);
+          }
+          if (ModifiyBy.Length != 0) {
+            output.WriteRawTag(90);
+            output.WriteString(ModifiyBy);
+          }
+          if (ModifyOn.Length != 0) {
+            output.WriteRawTag(98);
+            output.WriteString(ModifyOn);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (Year.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Year);
+          }
+          if (ConferenceId.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceId);
+          }
+          if (ServicePackId.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ServicePackId);
+          }
+          if (CompanyName.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyName);
+          }
+          if (ContractNumber.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractNumber);
+          }
+          if (Owner.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Owner);
+          }
+          if (Name != false) {
+            size += 1 + 1;
+          }
+          if (Email != false) {
+            size += 1 + 1;
+          }
+          if (CreatedBy.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+          }
+          if (CreatedOn.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+          }
+          if (ModifiyBy.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifiyBy);
+          }
+          if (ModifyOn.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifyOn);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(new_GetPersonContractListSearch other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Year.Length != 0) {
+            Year = other.Year;
+          }
+          if (other.ConferenceId.Length != 0) {
+            ConferenceId = other.ConferenceId;
+          }
+          if (other.ServicePackId.Length != 0) {
+            ServicePackId = other.ServicePackId;
+          }
+          if (other.CompanyName.Length != 0) {
+            CompanyName = other.CompanyName;
+          }
+          if (other.ContractNumber.Length != 0) {
+            ContractNumber = other.ContractNumber;
+          }
+          if (other.Owner.Length != 0) {
+            Owner = other.Owner;
+          }
+          if (other.Name != false) {
+            Name = other.Name;
+          }
+          if (other.Email != false) {
+            Email = other.Email;
+          }
+          if (other.CreatedBy.Length != 0) {
+            CreatedBy = other.CreatedBy;
+          }
+          if (other.CreatedOn.Length != 0) {
+            CreatedOn = other.CreatedOn;
+          }
+          if (other.ModifiyBy.Length != 0) {
+            ModifiyBy = other.ModifiyBy;
+          }
+          if (other.ModifyOn.Length != 0) {
+            ModifyOn = other.ModifyOn;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Year = input.ReadString();
+                break;
+              }
+              case 18: {
+                ConferenceId = input.ReadString();
+                break;
+              }
+              case 26: {
+                ServicePackId = input.ReadString();
+                break;
+              }
+              case 34: {
+                CompanyName = input.ReadString();
+                break;
+              }
+              case 42: {
+                ContractNumber = input.ReadString();
+                break;
+              }
+              case 50: {
+                Owner = input.ReadString();
+                break;
+              }
+              case 56: {
+                Name = input.ReadBool();
+                break;
+              }
+              case 64: {
+                Email = input.ReadBool();
+                break;
+              }
+              case 74: {
+                CreatedBy = input.ReadString();
+                break;
+              }
+              case 82: {
+                CreatedOn = input.ReadString();
+                break;
+              }
+              case 90: {
+                ModifiyBy = input.ReadString();
+                break;
+              }
+              case 98: {
+                ModifyOn = input.ReadString();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
+
+  }
+
+  /// <summary>
+  ///获取个人合同信息（三级）
+  /// </summary>
+  public sealed partial class new_GetPersonContractListResponse : pb::IMessage<new_GetPersonContractListResponse> {
+    private static readonly pb::MessageParser<new_GetPersonContractListResponse> _parser = new pb::MessageParser<new_GetPersonContractListResponse>(() => new new_GetPersonContractListResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetPersonContractListResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[95]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetPersonContractListResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetPersonContractListResponse(new_GetPersonContractListResponse other) : this() {
+      contractNumber_ = other.contractNumber_;
+      nameCn_ = other.nameCn_;
+      nameEn_ = other.nameEn_;
+      companyNameCn_ = other.companyNameCn_;
+      companyNameEn_ = other.companyNameEn_;
+      position_ = other.position_;
+      email_ = other.email_;
+      mobile_ = other.mobile_;
+      servicePack_ = other.servicePack_;
+      pay_ = other.pay_;
+      paid_ = other.paid_;
+      owner_ = other.owner_;
+      isSendEmail_ = other.isSendEmail_;
+      isPrint_ = other.isPrint_;
+      createdBy_ = other.createdBy_;
+      createdOn_ = other.createdOn_;
+      modifiyBy_ = other.modifiyBy_;
+      modifyOn_ = other.modifyOn_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetPersonContractListResponse Clone() {
+      return new new_GetPersonContractListResponse(this);
+    }
+
+    /// <summary>Field number for the "contractNumber" field.</summary>
+    public const int ContractNumberFieldNumber = 1;
+    private string contractNumber_ = "";
+    /// <summary>
+    ///合同号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractNumber {
+      get { return contractNumber_; }
+      set {
+        contractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "nameCn" field.</summary>
+    public const int NameCnFieldNumber = 2;
+    private string nameCn_ = "";
+    /// <summary>
+    ///姓名中文
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NameCn {
+      get { return nameCn_; }
+      set {
+        nameCn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "nameEn" field.</summary>
+    public const int NameEnFieldNumber = 3;
+    private string nameEn_ = "";
+    /// <summary>
+    ///姓名英文
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NameEn {
+      get { return nameEn_; }
+      set {
+        nameEn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "companyNameCn" field.</summary>
+    public const int CompanyNameCnFieldNumber = 4;
+    private string companyNameCn_ = "";
+    /// <summary>
+    ///公司中文名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyNameCn {
+      get { return companyNameCn_; }
+      set {
+        companyNameCn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "companyNameEn" field.</summary>
+    public const int CompanyNameEnFieldNumber = 5;
+    private string companyNameEn_ = "";
+    /// <summary>
+    ///公司英文名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyNameEn {
+      get { return companyNameEn_; }
+      set {
+        companyNameEn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "position" field.</summary>
+    public const int PositionFieldNumber = 6;
+    private string position_ = "";
+    /// <summary>
+    ///职务
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Position {
+      get { return position_; }
+      set {
+        position_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "email" field.</summary>
+    public const int EmailFieldNumber = 7;
+    private string email_ = "";
+    /// <summary>
+    ///邮箱
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Email {
+      get { return email_; }
+      set {
+        email_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "mobile" field.</summary>
+    public const int MobileFieldNumber = 8;
+    private string mobile_ = "";
+    /// <summary>
+    ///手机
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Mobile {
+      get { return mobile_; }
+      set {
+        mobile_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "servicePack" field.</summary>
+    public const int ServicePackFieldNumber = 9;
+    private string servicePack_ = "";
+    /// <summary>
+    ///参会类型
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ServicePack {
+      get { return servicePack_; }
+      set {
+        servicePack_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "pay" field.</summary>
+    public const int PayFieldNumber = 10;
+    private string pay_ = "";
+    /// <summary>
+    ///应付费
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Pay {
+      get { return pay_; }
+      set {
+        pay_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "paid" field.</summary>
+    public const int PaidFieldNumber = 11;
+    private string paid_ = "";
+    /// <summary>
+    ///已付费
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Paid {
+      get { return paid_; }
+      set {
+        paid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "owner" field.</summary>
+    public const int OwnerFieldNumber = 12;
+    private string owner_ = "";
+    /// <summary>
+    ///业务员
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Owner {
+      get { return owner_; }
+      set {
+        owner_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "isSendEmail" field.</summary>
+    public const int IsSendEmailFieldNumber = 13;
+    private bool isSendEmail_;
+    /// <summary>
+    ///是否发送邮件
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsSendEmail {
+      get { return isSendEmail_; }
+      set {
+        isSendEmail_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "isPrint" field.</summary>
+    public const int IsPrintFieldNumber = 14;
+    private bool isPrint_;
+    /// <summary>
+    ///是否打印
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsPrint {
+      get { return isPrint_; }
+      set {
+        isPrint_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "createdBy" field.</summary>
+    public const int CreatedByFieldNumber = 15;
+    private string createdBy_ = "";
+    /// <summary>
+    ///创建人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "createdOn" field.</summary>
+    public const int CreatedOnFieldNumber = 16;
+    private string createdOn_ = "";
+    /// <summary>
+    ///创建时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modifiyBy" field.</summary>
+    public const int ModifiyByFieldNumber = 17;
+    private string modifiyBy_ = "";
+    /// <summary>
+    ///修改人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiyBy {
+      get { return modifiyBy_; }
+      set {
+        modifiyBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modifyOn" field.</summary>
+    public const int ModifyOnFieldNumber = 18;
+    private string modifyOn_ = "";
+    /// <summary>
+    ///修改时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifyOn {
+      get { return modifyOn_; }
+      set {
+        modifyOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetPersonContractListResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetPersonContractListResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ContractNumber != other.ContractNumber) return false;
+      if (NameCn != other.NameCn) return false;
+      if (NameEn != other.NameEn) return false;
+      if (CompanyNameCn != other.CompanyNameCn) return false;
+      if (CompanyNameEn != other.CompanyNameEn) return false;
+      if (Position != other.Position) return false;
+      if (Email != other.Email) return false;
+      if (Mobile != other.Mobile) return false;
+      if (ServicePack != other.ServicePack) return false;
+      if (Pay != other.Pay) return false;
+      if (Paid != other.Paid) return false;
+      if (Owner != other.Owner) return false;
+      if (IsSendEmail != other.IsSendEmail) return false;
+      if (IsPrint != other.IsPrint) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (ModifiyBy != other.ModifiyBy) return false;
+      if (ModifyOn != other.ModifyOn) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ContractNumber.Length != 0) hash ^= ContractNumber.GetHashCode();
+      if (NameCn.Length != 0) hash ^= NameCn.GetHashCode();
+      if (NameEn.Length != 0) hash ^= NameEn.GetHashCode();
+      if (CompanyNameCn.Length != 0) hash ^= CompanyNameCn.GetHashCode();
+      if (CompanyNameEn.Length != 0) hash ^= CompanyNameEn.GetHashCode();
+      if (Position.Length != 0) hash ^= Position.GetHashCode();
+      if (Email.Length != 0) hash ^= Email.GetHashCode();
+      if (Mobile.Length != 0) hash ^= Mobile.GetHashCode();
+      if (ServicePack.Length != 0) hash ^= ServicePack.GetHashCode();
+      if (Pay.Length != 0) hash ^= Pay.GetHashCode();
+      if (Paid.Length != 0) hash ^= Paid.GetHashCode();
+      if (Owner.Length != 0) hash ^= Owner.GetHashCode();
+      if (IsSendEmail != false) hash ^= IsSendEmail.GetHashCode();
+      if (IsPrint != false) hash ^= IsPrint.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (ModifiyBy.Length != 0) hash ^= ModifiyBy.GetHashCode();
+      if (ModifyOn.Length != 0) hash ^= ModifyOn.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ContractNumber.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ContractNumber);
+      }
+      if (NameCn.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NameCn);
+      }
+      if (NameEn.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(NameEn);
+      }
+      if (CompanyNameCn.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(CompanyNameCn);
+      }
+      if (CompanyNameEn.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(CompanyNameEn);
+      }
+      if (Position.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(Position);
+      }
+      if (Email.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(Email);
+      }
+      if (Mobile.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Mobile);
+      }
+      if (ServicePack.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(ServicePack);
+      }
+      if (Pay.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(Pay);
+      }
+      if (Paid.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(Paid);
+      }
+      if (Owner.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(Owner);
+      }
+      if (IsSendEmail != false) {
+        output.WriteRawTag(104);
+        output.WriteBool(IsSendEmail);
+      }
+      if (IsPrint != false) {
+        output.WriteRawTag(112);
+        output.WriteBool(IsPrint);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(CreatedBy);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(CreatedOn);
+      }
+      if (ModifiyBy.Length != 0) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(ModifiyBy);
+      }
+      if (ModifyOn.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(ModifyOn);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractNumber);
+      }
+      if (NameCn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NameCn);
+      }
+      if (NameEn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NameEn);
+      }
+      if (CompanyNameCn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyNameCn);
+      }
+      if (CompanyNameEn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyNameEn);
+      }
+      if (Position.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Position);
+      }
+      if (Email.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Email);
+      }
+      if (Mobile.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Mobile);
+      }
+      if (ServicePack.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ServicePack);
+      }
+      if (Pay.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Pay);
+      }
+      if (Paid.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Paid);
+      }
+      if (Owner.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Owner);
+      }
+      if (IsSendEmail != false) {
+        size += 1 + 1;
+      }
+      if (IsPrint != false) {
+        size += 1 + 1;
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (ModifiyBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModifiyBy);
+      }
+      if (ModifyOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModifyOn);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetPersonContractListResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ContractNumber.Length != 0) {
+        ContractNumber = other.ContractNumber;
+      }
+      if (other.NameCn.Length != 0) {
+        NameCn = other.NameCn;
+      }
+      if (other.NameEn.Length != 0) {
+        NameEn = other.NameEn;
+      }
+      if (other.CompanyNameCn.Length != 0) {
+        CompanyNameCn = other.CompanyNameCn;
+      }
+      if (other.CompanyNameEn.Length != 0) {
+        CompanyNameEn = other.CompanyNameEn;
+      }
+      if (other.Position.Length != 0) {
+        Position = other.Position;
+      }
+      if (other.Email.Length != 0) {
+        Email = other.Email;
+      }
+      if (other.Mobile.Length != 0) {
+        Mobile = other.Mobile;
+      }
+      if (other.ServicePack.Length != 0) {
+        ServicePack = other.ServicePack;
+      }
+      if (other.Pay.Length != 0) {
+        Pay = other.Pay;
+      }
+      if (other.Paid.Length != 0) {
+        Paid = other.Paid;
+      }
+      if (other.Owner.Length != 0) {
+        Owner = other.Owner;
+      }
+      if (other.IsSendEmail != false) {
+        IsSendEmail = other.IsSendEmail;
+      }
+      if (other.IsPrint != false) {
+        IsPrint = other.IsPrint;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.ModifiyBy.Length != 0) {
+        ModifiyBy = other.ModifiyBy;
+      }
+      if (other.ModifyOn.Length != 0) {
+        ModifyOn = other.ModifyOn;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ContractNumber = input.ReadString();
+            break;
+          }
+          case 18: {
+            NameCn = input.ReadString();
+            break;
+          }
+          case 26: {
+            NameEn = input.ReadString();
+            break;
+          }
+          case 34: {
+            CompanyNameCn = input.ReadString();
+            break;
+          }
+          case 42: {
+            CompanyNameEn = input.ReadString();
+            break;
+          }
+          case 50: {
+            Position = input.ReadString();
+            break;
+          }
+          case 58: {
+            Email = input.ReadString();
+            break;
+          }
+          case 66: {
+            Mobile = input.ReadString();
+            break;
+          }
+          case 74: {
+            ServicePack = input.ReadString();
+            break;
+          }
+          case 82: {
+            Pay = input.ReadString();
+            break;
+          }
+          case 90: {
+            Paid = input.ReadString();
+            break;
+          }
+          case 98: {
+            Owner = input.ReadString();
+            break;
+          }
+          case 104: {
+            IsSendEmail = input.ReadBool();
+            break;
+          }
+          case 112: {
+            IsPrint = input.ReadBool();
+            break;
+          }
+          case 122: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 130: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 138: {
+            ModifiyBy = input.ReadString();
+            break;
+          }
+          case 146: {
+            ModifyOn = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///获取行程一览表传入的参数
+  /// </summary>
+  public sealed partial class new_GetScheduleListRequest : pb::IMessage<new_GetScheduleListRequest> {
+    private static readonly pb::MessageParser<new_GetScheduleListRequest> _parser = new pb::MessageParser<new_GetScheduleListRequest>(() => new new_GetScheduleListRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetScheduleListRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[96]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetScheduleListRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetScheduleListRequest(new_GetScheduleListRequest other) : this() {
+      personContractNumber_ = other.personContractNumber_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetScheduleListRequest Clone() {
+      return new new_GetScheduleListRequest(this);
+    }
+
+    /// <summary>Field number for the "personContractNumber" field.</summary>
+    public const int PersonContractNumberFieldNumber = 1;
+    private string personContractNumber_ = "";
+    /// <summary>
+    ///合同号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PersonContractNumber {
+      get { return personContractNumber_; }
+      set {
+        personContractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetScheduleListRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetScheduleListRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PersonContractNumber != other.PersonContractNumber) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (PersonContractNumber.Length != 0) hash ^= PersonContractNumber.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (PersonContractNumber.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(PersonContractNumber);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (PersonContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PersonContractNumber);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetScheduleListRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.PersonContractNumber.Length != 0) {
+        PersonContractNumber = other.PersonContractNumber;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            PersonContractNumber = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class new_GetScheduleListResponse : pb::IMessage<new_GetScheduleListResponse> {
+    private static readonly pb::MessageParser<new_GetScheduleListResponse> _parser = new pb::MessageParser<new_GetScheduleListResponse>(() => new new_GetScheduleListResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetScheduleListResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[97]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetScheduleListResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetScheduleListResponse(new_GetScheduleListResponse other) : this() {
+      personContractId_ = other.personContractId_;
+      personContractNumber_ = other.personContractNumber_;
+      servicePack_ = other.servicePack_;
+      name_ = other.name_;
+      title_ = other.title_;
+      positin_ = other.positin_;
+      mobile_ = other.mobile_;
+      email_ = other.email_;
+      companyName_ = other.companyName_;
+      activityName_ = other.activityName_;
+      activityVune_ = other.activityVune_;
+      activityTime_ = other.activityTime_;
+      owner_ = other.owner_;
+      ownerEmail_ = other.ownerEmail_;
+      ownerMobile_ = other.ownerMobile_;
+      ownerAddress_ = other.ownerAddress_;
+      crteatedOn_ = other.crteatedOn_;
+      createdBy_ = other.createdBy_;
+      modifyOn_ = other.modifyOn_;
+      modifyBy_ = other.modifyBy_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetScheduleListResponse Clone() {
+      return new new_GetScheduleListResponse(this);
+    }
+
+    /// <summary>Field number for the "personContractId" field.</summary>
+    public const int PersonContractIdFieldNumber = 1;
+    private string personContractId_ = "";
+    /// <summary>
+    ///个人合同id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PersonContractId {
+      get { return personContractId_; }
+      set {
+        personContractId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "personContractNumber" field.</summary>
+    public const int PersonContractNumberFieldNumber = 2;
+    private string personContractNumber_ = "";
+    /// <summary>
+    ///个人合同号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PersonContractNumber {
+      get { return personContractNumber_; }
+      set {
+        personContractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "servicePack" field.</summary>
+    public const int ServicePackFieldNumber = 3;
+    private string servicePack_ = "";
+    /// <summary>
+    ///参会类型
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ServicePack {
+      get { return servicePack_; }
+      set {
+        servicePack_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 4;
+    private string name_ = "";
+    /// <summary>
+    ///姓名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "title" field.</summary>
+    public const int TitleFieldNumber = 5;
+    private string title_ = "";
+    /// <summary>
+    ///称谓
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Title {
+      get { return title_; }
+      set {
+        title_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "positin" field.</summary>
+    public const int PositinFieldNumber = 6;
+    private string positin_ = "";
+    /// <summary>
+    ///职位
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Positin {
+      get { return positin_; }
+      set {
+        positin_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "mobile" field.</summary>
+    public const int MobileFieldNumber = 7;
+    private string mobile_ = "";
+    /// <summary>
+    ///手机
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Mobile {
+      get { return mobile_; }
+      set {
+        mobile_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "email" field.</summary>
+    public const int EmailFieldNumber = 8;
+    private string email_ = "";
+    /// <summary>
+    ///邮箱
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Email {
+      get { return email_; }
+      set {
+        email_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "companyName" field.</summary>
+    public const int CompanyNameFieldNumber = 9;
+    private string companyName_ = "";
+    /// <summary>
+    ///公司名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyName {
+      get { return companyName_; }
+      set {
+        companyName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "activityName" field.</summary>
+    public const int ActivityNameFieldNumber = 10;
+    private string activityName_ = "";
+    /// <summary>
+    ///参加活动名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ActivityName {
+      get { return activityName_; }
+      set {
+        activityName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "activityVune" field.</summary>
+    public const int ActivityVuneFieldNumber = 11;
+    private string activityVune_ = "";
+    /// <summary>
+    ///参加活动的地点
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ActivityVune {
+      get { return activityVune_; }
+      set {
+        activityVune_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "activityTime" field.</summary>
+    public const int ActivityTimeFieldNumber = 12;
+    private string activityTime_ = "";
+    /// <summary>
+    ///参加活动的时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ActivityTime {
+      get { return activityTime_; }
+      set {
+        activityTime_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "owner" field.</summary>
+    public const int OwnerFieldNumber = 13;
+    private string owner_ = "";
+    /// <summary>
+    ///业务员
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Owner {
+      get { return owner_; }
+      set {
+        owner_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ownerEmail" field.</summary>
+    public const int OwnerEmailFieldNumber = 14;
+    private string ownerEmail_ = "";
+    /// <summary>
+    ///业务员邮箱
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OwnerEmail {
+      get { return ownerEmail_; }
+      set {
+        ownerEmail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ownerMobile" field.</summary>
+    public const int OwnerMobileFieldNumber = 15;
+    private string ownerMobile_ = "";
+    /// <summary>
+    ///业务员手机
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OwnerMobile {
+      get { return ownerMobile_; }
+      set {
+        ownerMobile_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ownerAddress" field.</summary>
+    public const int OwnerAddressFieldNumber = 16;
+    private string ownerAddress_ = "";
+    /// <summary>
+    ///业务员地址
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OwnerAddress {
+      get { return ownerAddress_; }
+      set {
+        ownerAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "crteatedOn" field.</summary>
+    public const int CrteatedOnFieldNumber = 17;
+    private string crteatedOn_ = "";
+    /// <summary>
+    ///创建时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CrteatedOn {
+      get { return crteatedOn_; }
+      set {
+        crteatedOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "createdBy" field.</summary>
+    public const int CreatedByFieldNumber = 18;
+    private string createdBy_ = "";
+    /// <summary>
+    ///创建人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modifyOn" field.</summary>
+    public const int ModifyOnFieldNumber = 19;
+    private string modifyOn_ = "";
+    /// <summary>
+    ///修改时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifyOn {
+      get { return modifyOn_; }
+      set {
+        modifyOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modifyBy" field.</summary>
+    public const int ModifyByFieldNumber = 20;
+    private string modifyBy_ = "";
+    /// <summary>
+    ///修改人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifyBy {
+      get { return modifyBy_; }
+      set {
+        modifyBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetScheduleListResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetScheduleListResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PersonContractId != other.PersonContractId) return false;
+      if (PersonContractNumber != other.PersonContractNumber) return false;
+      if (ServicePack != other.ServicePack) return false;
+      if (Name != other.Name) return false;
+      if (Title != other.Title) return false;
+      if (Positin != other.Positin) return false;
+      if (Mobile != other.Mobile) return false;
+      if (Email != other.Email) return false;
+      if (CompanyName != other.CompanyName) return false;
+      if (ActivityName != other.ActivityName) return false;
+      if (ActivityVune != other.ActivityVune) return false;
+      if (ActivityTime != other.ActivityTime) return false;
+      if (Owner != other.Owner) return false;
+      if (OwnerEmail != other.OwnerEmail) return false;
+      if (OwnerMobile != other.OwnerMobile) return false;
+      if (OwnerAddress != other.OwnerAddress) return false;
+      if (CrteatedOn != other.CrteatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModifyOn != other.ModifyOn) return false;
+      if (ModifyBy != other.ModifyBy) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (PersonContractId.Length != 0) hash ^= PersonContractId.GetHashCode();
+      if (PersonContractNumber.Length != 0) hash ^= PersonContractNumber.GetHashCode();
+      if (ServicePack.Length != 0) hash ^= ServicePack.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Title.Length != 0) hash ^= Title.GetHashCode();
+      if (Positin.Length != 0) hash ^= Positin.GetHashCode();
+      if (Mobile.Length != 0) hash ^= Mobile.GetHashCode();
+      if (Email.Length != 0) hash ^= Email.GetHashCode();
+      if (CompanyName.Length != 0) hash ^= CompanyName.GetHashCode();
+      if (ActivityName.Length != 0) hash ^= ActivityName.GetHashCode();
+      if (ActivityVune.Length != 0) hash ^= ActivityVune.GetHashCode();
+      if (ActivityTime.Length != 0) hash ^= ActivityTime.GetHashCode();
+      if (Owner.Length != 0) hash ^= Owner.GetHashCode();
+      if (OwnerEmail.Length != 0) hash ^= OwnerEmail.GetHashCode();
+      if (OwnerMobile.Length != 0) hash ^= OwnerMobile.GetHashCode();
+      if (OwnerAddress.Length != 0) hash ^= OwnerAddress.GetHashCode();
+      if (CrteatedOn.Length != 0) hash ^= CrteatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModifyOn.Length != 0) hash ^= ModifyOn.GetHashCode();
+      if (ModifyBy.Length != 0) hash ^= ModifyBy.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (PersonContractId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(PersonContractId);
+      }
+      if (PersonContractNumber.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(PersonContractNumber);
+      }
+      if (ServicePack.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(ServicePack);
+      }
+      if (Name.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Name);
+      }
+      if (Title.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Title);
+      }
+      if (Positin.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(Positin);
+      }
+      if (Mobile.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(Mobile);
+      }
+      if (Email.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Email);
+      }
+      if (CompanyName.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(CompanyName);
+      }
+      if (ActivityName.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(ActivityName);
+      }
+      if (ActivityVune.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(ActivityVune);
+      }
+      if (ActivityTime.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(ActivityTime);
+      }
+      if (Owner.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(Owner);
+      }
+      if (OwnerEmail.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(OwnerEmail);
+      }
+      if (OwnerMobile.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(OwnerMobile);
+      }
+      if (OwnerAddress.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(OwnerAddress);
+      }
+      if (CrteatedOn.Length != 0) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(CrteatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(CreatedBy);
+      }
+      if (ModifyOn.Length != 0) {
+        output.WriteRawTag(154, 1);
+        output.WriteString(ModifyOn);
+      }
+      if (ModifyBy.Length != 0) {
+        output.WriteRawTag(162, 1);
+        output.WriteString(ModifyBy);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (PersonContractId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PersonContractId);
+      }
+      if (PersonContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PersonContractNumber);
+      }
+      if (ServicePack.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ServicePack);
+      }
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Title.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Title);
+      }
+      if (Positin.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Positin);
+      }
+      if (Mobile.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Mobile);
+      }
+      if (Email.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Email);
+      }
+      if (CompanyName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyName);
+      }
+      if (ActivityName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActivityName);
+      }
+      if (ActivityVune.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActivityVune);
+      }
+      if (ActivityTime.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActivityTime);
+      }
+      if (Owner.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Owner);
+      }
+      if (OwnerEmail.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OwnerEmail);
+      }
+      if (OwnerMobile.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OwnerMobile);
+      }
+      if (OwnerAddress.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(OwnerAddress);
+      }
+      if (CrteatedOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CrteatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModifyOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModifyOn);
+      }
+      if (ModifyBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModifyBy);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetScheduleListResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.PersonContractId.Length != 0) {
+        PersonContractId = other.PersonContractId;
+      }
+      if (other.PersonContractNumber.Length != 0) {
+        PersonContractNumber = other.PersonContractNumber;
+      }
+      if (other.ServicePack.Length != 0) {
+        ServicePack = other.ServicePack;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Title.Length != 0) {
+        Title = other.Title;
+      }
+      if (other.Positin.Length != 0) {
+        Positin = other.Positin;
+      }
+      if (other.Mobile.Length != 0) {
+        Mobile = other.Mobile;
+      }
+      if (other.Email.Length != 0) {
+        Email = other.Email;
+      }
+      if (other.CompanyName.Length != 0) {
+        CompanyName = other.CompanyName;
+      }
+      if (other.ActivityName.Length != 0) {
+        ActivityName = other.ActivityName;
+      }
+      if (other.ActivityVune.Length != 0) {
+        ActivityVune = other.ActivityVune;
+      }
+      if (other.ActivityTime.Length != 0) {
+        ActivityTime = other.ActivityTime;
+      }
+      if (other.Owner.Length != 0) {
+        Owner = other.Owner;
+      }
+      if (other.OwnerEmail.Length != 0) {
+        OwnerEmail = other.OwnerEmail;
+      }
+      if (other.OwnerMobile.Length != 0) {
+        OwnerMobile = other.OwnerMobile;
+      }
+      if (other.OwnerAddress.Length != 0) {
+        OwnerAddress = other.OwnerAddress;
+      }
+      if (other.CrteatedOn.Length != 0) {
+        CrteatedOn = other.CrteatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModifyOn.Length != 0) {
+        ModifyOn = other.ModifyOn;
+      }
+      if (other.ModifyBy.Length != 0) {
+        ModifyBy = other.ModifyBy;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            PersonContractId = input.ReadString();
+            break;
+          }
+          case 18: {
+            PersonContractNumber = input.ReadString();
+            break;
+          }
+          case 26: {
+            ServicePack = input.ReadString();
+            break;
+          }
+          case 34: {
+            Name = input.ReadString();
+            break;
+          }
+          case 42: {
+            Title = input.ReadString();
+            break;
+          }
+          case 50: {
+            Positin = input.ReadString();
+            break;
+          }
+          case 58: {
+            Mobile = input.ReadString();
+            break;
+          }
+          case 66: {
+            Email = input.ReadString();
+            break;
+          }
+          case 74: {
+            CompanyName = input.ReadString();
+            break;
+          }
+          case 82: {
+            ActivityName = input.ReadString();
+            break;
+          }
+          case 90: {
+            ActivityVune = input.ReadString();
+            break;
+          }
+          case 98: {
+            ActivityTime = input.ReadString();
+            break;
+          }
+          case 106: {
+            Owner = input.ReadString();
+            break;
+          }
+          case 114: {
+            OwnerEmail = input.ReadString();
+            break;
+          }
+          case 122: {
+            OwnerMobile = input.ReadString();
+            break;
+          }
+          case 130: {
+            OwnerAddress = input.ReadString();
+            break;
+          }
+          case 138: {
+            CrteatedOn = input.ReadString();
+            break;
+          }
+          case 146: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 154: {
+            ModifyOn = input.ReadString();
+            break;
+          }
+          case 162: {
+            ModifyBy = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class new_AddScheduleRequest : pb::IMessage<new_AddScheduleRequest> {
+    private static readonly pb::MessageParser<new_AddScheduleRequest> _parser = new pb::MessageParser<new_AddScheduleRequest>(() => new new_AddScheduleRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_AddScheduleRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[98]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_AddScheduleRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_AddScheduleRequest(new_AddScheduleRequest other) : this() {
+      personContractId_ = other.personContractId_;
+      personContractNumber_ = other.personContractNumber_;
+      servicePack_ = other.servicePack_;
+      name_ = other.name_;
+      title_ = other.title_;
+      positin_ = other.positin_;
+      mobile_ = other.mobile_;
+      email_ = other.email_;
+      companyName_ = other.companyName_;
+      activityName_ = other.activityName_;
+      activityVune_ = other.activityVune_;
+      activityTime_ = other.activityTime_;
+      owner_ = other.owner_;
+      ownerEmail_ = other.ownerEmail_;
+      ownerMobile_ = other.ownerMobile_;
+      ownerAddress_ = other.ownerAddress_;
+      crteatedOn_ = other.crteatedOn_;
+      createdBy_ = other.createdBy_;
+      modifyOn_ = other.modifyOn_;
+      modifyBy_ = other.modifyBy_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_AddScheduleRequest Clone() {
+      return new new_AddScheduleRequest(this);
+    }
+
+    /// <summary>Field number for the "personContractId" field.</summary>
+    public const int PersonContractIdFieldNumber = 1;
+    private string personContractId_ = "";
+    /// <summary>
+    ///个人合同id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PersonContractId {
+      get { return personContractId_; }
+      set {
+        personContractId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "personContractNumber" field.</summary>
+    public const int PersonContractNumberFieldNumber = 2;
+    private string personContractNumber_ = "";
+    /// <summary>
+    ///个人合同号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PersonContractNumber {
+      get { return personContractNumber_; }
+      set {
+        personContractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "servicePack" field.</summary>
+    public const int ServicePackFieldNumber = 3;
+    private string servicePack_ = "";
+    /// <summary>
+    ///参会类型
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ServicePack {
+      get { return servicePack_; }
+      set {
+        servicePack_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 4;
+    private string name_ = "";
+    /// <summary>
+    ///姓名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "title" field.</summary>
+    public const int TitleFieldNumber = 5;
+    private string title_ = "";
+    /// <summary>
+    ///称谓
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Title {
+      get { return title_; }
+      set {
+        title_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "positin" field.</summary>
+    public const int PositinFieldNumber = 6;
+    private string positin_ = "";
+    /// <summary>
+    ///职位
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Positin {
+      get { return positin_; }
+      set {
+        positin_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "mobile" field.</summary>
+    public const int MobileFieldNumber = 7;
+    private string mobile_ = "";
+    /// <summary>
+    ///手机
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Mobile {
+      get { return mobile_; }
+      set {
+        mobile_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "email" field.</summary>
+    public const int EmailFieldNumber = 8;
+    private string email_ = "";
+    /// <summary>
+    ///邮箱
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Email {
+      get { return email_; }
+      set {
+        email_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "companyName" field.</summary>
+    public const int CompanyNameFieldNumber = 9;
+    private string companyName_ = "";
+    /// <summary>
+    ///公司名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyName {
+      get { return companyName_; }
+      set {
+        companyName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "activityName" field.</summary>
+    public const int ActivityNameFieldNumber = 10;
+    private string activityName_ = "";
+    /// <summary>
+    ///参加活动名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ActivityName {
+      get { return activityName_; }
+      set {
+        activityName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "activityVune" field.</summary>
+    public const int ActivityVuneFieldNumber = 11;
+    private string activityVune_ = "";
+    /// <summary>
+    ///参加活动的地点
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ActivityVune {
+      get { return activityVune_; }
+      set {
+        activityVune_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "activityTime" field.</summary>
+    public const int ActivityTimeFieldNumber = 12;
+    private string activityTime_ = "";
+    /// <summary>
+    ///参加活动的时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ActivityTime {
+      get { return activityTime_; }
+      set {
+        activityTime_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "owner" field.</summary>
+    public const int OwnerFieldNumber = 13;
+    private string owner_ = "";
+    /// <summary>
+    ///业务员
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Owner {
+      get { return owner_; }
+      set {
+        owner_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ownerEmail" field.</summary>
+    public const int OwnerEmailFieldNumber = 14;
+    private string ownerEmail_ = "";
+    /// <summary>
+    ///业务员邮箱
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OwnerEmail {
+      get { return ownerEmail_; }
+      set {
+        ownerEmail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ownerMobile" field.</summary>
+    public const int OwnerMobileFieldNumber = 15;
+    private string ownerMobile_ = "";
+    /// <summary>
+    ///业务员手机
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OwnerMobile {
+      get { return ownerMobile_; }
+      set {
+        ownerMobile_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ownerAddress" field.</summary>
+    public const int OwnerAddressFieldNumber = 16;
+    private string ownerAddress_ = "";
+    /// <summary>
+    ///业务员地址
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OwnerAddress {
+      get { return ownerAddress_; }
+      set {
+        ownerAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "crteatedOn" field.</summary>
+    public const int CrteatedOnFieldNumber = 17;
+    private string crteatedOn_ = "";
+    /// <summary>
+    ///创建时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CrteatedOn {
+      get { return crteatedOn_; }
+      set {
+        crteatedOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "createdBy" field.</summary>
+    public const int CreatedByFieldNumber = 18;
+    private string createdBy_ = "";
+    /// <summary>
+    ///创建人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modifyOn" field.</summary>
+    public const int ModifyOnFieldNumber = 19;
+    private string modifyOn_ = "";
+    /// <summary>
+    ///修改时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifyOn {
+      get { return modifyOn_; }
+      set {
+        modifyOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modifyBy" field.</summary>
+    public const int ModifyByFieldNumber = 20;
+    private string modifyBy_ = "";
+    /// <summary>
+    ///修改人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifyBy {
+      get { return modifyBy_; }
+      set {
+        modifyBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_AddScheduleRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_AddScheduleRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PersonContractId != other.PersonContractId) return false;
+      if (PersonContractNumber != other.PersonContractNumber) return false;
+      if (ServicePack != other.ServicePack) return false;
+      if (Name != other.Name) return false;
+      if (Title != other.Title) return false;
+      if (Positin != other.Positin) return false;
+      if (Mobile != other.Mobile) return false;
+      if (Email != other.Email) return false;
+      if (CompanyName != other.CompanyName) return false;
+      if (ActivityName != other.ActivityName) return false;
+      if (ActivityVune != other.ActivityVune) return false;
+      if (ActivityTime != other.ActivityTime) return false;
+      if (Owner != other.Owner) return false;
+      if (OwnerEmail != other.OwnerEmail) return false;
+      if (OwnerMobile != other.OwnerMobile) return false;
+      if (OwnerAddress != other.OwnerAddress) return false;
+      if (CrteatedOn != other.CrteatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModifyOn != other.ModifyOn) return false;
+      if (ModifyBy != other.ModifyBy) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (PersonContractId.Length != 0) hash ^= PersonContractId.GetHashCode();
+      if (PersonContractNumber.Length != 0) hash ^= PersonContractNumber.GetHashCode();
+      if (ServicePack.Length != 0) hash ^= ServicePack.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Title.Length != 0) hash ^= Title.GetHashCode();
+      if (Positin.Length != 0) hash ^= Positin.GetHashCode();
+      if (Mobile.Length != 0) hash ^= Mobile.GetHashCode();
+      if (Email.Length != 0) hash ^= Email.GetHashCode();
+      if (CompanyName.Length != 0) hash ^= CompanyName.GetHashCode();
+      if (ActivityName.Length != 0) hash ^= ActivityName.GetHashCode();
+      if (ActivityVune.Length != 0) hash ^= ActivityVune.GetHashCode();
+      if (ActivityTime.Length != 0) hash ^= ActivityTime.GetHashCode();
+      if (Owner.Length != 0) hash ^= Owner.GetHashCode();
+      if (OwnerEmail.Length != 0) hash ^= OwnerEmail.GetHashCode();
+      if (OwnerMobile.Length != 0) hash ^= OwnerMobile.GetHashCode();
+      if (OwnerAddress.Length != 0) hash ^= OwnerAddress.GetHashCode();
+      if (CrteatedOn.Length != 0) hash ^= CrteatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModifyOn.Length != 0) hash ^= ModifyOn.GetHashCode();
+      if (ModifyBy.Length != 0) hash ^= ModifyBy.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (PersonContractId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(PersonContractId);
+      }
+      if (PersonContractNumber.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(PersonContractNumber);
+      }
+      if (ServicePack.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(ServicePack);
+      }
+      if (Name.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Name);
+      }
+      if (Title.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Title);
+      }
+      if (Positin.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(Positin);
+      }
+      if (Mobile.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(Mobile);
+      }
+      if (Email.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Email);
+      }
+      if (CompanyName.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(CompanyName);
+      }
+      if (ActivityName.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(ActivityName);
+      }
+      if (ActivityVune.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(ActivityVune);
+      }
+      if (ActivityTime.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(ActivityTime);
+      }
+      if (Owner.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(Owner);
+      }
+      if (OwnerEmail.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(OwnerEmail);
+      }
+      if (OwnerMobile.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(OwnerMobile);
+      }
+      if (OwnerAddress.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(OwnerAddress);
+      }
+      if (CrteatedOn.Length != 0) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(CrteatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(CreatedBy);
+      }
+      if (ModifyOn.Length != 0) {
+        output.WriteRawTag(154, 1);
+        output.WriteString(ModifyOn);
+      }
+      if (ModifyBy.Length != 0) {
+        output.WriteRawTag(162, 1);
+        output.WriteString(ModifyBy);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (PersonContractId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PersonContractId);
+      }
+      if (PersonContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PersonContractNumber);
+      }
+      if (ServicePack.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ServicePack);
+      }
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Title.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Title);
+      }
+      if (Positin.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Positin);
+      }
+      if (Mobile.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Mobile);
+      }
+      if (Email.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Email);
+      }
+      if (CompanyName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyName);
+      }
+      if (ActivityName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActivityName);
+      }
+      if (ActivityVune.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActivityVune);
+      }
+      if (ActivityTime.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActivityTime);
+      }
+      if (Owner.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Owner);
+      }
+      if (OwnerEmail.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OwnerEmail);
+      }
+      if (OwnerMobile.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OwnerMobile);
+      }
+      if (OwnerAddress.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(OwnerAddress);
+      }
+      if (CrteatedOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CrteatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModifyOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModifyOn);
+      }
+      if (ModifyBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModifyBy);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_AddScheduleRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.PersonContractId.Length != 0) {
+        PersonContractId = other.PersonContractId;
+      }
+      if (other.PersonContractNumber.Length != 0) {
+        PersonContractNumber = other.PersonContractNumber;
+      }
+      if (other.ServicePack.Length != 0) {
+        ServicePack = other.ServicePack;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Title.Length != 0) {
+        Title = other.Title;
+      }
+      if (other.Positin.Length != 0) {
+        Positin = other.Positin;
+      }
+      if (other.Mobile.Length != 0) {
+        Mobile = other.Mobile;
+      }
+      if (other.Email.Length != 0) {
+        Email = other.Email;
+      }
+      if (other.CompanyName.Length != 0) {
+        CompanyName = other.CompanyName;
+      }
+      if (other.ActivityName.Length != 0) {
+        ActivityName = other.ActivityName;
+      }
+      if (other.ActivityVune.Length != 0) {
+        ActivityVune = other.ActivityVune;
+      }
+      if (other.ActivityTime.Length != 0) {
+        ActivityTime = other.ActivityTime;
+      }
+      if (other.Owner.Length != 0) {
+        Owner = other.Owner;
+      }
+      if (other.OwnerEmail.Length != 0) {
+        OwnerEmail = other.OwnerEmail;
+      }
+      if (other.OwnerMobile.Length != 0) {
+        OwnerMobile = other.OwnerMobile;
+      }
+      if (other.OwnerAddress.Length != 0) {
+        OwnerAddress = other.OwnerAddress;
+      }
+      if (other.CrteatedOn.Length != 0) {
+        CrteatedOn = other.CrteatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModifyOn.Length != 0) {
+        ModifyOn = other.ModifyOn;
+      }
+      if (other.ModifyBy.Length != 0) {
+        ModifyBy = other.ModifyBy;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            PersonContractId = input.ReadString();
+            break;
+          }
+          case 18: {
+            PersonContractNumber = input.ReadString();
+            break;
+          }
+          case 26: {
+            ServicePack = input.ReadString();
+            break;
+          }
+          case 34: {
+            Name = input.ReadString();
+            break;
+          }
+          case 42: {
+            Title = input.ReadString();
+            break;
+          }
+          case 50: {
+            Positin = input.ReadString();
+            break;
+          }
+          case 58: {
+            Mobile = input.ReadString();
+            break;
+          }
+          case 66: {
+            Email = input.ReadString();
+            break;
+          }
+          case 74: {
+            CompanyName = input.ReadString();
+            break;
+          }
+          case 82: {
+            ActivityName = input.ReadString();
+            break;
+          }
+          case 90: {
+            ActivityVune = input.ReadString();
+            break;
+          }
+          case 98: {
+            ActivityTime = input.ReadString();
+            break;
+          }
+          case 106: {
+            Owner = input.ReadString();
+            break;
+          }
+          case 114: {
+            OwnerEmail = input.ReadString();
+            break;
+          }
+          case 122: {
+            OwnerMobile = input.ReadString();
+            break;
+          }
+          case 130: {
+            OwnerAddress = input.ReadString();
+            break;
+          }
+          case 138: {
+            CrteatedOn = input.ReadString();
+            break;
+          }
+          case 146: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 154: {
+            ModifyOn = input.ReadString();
+            break;
+          }
+          case 162: {
+            ModifyBy = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class new_GetCompanyNoticeOfReportByContractNumberRequest : pb::IMessage<new_GetCompanyNoticeOfReportByContractNumberRequest> {
+    private static readonly pb::MessageParser<new_GetCompanyNoticeOfReportByContractNumberRequest> _parser = new pb::MessageParser<new_GetCompanyNoticeOfReportByContractNumberRequest>(() => new new_GetCompanyNoticeOfReportByContractNumberRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetCompanyNoticeOfReportByContractNumberRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[99]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetCompanyNoticeOfReportByContractNumberRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetCompanyNoticeOfReportByContractNumberRequest(new_GetCompanyNoticeOfReportByContractNumberRequest other) : this() {
+      contractNumber_ = other.contractNumber_;
+      year_ = other.year_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetCompanyNoticeOfReportByContractNumberRequest Clone() {
+      return new new_GetCompanyNoticeOfReportByContractNumberRequest(this);
+    }
+
+    /// <summary>Field number for the "contractNumber" field.</summary>
+    public const int ContractNumberFieldNumber = 1;
+    private string contractNumber_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractNumber {
+      get { return contractNumber_; }
+      set {
+        contractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "year" field.</summary>
+    public const int YearFieldNumber = 2;
+    private string year_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Year {
+      get { return year_; }
+      set {
+        year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetCompanyNoticeOfReportByContractNumberRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetCompanyNoticeOfReportByContractNumberRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ContractNumber != other.ContractNumber) return false;
+      if (Year != other.Year) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ContractNumber.Length != 0) hash ^= ContractNumber.GetHashCode();
+      if (Year.Length != 0) hash ^= Year.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ContractNumber.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ContractNumber);
+      }
+      if (Year.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Year);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractNumber);
+      }
+      if (Year.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Year);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetCompanyNoticeOfReportByContractNumberRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ContractNumber.Length != 0) {
+        ContractNumber = other.ContractNumber;
+      }
+      if (other.Year.Length != 0) {
+        Year = other.Year;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ContractNumber = input.ReadString();
+            break;
+          }
+          case 18: {
+            Year = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewConferenceStruct : pb::IMessage<NewConferenceStruct> {
+    private static readonly pb::MessageParser<NewConferenceStruct> _parser = new pb::MessageParser<NewConferenceStruct>(() => new NewConferenceStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewConferenceStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[100]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewConferenceStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewConferenceStruct(NewConferenceStruct other) : this() {
+      conferenceID_ = other.conferenceID_;
+      parentID_ = other.parentID_;
+      Translation = other.translation_ != null ? other.Translation.Clone() : null;
+      cFAddressPK_ = other.cFAddressPK_;
+      startDate_ = other.startDate_;
+      startDateTime_ = other.startDateTime_;
+      year_ = other.year_;
+      sort_ = other.sort_;
+      abbreviation_ = other.abbreviation_;
+      conferenceIntroduce_ = other.conferenceIntroduce_;
+      createdOn_ = other.createdOn_;
+      createdBy_ = other.createdBy_;
+      modifiedOn_ = other.modifiedOn_;
+      modifiedBy_ = other.modifiedBy_;
+      level_ = other.level_;
+      timeRange_ = other.timeRange_;
+      showOnFront_ = other.showOnFront_;
+      CFAddress = other.cFAddress_ != null ? other.CFAddress.Clone() : null;
+      applySearch_ = other.applySearch_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewConferenceStruct Clone() {
+      return new NewConferenceStruct(this);
+    }
+
+    /// <summary>Field number for the "ConferenceID" field.</summary>
+    public const int ConferenceIDFieldNumber = 1;
+    private string conferenceID_ = "";
+    /// <summary>
+    ///会议主键id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceID {
+      get { return conferenceID_; }
+      set {
+        conferenceID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ParentID" field.</summary>
+    public const int ParentIDFieldNumber = 2;
+    private string parentID_ = "";
+    /// <summary>
+    ///父级id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ParentID {
+      get { return parentID_; }
+      set {
+        parentID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Translation" field.</summary>
+    public const int TranslationFieldNumber = 3;
+    private global::GrpcConferenceContractService.Translation translation_;
+    /// <summary>
+    ///会议名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.Translation Translation {
+      get { return translation_; }
+      set {
+        translation_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CFAddressPK" field.</summary>
+    public const int CFAddressPKFieldNumber = 4;
+    private string cFAddressPK_ = "";
+    /// <summary>
+    ///会议地点id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CFAddressPK {
+      get { return cFAddressPK_; }
+      set {
+        cFAddressPK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "StartDate" field.</summary>
+    public const int StartDateFieldNumber = 5;
+    private string startDate_ = "";
+    /// <summary>
+    ///会议时间段
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string StartDate {
+      get { return startDate_; }
+      set {
+        startDate_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "StartDateTime" field.</summary>
+    public const int StartDateTimeFieldNumber = 6;
+    private string startDateTime_ = "";
+    /// <summary>
+    ///开始时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string StartDateTime {
+      get { return startDateTime_; }
+      set {
+        startDateTime_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Year" field.</summary>
+    public const int YearFieldNumber = 7;
+    private string year_ = "";
+    /// <summary>
+    ///年份
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Year {
+      get { return year_; }
+      set {
+        year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Sort" field.</summary>
+    public const int SortFieldNumber = 8;
+    private string sort_ = "";
+    /// <summary>
+    ///排序
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Sort {
+      get { return sort_; }
+      set {
+        sort_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Abbreviation" field.</summary>
+    public const int AbbreviationFieldNumber = 9;
+    private string abbreviation_ = "";
+    /// <summary>
+    ///英文缩写
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Abbreviation {
+      get { return abbreviation_; }
+      set {
+        abbreviation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceIntroduce" field.</summary>
+    public const int ConferenceIntroduceFieldNumber = 10;
+    private string conferenceIntroduce_ = "";
+    /// <summary>
+    ///会议简介  格式{"CN":"123","EN":"123"}
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceIntroduce {
+      get { return conferenceIntroduce_; }
+      set {
+        conferenceIntroduce_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedOn" field.</summary>
+    public const int CreatedOnFieldNumber = 11;
+    private string createdOn_ = "";
+    /// <summary>
+    ///创建时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedBy" field.</summary>
+    public const int CreatedByFieldNumber = 12;
+    private string createdBy_ = "";
+    /// <summary>
+    ///创建人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModifiedOn" field.</summary>
+    public const int ModifiedOnFieldNumber = 13;
+    private string modifiedOn_ = "";
+    /// <summary>
+    ///修改时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiedOn {
+      get { return modifiedOn_; }
+      set {
+        modifiedOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModifiedBy" field.</summary>
+    public const int ModifiedByFieldNumber = 14;
+    private string modifiedBy_ = "";
+    /// <summary>
+    ///修改人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiedBy {
+      get { return modifiedBy_; }
+      set {
+        modifiedBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Level" field.</summary>
+    public const int LevelFieldNumber = 15;
+    private int level_;
+    /// <summary>
+    ///层级
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Level {
+      get { return level_; }
+      set {
+        level_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "TimeRange" field.</summary>
+    public const int TimeRangeFieldNumber = 16;
+    private string timeRange_ = "";
+    /// <summary>
+    ///时间段
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string TimeRange {
+      get { return timeRange_; }
+      set {
+        timeRange_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ShowOnFront" field.</summary>
+    public const int ShowOnFrontFieldNumber = 17;
+    private bool showOnFront_;
+    /// <summary>
+    ///是否前台显示
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool ShowOnFront {
+      get { return showOnFront_; }
+      set {
+        showOnFront_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CFAddress" field.</summary>
+    public const int CFAddressFieldNumber = 18;
+    private global::GrpcConferenceContractService.NewCFAddressStruct cFAddress_;
+    /// <summary>
+    ///会议室对象
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.NewCFAddressStruct CFAddress {
+      get { return cFAddress_; }
+      set {
+        cFAddress_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ApplySearch" field.</summary>
+    public const int ApplySearchFieldNumber = 19;
+    private bool applySearch_;
+    /// <summary>
+    ///作为会议申请的筛选
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool ApplySearch {
+      get { return applySearch_; }
+      set {
+        applySearch_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewConferenceStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewConferenceStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ConferenceID != other.ConferenceID) return false;
+      if (ParentID != other.ParentID) return false;
+      if (!object.Equals(Translation, other.Translation)) return false;
+      if (CFAddressPK != other.CFAddressPK) return false;
+      if (StartDate != other.StartDate) return false;
+      if (StartDateTime != other.StartDateTime) return false;
+      if (Year != other.Year) return false;
+      if (Sort != other.Sort) return false;
+      if (Abbreviation != other.Abbreviation) return false;
+      if (ConferenceIntroduce != other.ConferenceIntroduce) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModifiedOn != other.ModifiedOn) return false;
+      if (ModifiedBy != other.ModifiedBy) return false;
+      if (Level != other.Level) return false;
+      if (TimeRange != other.TimeRange) return false;
+      if (ShowOnFront != other.ShowOnFront) return false;
+      if (!object.Equals(CFAddress, other.CFAddress)) return false;
+      if (ApplySearch != other.ApplySearch) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ConferenceID.Length != 0) hash ^= ConferenceID.GetHashCode();
+      if (ParentID.Length != 0) hash ^= ParentID.GetHashCode();
+      if (translation_ != null) hash ^= Translation.GetHashCode();
+      if (CFAddressPK.Length != 0) hash ^= CFAddressPK.GetHashCode();
+      if (StartDate.Length != 0) hash ^= StartDate.GetHashCode();
+      if (StartDateTime.Length != 0) hash ^= StartDateTime.GetHashCode();
+      if (Year.Length != 0) hash ^= Year.GetHashCode();
+      if (Sort.Length != 0) hash ^= Sort.GetHashCode();
+      if (Abbreviation.Length != 0) hash ^= Abbreviation.GetHashCode();
+      if (ConferenceIntroduce.Length != 0) hash ^= ConferenceIntroduce.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModifiedOn.Length != 0) hash ^= ModifiedOn.GetHashCode();
+      if (ModifiedBy.Length != 0) hash ^= ModifiedBy.GetHashCode();
+      if (Level != 0) hash ^= Level.GetHashCode();
+      if (TimeRange.Length != 0) hash ^= TimeRange.GetHashCode();
+      if (ShowOnFront != false) hash ^= ShowOnFront.GetHashCode();
+      if (cFAddress_ != null) hash ^= CFAddress.GetHashCode();
+      if (ApplySearch != false) hash ^= ApplySearch.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ConferenceID.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ConferenceID);
+      }
+      if (ParentID.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ParentID);
+      }
+      if (translation_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Translation);
+      }
+      if (CFAddressPK.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(CFAddressPK);
+      }
+      if (StartDate.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(StartDate);
+      }
+      if (StartDateTime.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(StartDateTime);
+      }
+      if (Year.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(Year);
+      }
+      if (Sort.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Sort);
+      }
+      if (Abbreviation.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(Abbreviation);
+      }
+      if (ConferenceIntroduce.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(ConferenceIntroduce);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(ModifiedOn);
+      }
+      if (ModifiedBy.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(ModifiedBy);
+      }
+      if (Level != 0) {
+        output.WriteRawTag(120);
+        output.WriteInt32(Level);
+      }
+      if (TimeRange.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(TimeRange);
+      }
+      if (ShowOnFront != false) {
+        output.WriteRawTag(136, 1);
+        output.WriteBool(ShowOnFront);
+      }
+      if (cFAddress_ != null) {
+        output.WriteRawTag(146, 1);
+        output.WriteMessage(CFAddress);
+      }
+      if (ApplySearch != false) {
+        output.WriteRawTag(152, 1);
+        output.WriteBool(ApplySearch);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ConferenceID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceID);
+      }
+      if (ParentID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ParentID);
+      }
+      if (translation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Translation);
+      }
+      if (CFAddressPK.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CFAddressPK);
+      }
+      if (StartDate.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(StartDate);
+      }
+      if (StartDateTime.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(StartDateTime);
+      }
+      if (Year.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Year);
+      }
+      if (Sort.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Sort);
+      }
+      if (Abbreviation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Abbreviation);
+      }
+      if (ConferenceIntroduce.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceIntroduce);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifiedOn);
+      }
+      if (ModifiedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifiedBy);
+      }
+      if (Level != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Level);
+      }
+      if (TimeRange.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(TimeRange);
+      }
+      if (ShowOnFront != false) {
+        size += 2 + 1;
+      }
+      if (cFAddress_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(CFAddress);
+      }
+      if (ApplySearch != false) {
+        size += 2 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewConferenceStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ConferenceID.Length != 0) {
+        ConferenceID = other.ConferenceID;
+      }
+      if (other.ParentID.Length != 0) {
+        ParentID = other.ParentID;
+      }
+      if (other.translation_ != null) {
+        if (translation_ == null) {
+          translation_ = new global::GrpcConferenceContractService.Translation();
+        }
+        Translation.MergeFrom(other.Translation);
+      }
+      if (other.CFAddressPK.Length != 0) {
+        CFAddressPK = other.CFAddressPK;
+      }
+      if (other.StartDate.Length != 0) {
+        StartDate = other.StartDate;
+      }
+      if (other.StartDateTime.Length != 0) {
+        StartDateTime = other.StartDateTime;
+      }
+      if (other.Year.Length != 0) {
+        Year = other.Year;
+      }
+      if (other.Sort.Length != 0) {
+        Sort = other.Sort;
+      }
+      if (other.Abbreviation.Length != 0) {
+        Abbreviation = other.Abbreviation;
+      }
+      if (other.ConferenceIntroduce.Length != 0) {
+        ConferenceIntroduce = other.ConferenceIntroduce;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModifiedOn.Length != 0) {
+        ModifiedOn = other.ModifiedOn;
+      }
+      if (other.ModifiedBy.Length != 0) {
+        ModifiedBy = other.ModifiedBy;
+      }
+      if (other.Level != 0) {
+        Level = other.Level;
+      }
+      if (other.TimeRange.Length != 0) {
+        TimeRange = other.TimeRange;
+      }
+      if (other.ShowOnFront != false) {
+        ShowOnFront = other.ShowOnFront;
+      }
+      if (other.cFAddress_ != null) {
+        if (cFAddress_ == null) {
+          cFAddress_ = new global::GrpcConferenceContractService.NewCFAddressStruct();
+        }
+        CFAddress.MergeFrom(other.CFAddress);
+      }
+      if (other.ApplySearch != false) {
+        ApplySearch = other.ApplySearch;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ConferenceID = input.ReadString();
+            break;
+          }
+          case 18: {
+            ParentID = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (translation_ == null) {
+              translation_ = new global::GrpcConferenceContractService.Translation();
+            }
+            input.ReadMessage(translation_);
+            break;
+          }
+          case 34: {
+            CFAddressPK = input.ReadString();
+            break;
+          }
+          case 42: {
+            StartDate = input.ReadString();
+            break;
+          }
+          case 50: {
+            StartDateTime = input.ReadString();
+            break;
+          }
+          case 58: {
+            Year = input.ReadString();
+            break;
+          }
+          case 66: {
+            Sort = input.ReadString();
+            break;
+          }
+          case 74: {
+            Abbreviation = input.ReadString();
+            break;
+          }
+          case 82: {
+            ConferenceIntroduce = input.ReadString();
+            break;
+          }
+          case 90: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 98: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 106: {
+            ModifiedOn = input.ReadString();
+            break;
+          }
+          case 114: {
+            ModifiedBy = input.ReadString();
+            break;
+          }
+          case 120: {
+            Level = input.ReadInt32();
+            break;
+          }
+          case 130: {
+            TimeRange = input.ReadString();
+            break;
+          }
+          case 136: {
+            ShowOnFront = input.ReadBool();
+            break;
+          }
+          case 146: {
+            if (cFAddress_ == null) {
+              cFAddress_ = new global::GrpcConferenceContractService.NewCFAddressStruct();
+            }
+            input.ReadMessage(cFAddress_);
+            break;
+          }
+          case 152: {
+            ApplySearch = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewCFAddressStruct : pb::IMessage<NewCFAddressStruct> {
+    private static readonly pb::MessageParser<NewCFAddressStruct> _parser = new pb::MessageParser<NewCFAddressStruct>(() => new NewCFAddressStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewCFAddressStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[101]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewCFAddressStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewCFAddressStruct(NewCFAddressStruct other) : this() {
+      cFAddressPK_ = other.cFAddressPK_;
+      Translation = other.translation_ != null ? other.Translation.Clone() : null;
+      postCode_ = other.postCode_;
+      country_ = other.country_;
+      createdOn_ = other.createdOn_;
+      createdBy_ = other.createdBy_;
+      modifiedOn_ = other.modifiedOn_;
+      modifiedBy_ = other.modifiedBy_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewCFAddressStruct Clone() {
+      return new NewCFAddressStruct(this);
+    }
+
+    /// <summary>Field number for the "CFAddressPK" field.</summary>
+    public const int CFAddressPKFieldNumber = 1;
+    private string cFAddressPK_ = "";
+    /// <summary>
+    ///会议地点主键id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CFAddressPK {
+      get { return cFAddressPK_; }
+      set {
+        cFAddressPK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Translation" field.</summary>
+    public const int TranslationFieldNumber = 2;
+    private global::GrpcConferenceContractService.Translation translation_;
+    /// <summary>
+    ///会议地点
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.Translation Translation {
+      get { return translation_; }
+      set {
+        translation_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "PostCode" field.</summary>
+    public const int PostCodeFieldNumber = 3;
+    private string postCode_ = "";
+    /// <summary>
+    ///邮编
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PostCode {
+      get { return postCode_; }
+      set {
+        postCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Country" field.</summary>
+    public const int CountryFieldNumber = 4;
+    private string country_ = "";
+    /// <summary>
+    ///国家
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Country {
+      get { return country_; }
+      set {
+        country_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedOn" field.</summary>
+    public const int CreatedOnFieldNumber = 5;
+    private string createdOn_ = "";
+    /// <summary>
+    ///创建时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedBy" field.</summary>
+    public const int CreatedByFieldNumber = 6;
+    private string createdBy_ = "";
+    /// <summary>
+    ///创建人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModifiedOn" field.</summary>
+    public const int ModifiedOnFieldNumber = 7;
+    private string modifiedOn_ = "";
+    /// <summary>
+    ///修改时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiedOn {
+      get { return modifiedOn_; }
+      set {
+        modifiedOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModifiedBy" field.</summary>
+    public const int ModifiedByFieldNumber = 8;
+    private string modifiedBy_ = "";
+    /// <summary>
+    ///修改人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiedBy {
+      get { return modifiedBy_; }
+      set {
+        modifiedBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewCFAddressStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewCFAddressStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (CFAddressPK != other.CFAddressPK) return false;
+      if (!object.Equals(Translation, other.Translation)) return false;
+      if (PostCode != other.PostCode) return false;
+      if (Country != other.Country) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModifiedOn != other.ModifiedOn) return false;
+      if (ModifiedBy != other.ModifiedBy) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (CFAddressPK.Length != 0) hash ^= CFAddressPK.GetHashCode();
+      if (translation_ != null) hash ^= Translation.GetHashCode();
+      if (PostCode.Length != 0) hash ^= PostCode.GetHashCode();
+      if (Country.Length != 0) hash ^= Country.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModifiedOn.Length != 0) hash ^= ModifiedOn.GetHashCode();
+      if (ModifiedBy.Length != 0) hash ^= ModifiedBy.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (CFAddressPK.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(CFAddressPK);
+      }
+      if (translation_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Translation);
+      }
+      if (PostCode.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(PostCode);
+      }
+      if (Country.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Country);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(ModifiedOn);
+      }
+      if (ModifiedBy.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(ModifiedBy);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (CFAddressPK.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CFAddressPK);
+      }
+      if (translation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Translation);
+      }
+      if (PostCode.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PostCode);
+      }
+      if (Country.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Country);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifiedOn);
+      }
+      if (ModifiedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifiedBy);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewCFAddressStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.CFAddressPK.Length != 0) {
+        CFAddressPK = other.CFAddressPK;
+      }
+      if (other.translation_ != null) {
+        if (translation_ == null) {
+          translation_ = new global::GrpcConferenceContractService.Translation();
+        }
+        Translation.MergeFrom(other.Translation);
+      }
+      if (other.PostCode.Length != 0) {
+        PostCode = other.PostCode;
+      }
+      if (other.Country.Length != 0) {
+        Country = other.Country;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModifiedOn.Length != 0) {
+        ModifiedOn = other.ModifiedOn;
+      }
+      if (other.ModifiedBy.Length != 0) {
+        ModifiedBy = other.ModifiedBy;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            CFAddressPK = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (translation_ == null) {
+              translation_ = new global::GrpcConferenceContractService.Translation();
+            }
+            input.ReadMessage(translation_);
+            break;
+          }
+          case 26: {
+            PostCode = input.ReadString();
+            break;
+          }
+          case 34: {
+            Country = input.ReadString();
+            break;
+          }
+          case 42: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 50: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 58: {
+            ModifiedOn = input.ReadString();
+            break;
+          }
+          case 66: {
+            ModifiedBy = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewApplyConferenceStruct : pb::IMessage<NewApplyConferenceStruct> {
+    private static readonly pb::MessageParser<NewApplyConferenceStruct> _parser = new pb::MessageParser<NewApplyConferenceStruct>(() => new NewApplyConferenceStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewApplyConferenceStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[102]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewApplyConferenceStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewApplyConferenceStruct(NewApplyConferenceStruct other) : this() {
+      id_ = other.id_;
+      personContractId_ = other.personContractId_;
+      memberPK_ = other.memberPK_;
+      sessionConferenceId_ = other.sessionConferenceId_;
+      isConfirm_ = other.isConfirm_;
+      companyId_ = other.companyId_;
+      tagTypeCodes_ = other.tagTypeCodes_;
+      remarkTranslation_ = other.remarkTranslation_;
+      year_ = other.year_;
+      sessionConferenceIds_ = other.sessionConferenceIds_.Clone();
+      isParticularConf_ = other.isParticularConf_;
+      owerid_ = other.owerid_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewApplyConferenceStruct Clone() {
+      return new NewApplyConferenceStruct(this);
+    }
+
+    /// <summary>Field number for the "Id" field.</summary>
+    public const int IdFieldNumber = 1;
+    private string id_ = "";
+    /// <summary>
+    ///主键
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Id {
+      get { return id_; }
+      set {
+        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "PersonContractId" field.</summary>
+    public const int PersonContractIdFieldNumber = 2;
+    private string personContractId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PersonContractId {
+      get { return personContractId_; }
+      set {
+        personContractId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemberPK" field.</summary>
+    public const int MemberPKFieldNumber = 3;
+    private string memberPK_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemberPK {
+      get { return memberPK_; }
+      set {
+        memberPK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "SessionConferenceId" field.</summary>
+    public const int SessionConferenceIdFieldNumber = 4;
+    private string sessionConferenceId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SessionConferenceId {
+      get { return sessionConferenceId_; }
+      set {
+        sessionConferenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IsConfirm" field.</summary>
+    public const int IsConfirmFieldNumber = 5;
+    private bool isConfirm_;
+    /// <summary>
+    ///是否确认
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsConfirm {
+      get { return isConfirm_; }
+      set {
+        isConfirm_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CompanyId" field.</summary>
+    public const int CompanyIdFieldNumber = 6;
+    private string companyId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyId {
+      get { return companyId_; }
+      set {
+        companyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "TagTypeCodes" field.</summary>
+    public const int TagTypeCodesFieldNumber = 7;
+    private string tagTypeCodes_ = "";
+    /// <summary>
+    ///多个标签Code，用“，”分隔
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string TagTypeCodes {
+      get { return tagTypeCodes_; }
+      set {
+        tagTypeCodes_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "RemarkTranslation" field.</summary>
+    public const int RemarkTranslationFieldNumber = 8;
+    private string remarkTranslation_ = "";
+    /// <summary>
+    ///备注
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string RemarkTranslation {
+      get { return remarkTranslation_; }
+      set {
+        remarkTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Year" field.</summary>
+    public const int YearFieldNumber = 9;
+    private string year_ = "";
+    /// <summary>
+    ///年份
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Year {
+      get { return year_; }
+      set {
+        year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "SessionConferenceIds" field.</summary>
+    public const int SessionConferenceIdsFieldNumber = 10;
+    private static readonly pb::FieldCodec<string> _repeated_sessionConferenceIds_codec
+        = pb::FieldCodec.ForString(82);
+    private readonly pbc::RepeatedField<string> sessionConferenceIds_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    ///SessionConferenceId列表
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> SessionConferenceIds {
+      get { return sessionConferenceIds_; }
+    }
+
+    /// <summary>Field number for the "IsParticularConf" field.</summary>
+    public const int IsParticularConfFieldNumber = 11;
+    private bool isParticularConf_;
+    /// <summary>
+    ///IsParticularConf
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsParticularConf {
+      get { return isParticularConf_; }
+      set {
+        isParticularConf_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Owerid" field.</summary>
+    public const int OweridFieldNumber = 12;
+    private string owerid_ = "";
+    /// <summary>
+    ///业务员id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Owerid {
+      get { return owerid_; }
+      set {
+        owerid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewApplyConferenceStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewApplyConferenceStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Id != other.Id) return false;
+      if (PersonContractId != other.PersonContractId) return false;
+      if (MemberPK != other.MemberPK) return false;
+      if (SessionConferenceId != other.SessionConferenceId) return false;
+      if (IsConfirm != other.IsConfirm) return false;
+      if (CompanyId != other.CompanyId) return false;
+      if (TagTypeCodes != other.TagTypeCodes) return false;
+      if (RemarkTranslation != other.RemarkTranslation) return false;
+      if (Year != other.Year) return false;
+      if(!sessionConferenceIds_.Equals(other.sessionConferenceIds_)) return false;
+      if (IsParticularConf != other.IsParticularConf) return false;
+      if (Owerid != other.Owerid) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Id.Length != 0) hash ^= Id.GetHashCode();
+      if (PersonContractId.Length != 0) hash ^= PersonContractId.GetHashCode();
+      if (MemberPK.Length != 0) hash ^= MemberPK.GetHashCode();
+      if (SessionConferenceId.Length != 0) hash ^= SessionConferenceId.GetHashCode();
+      if (IsConfirm != false) hash ^= IsConfirm.GetHashCode();
+      if (CompanyId.Length != 0) hash ^= CompanyId.GetHashCode();
+      if (TagTypeCodes.Length != 0) hash ^= TagTypeCodes.GetHashCode();
+      if (RemarkTranslation.Length != 0) hash ^= RemarkTranslation.GetHashCode();
+      if (Year.Length != 0) hash ^= Year.GetHashCode();
+      hash ^= sessionConferenceIds_.GetHashCode();
+      if (IsParticularConf != false) hash ^= IsParticularConf.GetHashCode();
+      if (Owerid.Length != 0) hash ^= Owerid.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (PersonContractId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(PersonContractId);
+      }
+      if (MemberPK.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(MemberPK);
+      }
+      if (SessionConferenceId.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(SessionConferenceId);
+      }
+      if (IsConfirm != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(IsConfirm);
+      }
+      if (CompanyId.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(CompanyId);
+      }
+      if (TagTypeCodes.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(TagTypeCodes);
+      }
+      if (RemarkTranslation.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(RemarkTranslation);
+      }
+      if (Year.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(Year);
+      }
+      sessionConferenceIds_.WriteTo(output, _repeated_sessionConferenceIds_codec);
+      if (IsParticularConf != false) {
+        output.WriteRawTag(88);
+        output.WriteBool(IsParticularConf);
+      }
+      if (Owerid.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(Owerid);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Id.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
+      }
+      if (PersonContractId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PersonContractId);
+      }
+      if (MemberPK.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemberPK);
+      }
+      if (SessionConferenceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SessionConferenceId);
+      }
+      if (IsConfirm != false) {
+        size += 1 + 1;
+      }
+      if (CompanyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyId);
+      }
+      if (TagTypeCodes.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TagTypeCodes);
+      }
+      if (RemarkTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(RemarkTranslation);
+      }
+      if (Year.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Year);
+      }
+      size += sessionConferenceIds_.CalculateSize(_repeated_sessionConferenceIds_codec);
+      if (IsParticularConf != false) {
+        size += 1 + 1;
+      }
+      if (Owerid.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Owerid);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewApplyConferenceStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Id.Length != 0) {
+        Id = other.Id;
+      }
+      if (other.PersonContractId.Length != 0) {
+        PersonContractId = other.PersonContractId;
+      }
+      if (other.MemberPK.Length != 0) {
+        MemberPK = other.MemberPK;
+      }
+      if (other.SessionConferenceId.Length != 0) {
+        SessionConferenceId = other.SessionConferenceId;
+      }
+      if (other.IsConfirm != false) {
+        IsConfirm = other.IsConfirm;
+      }
+      if (other.CompanyId.Length != 0) {
+        CompanyId = other.CompanyId;
+      }
+      if (other.TagTypeCodes.Length != 0) {
+        TagTypeCodes = other.TagTypeCodes;
+      }
+      if (other.RemarkTranslation.Length != 0) {
+        RemarkTranslation = other.RemarkTranslation;
+      }
+      if (other.Year.Length != 0) {
+        Year = other.Year;
+      }
+      sessionConferenceIds_.Add(other.sessionConferenceIds_);
+      if (other.IsParticularConf != false) {
+        IsParticularConf = other.IsParticularConf;
+      }
+      if (other.Owerid.Length != 0) {
+        Owerid = other.Owerid;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            PersonContractId = input.ReadString();
+            break;
+          }
+          case 26: {
+            MemberPK = input.ReadString();
+            break;
+          }
+          case 34: {
+            SessionConferenceId = input.ReadString();
+            break;
+          }
+          case 40: {
+            IsConfirm = input.ReadBool();
+            break;
+          }
+          case 50: {
+            CompanyId = input.ReadString();
+            break;
+          }
+          case 58: {
+            TagTypeCodes = input.ReadString();
+            break;
+          }
+          case 66: {
+            RemarkTranslation = input.ReadString();
+            break;
+          }
+          case 74: {
+            Year = input.ReadString();
+            break;
+          }
+          case 82: {
+            sessionConferenceIds_.AddEntriesFrom(input, _repeated_sessionConferenceIds_codec);
+            break;
+          }
+          case 88: {
+            IsParticularConf = input.ReadBool();
+            break;
+          }
+          case 98: {
+            Owerid = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewCompanyContractStruct : pb::IMessage<NewCompanyContractStruct> {
+    private static readonly pb::MessageParser<NewCompanyContractStruct> _parser = new pb::MessageParser<NewCompanyContractStruct>(() => new NewCompanyContractStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewCompanyContractStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[103]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewCompanyContractStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewCompanyContractStruct(NewCompanyContractStruct other) : this() {
+      contractId_ = other.contractId_;
+      companyServicePackId_ = other.companyServicePackId_;
+      companyId_ = other.companyId_;
+      ComNameTranslation = other.comNameTranslation_ != null ? other.ComNameTranslation.Clone() : null;
+      comContractNumber_ = other.comContractNumber_;
+      country_ = other.country_;
+      AddressTranslation = other.addressTranslation_ != null ? other.AddressTranslation.Clone() : null;
+      maxContractNumber_ = other.maxContractNumber_;
+      cCIsdelete_ = other.cCIsdelete_;
+      enterpriseType_ = other.enterpriseType_;
+      isVerify_ = other.isVerify_;
+      owerid_ = other.owerid_;
+      ower_ = other.ower_;
+      createdOn_ = other.createdOn_;
+      createdBy_ = other.createdBy_;
+      modefieldOn_ = other.modefieldOn_;
+      modefieldBy_ = other.modefieldBy_;
+      CompanyServicePack = other.companyServicePack_ != null ? other.CompanyServicePack.Clone() : null;
+      dlistdata_ = other.dlistdata_.Clone();
+      contractCode_ = other.contractCode_;
+      conferenceId_ = other.conferenceId_;
+      conferenceName_ = other.conferenceName_;
+      isCheckIn_ = other.isCheckIn_;
+      pPTUrl_ = other.pPTUrl_;
+      contractStatusCode_ = other.contractStatusCode_;
+      conferenceContractId_ = other.conferenceContractId_;
+      plistdata_ = other.plistdata_.Clone();
+      comPrice_ = other.comPrice_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewCompanyContractStruct Clone() {
+      return new NewCompanyContractStruct(this);
+    }
+
+    /// <summary>Field number for the "ContractId" field.</summary>
+    public const int ContractIdFieldNumber = 1;
+    private string contractId_ = "";
+    /// <summary>
+    ///主键
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractId {
+      get { return contractId_; }
+      set {
+        contractId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CompanyServicePackId" field.</summary>
+    public const int CompanyServicePackIdFieldNumber = 2;
+    private string companyServicePackId_ = "";
+    /// <summary>
+    ///CompanyServicePackId
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyServicePackId {
+      get { return companyServicePackId_; }
+      set {
+        companyServicePackId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CompanyId" field.</summary>
+    public const int CompanyIdFieldNumber = 3;
+    private string companyId_ = "";
+    /// <summary>
+    ///CompanyId
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyId {
+      get { return companyId_; }
+      set {
+        companyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComNameTranslation" field.</summary>
+    public const int ComNameTranslationFieldNumber = 4;
+    private global::GrpcConferenceContractService.ComNameTranslationStruct comNameTranslation_;
+    /// <summary>
+    ///string  ComNameTranslation = 4;
+    ///公司中英文名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.ComNameTranslationStruct ComNameTranslation {
+      get { return comNameTranslation_; }
+      set {
+        comNameTranslation_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ComContractNumber" field.</summary>
+    public const int ComContractNumberFieldNumber = 5;
+    private string comContractNumber_ = "";
+    /// <summary>
+    ///二级合同号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComContractNumber {
+      get { return comContractNumber_; }
+      set {
+        comContractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Country" field.</summary>
+    public const int CountryFieldNumber = 6;
+    private string country_ = "";
+    /// <summary>
+    ///国家
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Country {
+      get { return country_; }
+      set {
+        country_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "AddressTranslation" field.</summary>
+    public const int AddressTranslationFieldNumber = 7;
+    private global::GrpcConferenceContractService.AddressTranslationStruct addressTranslation_;
+    /// <summary>
+    ///string AddressTranslation = 7;
+    ///地址中英文
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.AddressTranslationStruct AddressTranslation {
+      get { return addressTranslation_; }
+      set {
+        addressTranslation_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "MaxContractNumber" field.</summary>
+    public const int MaxContractNumberFieldNumber = 8;
+    private string maxContractNumber_ = "";
+    /// <summary>
+    ///最大合同数
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MaxContractNumber {
+      get { return maxContractNumber_; }
+      set {
+        maxContractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CCIsdelete" field.</summary>
+    public const int CCIsdeleteFieldNumber = 9;
+    private bool cCIsdelete_;
+    /// <summary>
+    ///是否删除
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool CCIsdelete {
+      get { return cCIsdelete_; }
+      set {
+        cCIsdelete_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "EnterpriseType" field.</summary>
+    public const int EnterpriseTypeFieldNumber = 10;
+    private int enterpriseType_;
+    /// <summary>
+    ///0代表内资;1代表外资
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int EnterpriseType {
+      get { return enterpriseType_; }
+      set {
+        enterpriseType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "IsVerify" field.</summary>
+    public const int IsVerifyFieldNumber = 11;
+    private bool isVerify_;
+    /// <summary>
+    ///是否审核
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsVerify {
+      get { return isVerify_; }
+      set {
+        isVerify_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Owerid" field.</summary>
+    public const int OweridFieldNumber = 12;
+    private string owerid_ = "";
+    /// <summary>
+    ///业务员id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Owerid {
+      get { return owerid_; }
+      set {
+        owerid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Ower" field.</summary>
+    public const int OwerFieldNumber = 13;
+    private string ower_ = "";
+    /// <summary>
+    ///业务员姓名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Ower {
+      get { return ower_; }
+      set {
+        ower_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedOn" field.</summary>
+    public const int CreatedOnFieldNumber = 14;
+    private string createdOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedBy" field.</summary>
+    public const int CreatedByFieldNumber = 15;
+    private string createdBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModefieldOn" field.</summary>
+    public const int ModefieldOnFieldNumber = 16;
+    private string modefieldOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModefieldOn {
+      get { return modefieldOn_; }
+      set {
+        modefieldOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModefieldBy" field.</summary>
+    public const int ModefieldByFieldNumber = 17;
+    private string modefieldBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModefieldBy {
+      get { return modefieldBy_; }
+      set {
+        modefieldBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CompanyServicePack" field.</summary>
+    public const int CompanyServicePackFieldNumber = 18;
+    private global::GrpcConferenceContractService.NewCompanyServicePackStruct companyServicePack_;
+    /// <summary>
+    ///套餐对象
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.NewCompanyServicePackStruct CompanyServicePack {
+      get { return companyServicePack_; }
+      set {
+        companyServicePack_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "dlistdata" field.</summary>
+    public const int DlistdataFieldNumber = 19;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.DelegateServicePackDiscountStruct> _repeated_dlistdata_codec
+        = pb::FieldCodec.ForMessage(154, global::GrpcConferenceContractService.DelegateServicePackDiscountStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.DelegateServicePackDiscountStruct> dlistdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.DelegateServicePackDiscountStruct>();
+    /// <summary>
+    ///二级折扣合同列表
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.DelegateServicePackDiscountStruct> Dlistdata {
+      get { return dlistdata_; }
+    }
+
+    /// <summary>Field number for the "ContractCode" field.</summary>
+    public const int ContractCodeFieldNumber = 20;
+    private string contractCode_ = "";
+    /// <summary>
+    ///CF2019SNEC0010CW合同编号最后二位Code（CW/CS,EW/ES）C中资 E外资 S后台合同 W前台合同
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractCode {
+      get { return contractCode_; }
+      set {
+        contractCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceId" field.</summary>
+    public const int ConferenceIdFieldNumber = 21;
+    private string conferenceId_ = "";
+    /// <summary>
+    ///ConferenceId
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceId {
+      get { return conferenceId_; }
+      set {
+        conferenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceName" field.</summary>
+    public const int ConferenceNameFieldNumber = 22;
+    private string conferenceName_ = "";
+    /// <summary>
+    ///会议名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceName {
+      get { return conferenceName_; }
+      set {
+        conferenceName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IsCheckIn" field.</summary>
+    public const int IsCheckInFieldNumber = 23;
+    private bool isCheckIn_;
+    /// <summary>
+    ///是否报道
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsCheckIn {
+      get { return isCheckIn_; }
+      set {
+        isCheckIn_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "PPTUrl" field.</summary>
+    public const int PPTUrlFieldNumber = 24;
+    private string pPTUrl_ = "";
+    /// <summary>
+    ///PPTUrl
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PPTUrl {
+      get { return pPTUrl_; }
+      set {
+        pPTUrl_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ContractStatusCode" field.</summary>
+    public const int ContractStatusCodeFieldNumber = 25;
+    private string contractStatusCode_ = "";
+    /// <summary>
+    ///合同状态Code
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractStatusCode {
+      get { return contractStatusCode_; }
+      set {
+        contractStatusCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceContractId" field.</summary>
+    public const int ConferenceContractIdFieldNumber = 26;
+    private string conferenceContractId_ = "";
+    /// <summary>
+    ///ConferenceContractId
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceContractId {
+      get { return conferenceContractId_; }
+      set {
+        conferenceContractId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "plistdata" field.</summary>
+    public const int PlistdataFieldNumber = 27;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewPersonContractStruct> _repeated_plistdata_codec
+        = pb::FieldCodec.ForMessage(218, global::GrpcConferenceContractService.NewPersonContractStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewPersonContractStruct> plistdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewPersonContractStruct>();
+    /// <summary>
+    ///个人合同列表
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewPersonContractStruct> Plistdata {
+      get { return plistdata_; }
+    }
+
+    /// <summary>Field number for the "ComPrice" field.</summary>
+    public const int ComPriceFieldNumber = 28;
+    private string comPrice_ = "";
+    /// <summary>
+    ///二级合同价格
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComPrice {
+      get { return comPrice_; }
+      set {
+        comPrice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewCompanyContractStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewCompanyContractStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ContractId != other.ContractId) return false;
+      if (CompanyServicePackId != other.CompanyServicePackId) return false;
+      if (CompanyId != other.CompanyId) return false;
+      if (!object.Equals(ComNameTranslation, other.ComNameTranslation)) return false;
+      if (ComContractNumber != other.ComContractNumber) return false;
+      if (Country != other.Country) return false;
+      if (!object.Equals(AddressTranslation, other.AddressTranslation)) return false;
+      if (MaxContractNumber != other.MaxContractNumber) return false;
+      if (CCIsdelete != other.CCIsdelete) return false;
+      if (EnterpriseType != other.EnterpriseType) return false;
+      if (IsVerify != other.IsVerify) return false;
+      if (Owerid != other.Owerid) return false;
+      if (Ower != other.Ower) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModefieldOn != other.ModefieldOn) return false;
+      if (ModefieldBy != other.ModefieldBy) return false;
+      if (!object.Equals(CompanyServicePack, other.CompanyServicePack)) return false;
+      if(!dlistdata_.Equals(other.dlistdata_)) return false;
+      if (ContractCode != other.ContractCode) return false;
+      if (ConferenceId != other.ConferenceId) return false;
+      if (ConferenceName != other.ConferenceName) return false;
+      if (IsCheckIn != other.IsCheckIn) return false;
+      if (PPTUrl != other.PPTUrl) return false;
+      if (ContractStatusCode != other.ContractStatusCode) return false;
+      if (ConferenceContractId != other.ConferenceContractId) return false;
+      if(!plistdata_.Equals(other.plistdata_)) return false;
+      if (ComPrice != other.ComPrice) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ContractId.Length != 0) hash ^= ContractId.GetHashCode();
+      if (CompanyServicePackId.Length != 0) hash ^= CompanyServicePackId.GetHashCode();
+      if (CompanyId.Length != 0) hash ^= CompanyId.GetHashCode();
+      if (comNameTranslation_ != null) hash ^= ComNameTranslation.GetHashCode();
+      if (ComContractNumber.Length != 0) hash ^= ComContractNumber.GetHashCode();
+      if (Country.Length != 0) hash ^= Country.GetHashCode();
+      if (addressTranslation_ != null) hash ^= AddressTranslation.GetHashCode();
+      if (MaxContractNumber.Length != 0) hash ^= MaxContractNumber.GetHashCode();
+      if (CCIsdelete != false) hash ^= CCIsdelete.GetHashCode();
+      if (EnterpriseType != 0) hash ^= EnterpriseType.GetHashCode();
+      if (IsVerify != false) hash ^= IsVerify.GetHashCode();
+      if (Owerid.Length != 0) hash ^= Owerid.GetHashCode();
+      if (Ower.Length != 0) hash ^= Ower.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModefieldOn.Length != 0) hash ^= ModefieldOn.GetHashCode();
+      if (ModefieldBy.Length != 0) hash ^= ModefieldBy.GetHashCode();
+      if (companyServicePack_ != null) hash ^= CompanyServicePack.GetHashCode();
+      hash ^= dlistdata_.GetHashCode();
+      if (ContractCode.Length != 0) hash ^= ContractCode.GetHashCode();
+      if (ConferenceId.Length != 0) hash ^= ConferenceId.GetHashCode();
+      if (ConferenceName.Length != 0) hash ^= ConferenceName.GetHashCode();
+      if (IsCheckIn != false) hash ^= IsCheckIn.GetHashCode();
+      if (PPTUrl.Length != 0) hash ^= PPTUrl.GetHashCode();
+      if (ContractStatusCode.Length != 0) hash ^= ContractStatusCode.GetHashCode();
+      if (ConferenceContractId.Length != 0) hash ^= ConferenceContractId.GetHashCode();
+      hash ^= plistdata_.GetHashCode();
+      if (ComPrice.Length != 0) hash ^= ComPrice.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ContractId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ContractId);
+      }
+      if (CompanyServicePackId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(CompanyServicePackId);
+      }
+      if (CompanyId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(CompanyId);
+      }
+      if (comNameTranslation_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(ComNameTranslation);
+      }
+      if (ComContractNumber.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(ComContractNumber);
+      }
+      if (Country.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(Country);
+      }
+      if (addressTranslation_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(AddressTranslation);
+      }
+      if (MaxContractNumber.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(MaxContractNumber);
+      }
+      if (CCIsdelete != false) {
+        output.WriteRawTag(72);
+        output.WriteBool(CCIsdelete);
+      }
+      if (EnterpriseType != 0) {
+        output.WriteRawTag(80);
+        output.WriteInt32(EnterpriseType);
+      }
+      if (IsVerify != false) {
+        output.WriteRawTag(88);
+        output.WriteBool(IsVerify);
+      }
+      if (Owerid.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(Owerid);
+      }
+      if (Ower.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(Ower);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(CreatedBy);
+      }
+      if (ModefieldOn.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(ModefieldOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(ModefieldBy);
+      }
+      if (companyServicePack_ != null) {
+        output.WriteRawTag(146, 1);
+        output.WriteMessage(CompanyServicePack);
+      }
+      dlistdata_.WriteTo(output, _repeated_dlistdata_codec);
+      if (ContractCode.Length != 0) {
+        output.WriteRawTag(162, 1);
+        output.WriteString(ContractCode);
+      }
+      if (ConferenceId.Length != 0) {
+        output.WriteRawTag(170, 1);
+        output.WriteString(ConferenceId);
+      }
+      if (ConferenceName.Length != 0) {
+        output.WriteRawTag(178, 1);
+        output.WriteString(ConferenceName);
+      }
+      if (IsCheckIn != false) {
+        output.WriteRawTag(184, 1);
+        output.WriteBool(IsCheckIn);
+      }
+      if (PPTUrl.Length != 0) {
+        output.WriteRawTag(194, 1);
+        output.WriteString(PPTUrl);
+      }
+      if (ContractStatusCode.Length != 0) {
+        output.WriteRawTag(202, 1);
+        output.WriteString(ContractStatusCode);
+      }
+      if (ConferenceContractId.Length != 0) {
+        output.WriteRawTag(210, 1);
+        output.WriteString(ConferenceContractId);
+      }
+      plistdata_.WriteTo(output, _repeated_plistdata_codec);
+      if (ComPrice.Length != 0) {
+        output.WriteRawTag(226, 1);
+        output.WriteString(ComPrice);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ContractId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractId);
+      }
+      if (CompanyServicePackId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyServicePackId);
+      }
+      if (CompanyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyId);
+      }
+      if (comNameTranslation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComNameTranslation);
+      }
+      if (ComContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComContractNumber);
+      }
+      if (Country.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Country);
+      }
+      if (addressTranslation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AddressTranslation);
+      }
+      if (MaxContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MaxContractNumber);
+      }
+      if (CCIsdelete != false) {
+        size += 1 + 1;
+      }
+      if (EnterpriseType != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(EnterpriseType);
+      }
+      if (IsVerify != false) {
+        size += 1 + 1;
+      }
+      if (Owerid.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Owerid);
+      }
+      if (Ower.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Ower);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModefieldOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModefieldOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModefieldBy);
+      }
+      if (companyServicePack_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(CompanyServicePack);
+      }
+      size += dlistdata_.CalculateSize(_repeated_dlistdata_codec);
+      if (ContractCode.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ContractCode);
+      }
+      if (ConferenceId.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ConferenceId);
+      }
+      if (ConferenceName.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ConferenceName);
+      }
+      if (IsCheckIn != false) {
+        size += 2 + 1;
+      }
+      if (PPTUrl.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(PPTUrl);
+      }
+      if (ContractStatusCode.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ContractStatusCode);
+      }
+      if (ConferenceContractId.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ConferenceContractId);
+      }
+      size += plistdata_.CalculateSize(_repeated_plistdata_codec);
+      if (ComPrice.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ComPrice);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewCompanyContractStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ContractId.Length != 0) {
+        ContractId = other.ContractId;
+      }
+      if (other.CompanyServicePackId.Length != 0) {
+        CompanyServicePackId = other.CompanyServicePackId;
+      }
+      if (other.CompanyId.Length != 0) {
+        CompanyId = other.CompanyId;
+      }
+      if (other.comNameTranslation_ != null) {
+        if (comNameTranslation_ == null) {
+          comNameTranslation_ = new global::GrpcConferenceContractService.ComNameTranslationStruct();
+        }
+        ComNameTranslation.MergeFrom(other.ComNameTranslation);
+      }
+      if (other.ComContractNumber.Length != 0) {
+        ComContractNumber = other.ComContractNumber;
+      }
+      if (other.Country.Length != 0) {
+        Country = other.Country;
+      }
+      if (other.addressTranslation_ != null) {
+        if (addressTranslation_ == null) {
+          addressTranslation_ = new global::GrpcConferenceContractService.AddressTranslationStruct();
+        }
+        AddressTranslation.MergeFrom(other.AddressTranslation);
+      }
+      if (other.MaxContractNumber.Length != 0) {
+        MaxContractNumber = other.MaxContractNumber;
+      }
+      if (other.CCIsdelete != false) {
+        CCIsdelete = other.CCIsdelete;
+      }
+      if (other.EnterpriseType != 0) {
+        EnterpriseType = other.EnterpriseType;
+      }
+      if (other.IsVerify != false) {
+        IsVerify = other.IsVerify;
+      }
+      if (other.Owerid.Length != 0) {
+        Owerid = other.Owerid;
+      }
+      if (other.Ower.Length != 0) {
+        Ower = other.Ower;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModefieldOn.Length != 0) {
+        ModefieldOn = other.ModefieldOn;
+      }
+      if (other.ModefieldBy.Length != 0) {
+        ModefieldBy = other.ModefieldBy;
+      }
+      if (other.companyServicePack_ != null) {
+        if (companyServicePack_ == null) {
+          companyServicePack_ = new global::GrpcConferenceContractService.NewCompanyServicePackStruct();
+        }
+        CompanyServicePack.MergeFrom(other.CompanyServicePack);
+      }
+      dlistdata_.Add(other.dlistdata_);
+      if (other.ContractCode.Length != 0) {
+        ContractCode = other.ContractCode;
+      }
+      if (other.ConferenceId.Length != 0) {
+        ConferenceId = other.ConferenceId;
+      }
+      if (other.ConferenceName.Length != 0) {
+        ConferenceName = other.ConferenceName;
+      }
+      if (other.IsCheckIn != false) {
+        IsCheckIn = other.IsCheckIn;
+      }
+      if (other.PPTUrl.Length != 0) {
+        PPTUrl = other.PPTUrl;
+      }
+      if (other.ContractStatusCode.Length != 0) {
+        ContractStatusCode = other.ContractStatusCode;
+      }
+      if (other.ConferenceContractId.Length != 0) {
+        ConferenceContractId = other.ConferenceContractId;
+      }
+      plistdata_.Add(other.plistdata_);
+      if (other.ComPrice.Length != 0) {
+        ComPrice = other.ComPrice;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ContractId = input.ReadString();
+            break;
+          }
+          case 18: {
+            CompanyServicePackId = input.ReadString();
+            break;
+          }
+          case 26: {
+            CompanyId = input.ReadString();
+            break;
+          }
+          case 34: {
+            if (comNameTranslation_ == null) {
+              comNameTranslation_ = new global::GrpcConferenceContractService.ComNameTranslationStruct();
+            }
+            input.ReadMessage(comNameTranslation_);
+            break;
+          }
+          case 42: {
+            ComContractNumber = input.ReadString();
+            break;
+          }
+          case 50: {
+            Country = input.ReadString();
+            break;
+          }
+          case 58: {
+            if (addressTranslation_ == null) {
+              addressTranslation_ = new global::GrpcConferenceContractService.AddressTranslationStruct();
+            }
+            input.ReadMessage(addressTranslation_);
+            break;
+          }
+          case 66: {
+            MaxContractNumber = input.ReadString();
+            break;
+          }
+          case 72: {
+            CCIsdelete = input.ReadBool();
+            break;
+          }
+          case 80: {
+            EnterpriseType = input.ReadInt32();
+            break;
+          }
+          case 88: {
+            IsVerify = input.ReadBool();
+            break;
+          }
+          case 98: {
+            Owerid = input.ReadString();
+            break;
+          }
+          case 106: {
+            Ower = input.ReadString();
+            break;
+          }
+          case 114: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 122: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 130: {
+            ModefieldOn = input.ReadString();
+            break;
+          }
+          case 138: {
+            ModefieldBy = input.ReadString();
+            break;
+          }
+          case 146: {
+            if (companyServicePack_ == null) {
+              companyServicePack_ = new global::GrpcConferenceContractService.NewCompanyServicePackStruct();
+            }
+            input.ReadMessage(companyServicePack_);
+            break;
+          }
+          case 154: {
+            dlistdata_.AddEntriesFrom(input, _repeated_dlistdata_codec);
+            break;
+          }
+          case 162: {
+            ContractCode = input.ReadString();
+            break;
+          }
+          case 170: {
+            ConferenceId = input.ReadString();
+            break;
+          }
+          case 178: {
+            ConferenceName = input.ReadString();
+            break;
+          }
+          case 184: {
+            IsCheckIn = input.ReadBool();
+            break;
+          }
+          case 194: {
+            PPTUrl = input.ReadString();
+            break;
+          }
+          case 202: {
+            ContractStatusCode = input.ReadString();
+            break;
+          }
+          case 210: {
+            ConferenceContractId = input.ReadString();
+            break;
+          }
+          case 218: {
+            plistdata_.AddEntriesFrom(input, _repeated_plistdata_codec);
+            break;
+          }
+          case 226: {
+            ComPrice = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewCompanyServicePackStruct : pb::IMessage<NewCompanyServicePackStruct> {
+    private static readonly pb::MessageParser<NewCompanyServicePackStruct> _parser = new pb::MessageParser<NewCompanyServicePackStruct>(() => new NewCompanyServicePackStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewCompanyServicePackStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[104]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewCompanyServicePackStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewCompanyServicePackStruct(NewCompanyServicePackStruct other) : this() {
+      companyServicePackId_ = other.companyServicePackId_;
+      contractTypeId_ = other.contractTypeId_;
+      sort_ = other.sort_;
+      Translation = other.translation_ != null ? other.Translation.Clone() : null;
+      priceRMB_ = other.priceRMB_;
+      priceUSD_ = other.priceUSD_;
+      isShownOnFront_ = other.isShownOnFront_;
+      createdOn_ = other.createdOn_;
+      createdBy_ = other.createdBy_;
+      modefieldOn_ = other.modefieldOn_;
+      modefieldBy_ = other.modefieldBy_;
+      RemarkTranslation = other.remarkTranslation_ != null ? other.RemarkTranslation.Clone() : null;
+      conferenceId_ = other.conferenceId_;
+      conferenceName_ = other.conferenceName_;
+      isSpeaker_ = other.isSpeaker_;
+      cTypeCode_ = other.cTypeCode_;
+      isGive_ = other.isGive_;
+      year_ = other.year_;
+      remarkCode_ = other.remarkCode_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewCompanyServicePackStruct Clone() {
+      return new NewCompanyServicePackStruct(this);
+    }
+
+    /// <summary>Field number for the "CompanyServicePackId" field.</summary>
+    public const int CompanyServicePackIdFieldNumber = 1;
+    private string companyServicePackId_ = "";
+    /// <summary>
+    ///主键
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyServicePackId {
+      get { return companyServicePackId_; }
+      set {
+        companyServicePackId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ContractTypeId" field.</summary>
+    public const int ContractTypeIdFieldNumber = 2;
+    private string contractTypeId_ = "";
+    /// <summary>
+    ///ContractTypeId
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractTypeId {
+      get { return contractTypeId_; }
+      set {
+        contractTypeId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Sort" field.</summary>
+    public const int SortFieldNumber = 3;
+    private int sort_;
+    /// <summary>
+    ///排序
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Sort {
+      get { return sort_; }
+      set {
+        sort_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Translation" field.</summary>
+    public const int TranslationFieldNumber = 4;
+    private global::GrpcConferenceContractService.TranslationStruct translation_;
+    /// <summary>
+    ///套餐名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.TranslationStruct Translation {
+      get { return translation_; }
+      set {
+        translation_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "PriceRMB" field.</summary>
+    public const int PriceRMBFieldNumber = 5;
+    private string priceRMB_ = "";
+    /// <summary>
+    ///人民币
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PriceRMB {
+      get { return priceRMB_; }
+      set {
+        priceRMB_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "PriceUSD" field.</summary>
+    public const int PriceUSDFieldNumber = 6;
+    private string priceUSD_ = "";
+    /// <summary>
+    ///美金
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PriceUSD {
+      get { return priceUSD_; }
+      set {
+        priceUSD_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IsShownOnFront" field.</summary>
+    public const int IsShownOnFrontFieldNumber = 7;
+    private bool isShownOnFront_;
+    /// <summary>
+    ///是否在前端显示
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsShownOnFront {
+      get { return isShownOnFront_; }
+      set {
+        isShownOnFront_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CreatedOn" field.</summary>
+    public const int CreatedOnFieldNumber = 8;
+    private string createdOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedBy" field.</summary>
+    public const int CreatedByFieldNumber = 9;
+    private string createdBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModefieldOn" field.</summary>
+    public const int ModefieldOnFieldNumber = 10;
+    private string modefieldOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModefieldOn {
+      get { return modefieldOn_; }
+      set {
+        modefieldOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModefieldBy" field.</summary>
+    public const int ModefieldByFieldNumber = 11;
+    private string modefieldBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModefieldBy {
+      get { return modefieldBy_; }
+      set {
+        modefieldBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "RemarkTranslation" field.</summary>
+    public const int RemarkTranslationFieldNumber = 12;
+    private global::GrpcConferenceContractService.TranslationStruct remarkTranslation_;
+    /// <summary>
+    ///备注
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.TranslationStruct RemarkTranslation {
+      get { return remarkTranslation_; }
+      set {
+        remarkTranslation_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceId" field.</summary>
+    public const int ConferenceIdFieldNumber = 13;
+    private string conferenceId_ = "";
+    /// <summary>
+    ///ConferenceId
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceId {
+      get { return conferenceId_; }
+      set {
+        conferenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceName" field.</summary>
+    public const int ConferenceNameFieldNumber = 14;
+    private string conferenceName_ = "";
+    /// <summary>
+    ///会议名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceName {
+      get { return conferenceName_; }
+      set {
+        conferenceName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IsSpeaker" field.</summary>
+    public const int IsSpeakerFieldNumber = 15;
+    private bool isSpeaker_;
+    /// <summary>
+    ///是否是演讲人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsSpeaker {
+      get { return isSpeaker_; }
+      set {
+        isSpeaker_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CTypeCode" field.</summary>
+    public const int CTypeCodeFieldNumber = 16;
+    private string cTypeCode_ = "";
+    /// <summary>
+    ///合同大类Code
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CTypeCode {
+      get { return cTypeCode_; }
+      set {
+        cTypeCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IsGive" field.</summary>
+    public const int IsGiveFieldNumber = 17;
+    private bool isGive_;
+    /// <summary>
+    ///是否赠送
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsGive {
+      get { return isGive_; }
+      set {
+        isGive_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Year" field.</summary>
+    public const int YearFieldNumber = 18;
+    private string year_ = "";
+    /// <summary>
+    ///年份
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Year {
+      get { return year_; }
+      set {
+        year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "RemarkCode" field.</summary>
+    public const int RemarkCodeFieldNumber = 19;
+    private string remarkCode_ = "";
+    /// <summary>
+    ///说明Code
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string RemarkCode {
+      get { return remarkCode_; }
+      set {
+        remarkCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewCompanyServicePackStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewCompanyServicePackStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (CompanyServicePackId != other.CompanyServicePackId) return false;
+      if (ContractTypeId != other.ContractTypeId) return false;
+      if (Sort != other.Sort) return false;
+      if (!object.Equals(Translation, other.Translation)) return false;
+      if (PriceRMB != other.PriceRMB) return false;
+      if (PriceUSD != other.PriceUSD) return false;
+      if (IsShownOnFront != other.IsShownOnFront) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModefieldOn != other.ModefieldOn) return false;
+      if (ModefieldBy != other.ModefieldBy) return false;
+      if (!object.Equals(RemarkTranslation, other.RemarkTranslation)) return false;
+      if (ConferenceId != other.ConferenceId) return false;
+      if (ConferenceName != other.ConferenceName) return false;
+      if (IsSpeaker != other.IsSpeaker) return false;
+      if (CTypeCode != other.CTypeCode) return false;
+      if (IsGive != other.IsGive) return false;
+      if (Year != other.Year) return false;
+      if (RemarkCode != other.RemarkCode) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (CompanyServicePackId.Length != 0) hash ^= CompanyServicePackId.GetHashCode();
+      if (ContractTypeId.Length != 0) hash ^= ContractTypeId.GetHashCode();
+      if (Sort != 0) hash ^= Sort.GetHashCode();
+      if (translation_ != null) hash ^= Translation.GetHashCode();
+      if (PriceRMB.Length != 0) hash ^= PriceRMB.GetHashCode();
+      if (PriceUSD.Length != 0) hash ^= PriceUSD.GetHashCode();
+      if (IsShownOnFront != false) hash ^= IsShownOnFront.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModefieldOn.Length != 0) hash ^= ModefieldOn.GetHashCode();
+      if (ModefieldBy.Length != 0) hash ^= ModefieldBy.GetHashCode();
+      if (remarkTranslation_ != null) hash ^= RemarkTranslation.GetHashCode();
+      if (ConferenceId.Length != 0) hash ^= ConferenceId.GetHashCode();
+      if (ConferenceName.Length != 0) hash ^= ConferenceName.GetHashCode();
+      if (IsSpeaker != false) hash ^= IsSpeaker.GetHashCode();
+      if (CTypeCode.Length != 0) hash ^= CTypeCode.GetHashCode();
+      if (IsGive != false) hash ^= IsGive.GetHashCode();
+      if (Year.Length != 0) hash ^= Year.GetHashCode();
+      if (RemarkCode.Length != 0) hash ^= RemarkCode.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (CompanyServicePackId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(CompanyServicePackId);
+      }
+      if (ContractTypeId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ContractTypeId);
+      }
+      if (Sort != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(Sort);
+      }
+      if (translation_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Translation);
+      }
+      if (PriceRMB.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(PriceRMB);
+      }
+      if (PriceUSD.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(PriceUSD);
+      }
+      if (IsShownOnFront != false) {
+        output.WriteRawTag(56);
+        output.WriteBool(IsShownOnFront);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(CreatedBy);
+      }
+      if (ModefieldOn.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(ModefieldOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(ModefieldBy);
+      }
+      if (remarkTranslation_ != null) {
+        output.WriteRawTag(98);
+        output.WriteMessage(RemarkTranslation);
+      }
+      if (ConferenceId.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(ConferenceId);
+      }
+      if (ConferenceName.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(ConferenceName);
+      }
+      if (IsSpeaker != false) {
+        output.WriteRawTag(120);
+        output.WriteBool(IsSpeaker);
+      }
+      if (CTypeCode.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(CTypeCode);
+      }
+      if (IsGive != false) {
+        output.WriteRawTag(136, 1);
+        output.WriteBool(IsGive);
+      }
+      if (Year.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(Year);
+      }
+      if (RemarkCode.Length != 0) {
+        output.WriteRawTag(154, 1);
+        output.WriteString(RemarkCode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (CompanyServicePackId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyServicePackId);
+      }
+      if (ContractTypeId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractTypeId);
+      }
+      if (Sort != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Sort);
+      }
+      if (translation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Translation);
+      }
+      if (PriceRMB.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PriceRMB);
+      }
+      if (PriceUSD.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PriceUSD);
+      }
+      if (IsShownOnFront != false) {
+        size += 1 + 1;
+      }
+      if (CreatedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModefieldOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModefieldOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModefieldBy);
+      }
+      if (remarkTranslation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(RemarkTranslation);
+      }
+      if (ConferenceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceId);
+      }
+      if (ConferenceName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceName);
+      }
+      if (IsSpeaker != false) {
+        size += 1 + 1;
+      }
+      if (CTypeCode.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CTypeCode);
+      }
+      if (IsGive != false) {
+        size += 2 + 1;
+      }
+      if (Year.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Year);
+      }
+      if (RemarkCode.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(RemarkCode);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewCompanyServicePackStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.CompanyServicePackId.Length != 0) {
+        CompanyServicePackId = other.CompanyServicePackId;
+      }
+      if (other.ContractTypeId.Length != 0) {
+        ContractTypeId = other.ContractTypeId;
+      }
+      if (other.Sort != 0) {
+        Sort = other.Sort;
+      }
+      if (other.translation_ != null) {
+        if (translation_ == null) {
+          translation_ = new global::GrpcConferenceContractService.TranslationStruct();
+        }
+        Translation.MergeFrom(other.Translation);
+      }
+      if (other.PriceRMB.Length != 0) {
+        PriceRMB = other.PriceRMB;
+      }
+      if (other.PriceUSD.Length != 0) {
+        PriceUSD = other.PriceUSD;
+      }
+      if (other.IsShownOnFront != false) {
+        IsShownOnFront = other.IsShownOnFront;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModefieldOn.Length != 0) {
+        ModefieldOn = other.ModefieldOn;
+      }
+      if (other.ModefieldBy.Length != 0) {
+        ModefieldBy = other.ModefieldBy;
+      }
+      if (other.remarkTranslation_ != null) {
+        if (remarkTranslation_ == null) {
+          remarkTranslation_ = new global::GrpcConferenceContractService.TranslationStruct();
+        }
+        RemarkTranslation.MergeFrom(other.RemarkTranslation);
+      }
+      if (other.ConferenceId.Length != 0) {
+        ConferenceId = other.ConferenceId;
+      }
+      if (other.ConferenceName.Length != 0) {
+        ConferenceName = other.ConferenceName;
+      }
+      if (other.IsSpeaker != false) {
+        IsSpeaker = other.IsSpeaker;
+      }
+      if (other.CTypeCode.Length != 0) {
+        CTypeCode = other.CTypeCode;
+      }
+      if (other.IsGive != false) {
+        IsGive = other.IsGive;
+      }
+      if (other.Year.Length != 0) {
+        Year = other.Year;
+      }
+      if (other.RemarkCode.Length != 0) {
+        RemarkCode = other.RemarkCode;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            CompanyServicePackId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ContractTypeId = input.ReadString();
+            break;
+          }
+          case 24: {
+            Sort = input.ReadInt32();
+            break;
+          }
+          case 34: {
+            if (translation_ == null) {
+              translation_ = new global::GrpcConferenceContractService.TranslationStruct();
+            }
+            input.ReadMessage(translation_);
+            break;
+          }
+          case 42: {
+            PriceRMB = input.ReadString();
+            break;
+          }
+          case 50: {
+            PriceUSD = input.ReadString();
+            break;
+          }
+          case 56: {
+            IsShownOnFront = input.ReadBool();
+            break;
+          }
+          case 66: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 74: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 82: {
+            ModefieldOn = input.ReadString();
+            break;
+          }
+          case 90: {
+            ModefieldBy = input.ReadString();
+            break;
+          }
+          case 98: {
+            if (remarkTranslation_ == null) {
+              remarkTranslation_ = new global::GrpcConferenceContractService.TranslationStruct();
+            }
+            input.ReadMessage(remarkTranslation_);
+            break;
+          }
+          case 106: {
+            ConferenceId = input.ReadString();
+            break;
+          }
+          case 114: {
+            ConferenceName = input.ReadString();
+            break;
+          }
+          case 120: {
+            IsSpeaker = input.ReadBool();
+            break;
+          }
+          case 130: {
+            CTypeCode = input.ReadString();
+            break;
+          }
+          case 136: {
+            IsGive = input.ReadBool();
+            break;
+          }
+          case 146: {
+            Year = input.ReadString();
+            break;
+          }
+          case 154: {
+            RemarkCode = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewServicePackStruct : pb::IMessage<NewServicePackStruct> {
+    private static readonly pb::MessageParser<NewServicePackStruct> _parser = new pb::MessageParser<NewServicePackStruct>(() => new NewServicePackStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewServicePackStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[105]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewServicePackStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewServicePackStruct(NewServicePackStruct other) : this() {
+      servicePackId_ = other.servicePackId_;
+      Translation = other.translation_ != null ? other.Translation.Clone() : null;
+      priceRMB_ = other.priceRMB_;
+      priceUSD_ = other.priceUSD_;
+      createdOn_ = other.createdOn_;
+      createdBy_ = other.createdBy_;
+      modefieldOn_ = other.modefieldOn_;
+      modefieldBy_ = other.modefieldBy_;
+      conferenceId_ = other.conferenceId_;
+      conferenceName_ = other.conferenceName_;
+      sessionConferenceId_ = other.sessionConferenceId_;
+      sessionConferenceName_ = other.sessionConferenceName_;
+      sessionDate_ = other.sessionDate_;
+      sessionStartTime_ = other.sessionStartTime_;
+      thirdSessionConferenceId_ = other.thirdSessionConferenceId_;
+      thirdSessionConferenceName_ = other.thirdSessionConferenceName_;
+      sessionAddress_ = other.sessionAddress_;
+      year_ = other.year_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewServicePackStruct Clone() {
+      return new NewServicePackStruct(this);
+    }
+
+    /// <summary>Field number for the "ServicePackId" field.</summary>
+    public const int ServicePackIdFieldNumber = 1;
+    private string servicePackId_ = "";
+    /// <summary>
+    ///主键
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ServicePackId {
+      get { return servicePackId_; }
+      set {
+        servicePackId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Translation" field.</summary>
+    public const int TranslationFieldNumber = 2;
+    private global::GrpcConferenceContractService.TranslationStruct translation_;
+    /// <summary>
+    ///主键
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.TranslationStruct Translation {
+      get { return translation_; }
+      set {
+        translation_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "PriceRMB" field.</summary>
+    public const int PriceRMBFieldNumber = 3;
+    private string priceRMB_ = "";
+    /// <summary>
+    ///主键
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PriceRMB {
+      get { return priceRMB_; }
+      set {
+        priceRMB_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "PriceUSD" field.</summary>
+    public const int PriceUSDFieldNumber = 4;
+    private string priceUSD_ = "";
+    /// <summary>
+    ///主键
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PriceUSD {
+      get { return priceUSD_; }
+      set {
+        priceUSD_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedOn" field.</summary>
+    public const int CreatedOnFieldNumber = 5;
+    private string createdOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedBy" field.</summary>
+    public const int CreatedByFieldNumber = 6;
+    private string createdBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModefieldOn" field.</summary>
+    public const int ModefieldOnFieldNumber = 7;
+    private string modefieldOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModefieldOn {
+      get { return modefieldOn_; }
+      set {
+        modefieldOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModefieldBy" field.</summary>
+    public const int ModefieldByFieldNumber = 8;
+    private string modefieldBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModefieldBy {
+      get { return modefieldBy_; }
+      set {
+        modefieldBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceId" field.</summary>
+    public const int ConferenceIdFieldNumber = 9;
+    private string conferenceId_ = "";
+    /// <summary>
+    ///ConferenceId
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceId {
+      get { return conferenceId_; }
+      set {
+        conferenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceName" field.</summary>
+    public const int ConferenceNameFieldNumber = 10;
+    private string conferenceName_ = "";
+    /// <summary>
+    ///ConferenceName
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceName {
+      get { return conferenceName_; }
+      set {
+        conferenceName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "SessionConferenceId" field.</summary>
+    public const int SessionConferenceIdFieldNumber = 11;
+    private string sessionConferenceId_ = "";
+    /// <summary>
+    ///SessionConferenceId
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SessionConferenceId {
+      get { return sessionConferenceId_; }
+      set {
+        sessionConferenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "SessionConferenceName" field.</summary>
+    public const int SessionConferenceNameFieldNumber = 12;
+    private string sessionConferenceName_ = "";
+    /// <summary>
+    ///SessionConferenceName
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SessionConferenceName {
+      get { return sessionConferenceName_; }
+      set {
+        sessionConferenceName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "SessionDate" field.</summary>
+    public const int SessionDateFieldNumber = 13;
+    private string sessionDate_ = "";
+    /// <summary>
+    ///SessionDate
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SessionDate {
+      get { return sessionDate_; }
+      set {
+        sessionDate_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "SessionStartTime" field.</summary>
+    public const int SessionStartTimeFieldNumber = 14;
+    private string sessionStartTime_ = "";
+    /// <summary>
+    ///SessionStartTime
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SessionStartTime {
+      get { return sessionStartTime_; }
+      set {
+        sessionStartTime_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ThirdSessionConferenceId" field.</summary>
+    public const int ThirdSessionConferenceIdFieldNumber = 15;
+    private string thirdSessionConferenceId_ = "";
+    /// <summary>
+    ///ThirdSessionConferenceId
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ThirdSessionConferenceId {
+      get { return thirdSessionConferenceId_; }
+      set {
+        thirdSessionConferenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ThirdSessionConferenceName" field.</summary>
+    public const int ThirdSessionConferenceNameFieldNumber = 16;
+    private string thirdSessionConferenceName_ = "";
+    /// <summary>
+    ///ThirdSessionConferenceName
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ThirdSessionConferenceName {
+      get { return thirdSessionConferenceName_; }
+      set {
+        thirdSessionConferenceName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "SessionAddress" field.</summary>
+    public const int SessionAddressFieldNumber = 17;
+    private string sessionAddress_ = "";
+    /// <summary>
+    ///地址
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SessionAddress {
+      get { return sessionAddress_; }
+      set {
+        sessionAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Year" field.</summary>
+    public const int YearFieldNumber = 18;
+    private string year_ = "";
+    /// <summary>
+    ///年份
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Year {
+      get { return year_; }
+      set {
+        year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewServicePackStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewServicePackStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ServicePackId != other.ServicePackId) return false;
+      if (!object.Equals(Translation, other.Translation)) return false;
+      if (PriceRMB != other.PriceRMB) return false;
+      if (PriceUSD != other.PriceUSD) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModefieldOn != other.ModefieldOn) return false;
+      if (ModefieldBy != other.ModefieldBy) return false;
+      if (ConferenceId != other.ConferenceId) return false;
+      if (ConferenceName != other.ConferenceName) return false;
+      if (SessionConferenceId != other.SessionConferenceId) return false;
+      if (SessionConferenceName != other.SessionConferenceName) return false;
+      if (SessionDate != other.SessionDate) return false;
+      if (SessionStartTime != other.SessionStartTime) return false;
+      if (ThirdSessionConferenceId != other.ThirdSessionConferenceId) return false;
+      if (ThirdSessionConferenceName != other.ThirdSessionConferenceName) return false;
+      if (SessionAddress != other.SessionAddress) return false;
+      if (Year != other.Year) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ServicePackId.Length != 0) hash ^= ServicePackId.GetHashCode();
+      if (translation_ != null) hash ^= Translation.GetHashCode();
+      if (PriceRMB.Length != 0) hash ^= PriceRMB.GetHashCode();
+      if (PriceUSD.Length != 0) hash ^= PriceUSD.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModefieldOn.Length != 0) hash ^= ModefieldOn.GetHashCode();
+      if (ModefieldBy.Length != 0) hash ^= ModefieldBy.GetHashCode();
+      if (ConferenceId.Length != 0) hash ^= ConferenceId.GetHashCode();
+      if (ConferenceName.Length != 0) hash ^= ConferenceName.GetHashCode();
+      if (SessionConferenceId.Length != 0) hash ^= SessionConferenceId.GetHashCode();
+      if (SessionConferenceName.Length != 0) hash ^= SessionConferenceName.GetHashCode();
+      if (SessionDate.Length != 0) hash ^= SessionDate.GetHashCode();
+      if (SessionStartTime.Length != 0) hash ^= SessionStartTime.GetHashCode();
+      if (ThirdSessionConferenceId.Length != 0) hash ^= ThirdSessionConferenceId.GetHashCode();
+      if (ThirdSessionConferenceName.Length != 0) hash ^= ThirdSessionConferenceName.GetHashCode();
+      if (SessionAddress.Length != 0) hash ^= SessionAddress.GetHashCode();
+      if (Year.Length != 0) hash ^= Year.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ServicePackId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ServicePackId);
+      }
+      if (translation_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Translation);
+      }
+      if (PriceRMB.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(PriceRMB);
+      }
+      if (PriceUSD.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(PriceUSD);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(CreatedBy);
+      }
+      if (ModefieldOn.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(ModefieldOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(ModefieldBy);
+      }
+      if (ConferenceId.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(ConferenceId);
+      }
+      if (ConferenceName.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(ConferenceName);
+      }
+      if (SessionConferenceId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(SessionConferenceId);
+      }
+      if (SessionConferenceName.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(SessionConferenceName);
+      }
+      if (SessionDate.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(SessionDate);
+      }
+      if (SessionStartTime.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(SessionStartTime);
+      }
+      if (ThirdSessionConferenceId.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(ThirdSessionConferenceId);
+      }
+      if (ThirdSessionConferenceName.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(ThirdSessionConferenceName);
+      }
+      if (SessionAddress.Length != 0) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(SessionAddress);
+      }
+      if (Year.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(Year);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ServicePackId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ServicePackId);
+      }
+      if (translation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Translation);
+      }
+      if (PriceRMB.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PriceRMB);
+      }
+      if (PriceUSD.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PriceUSD);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModefieldOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModefieldOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModefieldBy);
+      }
+      if (ConferenceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceId);
+      }
+      if (ConferenceName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceName);
+      }
+      if (SessionConferenceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SessionConferenceId);
+      }
+      if (SessionConferenceName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SessionConferenceName);
+      }
+      if (SessionDate.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SessionDate);
+      }
+      if (SessionStartTime.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SessionStartTime);
+      }
+      if (ThirdSessionConferenceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ThirdSessionConferenceId);
+      }
+      if (ThirdSessionConferenceName.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ThirdSessionConferenceName);
+      }
+      if (SessionAddress.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(SessionAddress);
+      }
+      if (Year.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Year);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewServicePackStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ServicePackId.Length != 0) {
+        ServicePackId = other.ServicePackId;
+      }
+      if (other.translation_ != null) {
+        if (translation_ == null) {
+          translation_ = new global::GrpcConferenceContractService.TranslationStruct();
+        }
+        Translation.MergeFrom(other.Translation);
+      }
+      if (other.PriceRMB.Length != 0) {
+        PriceRMB = other.PriceRMB;
+      }
+      if (other.PriceUSD.Length != 0) {
+        PriceUSD = other.PriceUSD;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModefieldOn.Length != 0) {
+        ModefieldOn = other.ModefieldOn;
+      }
+      if (other.ModefieldBy.Length != 0) {
+        ModefieldBy = other.ModefieldBy;
+      }
+      if (other.ConferenceId.Length != 0) {
+        ConferenceId = other.ConferenceId;
+      }
+      if (other.ConferenceName.Length != 0) {
+        ConferenceName = other.ConferenceName;
+      }
+      if (other.SessionConferenceId.Length != 0) {
+        SessionConferenceId = other.SessionConferenceId;
+      }
+      if (other.SessionConferenceName.Length != 0) {
+        SessionConferenceName = other.SessionConferenceName;
+      }
+      if (other.SessionDate.Length != 0) {
+        SessionDate = other.SessionDate;
+      }
+      if (other.SessionStartTime.Length != 0) {
+        SessionStartTime = other.SessionStartTime;
+      }
+      if (other.ThirdSessionConferenceId.Length != 0) {
+        ThirdSessionConferenceId = other.ThirdSessionConferenceId;
+      }
+      if (other.ThirdSessionConferenceName.Length != 0) {
+        ThirdSessionConferenceName = other.ThirdSessionConferenceName;
+      }
+      if (other.SessionAddress.Length != 0) {
+        SessionAddress = other.SessionAddress;
+      }
+      if (other.Year.Length != 0) {
+        Year = other.Year;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ServicePackId = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (translation_ == null) {
+              translation_ = new global::GrpcConferenceContractService.TranslationStruct();
+            }
+            input.ReadMessage(translation_);
+            break;
+          }
+          case 26: {
+            PriceRMB = input.ReadString();
+            break;
+          }
+          case 34: {
+            PriceUSD = input.ReadString();
+            break;
+          }
+          case 42: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 50: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 58: {
+            ModefieldOn = input.ReadString();
+            break;
+          }
+          case 66: {
+            ModefieldBy = input.ReadString();
+            break;
+          }
+          case 74: {
+            ConferenceId = input.ReadString();
+            break;
+          }
+          case 82: {
+            ConferenceName = input.ReadString();
+            break;
+          }
+          case 90: {
+            SessionConferenceId = input.ReadString();
+            break;
+          }
+          case 98: {
+            SessionConferenceName = input.ReadString();
+            break;
+          }
+          case 106: {
+            SessionDate = input.ReadString();
+            break;
+          }
+          case 114: {
+            SessionStartTime = input.ReadString();
+            break;
+          }
+          case 122: {
+            ThirdSessionConferenceId = input.ReadString();
+            break;
+          }
+          case 130: {
+            ThirdSessionConferenceName = input.ReadString();
+            break;
+          }
+          case 138: {
+            SessionAddress = input.ReadString();
+            break;
+          }
+          case 146: {
+            Year = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewActivityStruct : pb::IMessage<NewActivityStruct> {
+    private static readonly pb::MessageParser<NewActivityStruct> _parser = new pb::MessageParser<NewActivityStruct>(() => new NewActivityStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewActivityStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[106]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewActivityStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewActivityStruct(NewActivityStruct other) : this() {
+      activityId_ = other.activityId_;
+      ActivityName = other.activityName_ != null ? other.ActivityName.Clone() : null;
+      sessionConferenceID_ = other.sessionConferenceID_;
+      SessionConferenceName = other.sessionConferenceName_ != null ? other.SessionConferenceName.Clone() : null;
+      sort_ = other.sort_;
+      sessionIDs_ = other.sessionIDs_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewActivityStruct Clone() {
+      return new NewActivityStruct(this);
+    }
+
+    /// <summary>Field number for the "ActivityId" field.</summary>
+    public const int ActivityIdFieldNumber = 1;
+    private string activityId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ActivityId {
+      get { return activityId_; }
+      set {
+        activityId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ActivityName" field.</summary>
+    public const int ActivityNameFieldNumber = 2;
+    private global::GrpcConferenceContractService.TranslationStruct activityName_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.TranslationStruct ActivityName {
+      get { return activityName_; }
+      set {
+        activityName_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "SessionConferenceID" field.</summary>
+    public const int SessionConferenceIDFieldNumber = 3;
+    private string sessionConferenceID_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SessionConferenceID {
+      get { return sessionConferenceID_; }
+      set {
+        sessionConferenceID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "SessionConferenceName" field.</summary>
+    public const int SessionConferenceNameFieldNumber = 4;
+    private global::GrpcConferenceContractService.TranslationStruct sessionConferenceName_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.TranslationStruct SessionConferenceName {
+      get { return sessionConferenceName_; }
+      set {
+        sessionConferenceName_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Sort" field.</summary>
+    public const int SortFieldNumber = 5;
+    private int sort_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Sort {
+      get { return sort_; }
+      set {
+        sort_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "SessionIDs" field.</summary>
+    public const int SessionIDsFieldNumber = 6;
+    private string sessionIDs_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SessionIDs {
+      get { return sessionIDs_; }
+      set {
+        sessionIDs_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewActivityStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewActivityStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ActivityId != other.ActivityId) return false;
+      if (!object.Equals(ActivityName, other.ActivityName)) return false;
+      if (SessionConferenceID != other.SessionConferenceID) return false;
+      if (!object.Equals(SessionConferenceName, other.SessionConferenceName)) return false;
+      if (Sort != other.Sort) return false;
+      if (SessionIDs != other.SessionIDs) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ActivityId.Length != 0) hash ^= ActivityId.GetHashCode();
+      if (activityName_ != null) hash ^= ActivityName.GetHashCode();
+      if (SessionConferenceID.Length != 0) hash ^= SessionConferenceID.GetHashCode();
+      if (sessionConferenceName_ != null) hash ^= SessionConferenceName.GetHashCode();
+      if (Sort != 0) hash ^= Sort.GetHashCode();
+      if (SessionIDs.Length != 0) hash ^= SessionIDs.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ActivityId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ActivityId);
+      }
+      if (activityName_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(ActivityName);
+      }
+      if (SessionConferenceID.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(SessionConferenceID);
+      }
+      if (sessionConferenceName_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(SessionConferenceName);
+      }
+      if (Sort != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(Sort);
+      }
+      if (SessionIDs.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(SessionIDs);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ActivityId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActivityId);
+      }
+      if (activityName_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ActivityName);
+      }
+      if (SessionConferenceID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SessionConferenceID);
+      }
+      if (sessionConferenceName_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(SessionConferenceName);
+      }
+      if (Sort != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Sort);
+      }
+      if (SessionIDs.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SessionIDs);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewActivityStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ActivityId.Length != 0) {
+        ActivityId = other.ActivityId;
+      }
+      if (other.activityName_ != null) {
+        if (activityName_ == null) {
+          activityName_ = new global::GrpcConferenceContractService.TranslationStruct();
+        }
+        ActivityName.MergeFrom(other.ActivityName);
+      }
+      if (other.SessionConferenceID.Length != 0) {
+        SessionConferenceID = other.SessionConferenceID;
+      }
+      if (other.sessionConferenceName_ != null) {
+        if (sessionConferenceName_ == null) {
+          sessionConferenceName_ = new global::GrpcConferenceContractService.TranslationStruct();
+        }
+        SessionConferenceName.MergeFrom(other.SessionConferenceName);
+      }
+      if (other.Sort != 0) {
+        Sort = other.Sort;
+      }
+      if (other.SessionIDs.Length != 0) {
+        SessionIDs = other.SessionIDs;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ActivityId = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (activityName_ == null) {
+              activityName_ = new global::GrpcConferenceContractService.TranslationStruct();
+            }
+            input.ReadMessage(activityName_);
+            break;
+          }
+          case 26: {
+            SessionConferenceID = input.ReadString();
+            break;
+          }
+          case 34: {
+            if (sessionConferenceName_ == null) {
+              sessionConferenceName_ = new global::GrpcConferenceContractService.TranslationStruct();
+            }
+            input.ReadMessage(sessionConferenceName_);
+            break;
+          }
+          case 40: {
+            Sort = input.ReadInt32();
+            break;
+          }
+          case 50: {
+            SessionIDs = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewCompanyStruct : pb::IMessage<NewCompanyStruct> {
+    private static readonly pb::MessageParser<NewCompanyStruct> _parser = new pb::MessageParser<NewCompanyStruct>(() => new NewCompanyStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewCompanyStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[107]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewCompanyStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewCompanyStruct(NewCompanyStruct other) : this() {
+      companyPK_ = other.companyPK_;
+      companyTypePK_ = other.companyTypePK_;
+      industryTypePK_ = other.industryTypePK_;
+      memberPK_ = other.memberPK_;
+      comNameCn_ = other.comNameCn_;
+      comNameEn_ = other.comNameEn_;
+      comAreaDetail_ = other.comAreaDetail_;
+      comContactEmail_ = other.comContactEmail_;
+      comPostCode_ = other.comPostCode_;
+      comFax_ = other.comFax_;
+      comTel_ = other.comTel_;
+      comWebSite_ = other.comWebSite_;
+      comClient_ = other.comClient_;
+      comNature_ = other.comNature_;
+      comLang_ = other.comLang_;
+      comRemark_ = other.comRemark_;
+      comIsDelete_ = other.comIsDelete_;
+      comIsVerify_ = other.comIsVerify_;
+      comIsWebSite_ = other.comIsWebSite_;
+      comAddress_ = other.comAddress_;
+      createdOn_ = other.createdOn_;
+      createdBy_ = other.createdBy_;
+      modefieldOn_ = other.modefieldOn_;
+      modefieldBy_ = other.modefieldBy_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewCompanyStruct Clone() {
+      return new NewCompanyStruct(this);
+    }
+
+    /// <summary>Field number for the "CompanyPK" field.</summary>
+    public const int CompanyPKFieldNumber = 1;
+    private string companyPK_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyPK {
+      get { return companyPK_; }
+      set {
+        companyPK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CompanyTypePK" field.</summary>
+    public const int CompanyTypePKFieldNumber = 2;
+    private string companyTypePK_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyTypePK {
+      get { return companyTypePK_; }
+      set {
+        companyTypePK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IndustryTypePK" field.</summary>
+    public const int IndustryTypePKFieldNumber = 3;
+    private string industryTypePK_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string IndustryTypePK {
+      get { return industryTypePK_; }
+      set {
+        industryTypePK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemberPK" field.</summary>
+    public const int MemberPKFieldNumber = 4;
+    private string memberPK_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemberPK {
+      get { return memberPK_; }
+      set {
+        memberPK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComNameCn" field.</summary>
+    public const int ComNameCnFieldNumber = 5;
+    private string comNameCn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComNameCn {
+      get { return comNameCn_; }
+      set {
+        comNameCn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComNameEn" field.</summary>
+    public const int ComNameEnFieldNumber = 6;
+    private string comNameEn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComNameEn {
+      get { return comNameEn_; }
+      set {
+        comNameEn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComAreaDetail" field.</summary>
+    public const int ComAreaDetailFieldNumber = 7;
+    private string comAreaDetail_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComAreaDetail {
+      get { return comAreaDetail_; }
+      set {
+        comAreaDetail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComContactEmail" field.</summary>
+    public const int ComContactEmailFieldNumber = 8;
+    private string comContactEmail_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComContactEmail {
+      get { return comContactEmail_; }
+      set {
+        comContactEmail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComPostCode" field.</summary>
+    public const int ComPostCodeFieldNumber = 9;
+    private string comPostCode_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComPostCode {
+      get { return comPostCode_; }
+      set {
+        comPostCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComFax" field.</summary>
+    public const int ComFaxFieldNumber = 10;
+    private string comFax_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComFax {
+      get { return comFax_; }
+      set {
+        comFax_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComTel" field.</summary>
+    public const int ComTelFieldNumber = 11;
+    private string comTel_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComTel {
+      get { return comTel_; }
+      set {
+        comTel_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComWebSite" field.</summary>
+    public const int ComWebSiteFieldNumber = 12;
+    private string comWebSite_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComWebSite {
+      get { return comWebSite_; }
+      set {
+        comWebSite_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComClient" field.</summary>
+    public const int ComClientFieldNumber = 13;
+    private string comClient_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComClient {
+      get { return comClient_; }
+      set {
+        comClient_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComNature" field.</summary>
+    public const int ComNatureFieldNumber = 14;
+    private string comNature_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComNature {
+      get { return comNature_; }
+      set {
+        comNature_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComLang" field.</summary>
+    public const int ComLangFieldNumber = 15;
+    private string comLang_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComLang {
+      get { return comLang_; }
+      set {
+        comLang_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComRemark" field.</summary>
+    public const int ComRemarkFieldNumber = 16;
+    private string comRemark_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComRemark {
+      get { return comRemark_; }
+      set {
+        comRemark_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ComIsDelete" field.</summary>
+    public const int ComIsDeleteFieldNumber = 17;
+    private bool comIsDelete_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool ComIsDelete {
+      get { return comIsDelete_; }
+      set {
+        comIsDelete_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ComIsVerify" field.</summary>
+    public const int ComIsVerifyFieldNumber = 18;
+    private bool comIsVerify_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool ComIsVerify {
+      get { return comIsVerify_; }
+      set {
+        comIsVerify_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ComIsWebSite" field.</summary>
+    public const int ComIsWebSiteFieldNumber = 19;
+    private bool comIsWebSite_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool ComIsWebSite {
+      get { return comIsWebSite_; }
+      set {
+        comIsWebSite_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ComAddress" field.</summary>
+    public const int ComAddressFieldNumber = 20;
+    private string comAddress_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComAddress {
+      get { return comAddress_; }
+      set {
+        comAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedOn" field.</summary>
+    public const int CreatedOnFieldNumber = 21;
+    private string createdOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedBy" field.</summary>
+    public const int CreatedByFieldNumber = 22;
+    private string createdBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModefieldOn" field.</summary>
+    public const int ModefieldOnFieldNumber = 23;
+    private string modefieldOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModefieldOn {
+      get { return modefieldOn_; }
+      set {
+        modefieldOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModefieldBy" field.</summary>
+    public const int ModefieldByFieldNumber = 24;
+    private string modefieldBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModefieldBy {
+      get { return modefieldBy_; }
+      set {
+        modefieldBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewCompanyStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewCompanyStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (CompanyPK != other.CompanyPK) return false;
+      if (CompanyTypePK != other.CompanyTypePK) return false;
+      if (IndustryTypePK != other.IndustryTypePK) return false;
+      if (MemberPK != other.MemberPK) return false;
+      if (ComNameCn != other.ComNameCn) return false;
+      if (ComNameEn != other.ComNameEn) return false;
+      if (ComAreaDetail != other.ComAreaDetail) return false;
+      if (ComContactEmail != other.ComContactEmail) return false;
+      if (ComPostCode != other.ComPostCode) return false;
+      if (ComFax != other.ComFax) return false;
+      if (ComTel != other.ComTel) return false;
+      if (ComWebSite != other.ComWebSite) return false;
+      if (ComClient != other.ComClient) return false;
+      if (ComNature != other.ComNature) return false;
+      if (ComLang != other.ComLang) return false;
+      if (ComRemark != other.ComRemark) return false;
+      if (ComIsDelete != other.ComIsDelete) return false;
+      if (ComIsVerify != other.ComIsVerify) return false;
+      if (ComIsWebSite != other.ComIsWebSite) return false;
+      if (ComAddress != other.ComAddress) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModefieldOn != other.ModefieldOn) return false;
+      if (ModefieldBy != other.ModefieldBy) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (CompanyPK.Length != 0) hash ^= CompanyPK.GetHashCode();
+      if (CompanyTypePK.Length != 0) hash ^= CompanyTypePK.GetHashCode();
+      if (IndustryTypePK.Length != 0) hash ^= IndustryTypePK.GetHashCode();
+      if (MemberPK.Length != 0) hash ^= MemberPK.GetHashCode();
+      if (ComNameCn.Length != 0) hash ^= ComNameCn.GetHashCode();
+      if (ComNameEn.Length != 0) hash ^= ComNameEn.GetHashCode();
+      if (ComAreaDetail.Length != 0) hash ^= ComAreaDetail.GetHashCode();
+      if (ComContactEmail.Length != 0) hash ^= ComContactEmail.GetHashCode();
+      if (ComPostCode.Length != 0) hash ^= ComPostCode.GetHashCode();
+      if (ComFax.Length != 0) hash ^= ComFax.GetHashCode();
+      if (ComTel.Length != 0) hash ^= ComTel.GetHashCode();
+      if (ComWebSite.Length != 0) hash ^= ComWebSite.GetHashCode();
+      if (ComClient.Length != 0) hash ^= ComClient.GetHashCode();
+      if (ComNature.Length != 0) hash ^= ComNature.GetHashCode();
+      if (ComLang.Length != 0) hash ^= ComLang.GetHashCode();
+      if (ComRemark.Length != 0) hash ^= ComRemark.GetHashCode();
+      if (ComIsDelete != false) hash ^= ComIsDelete.GetHashCode();
+      if (ComIsVerify != false) hash ^= ComIsVerify.GetHashCode();
+      if (ComIsWebSite != false) hash ^= ComIsWebSite.GetHashCode();
+      if (ComAddress.Length != 0) hash ^= ComAddress.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModefieldOn.Length != 0) hash ^= ModefieldOn.GetHashCode();
+      if (ModefieldBy.Length != 0) hash ^= ModefieldBy.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (CompanyPK.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(CompanyPK);
+      }
+      if (CompanyTypePK.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(CompanyTypePK);
+      }
+      if (IndustryTypePK.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(IndustryTypePK);
+      }
+      if (MemberPK.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(MemberPK);
+      }
+      if (ComNameCn.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(ComNameCn);
+      }
+      if (ComNameEn.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(ComNameEn);
+      }
+      if (ComAreaDetail.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(ComAreaDetail);
+      }
+      if (ComContactEmail.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(ComContactEmail);
+      }
+      if (ComPostCode.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(ComPostCode);
+      }
+      if (ComFax.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(ComFax);
+      }
+      if (ComTel.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(ComTel);
+      }
+      if (ComWebSite.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(ComWebSite);
+      }
+      if (ComClient.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(ComClient);
+      }
+      if (ComNature.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(ComNature);
+      }
+      if (ComLang.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(ComLang);
+      }
+      if (ComRemark.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(ComRemark);
+      }
+      if (ComIsDelete != false) {
+        output.WriteRawTag(136, 1);
+        output.WriteBool(ComIsDelete);
+      }
+      if (ComIsVerify != false) {
+        output.WriteRawTag(144, 1);
+        output.WriteBool(ComIsVerify);
+      }
+      if (ComIsWebSite != false) {
+        output.WriteRawTag(152, 1);
+        output.WriteBool(ComIsWebSite);
+      }
+      if (ComAddress.Length != 0) {
+        output.WriteRawTag(162, 1);
+        output.WriteString(ComAddress);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(170, 1);
+        output.WriteString(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(178, 1);
+        output.WriteString(CreatedBy);
+      }
+      if (ModefieldOn.Length != 0) {
+        output.WriteRawTag(186, 1);
+        output.WriteString(ModefieldOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        output.WriteRawTag(194, 1);
+        output.WriteString(ModefieldBy);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (CompanyPK.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyPK);
+      }
+      if (CompanyTypePK.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyTypePK);
+      }
+      if (IndustryTypePK.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(IndustryTypePK);
+      }
+      if (MemberPK.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemberPK);
+      }
+      if (ComNameCn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComNameCn);
+      }
+      if (ComNameEn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComNameEn);
+      }
+      if (ComAreaDetail.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComAreaDetail);
+      }
+      if (ComContactEmail.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComContactEmail);
+      }
+      if (ComPostCode.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComPostCode);
+      }
+      if (ComFax.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComFax);
+      }
+      if (ComTel.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComTel);
+      }
+      if (ComWebSite.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComWebSite);
+      }
+      if (ComClient.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComClient);
+      }
+      if (ComNature.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComNature);
+      }
+      if (ComLang.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComLang);
+      }
+      if (ComRemark.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ComRemark);
+      }
+      if (ComIsDelete != false) {
+        size += 2 + 1;
+      }
+      if (ComIsVerify != false) {
+        size += 2 + 1;
+      }
+      if (ComIsWebSite != false) {
+        size += 2 + 1;
+      }
+      if (ComAddress.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ComAddress);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModefieldOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModefieldOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModefieldBy);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewCompanyStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.CompanyPK.Length != 0) {
+        CompanyPK = other.CompanyPK;
+      }
+      if (other.CompanyTypePK.Length != 0) {
+        CompanyTypePK = other.CompanyTypePK;
+      }
+      if (other.IndustryTypePK.Length != 0) {
+        IndustryTypePK = other.IndustryTypePK;
+      }
+      if (other.MemberPK.Length != 0) {
+        MemberPK = other.MemberPK;
+      }
+      if (other.ComNameCn.Length != 0) {
+        ComNameCn = other.ComNameCn;
+      }
+      if (other.ComNameEn.Length != 0) {
+        ComNameEn = other.ComNameEn;
+      }
+      if (other.ComAreaDetail.Length != 0) {
+        ComAreaDetail = other.ComAreaDetail;
+      }
+      if (other.ComContactEmail.Length != 0) {
+        ComContactEmail = other.ComContactEmail;
+      }
+      if (other.ComPostCode.Length != 0) {
+        ComPostCode = other.ComPostCode;
+      }
+      if (other.ComFax.Length != 0) {
+        ComFax = other.ComFax;
+      }
+      if (other.ComTel.Length != 0) {
+        ComTel = other.ComTel;
+      }
+      if (other.ComWebSite.Length != 0) {
+        ComWebSite = other.ComWebSite;
+      }
+      if (other.ComClient.Length != 0) {
+        ComClient = other.ComClient;
+      }
+      if (other.ComNature.Length != 0) {
+        ComNature = other.ComNature;
+      }
+      if (other.ComLang.Length != 0) {
+        ComLang = other.ComLang;
+      }
+      if (other.ComRemark.Length != 0) {
+        ComRemark = other.ComRemark;
+      }
+      if (other.ComIsDelete != false) {
+        ComIsDelete = other.ComIsDelete;
+      }
+      if (other.ComIsVerify != false) {
+        ComIsVerify = other.ComIsVerify;
+      }
+      if (other.ComIsWebSite != false) {
+        ComIsWebSite = other.ComIsWebSite;
+      }
+      if (other.ComAddress.Length != 0) {
+        ComAddress = other.ComAddress;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModefieldOn.Length != 0) {
+        ModefieldOn = other.ModefieldOn;
+      }
+      if (other.ModefieldBy.Length != 0) {
+        ModefieldBy = other.ModefieldBy;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            CompanyPK = input.ReadString();
+            break;
+          }
+          case 18: {
+            CompanyTypePK = input.ReadString();
+            break;
+          }
+          case 26: {
+            IndustryTypePK = input.ReadString();
+            break;
+          }
+          case 34: {
+            MemberPK = input.ReadString();
+            break;
+          }
+          case 42: {
+            ComNameCn = input.ReadString();
+            break;
+          }
+          case 50: {
+            ComNameEn = input.ReadString();
+            break;
+          }
+          case 58: {
+            ComAreaDetail = input.ReadString();
+            break;
+          }
+          case 66: {
+            ComContactEmail = input.ReadString();
+            break;
+          }
+          case 74: {
+            ComPostCode = input.ReadString();
+            break;
+          }
+          case 82: {
+            ComFax = input.ReadString();
+            break;
+          }
+          case 90: {
+            ComTel = input.ReadString();
+            break;
+          }
+          case 98: {
+            ComWebSite = input.ReadString();
+            break;
+          }
+          case 106: {
+            ComClient = input.ReadString();
+            break;
+          }
+          case 114: {
+            ComNature = input.ReadString();
+            break;
+          }
+          case 122: {
+            ComLang = input.ReadString();
+            break;
+          }
+          case 130: {
+            ComRemark = input.ReadString();
+            break;
+          }
+          case 136: {
+            ComIsDelete = input.ReadBool();
+            break;
+          }
+          case 144: {
+            ComIsVerify = input.ReadBool();
+            break;
+          }
+          case 152: {
+            ComIsWebSite = input.ReadBool();
+            break;
+          }
+          case 162: {
+            ComAddress = input.ReadString();
+            break;
+          }
+          case 170: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 178: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 186: {
+            ModefieldOn = input.ReadString();
+            break;
+          }
+          case 194: {
+            ModefieldBy = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewMemberStruct : pb::IMessage<NewMemberStruct> {
+    private static readonly pb::MessageParser<NewMemberStruct> _parser = new pb::MessageParser<NewMemberStruct>(() => new NewMemberStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewMemberStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[108]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewMemberStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewMemberStruct(NewMemberStruct other) : this() {
+      memberPK_ = other.memberPK_;
+      sourcePK_ = other.sourcePK_;
+      memNameCn_ = other.memNameCn_;
+      memNameEn_ = other.memNameEn_;
+      memEmail_ = other.memEmail_;
+      memPassword_ = other.memPassword_;
+      memType_ = other.memType_;
+      memGender_ = other.memGender_;
+      memDepartment_ = other.memDepartment_;
+      memTitle_ = other.memTitle_;
+      memPosition_ = other.memPosition_;
+      memProTitle_ = other.memProTitle_;
+      memQQ_ = other.memQQ_;
+      memFax_ = other.memFax_;
+      memMSN_ = other.memMSN_;
+      memMobile_ = other.memMobile_;
+      memTel_ = other.memTel_;
+      memPostCode_ = other.memPostCode_;
+      memLastLoginTime_ = other.memLastLoginTime_;
+      memAddress_ = other.memAddress_;
+      memAddressDetail_ = other.memAddressDetail_;
+      memIsDelete_ = other.memIsDelete_;
+      memIsActivation_ = other.memIsActivation_;
+      createdOn_ = other.createdOn_;
+      createdBy_ = other.createdBy_;
+      modefieldOn_ = other.modefieldOn_;
+      modefieldBy_ = other.modefieldBy_;
+      companyPK_ = other.companyPK_;
+      memCountryNameCn_ = other.memCountryNameCn_;
+      memCountryNameEn_ = other.memCountryNameEn_;
+      memCompany_ = other.memCompany_;
+      assistantName_ = other.assistantName_;
+      assistantPosition_ = other.assistantPosition_;
+      assistantMobile_ = other.assistantMobile_;
+      assistantEmail_ = other.assistantEmail_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewMemberStruct Clone() {
+      return new NewMemberStruct(this);
+    }
+
+    /// <summary>Field number for the "MemberPK" field.</summary>
+    public const int MemberPKFieldNumber = 1;
+    private string memberPK_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemberPK {
+      get { return memberPK_; }
+      set {
+        memberPK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "SourcePK" field.</summary>
+    public const int SourcePKFieldNumber = 2;
+    private string sourcePK_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SourcePK {
+      get { return sourcePK_; }
+      set {
+        sourcePK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemNameCn" field.</summary>
+    public const int MemNameCnFieldNumber = 3;
+    private string memNameCn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemNameCn {
+      get { return memNameCn_; }
+      set {
+        memNameCn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemNameEn" field.</summary>
+    public const int MemNameEnFieldNumber = 4;
+    private string memNameEn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemNameEn {
+      get { return memNameEn_; }
+      set {
+        memNameEn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemEmail" field.</summary>
+    public const int MemEmailFieldNumber = 5;
+    private string memEmail_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemEmail {
+      get { return memEmail_; }
+      set {
+        memEmail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemPassword" field.</summary>
+    public const int MemPasswordFieldNumber = 6;
+    private string memPassword_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemPassword {
+      get { return memPassword_; }
+      set {
+        memPassword_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemType" field.</summary>
+    public const int MemTypeFieldNumber = 7;
+    private string memType_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemType {
+      get { return memType_; }
+      set {
+        memType_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemGender" field.</summary>
+    public const int MemGenderFieldNumber = 8;
+    private string memGender_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemGender {
+      get { return memGender_; }
+      set {
+        memGender_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemDepartment" field.</summary>
+    public const int MemDepartmentFieldNumber = 9;
+    private string memDepartment_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemDepartment {
+      get { return memDepartment_; }
+      set {
+        memDepartment_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemTitle" field.</summary>
+    public const int MemTitleFieldNumber = 10;
+    private string memTitle_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemTitle {
+      get { return memTitle_; }
+      set {
+        memTitle_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemPosition" field.</summary>
+    public const int MemPositionFieldNumber = 11;
+    private string memPosition_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemPosition {
+      get { return memPosition_; }
+      set {
+        memPosition_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemProTitle" field.</summary>
+    public const int MemProTitleFieldNumber = 12;
+    private string memProTitle_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemProTitle {
+      get { return memProTitle_; }
+      set {
+        memProTitle_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemQQ" field.</summary>
+    public const int MemQQFieldNumber = 13;
+    private string memQQ_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemQQ {
+      get { return memQQ_; }
+      set {
+        memQQ_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemFax" field.</summary>
+    public const int MemFaxFieldNumber = 14;
+    private string memFax_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemFax {
+      get { return memFax_; }
+      set {
+        memFax_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemMSN" field.</summary>
+    public const int MemMSNFieldNumber = 15;
+    private string memMSN_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemMSN {
+      get { return memMSN_; }
+      set {
+        memMSN_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemMobile" field.</summary>
+    public const int MemMobileFieldNumber = 16;
+    private string memMobile_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemMobile {
+      get { return memMobile_; }
+      set {
+        memMobile_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemTel" field.</summary>
+    public const int MemTelFieldNumber = 17;
+    private string memTel_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemTel {
+      get { return memTel_; }
+      set {
+        memTel_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemPostCode" field.</summary>
+    public const int MemPostCodeFieldNumber = 18;
+    private string memPostCode_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemPostCode {
+      get { return memPostCode_; }
+      set {
+        memPostCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemLastLoginTime" field.</summary>
+    public const int MemLastLoginTimeFieldNumber = 19;
+    private string memLastLoginTime_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemLastLoginTime {
+      get { return memLastLoginTime_; }
+      set {
+        memLastLoginTime_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemAddress" field.</summary>
+    public const int MemAddressFieldNumber = 20;
+    private string memAddress_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemAddress {
+      get { return memAddress_; }
+      set {
+        memAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemAddressDetail" field.</summary>
+    public const int MemAddressDetailFieldNumber = 21;
+    private string memAddressDetail_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemAddressDetail {
+      get { return memAddressDetail_; }
+      set {
+        memAddressDetail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemIsDelete" field.</summary>
+    public const int MemIsDeleteFieldNumber = 22;
+    private bool memIsDelete_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool MemIsDelete {
+      get { return memIsDelete_; }
+      set {
+        memIsDelete_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "MemIsActivation" field.</summary>
+    public const int MemIsActivationFieldNumber = 23;
+    private bool memIsActivation_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool MemIsActivation {
+      get { return memIsActivation_; }
+      set {
+        memIsActivation_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CreatedOn" field.</summary>
+    public const int CreatedOnFieldNumber = 24;
+    private string createdOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedBy" field.</summary>
+    public const int CreatedByFieldNumber = 25;
+    private string createdBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModefieldOn" field.</summary>
+    public const int ModefieldOnFieldNumber = 26;
+    private string modefieldOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModefieldOn {
+      get { return modefieldOn_; }
+      set {
+        modefieldOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModefieldBy" field.</summary>
+    public const int ModefieldByFieldNumber = 27;
+    private string modefieldBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModefieldBy {
+      get { return modefieldBy_; }
+      set {
+        modefieldBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CompanyPK" field.</summary>
+    public const int CompanyPKFieldNumber = 28;
+    private string companyPK_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyPK {
+      get { return companyPK_; }
+      set {
+        companyPK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemCountryNameCn" field.</summary>
+    public const int MemCountryNameCnFieldNumber = 29;
+    private string memCountryNameCn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemCountryNameCn {
+      get { return memCountryNameCn_; }
+      set {
+        memCountryNameCn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemCountryNameEn" field.</summary>
+    public const int MemCountryNameEnFieldNumber = 30;
+    private string memCountryNameEn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemCountryNameEn {
+      get { return memCountryNameEn_; }
+      set {
+        memCountryNameEn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemCompany" field.</summary>
+    public const int MemCompanyFieldNumber = 31;
+    private string memCompany_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemCompany {
+      get { return memCompany_; }
+      set {
+        memCompany_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "AssistantName" field.</summary>
+    public const int AssistantNameFieldNumber = 32;
+    private string assistantName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AssistantName {
+      get { return assistantName_; }
+      set {
+        assistantName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "AssistantPosition" field.</summary>
+    public const int AssistantPositionFieldNumber = 33;
+    private string assistantPosition_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AssistantPosition {
+      get { return assistantPosition_; }
+      set {
+        assistantPosition_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "AssistantMobile" field.</summary>
+    public const int AssistantMobileFieldNumber = 34;
+    private string assistantMobile_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AssistantMobile {
+      get { return assistantMobile_; }
+      set {
+        assistantMobile_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "AssistantEmail" field.</summary>
+    public const int AssistantEmailFieldNumber = 35;
+    private string assistantEmail_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AssistantEmail {
+      get { return assistantEmail_; }
+      set {
+        assistantEmail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewMemberStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewMemberStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (MemberPK != other.MemberPK) return false;
+      if (SourcePK != other.SourcePK) return false;
+      if (MemNameCn != other.MemNameCn) return false;
+      if (MemNameEn != other.MemNameEn) return false;
+      if (MemEmail != other.MemEmail) return false;
+      if (MemPassword != other.MemPassword) return false;
+      if (MemType != other.MemType) return false;
+      if (MemGender != other.MemGender) return false;
+      if (MemDepartment != other.MemDepartment) return false;
+      if (MemTitle != other.MemTitle) return false;
+      if (MemPosition != other.MemPosition) return false;
+      if (MemProTitle != other.MemProTitle) return false;
+      if (MemQQ != other.MemQQ) return false;
+      if (MemFax != other.MemFax) return false;
+      if (MemMSN != other.MemMSN) return false;
+      if (MemMobile != other.MemMobile) return false;
+      if (MemTel != other.MemTel) return false;
+      if (MemPostCode != other.MemPostCode) return false;
+      if (MemLastLoginTime != other.MemLastLoginTime) return false;
+      if (MemAddress != other.MemAddress) return false;
+      if (MemAddressDetail != other.MemAddressDetail) return false;
+      if (MemIsDelete != other.MemIsDelete) return false;
+      if (MemIsActivation != other.MemIsActivation) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModefieldOn != other.ModefieldOn) return false;
+      if (ModefieldBy != other.ModefieldBy) return false;
+      if (CompanyPK != other.CompanyPK) return false;
+      if (MemCountryNameCn != other.MemCountryNameCn) return false;
+      if (MemCountryNameEn != other.MemCountryNameEn) return false;
+      if (MemCompany != other.MemCompany) return false;
+      if (AssistantName != other.AssistantName) return false;
+      if (AssistantPosition != other.AssistantPosition) return false;
+      if (AssistantMobile != other.AssistantMobile) return false;
+      if (AssistantEmail != other.AssistantEmail) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (MemberPK.Length != 0) hash ^= MemberPK.GetHashCode();
+      if (SourcePK.Length != 0) hash ^= SourcePK.GetHashCode();
+      if (MemNameCn.Length != 0) hash ^= MemNameCn.GetHashCode();
+      if (MemNameEn.Length != 0) hash ^= MemNameEn.GetHashCode();
+      if (MemEmail.Length != 0) hash ^= MemEmail.GetHashCode();
+      if (MemPassword.Length != 0) hash ^= MemPassword.GetHashCode();
+      if (MemType.Length != 0) hash ^= MemType.GetHashCode();
+      if (MemGender.Length != 0) hash ^= MemGender.GetHashCode();
+      if (MemDepartment.Length != 0) hash ^= MemDepartment.GetHashCode();
+      if (MemTitle.Length != 0) hash ^= MemTitle.GetHashCode();
+      if (MemPosition.Length != 0) hash ^= MemPosition.GetHashCode();
+      if (MemProTitle.Length != 0) hash ^= MemProTitle.GetHashCode();
+      if (MemQQ.Length != 0) hash ^= MemQQ.GetHashCode();
+      if (MemFax.Length != 0) hash ^= MemFax.GetHashCode();
+      if (MemMSN.Length != 0) hash ^= MemMSN.GetHashCode();
+      if (MemMobile.Length != 0) hash ^= MemMobile.GetHashCode();
+      if (MemTel.Length != 0) hash ^= MemTel.GetHashCode();
+      if (MemPostCode.Length != 0) hash ^= MemPostCode.GetHashCode();
+      if (MemLastLoginTime.Length != 0) hash ^= MemLastLoginTime.GetHashCode();
+      if (MemAddress.Length != 0) hash ^= MemAddress.GetHashCode();
+      if (MemAddressDetail.Length != 0) hash ^= MemAddressDetail.GetHashCode();
+      if (MemIsDelete != false) hash ^= MemIsDelete.GetHashCode();
+      if (MemIsActivation != false) hash ^= MemIsActivation.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModefieldOn.Length != 0) hash ^= ModefieldOn.GetHashCode();
+      if (ModefieldBy.Length != 0) hash ^= ModefieldBy.GetHashCode();
+      if (CompanyPK.Length != 0) hash ^= CompanyPK.GetHashCode();
+      if (MemCountryNameCn.Length != 0) hash ^= MemCountryNameCn.GetHashCode();
+      if (MemCountryNameEn.Length != 0) hash ^= MemCountryNameEn.GetHashCode();
+      if (MemCompany.Length != 0) hash ^= MemCompany.GetHashCode();
+      if (AssistantName.Length != 0) hash ^= AssistantName.GetHashCode();
+      if (AssistantPosition.Length != 0) hash ^= AssistantPosition.GetHashCode();
+      if (AssistantMobile.Length != 0) hash ^= AssistantMobile.GetHashCode();
+      if (AssistantEmail.Length != 0) hash ^= AssistantEmail.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (MemberPK.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(MemberPK);
+      }
+      if (SourcePK.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(SourcePK);
+      }
+      if (MemNameCn.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(MemNameCn);
+      }
+      if (MemNameEn.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(MemNameEn);
+      }
+      if (MemEmail.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(MemEmail);
+      }
+      if (MemPassword.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(MemPassword);
+      }
+      if (MemType.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(MemType);
+      }
+      if (MemGender.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(MemGender);
+      }
+      if (MemDepartment.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(MemDepartment);
+      }
+      if (MemTitle.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(MemTitle);
+      }
+      if (MemPosition.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(MemPosition);
+      }
+      if (MemProTitle.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(MemProTitle);
+      }
+      if (MemQQ.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(MemQQ);
+      }
+      if (MemFax.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(MemFax);
+      }
+      if (MemMSN.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(MemMSN);
+      }
+      if (MemMobile.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(MemMobile);
+      }
+      if (MemTel.Length != 0) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(MemTel);
+      }
+      if (MemPostCode.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(MemPostCode);
+      }
+      if (MemLastLoginTime.Length != 0) {
+        output.WriteRawTag(154, 1);
+        output.WriteString(MemLastLoginTime);
+      }
+      if (MemAddress.Length != 0) {
+        output.WriteRawTag(162, 1);
+        output.WriteString(MemAddress);
+      }
+      if (MemAddressDetail.Length != 0) {
+        output.WriteRawTag(170, 1);
+        output.WriteString(MemAddressDetail);
+      }
+      if (MemIsDelete != false) {
+        output.WriteRawTag(176, 1);
+        output.WriteBool(MemIsDelete);
+      }
+      if (MemIsActivation != false) {
+        output.WriteRawTag(184, 1);
+        output.WriteBool(MemIsActivation);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(194, 1);
+        output.WriteString(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(202, 1);
+        output.WriteString(CreatedBy);
+      }
+      if (ModefieldOn.Length != 0) {
+        output.WriteRawTag(210, 1);
+        output.WriteString(ModefieldOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        output.WriteRawTag(218, 1);
+        output.WriteString(ModefieldBy);
+      }
+      if (CompanyPK.Length != 0) {
+        output.WriteRawTag(226, 1);
+        output.WriteString(CompanyPK);
+      }
+      if (MemCountryNameCn.Length != 0) {
+        output.WriteRawTag(234, 1);
+        output.WriteString(MemCountryNameCn);
+      }
+      if (MemCountryNameEn.Length != 0) {
+        output.WriteRawTag(242, 1);
+        output.WriteString(MemCountryNameEn);
+      }
+      if (MemCompany.Length != 0) {
+        output.WriteRawTag(250, 1);
+        output.WriteString(MemCompany);
+      }
+      if (AssistantName.Length != 0) {
+        output.WriteRawTag(130, 2);
+        output.WriteString(AssistantName);
+      }
+      if (AssistantPosition.Length != 0) {
+        output.WriteRawTag(138, 2);
+        output.WriteString(AssistantPosition);
+      }
+      if (AssistantMobile.Length != 0) {
+        output.WriteRawTag(146, 2);
+        output.WriteString(AssistantMobile);
+      }
+      if (AssistantEmail.Length != 0) {
+        output.WriteRawTag(154, 2);
+        output.WriteString(AssistantEmail);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (MemberPK.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemberPK);
+      }
+      if (SourcePK.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SourcePK);
+      }
+      if (MemNameCn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemNameCn);
+      }
+      if (MemNameEn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemNameEn);
+      }
+      if (MemEmail.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemEmail);
+      }
+      if (MemPassword.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemPassword);
+      }
+      if (MemType.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemType);
+      }
+      if (MemGender.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemGender);
+      }
+      if (MemDepartment.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemDepartment);
+      }
+      if (MemTitle.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemTitle);
+      }
+      if (MemPosition.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemPosition);
+      }
+      if (MemProTitle.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemProTitle);
+      }
+      if (MemQQ.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemQQ);
+      }
+      if (MemFax.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemFax);
+      }
+      if (MemMSN.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemMSN);
+      }
+      if (MemMobile.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(MemMobile);
+      }
+      if (MemTel.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(MemTel);
+      }
+      if (MemPostCode.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(MemPostCode);
+      }
+      if (MemLastLoginTime.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(MemLastLoginTime);
+      }
+      if (MemAddress.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(MemAddress);
+      }
+      if (MemAddressDetail.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(MemAddressDetail);
+      }
+      if (MemIsDelete != false) {
+        size += 2 + 1;
+      }
+      if (MemIsActivation != false) {
+        size += 2 + 1;
+      }
+      if (CreatedOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModefieldOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModefieldOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModefieldBy);
+      }
+      if (CompanyPK.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CompanyPK);
+      }
+      if (MemCountryNameCn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(MemCountryNameCn);
+      }
+      if (MemCountryNameEn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(MemCountryNameEn);
+      }
+      if (MemCompany.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(MemCompany);
+      }
+      if (AssistantName.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(AssistantName);
+      }
+      if (AssistantPosition.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(AssistantPosition);
+      }
+      if (AssistantMobile.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(AssistantMobile);
+      }
+      if (AssistantEmail.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(AssistantEmail);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewMemberStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.MemberPK.Length != 0) {
+        MemberPK = other.MemberPK;
+      }
+      if (other.SourcePK.Length != 0) {
+        SourcePK = other.SourcePK;
+      }
+      if (other.MemNameCn.Length != 0) {
+        MemNameCn = other.MemNameCn;
+      }
+      if (other.MemNameEn.Length != 0) {
+        MemNameEn = other.MemNameEn;
+      }
+      if (other.MemEmail.Length != 0) {
+        MemEmail = other.MemEmail;
+      }
+      if (other.MemPassword.Length != 0) {
+        MemPassword = other.MemPassword;
+      }
+      if (other.MemType.Length != 0) {
+        MemType = other.MemType;
+      }
+      if (other.MemGender.Length != 0) {
+        MemGender = other.MemGender;
+      }
+      if (other.MemDepartment.Length != 0) {
+        MemDepartment = other.MemDepartment;
+      }
+      if (other.MemTitle.Length != 0) {
+        MemTitle = other.MemTitle;
+      }
+      if (other.MemPosition.Length != 0) {
+        MemPosition = other.MemPosition;
+      }
+      if (other.MemProTitle.Length != 0) {
+        MemProTitle = other.MemProTitle;
+      }
+      if (other.MemQQ.Length != 0) {
+        MemQQ = other.MemQQ;
+      }
+      if (other.MemFax.Length != 0) {
+        MemFax = other.MemFax;
+      }
+      if (other.MemMSN.Length != 0) {
+        MemMSN = other.MemMSN;
+      }
+      if (other.MemMobile.Length != 0) {
+        MemMobile = other.MemMobile;
+      }
+      if (other.MemTel.Length != 0) {
+        MemTel = other.MemTel;
+      }
+      if (other.MemPostCode.Length != 0) {
+        MemPostCode = other.MemPostCode;
+      }
+      if (other.MemLastLoginTime.Length != 0) {
+        MemLastLoginTime = other.MemLastLoginTime;
+      }
+      if (other.MemAddress.Length != 0) {
+        MemAddress = other.MemAddress;
+      }
+      if (other.MemAddressDetail.Length != 0) {
+        MemAddressDetail = other.MemAddressDetail;
+      }
+      if (other.MemIsDelete != false) {
+        MemIsDelete = other.MemIsDelete;
+      }
+      if (other.MemIsActivation != false) {
+        MemIsActivation = other.MemIsActivation;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModefieldOn.Length != 0) {
+        ModefieldOn = other.ModefieldOn;
+      }
+      if (other.ModefieldBy.Length != 0) {
+        ModefieldBy = other.ModefieldBy;
+      }
+      if (other.CompanyPK.Length != 0) {
+        CompanyPK = other.CompanyPK;
+      }
+      if (other.MemCountryNameCn.Length != 0) {
+        MemCountryNameCn = other.MemCountryNameCn;
+      }
+      if (other.MemCountryNameEn.Length != 0) {
+        MemCountryNameEn = other.MemCountryNameEn;
+      }
+      if (other.MemCompany.Length != 0) {
+        MemCompany = other.MemCompany;
+      }
+      if (other.AssistantName.Length != 0) {
+        AssistantName = other.AssistantName;
+      }
+      if (other.AssistantPosition.Length != 0) {
+        AssistantPosition = other.AssistantPosition;
+      }
+      if (other.AssistantMobile.Length != 0) {
+        AssistantMobile = other.AssistantMobile;
+      }
+      if (other.AssistantEmail.Length != 0) {
+        AssistantEmail = other.AssistantEmail;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            MemberPK = input.ReadString();
+            break;
+          }
+          case 18: {
+            SourcePK = input.ReadString();
+            break;
+          }
+          case 26: {
+            MemNameCn = input.ReadString();
+            break;
+          }
+          case 34: {
+            MemNameEn = input.ReadString();
+            break;
+          }
+          case 42: {
+            MemEmail = input.ReadString();
+            break;
+          }
+          case 50: {
+            MemPassword = input.ReadString();
+            break;
+          }
+          case 58: {
+            MemType = input.ReadString();
+            break;
+          }
+          case 66: {
+            MemGender = input.ReadString();
+            break;
+          }
+          case 74: {
+            MemDepartment = input.ReadString();
+            break;
+          }
+          case 82: {
+            MemTitle = input.ReadString();
+            break;
+          }
+          case 90: {
+            MemPosition = input.ReadString();
+            break;
+          }
+          case 98: {
+            MemProTitle = input.ReadString();
+            break;
+          }
+          case 106: {
+            MemQQ = input.ReadString();
+            break;
+          }
+          case 114: {
+            MemFax = input.ReadString();
+            break;
+          }
+          case 122: {
+            MemMSN = input.ReadString();
+            break;
+          }
+          case 130: {
+            MemMobile = input.ReadString();
+            break;
+          }
+          case 138: {
+            MemTel = input.ReadString();
+            break;
+          }
+          case 146: {
+            MemPostCode = input.ReadString();
+            break;
+          }
+          case 154: {
+            MemLastLoginTime = input.ReadString();
+            break;
+          }
+          case 162: {
+            MemAddress = input.ReadString();
+            break;
+          }
+          case 170: {
+            MemAddressDetail = input.ReadString();
+            break;
+          }
+          case 176: {
+            MemIsDelete = input.ReadBool();
+            break;
+          }
+          case 184: {
+            MemIsActivation = input.ReadBool();
+            break;
+          }
+          case 194: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 202: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 210: {
+            ModefieldOn = input.ReadString();
+            break;
+          }
+          case 218: {
+            ModefieldBy = input.ReadString();
+            break;
+          }
+          case 226: {
+            CompanyPK = input.ReadString();
+            break;
+          }
+          case 234: {
+            MemCountryNameCn = input.ReadString();
+            break;
+          }
+          case 242: {
+            MemCountryNameEn = input.ReadString();
+            break;
+          }
+          case 250: {
+            MemCompany = input.ReadString();
+            break;
+          }
+          case 258: {
+            AssistantName = input.ReadString();
+            break;
+          }
+          case 266: {
+            AssistantPosition = input.ReadString();
+            break;
+          }
+          case 274: {
+            AssistantMobile = input.ReadString();
+            break;
+          }
+          case 282: {
+            AssistantEmail = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewParticipantStruct : pb::IMessage<NewParticipantStruct> {
+    private static readonly pb::MessageParser<NewParticipantStruct> _parser = new pb::MessageParser<NewParticipantStruct>(() => new NewParticipantStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewParticipantStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[109]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewParticipantStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewParticipantStruct(NewParticipantStruct other) : this() {
+      participantID_ = other.participantID_;
+      participantNameTranslation_ = other.participantNameTranslation_;
+      iMGSRC_ = other.iMGSRC_;
+      companyTranslation_ = other.companyTranslation_;
+      jobTranslation_ = other.jobTranslation_;
+      countryTranslation_ = other.countryTranslation_;
+      email_ = other.email_;
+      mobile_ = other.mobile_;
+      introduceTranslation_ = other.introduceTranslation_;
+      createdOn_ = other.createdOn_;
+      createdBy_ = other.createdBy_;
+      modifiedOn_ = other.modifiedOn_;
+      modifiedBy_ = other.modifiedBy_;
+      personContractID_ = other.personContractID_;
+      perContractNumber_ = other.perContractNumber_;
+      isDelete_ = other.isDelete_;
+      sort_ = other.sort_;
+      owerid_ = other.owerid_;
+      ower_ = other.ower_;
+      appellationTranslation_ = other.appellationTranslation_;
+      companyId_ = other.companyId_;
+      confirmPPT_ = other.confirmPPT_;
+      memberPK_ = other.memberPK_;
+      showOnFont_ = other.showOnFont_;
+      year_ = other.year_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewParticipantStruct Clone() {
+      return new NewParticipantStruct(this);
+    }
+
+    /// <summary>Field number for the "ParticipantID" field.</summary>
+    public const int ParticipantIDFieldNumber = 1;
+    private string participantID_ = "";
+    /// <summary>
+    ///嘉宾id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ParticipantID {
+      get { return participantID_; }
+      set {
+        participantID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ParticipantNameTranslation" field.</summary>
+    public const int ParticipantNameTranslationFieldNumber = 2;
+    private string participantNameTranslation_ = "";
+    /// <summary>
+    ///嘉宾名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ParticipantNameTranslation {
+      get { return participantNameTranslation_; }
+      set {
+        participantNameTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IMGSRC" field.</summary>
+    public const int IMGSRCFieldNumber = 3;
+    private string iMGSRC_ = "";
+    /// <summary>
+    ///头像路劲
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string IMGSRC {
+      get { return iMGSRC_; }
+      set {
+        iMGSRC_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CompanyTranslation" field.</summary>
+    public const int CompanyTranslationFieldNumber = 4;
+    private string companyTranslation_ = "";
+    /// <summary>
+    ///公司名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyTranslation {
+      get { return companyTranslation_; }
+      set {
+        companyTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "JobTranslation" field.</summary>
+    public const int JobTranslationFieldNumber = 5;
+    private string jobTranslation_ = "";
+    /// <summary>
+    ///职称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string JobTranslation {
+      get { return jobTranslation_; }
+      set {
+        jobTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CountryTranslation" field.</summary>
+    public const int CountryTranslationFieldNumber = 6;
+    private string countryTranslation_ = "";
+    /// <summary>
+    ///国家
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CountryTranslation {
+      get { return countryTranslation_; }
+      set {
+        countryTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Email" field.</summary>
+    public const int EmailFieldNumber = 7;
+    private string email_ = "";
+    /// <summary>
+    ///邮箱
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Email {
+      get { return email_; }
+      set {
+        email_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Mobile" field.</summary>
+    public const int MobileFieldNumber = 8;
+    private string mobile_ = "";
+    /// <summary>
+    ///手机
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Mobile {
+      get { return mobile_; }
+      set {
+        mobile_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IntroduceTranslation" field.</summary>
+    public const int IntroduceTranslationFieldNumber = 9;
+    private string introduceTranslation_ = "";
+    /// <summary>
+    ///简介
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string IntroduceTranslation {
+      get { return introduceTranslation_; }
+      set {
+        introduceTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedOn" field.</summary>
+    public const int CreatedOnFieldNumber = 10;
+    private string createdOn_ = "";
+    /// <summary>
+    ///创建时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedBy" field.</summary>
+    public const int CreatedByFieldNumber = 11;
+    private string createdBy_ = "";
+    /// <summary>
+    ///创建人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModifiedOn" field.</summary>
+    public const int ModifiedOnFieldNumber = 12;
+    private string modifiedOn_ = "";
+    /// <summary>
+    ///修改时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiedOn {
+      get { return modifiedOn_; }
+      set {
+        modifiedOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModifiedBy" field.</summary>
+    public const int ModifiedByFieldNumber = 13;
+    private string modifiedBy_ = "";
+    /// <summary>
+    ///修改人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiedBy {
+      get { return modifiedBy_; }
+      set {
+        modifiedBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "PersonContractID" field.</summary>
+    public const int PersonContractIDFieldNumber = 14;
+    private string personContractID_ = "";
+    /// <summary>
+    ///个人合同id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PersonContractID {
+      get { return personContractID_; }
+      set {
+        personContractID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "PerContractNumber" field.</summary>
+    public const int PerContractNumberFieldNumber = 15;
+    private string perContractNumber_ = "";
+    /// <summary>
+    ///个人合同号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PerContractNumber {
+      get { return perContractNumber_; }
+      set {
+        perContractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IsDelete" field.</summary>
+    public const int IsDeleteFieldNumber = 16;
+    private bool isDelete_;
+    /// <summary>
+    ///是否删除
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsDelete {
+      get { return isDelete_; }
+      set {
+        isDelete_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Sort" field.</summary>
+    public const int SortFieldNumber = 17;
+    private int sort_;
+    /// <summary>
+    ///排序
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Sort {
+      get { return sort_; }
+      set {
+        sort_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Owerid" field.</summary>
+    public const int OweridFieldNumber = 18;
+    private string owerid_ = "";
+    /// <summary>
+    ///业务员id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Owerid {
+      get { return owerid_; }
+      set {
+        owerid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Ower" field.</summary>
+    public const int OwerFieldNumber = 19;
+    private string ower_ = "";
+    /// <summary>
+    ///业务员
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Ower {
+      get { return ower_; }
+      set {
+        ower_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "AppellationTranslation" field.</summary>
+    public const int AppellationTranslationFieldNumber = 20;
+    private string appellationTranslation_ = "";
+    /// <summary>
+    ///称谓
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AppellationTranslation {
+      get { return appellationTranslation_; }
+      set {
+        appellationTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CompanyId" field.</summary>
+    public const int CompanyIdFieldNumber = 21;
+    private string companyId_ = "";
+    /// <summary>
+    ///公司id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyId {
+      get { return companyId_; }
+      set {
+        companyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConfirmPPT" field.</summary>
+    public const int ConfirmPPTFieldNumber = 22;
+    private bool confirmPPT_;
+    /// <summary>
+    ///是否提交ppt
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool ConfirmPPT {
+      get { return confirmPPT_; }
+      set {
+        confirmPPT_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "MemberPK" field.</summary>
+    public const int MemberPKFieldNumber = 23;
+    private string memberPK_ = "";
+    /// <summary>
+    ///人员id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemberPK {
+      get { return memberPK_; }
+      set {
+        memberPK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ShowOnFont" field.</summary>
+    public const int ShowOnFontFieldNumber = 24;
+    private int showOnFont_;
+    /// <summary>
+    ///受否前台显示
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int ShowOnFont {
+      get { return showOnFont_; }
+      set {
+        showOnFont_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Year" field.</summary>
+    public const int YearFieldNumber = 25;
+    private string year_ = "";
+    /// <summary>
+    ///年份
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Year {
+      get { return year_; }
+      set {
+        year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewParticipantStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewParticipantStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ParticipantID != other.ParticipantID) return false;
+      if (ParticipantNameTranslation != other.ParticipantNameTranslation) return false;
+      if (IMGSRC != other.IMGSRC) return false;
+      if (CompanyTranslation != other.CompanyTranslation) return false;
+      if (JobTranslation != other.JobTranslation) return false;
+      if (CountryTranslation != other.CountryTranslation) return false;
+      if (Email != other.Email) return false;
+      if (Mobile != other.Mobile) return false;
+      if (IntroduceTranslation != other.IntroduceTranslation) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModifiedOn != other.ModifiedOn) return false;
+      if (ModifiedBy != other.ModifiedBy) return false;
+      if (PersonContractID != other.PersonContractID) return false;
+      if (PerContractNumber != other.PerContractNumber) return false;
+      if (IsDelete != other.IsDelete) return false;
+      if (Sort != other.Sort) return false;
+      if (Owerid != other.Owerid) return false;
+      if (Ower != other.Ower) return false;
+      if (AppellationTranslation != other.AppellationTranslation) return false;
+      if (CompanyId != other.CompanyId) return false;
+      if (ConfirmPPT != other.ConfirmPPT) return false;
+      if (MemberPK != other.MemberPK) return false;
+      if (ShowOnFont != other.ShowOnFont) return false;
+      if (Year != other.Year) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ParticipantID.Length != 0) hash ^= ParticipantID.GetHashCode();
+      if (ParticipantNameTranslation.Length != 0) hash ^= ParticipantNameTranslation.GetHashCode();
+      if (IMGSRC.Length != 0) hash ^= IMGSRC.GetHashCode();
+      if (CompanyTranslation.Length != 0) hash ^= CompanyTranslation.GetHashCode();
+      if (JobTranslation.Length != 0) hash ^= JobTranslation.GetHashCode();
+      if (CountryTranslation.Length != 0) hash ^= CountryTranslation.GetHashCode();
+      if (Email.Length != 0) hash ^= Email.GetHashCode();
+      if (Mobile.Length != 0) hash ^= Mobile.GetHashCode();
+      if (IntroduceTranslation.Length != 0) hash ^= IntroduceTranslation.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModifiedOn.Length != 0) hash ^= ModifiedOn.GetHashCode();
+      if (ModifiedBy.Length != 0) hash ^= ModifiedBy.GetHashCode();
+      if (PersonContractID.Length != 0) hash ^= PersonContractID.GetHashCode();
+      if (PerContractNumber.Length != 0) hash ^= PerContractNumber.GetHashCode();
+      if (IsDelete != false) hash ^= IsDelete.GetHashCode();
+      if (Sort != 0) hash ^= Sort.GetHashCode();
+      if (Owerid.Length != 0) hash ^= Owerid.GetHashCode();
+      if (Ower.Length != 0) hash ^= Ower.GetHashCode();
+      if (AppellationTranslation.Length != 0) hash ^= AppellationTranslation.GetHashCode();
+      if (CompanyId.Length != 0) hash ^= CompanyId.GetHashCode();
+      if (ConfirmPPT != false) hash ^= ConfirmPPT.GetHashCode();
+      if (MemberPK.Length != 0) hash ^= MemberPK.GetHashCode();
+      if (ShowOnFont != 0) hash ^= ShowOnFont.GetHashCode();
+      if (Year.Length != 0) hash ^= Year.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ParticipantID.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ParticipantID);
+      }
+      if (ParticipantNameTranslation.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ParticipantNameTranslation);
+      }
+      if (IMGSRC.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(IMGSRC);
+      }
+      if (CompanyTranslation.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(CompanyTranslation);
+      }
+      if (JobTranslation.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(JobTranslation);
+      }
+      if (CountryTranslation.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(CountryTranslation);
+      }
+      if (Email.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(Email);
+      }
+      if (Mobile.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Mobile);
+      }
+      if (IntroduceTranslation.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(IntroduceTranslation);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(ModifiedOn);
+      }
+      if (ModifiedBy.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(ModifiedBy);
+      }
+      if (PersonContractID.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(PersonContractID);
+      }
+      if (PerContractNumber.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(PerContractNumber);
+      }
+      if (IsDelete != false) {
+        output.WriteRawTag(128, 1);
+        output.WriteBool(IsDelete);
+      }
+      if (Sort != 0) {
+        output.WriteRawTag(136, 1);
+        output.WriteInt32(Sort);
+      }
+      if (Owerid.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(Owerid);
+      }
+      if (Ower.Length != 0) {
+        output.WriteRawTag(154, 1);
+        output.WriteString(Ower);
+      }
+      if (AppellationTranslation.Length != 0) {
+        output.WriteRawTag(162, 1);
+        output.WriteString(AppellationTranslation);
+      }
+      if (CompanyId.Length != 0) {
+        output.WriteRawTag(170, 1);
+        output.WriteString(CompanyId);
+      }
+      if (ConfirmPPT != false) {
+        output.WriteRawTag(176, 1);
+        output.WriteBool(ConfirmPPT);
+      }
+      if (MemberPK.Length != 0) {
+        output.WriteRawTag(186, 1);
+        output.WriteString(MemberPK);
+      }
+      if (ShowOnFont != 0) {
+        output.WriteRawTag(192, 1);
+        output.WriteInt32(ShowOnFont);
+      }
+      if (Year.Length != 0) {
+        output.WriteRawTag(202, 1);
+        output.WriteString(Year);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ParticipantID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ParticipantID);
+      }
+      if (ParticipantNameTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ParticipantNameTranslation);
+      }
+      if (IMGSRC.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(IMGSRC);
+      }
+      if (CompanyTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyTranslation);
+      }
+      if (JobTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(JobTranslation);
+      }
+      if (CountryTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CountryTranslation);
+      }
+      if (Email.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Email);
+      }
+      if (Mobile.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Mobile);
+      }
+      if (IntroduceTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(IntroduceTranslation);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifiedOn);
+      }
+      if (ModifiedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifiedBy);
+      }
+      if (PersonContractID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PersonContractID);
+      }
+      if (PerContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PerContractNumber);
+      }
+      if (IsDelete != false) {
+        size += 2 + 1;
+      }
+      if (Sort != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(Sort);
+      }
+      if (Owerid.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Owerid);
+      }
+      if (Ower.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Ower);
+      }
+      if (AppellationTranslation.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(AppellationTranslation);
+      }
+      if (CompanyId.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CompanyId);
+      }
+      if (ConfirmPPT != false) {
+        size += 2 + 1;
+      }
+      if (MemberPK.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(MemberPK);
+      }
+      if (ShowOnFont != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(ShowOnFont);
+      }
+      if (Year.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Year);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewParticipantStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ParticipantID.Length != 0) {
+        ParticipantID = other.ParticipantID;
+      }
+      if (other.ParticipantNameTranslation.Length != 0) {
+        ParticipantNameTranslation = other.ParticipantNameTranslation;
+      }
+      if (other.IMGSRC.Length != 0) {
+        IMGSRC = other.IMGSRC;
+      }
+      if (other.CompanyTranslation.Length != 0) {
+        CompanyTranslation = other.CompanyTranslation;
+      }
+      if (other.JobTranslation.Length != 0) {
+        JobTranslation = other.JobTranslation;
+      }
+      if (other.CountryTranslation.Length != 0) {
+        CountryTranslation = other.CountryTranslation;
+      }
+      if (other.Email.Length != 0) {
+        Email = other.Email;
+      }
+      if (other.Mobile.Length != 0) {
+        Mobile = other.Mobile;
+      }
+      if (other.IntroduceTranslation.Length != 0) {
+        IntroduceTranslation = other.IntroduceTranslation;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModifiedOn.Length != 0) {
+        ModifiedOn = other.ModifiedOn;
+      }
+      if (other.ModifiedBy.Length != 0) {
+        ModifiedBy = other.ModifiedBy;
+      }
+      if (other.PersonContractID.Length != 0) {
+        PersonContractID = other.PersonContractID;
+      }
+      if (other.PerContractNumber.Length != 0) {
+        PerContractNumber = other.PerContractNumber;
+      }
+      if (other.IsDelete != false) {
+        IsDelete = other.IsDelete;
+      }
+      if (other.Sort != 0) {
+        Sort = other.Sort;
+      }
+      if (other.Owerid.Length != 0) {
+        Owerid = other.Owerid;
+      }
+      if (other.Ower.Length != 0) {
+        Ower = other.Ower;
+      }
+      if (other.AppellationTranslation.Length != 0) {
+        AppellationTranslation = other.AppellationTranslation;
+      }
+      if (other.CompanyId.Length != 0) {
+        CompanyId = other.CompanyId;
+      }
+      if (other.ConfirmPPT != false) {
+        ConfirmPPT = other.ConfirmPPT;
+      }
+      if (other.MemberPK.Length != 0) {
+        MemberPK = other.MemberPK;
+      }
+      if (other.ShowOnFont != 0) {
+        ShowOnFont = other.ShowOnFont;
+      }
+      if (other.Year.Length != 0) {
+        Year = other.Year;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ParticipantID = input.ReadString();
+            break;
+          }
+          case 18: {
+            ParticipantNameTranslation = input.ReadString();
+            break;
+          }
+          case 26: {
+            IMGSRC = input.ReadString();
+            break;
+          }
+          case 34: {
+            CompanyTranslation = input.ReadString();
+            break;
+          }
+          case 42: {
+            JobTranslation = input.ReadString();
+            break;
+          }
+          case 50: {
+            CountryTranslation = input.ReadString();
+            break;
+          }
+          case 58: {
+            Email = input.ReadString();
+            break;
+          }
+          case 66: {
+            Mobile = input.ReadString();
+            break;
+          }
+          case 74: {
+            IntroduceTranslation = input.ReadString();
+            break;
+          }
+          case 82: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 90: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 98: {
+            ModifiedOn = input.ReadString();
+            break;
+          }
+          case 106: {
+            ModifiedBy = input.ReadString();
+            break;
+          }
+          case 114: {
+            PersonContractID = input.ReadString();
+            break;
+          }
+          case 122: {
+            PerContractNumber = input.ReadString();
+            break;
+          }
+          case 128: {
+            IsDelete = input.ReadBool();
+            break;
+          }
+          case 136: {
+            Sort = input.ReadInt32();
+            break;
+          }
+          case 146: {
+            Owerid = input.ReadString();
+            break;
+          }
+          case 154: {
+            Ower = input.ReadString();
+            break;
+          }
+          case 162: {
+            AppellationTranslation = input.ReadString();
+            break;
+          }
+          case 170: {
+            CompanyId = input.ReadString();
+            break;
+          }
+          case 176: {
+            ConfirmPPT = input.ReadBool();
+            break;
+          }
+          case 186: {
+            MemberPK = input.ReadString();
+            break;
+          }
+          case 192: {
+            ShowOnFont = input.ReadInt32();
+            break;
+          }
+          case 202: {
+            Year = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewActivityStruct1 : pb::IMessage<NewActivityStruct1> {
+    private static readonly pb::MessageParser<NewActivityStruct1> _parser = new pb::MessageParser<NewActivityStruct1>(() => new NewActivityStruct1());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewActivityStruct1> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[110]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewActivityStruct1() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewActivityStruct1(NewActivityStruct1 other) : this() {
+      activityID_ = other.activityID_;
+      conferenceID_ = other.conferenceID_;
+      activityTypeID_ = other.activityTypeID_;
+      timeLength_ = other.timeLength_;
+      sort_ = other.sort_;
+      startDate_ = other.startDate_;
+      Translation = other.translation_ != null ? other.Translation.Clone() : null;
+      createdOn_ = other.createdOn_;
+      createdBy_ = other.createdBy_;
+      modifiedOn_ = other.modifiedOn_;
+      modifiedBy_ = other.modifiedBy_;
+      startTime_ = other.startTime_;
+      endTime_ = other.endTime_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewActivityStruct1 Clone() {
+      return new NewActivityStruct1(this);
+    }
+
+    /// <summary>Field number for the "ActivityID" field.</summary>
+    public const int ActivityIDFieldNumber = 1;
+    private string activityID_ = "";
+    /// <summary>
+    ///活动主键id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ActivityID {
+      get { return activityID_; }
+      set {
+        activityID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceID" field.</summary>
+    public const int ConferenceIDFieldNumber = 2;
+    private string conferenceID_ = "";
+    /// <summary>
+    ///会议id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceID {
+      get { return conferenceID_; }
+      set {
+        conferenceID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ActivityTypeID" field.</summary>
+    public const int ActivityTypeIDFieldNumber = 3;
+    private string activityTypeID_ = "";
+    /// <summary>
+    ///活动类型id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ActivityTypeID {
+      get { return activityTypeID_; }
+      set {
+        activityTypeID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "TimeLength" field.</summary>
+    public const int TimeLengthFieldNumber = 4;
+    private string timeLength_ = "";
+    /// <summary>
+    ///时长
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string TimeLength {
+      get { return timeLength_; }
+      set {
+        timeLength_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Sort" field.</summary>
+    public const int SortFieldNumber = 5;
+    private int sort_;
+    /// <summary>
+    ///排序
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Sort {
+      get { return sort_; }
+      set {
+        sort_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "StartDate" field.</summary>
+    public const int StartDateFieldNumber = 6;
+    private string startDate_ = "";
+    /// <summary>
+    ///开始日期
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string StartDate {
+      get { return startDate_; }
+      set {
+        startDate_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Translation" field.</summary>
+    public const int TranslationFieldNumber = 7;
+    private global::GrpcConferenceContractService.Translation translation_;
+    /// <summary>
+    ///活动名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.Translation Translation {
+      get { return translation_; }
+      set {
+        translation_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CreatedOn" field.</summary>
+    public const int CreatedOnFieldNumber = 8;
+    private string createdOn_ = "";
+    /// <summary>
+    ///创建时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedBy" field.</summary>
+    public const int CreatedByFieldNumber = 9;
+    private string createdBy_ = "";
+    /// <summary>
+    ///创建人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModifiedOn" field.</summary>
+    public const int ModifiedOnFieldNumber = 10;
+    private string modifiedOn_ = "";
+    /// <summary>
+    ///修改时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiedOn {
+      get { return modifiedOn_; }
+      set {
+        modifiedOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModifiedBy" field.</summary>
+    public const int ModifiedByFieldNumber = 11;
+    private string modifiedBy_ = "";
+    /// <summary>
+    ///修改人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiedBy {
+      get { return modifiedBy_; }
+      set {
+        modifiedBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "StartTime" field.</summary>
+    public const int StartTimeFieldNumber = 12;
+    private string startTime_ = "";
+    /// <summary>
+    ///开始时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string StartTime {
+      get { return startTime_; }
+      set {
+        startTime_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "EndTime" field.</summary>
+    public const int EndTimeFieldNumber = 13;
+    private string endTime_ = "";
+    /// <summary>
+    ///结束时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string EndTime {
+      get { return endTime_; }
+      set {
+        endTime_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewActivityStruct1);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewActivityStruct1 other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ActivityID != other.ActivityID) return false;
+      if (ConferenceID != other.ConferenceID) return false;
+      if (ActivityTypeID != other.ActivityTypeID) return false;
+      if (TimeLength != other.TimeLength) return false;
+      if (Sort != other.Sort) return false;
+      if (StartDate != other.StartDate) return false;
+      if (!object.Equals(Translation, other.Translation)) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModifiedOn != other.ModifiedOn) return false;
+      if (ModifiedBy != other.ModifiedBy) return false;
+      if (StartTime != other.StartTime) return false;
+      if (EndTime != other.EndTime) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ActivityID.Length != 0) hash ^= ActivityID.GetHashCode();
+      if (ConferenceID.Length != 0) hash ^= ConferenceID.GetHashCode();
+      if (ActivityTypeID.Length != 0) hash ^= ActivityTypeID.GetHashCode();
+      if (TimeLength.Length != 0) hash ^= TimeLength.GetHashCode();
+      if (Sort != 0) hash ^= Sort.GetHashCode();
+      if (StartDate.Length != 0) hash ^= StartDate.GetHashCode();
+      if (translation_ != null) hash ^= Translation.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModifiedOn.Length != 0) hash ^= ModifiedOn.GetHashCode();
+      if (ModifiedBy.Length != 0) hash ^= ModifiedBy.GetHashCode();
+      if (StartTime.Length != 0) hash ^= StartTime.GetHashCode();
+      if (EndTime.Length != 0) hash ^= EndTime.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ActivityID.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ActivityID);
+      }
+      if (ConferenceID.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ConferenceID);
+      }
+      if (ActivityTypeID.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(ActivityTypeID);
+      }
+      if (TimeLength.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(TimeLength);
+      }
+      if (Sort != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(Sort);
+      }
+      if (StartDate.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(StartDate);
+      }
+      if (translation_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(Translation);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(ModifiedOn);
+      }
+      if (ModifiedBy.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(ModifiedBy);
+      }
+      if (StartTime.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(StartTime);
+      }
+      if (EndTime.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(EndTime);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ActivityID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActivityID);
+      }
+      if (ConferenceID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceID);
+      }
+      if (ActivityTypeID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActivityTypeID);
+      }
+      if (TimeLength.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TimeLength);
+      }
+      if (Sort != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Sort);
+      }
+      if (StartDate.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(StartDate);
+      }
+      if (translation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Translation);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifiedOn);
+      }
+      if (ModifiedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifiedBy);
+      }
+      if (StartTime.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(StartTime);
+      }
+      if (EndTime.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(EndTime);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewActivityStruct1 other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ActivityID.Length != 0) {
+        ActivityID = other.ActivityID;
+      }
+      if (other.ConferenceID.Length != 0) {
+        ConferenceID = other.ConferenceID;
+      }
+      if (other.ActivityTypeID.Length != 0) {
+        ActivityTypeID = other.ActivityTypeID;
+      }
+      if (other.TimeLength.Length != 0) {
+        TimeLength = other.TimeLength;
+      }
+      if (other.Sort != 0) {
+        Sort = other.Sort;
+      }
+      if (other.StartDate.Length != 0) {
+        StartDate = other.StartDate;
+      }
+      if (other.translation_ != null) {
+        if (translation_ == null) {
+          translation_ = new global::GrpcConferenceContractService.Translation();
+        }
+        Translation.MergeFrom(other.Translation);
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModifiedOn.Length != 0) {
+        ModifiedOn = other.ModifiedOn;
+      }
+      if (other.ModifiedBy.Length != 0) {
+        ModifiedBy = other.ModifiedBy;
+      }
+      if (other.StartTime.Length != 0) {
+        StartTime = other.StartTime;
+      }
+      if (other.EndTime.Length != 0) {
+        EndTime = other.EndTime;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ActivityID = input.ReadString();
+            break;
+          }
+          case 18: {
+            ConferenceID = input.ReadString();
+            break;
+          }
+          case 26: {
+            ActivityTypeID = input.ReadString();
+            break;
+          }
+          case 34: {
+            TimeLength = input.ReadString();
+            break;
+          }
+          case 40: {
+            Sort = input.ReadInt32();
+            break;
+          }
+          case 50: {
+            StartDate = input.ReadString();
+            break;
+          }
+          case 58: {
+            if (translation_ == null) {
+              translation_ = new global::GrpcConferenceContractService.Translation();
+            }
+            input.ReadMessage(translation_);
+            break;
+          }
+          case 66: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 74: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 82: {
+            ModifiedOn = input.ReadString();
+            break;
+          }
+          case 90: {
+            ModifiedBy = input.ReadString();
+            break;
+          }
+          case 98: {
+            StartTime = input.ReadString();
+            break;
+          }
+          case 106: {
+            EndTime = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewTalkStruct : pb::IMessage<NewTalkStruct> {
+    private static readonly pb::MessageParser<NewTalkStruct> _parser = new pb::MessageParser<NewTalkStruct>(() => new NewTalkStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewTalkStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[111]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewTalkStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewTalkStruct(NewTalkStruct other) : this() {
+      talkID_ = other.talkID_;
+      activityID_ = other.activityID_;
+      talkTypeID_ = other.talkTypeID_;
+      cFTopicPK_ = other.cFTopicPK_;
+      Translation = other.translation_ != null ? other.Translation.Clone() : null;
+      createdOn_ = other.createdOn_;
+      createdBy_ = other.createdBy_;
+      modifiedOn_ = other.modifiedOn_;
+      modifiedBy_ = other.modifiedBy_;
+      startDate_ = other.startDate_;
+      timeLength_ = other.timeLength_;
+      sort_ = other.sort_;
+      startTime_ = other.startTime_;
+      endTime_ = other.endTime_;
+      cFTopicName_ = other.cFTopicName_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewTalkStruct Clone() {
+      return new NewTalkStruct(this);
+    }
+
+    /// <summary>Field number for the "TalkID" field.</summary>
+    public const int TalkIDFieldNumber = 1;
+    private string talkID_ = "";
+    /// <summary>
+    ///板块id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string TalkID {
+      get { return talkID_; }
+      set {
+        talkID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ActivityID" field.</summary>
+    public const int ActivityIDFieldNumber = 2;
+    private string activityID_ = "";
+    /// <summary>
+    ///活动id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ActivityID {
+      get { return activityID_; }
+      set {
+        activityID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "TalkTypeID" field.</summary>
+    public const int TalkTypeIDFieldNumber = 3;
+    private string talkTypeID_ = "";
+    /// <summary>
+    ///板块类型id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string TalkTypeID {
+      get { return talkTypeID_; }
+      set {
+        talkTypeID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CFTopicPK" field.</summary>
+    public const int CFTopicPKFieldNumber = 4;
+    private string cFTopicPK_ = "";
+    /// <summary>
+    ///议题id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CFTopicPK {
+      get { return cFTopicPK_; }
+      set {
+        cFTopicPK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Translation" field.</summary>
+    public const int TranslationFieldNumber = 6;
+    private global::GrpcConferenceContractService.Translation translation_;
+    /// <summary>
+    ///板块名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.Translation Translation {
+      get { return translation_; }
+      set {
+        translation_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CreatedOn" field.</summary>
+    public const int CreatedOnFieldNumber = 7;
+    private string createdOn_ = "";
+    /// <summary>
+    ///创建时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedBy" field.</summary>
+    public const int CreatedByFieldNumber = 8;
+    private string createdBy_ = "";
+    /// <summary>
+    ///创建人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModifiedOn" field.</summary>
+    public const int ModifiedOnFieldNumber = 9;
+    private string modifiedOn_ = "";
+    /// <summary>
+    ///修改时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiedOn {
+      get { return modifiedOn_; }
+      set {
+        modifiedOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModifiedBy" field.</summary>
+    public const int ModifiedByFieldNumber = 10;
+    private string modifiedBy_ = "";
+    /// <summary>
+    ///修改人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiedBy {
+      get { return modifiedBy_; }
+      set {
+        modifiedBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "StartDate" field.</summary>
+    public const int StartDateFieldNumber = 11;
+    private string startDate_ = "";
+    /// <summary>
+    ///开始日期
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string StartDate {
+      get { return startDate_; }
+      set {
+        startDate_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "TimeLength" field.</summary>
+    public const int TimeLengthFieldNumber = 12;
+    private string timeLength_ = "";
+    /// <summary>
+    ///时长
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string TimeLength {
+      get { return timeLength_; }
+      set {
+        timeLength_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Sort" field.</summary>
+    public const int SortFieldNumber = 13;
+    private int sort_;
+    /// <summary>
+    ///排序
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Sort {
+      get { return sort_; }
+      set {
+        sort_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "StartTime" field.</summary>
+    public const int StartTimeFieldNumber = 14;
+    private string startTime_ = "";
+    /// <summary>
+    ///开始时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string StartTime {
+      get { return startTime_; }
+      set {
+        startTime_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "EndTime" field.</summary>
+    public const int EndTimeFieldNumber = 15;
+    private string endTime_ = "";
+    /// <summary>
+    ///结束时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string EndTime {
+      get { return endTime_; }
+      set {
+        endTime_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CFTopicName" field.</summary>
+    public const int CFTopicNameFieldNumber = 16;
+    private string cFTopicName_ = "";
+    /// <summary>
+    ///议题名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CFTopicName {
+      get { return cFTopicName_; }
+      set {
+        cFTopicName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewTalkStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewTalkStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (TalkID != other.TalkID) return false;
+      if (ActivityID != other.ActivityID) return false;
+      if (TalkTypeID != other.TalkTypeID) return false;
+      if (CFTopicPK != other.CFTopicPK) return false;
+      if (!object.Equals(Translation, other.Translation)) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModifiedOn != other.ModifiedOn) return false;
+      if (ModifiedBy != other.ModifiedBy) return false;
+      if (StartDate != other.StartDate) return false;
+      if (TimeLength != other.TimeLength) return false;
+      if (Sort != other.Sort) return false;
+      if (StartTime != other.StartTime) return false;
+      if (EndTime != other.EndTime) return false;
+      if (CFTopicName != other.CFTopicName) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (TalkID.Length != 0) hash ^= TalkID.GetHashCode();
+      if (ActivityID.Length != 0) hash ^= ActivityID.GetHashCode();
+      if (TalkTypeID.Length != 0) hash ^= TalkTypeID.GetHashCode();
+      if (CFTopicPK.Length != 0) hash ^= CFTopicPK.GetHashCode();
+      if (translation_ != null) hash ^= Translation.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModifiedOn.Length != 0) hash ^= ModifiedOn.GetHashCode();
+      if (ModifiedBy.Length != 0) hash ^= ModifiedBy.GetHashCode();
+      if (StartDate.Length != 0) hash ^= StartDate.GetHashCode();
+      if (TimeLength.Length != 0) hash ^= TimeLength.GetHashCode();
+      if (Sort != 0) hash ^= Sort.GetHashCode();
+      if (StartTime.Length != 0) hash ^= StartTime.GetHashCode();
+      if (EndTime.Length != 0) hash ^= EndTime.GetHashCode();
+      if (CFTopicName.Length != 0) hash ^= CFTopicName.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (TalkID.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(TalkID);
+      }
+      if (ActivityID.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ActivityID);
+      }
+      if (TalkTypeID.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(TalkTypeID);
+      }
+      if (CFTopicPK.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(CFTopicPK);
+      }
+      if (translation_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(Translation);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(ModifiedOn);
+      }
+      if (ModifiedBy.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(ModifiedBy);
+      }
+      if (StartDate.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(StartDate);
+      }
+      if (TimeLength.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(TimeLength);
+      }
+      if (Sort != 0) {
+        output.WriteRawTag(104);
+        output.WriteInt32(Sort);
+      }
+      if (StartTime.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(StartTime);
+      }
+      if (EndTime.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(EndTime);
+      }
+      if (CFTopicName.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(CFTopicName);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (TalkID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TalkID);
+      }
+      if (ActivityID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActivityID);
+      }
+      if (TalkTypeID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TalkTypeID);
+      }
+      if (CFTopicPK.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CFTopicPK);
+      }
+      if (translation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Translation);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModifiedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifiedOn);
+      }
+      if (ModifiedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModifiedBy);
+      }
+      if (StartDate.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(StartDate);
+      }
+      if (TimeLength.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TimeLength);
+      }
+      if (Sort != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Sort);
+      }
+      if (StartTime.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(StartTime);
+      }
+      if (EndTime.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(EndTime);
+      }
+      if (CFTopicName.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CFTopicName);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewTalkStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.TalkID.Length != 0) {
+        TalkID = other.TalkID;
+      }
+      if (other.ActivityID.Length != 0) {
+        ActivityID = other.ActivityID;
+      }
+      if (other.TalkTypeID.Length != 0) {
+        TalkTypeID = other.TalkTypeID;
+      }
+      if (other.CFTopicPK.Length != 0) {
+        CFTopicPK = other.CFTopicPK;
+      }
+      if (other.translation_ != null) {
+        if (translation_ == null) {
+          translation_ = new global::GrpcConferenceContractService.Translation();
+        }
+        Translation.MergeFrom(other.Translation);
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModifiedOn.Length != 0) {
+        ModifiedOn = other.ModifiedOn;
+      }
+      if (other.ModifiedBy.Length != 0) {
+        ModifiedBy = other.ModifiedBy;
+      }
+      if (other.StartDate.Length != 0) {
+        StartDate = other.StartDate;
+      }
+      if (other.TimeLength.Length != 0) {
+        TimeLength = other.TimeLength;
+      }
+      if (other.Sort != 0) {
+        Sort = other.Sort;
+      }
+      if (other.StartTime.Length != 0) {
+        StartTime = other.StartTime;
+      }
+      if (other.EndTime.Length != 0) {
+        EndTime = other.EndTime;
+      }
+      if (other.CFTopicName.Length != 0) {
+        CFTopicName = other.CFTopicName;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            TalkID = input.ReadString();
+            break;
+          }
+          case 18: {
+            ActivityID = input.ReadString();
+            break;
+          }
+          case 26: {
+            TalkTypeID = input.ReadString();
+            break;
+          }
+          case 34: {
+            CFTopicPK = input.ReadString();
+            break;
+          }
+          case 50: {
+            if (translation_ == null) {
+              translation_ = new global::GrpcConferenceContractService.Translation();
+            }
+            input.ReadMessage(translation_);
+            break;
+          }
+          case 58: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 66: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 74: {
+            ModifiedOn = input.ReadString();
+            break;
+          }
+          case 82: {
+            ModifiedBy = input.ReadString();
+            break;
+          }
+          case 90: {
+            StartDate = input.ReadString();
+            break;
+          }
+          case 98: {
+            TimeLength = input.ReadString();
+            break;
+          }
+          case 104: {
+            Sort = input.ReadInt32();
+            break;
+          }
+          case 114: {
+            StartTime = input.ReadString();
+            break;
+          }
+          case 122: {
+            EndTime = input.ReadString();
+            break;
+          }
+          case 130: {
+            CFTopicName = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewParticipantInfoStruct : pb::IMessage<NewParticipantInfoStruct> {
+    private static readonly pb::MessageParser<NewParticipantInfoStruct> _parser = new pb::MessageParser<NewParticipantInfoStruct>(() => new NewParticipantInfoStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewParticipantInfoStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[112]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewParticipantInfoStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewParticipantInfoStruct(NewParticipantInfoStruct other) : this() {
+      participantNameTranslation_ = other.participantNameTranslation_;
+      companyTranslation_ = other.companyTranslation_;
+      jobTranslation_ = other.jobTranslation_;
+      countryTranslation_ = other.countryTranslation_;
+      appellationTranslation_ = other.appellationTranslation_;
+      participantTypeTranslation_ = other.participantTypeTranslation_;
+      participantID_ = other.participantID_;
+      participantTypeID_ = other.participantTypeID_;
+      eMail_ = other.eMail_;
+      mobile_ = other.mobile_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewParticipantInfoStruct Clone() {
+      return new NewParticipantInfoStruct(this);
+    }
+
+    /// <summary>Field number for the "ParticipantNameTranslation" field.</summary>
+    public const int ParticipantNameTranslationFieldNumber = 1;
+    private string participantNameTranslation_ = "";
+    /// <summary>
+    ///嘉宾名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ParticipantNameTranslation {
+      get { return participantNameTranslation_; }
+      set {
+        participantNameTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CompanyTranslation" field.</summary>
+    public const int CompanyTranslationFieldNumber = 2;
+    private string companyTranslation_ = "";
+    /// <summary>
+    ///公司名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyTranslation {
+      get { return companyTranslation_; }
+      set {
+        companyTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "JobTranslation" field.</summary>
+    public const int JobTranslationFieldNumber = 3;
+    private string jobTranslation_ = "";
+    /// <summary>
+    ///职称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string JobTranslation {
+      get { return jobTranslation_; }
+      set {
+        jobTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CountryTranslation" field.</summary>
+    public const int CountryTranslationFieldNumber = 4;
+    private string countryTranslation_ = "";
+    /// <summary>
+    ///国家
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CountryTranslation {
+      get { return countryTranslation_; }
+      set {
+        countryTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "AppellationTranslation" field.</summary>
+    public const int AppellationTranslationFieldNumber = 5;
+    private string appellationTranslation_ = "";
+    /// <summary>
+    ///称谓
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AppellationTranslation {
+      get { return appellationTranslation_; }
+      set {
+        appellationTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ParticipantTypeTranslation" field.</summary>
+    public const int ParticipantTypeTranslationFieldNumber = 6;
+    private string participantTypeTranslation_ = "";
+    /// <summary>
+    ///嘉宾类型
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ParticipantTypeTranslation {
+      get { return participantTypeTranslation_; }
+      set {
+        participantTypeTranslation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ParticipantID" field.</summary>
+    public const int ParticipantIDFieldNumber = 7;
+    private string participantID_ = "";
+    /// <summary>
+    ///嘉宾id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ParticipantID {
+      get { return participantID_; }
+      set {
+        participantID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ParticipantTypeID" field.</summary>
+    public const int ParticipantTypeIDFieldNumber = 8;
+    private string participantTypeID_ = "";
+    /// <summary>
+    ///嘉宾类型id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ParticipantTypeID {
+      get { return participantTypeID_; }
+      set {
+        participantTypeID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "EMail" field.</summary>
+    public const int EMailFieldNumber = 9;
+    private string eMail_ = "";
+    /// <summary>
+    ///邮箱
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string EMail {
+      get { return eMail_; }
+      set {
+        eMail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Mobile" field.</summary>
+    public const int MobileFieldNumber = 10;
+    private string mobile_ = "";
+    /// <summary>
+    ///手机
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Mobile {
+      get { return mobile_; }
+      set {
+        mobile_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewParticipantInfoStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewParticipantInfoStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ParticipantNameTranslation != other.ParticipantNameTranslation) return false;
+      if (CompanyTranslation != other.CompanyTranslation) return false;
+      if (JobTranslation != other.JobTranslation) return false;
+      if (CountryTranslation != other.CountryTranslation) return false;
+      if (AppellationTranslation != other.AppellationTranslation) return false;
+      if (ParticipantTypeTranslation != other.ParticipantTypeTranslation) return false;
+      if (ParticipantID != other.ParticipantID) return false;
+      if (ParticipantTypeID != other.ParticipantTypeID) return false;
+      if (EMail != other.EMail) return false;
+      if (Mobile != other.Mobile) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ParticipantNameTranslation.Length != 0) hash ^= ParticipantNameTranslation.GetHashCode();
+      if (CompanyTranslation.Length != 0) hash ^= CompanyTranslation.GetHashCode();
+      if (JobTranslation.Length != 0) hash ^= JobTranslation.GetHashCode();
+      if (CountryTranslation.Length != 0) hash ^= CountryTranslation.GetHashCode();
+      if (AppellationTranslation.Length != 0) hash ^= AppellationTranslation.GetHashCode();
+      if (ParticipantTypeTranslation.Length != 0) hash ^= ParticipantTypeTranslation.GetHashCode();
+      if (ParticipantID.Length != 0) hash ^= ParticipantID.GetHashCode();
+      if (ParticipantTypeID.Length != 0) hash ^= ParticipantTypeID.GetHashCode();
+      if (EMail.Length != 0) hash ^= EMail.GetHashCode();
+      if (Mobile.Length != 0) hash ^= Mobile.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ParticipantNameTranslation.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ParticipantNameTranslation);
+      }
+      if (CompanyTranslation.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(CompanyTranslation);
+      }
+      if (JobTranslation.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(JobTranslation);
+      }
+      if (CountryTranslation.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(CountryTranslation);
+      }
+      if (AppellationTranslation.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(AppellationTranslation);
+      }
+      if (ParticipantTypeTranslation.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(ParticipantTypeTranslation);
+      }
+      if (ParticipantID.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(ParticipantID);
+      }
+      if (ParticipantTypeID.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(ParticipantTypeID);
+      }
+      if (EMail.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(EMail);
+      }
+      if (Mobile.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(Mobile);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ParticipantNameTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ParticipantNameTranslation);
+      }
+      if (CompanyTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyTranslation);
+      }
+      if (JobTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(JobTranslation);
+      }
+      if (CountryTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CountryTranslation);
+      }
+      if (AppellationTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AppellationTranslation);
+      }
+      if (ParticipantTypeTranslation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ParticipantTypeTranslation);
+      }
+      if (ParticipantID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ParticipantID);
+      }
+      if (ParticipantTypeID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ParticipantTypeID);
+      }
+      if (EMail.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(EMail);
+      }
+      if (Mobile.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Mobile);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewParticipantInfoStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ParticipantNameTranslation.Length != 0) {
+        ParticipantNameTranslation = other.ParticipantNameTranslation;
+      }
+      if (other.CompanyTranslation.Length != 0) {
+        CompanyTranslation = other.CompanyTranslation;
+      }
+      if (other.JobTranslation.Length != 0) {
+        JobTranslation = other.JobTranslation;
+      }
+      if (other.CountryTranslation.Length != 0) {
+        CountryTranslation = other.CountryTranslation;
+      }
+      if (other.AppellationTranslation.Length != 0) {
+        AppellationTranslation = other.AppellationTranslation;
+      }
+      if (other.ParticipantTypeTranslation.Length != 0) {
+        ParticipantTypeTranslation = other.ParticipantTypeTranslation;
+      }
+      if (other.ParticipantID.Length != 0) {
+        ParticipantID = other.ParticipantID;
+      }
+      if (other.ParticipantTypeID.Length != 0) {
+        ParticipantTypeID = other.ParticipantTypeID;
+      }
+      if (other.EMail.Length != 0) {
+        EMail = other.EMail;
+      }
+      if (other.Mobile.Length != 0) {
+        Mobile = other.Mobile;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ParticipantNameTranslation = input.ReadString();
+            break;
+          }
+          case 18: {
+            CompanyTranslation = input.ReadString();
+            break;
+          }
+          case 26: {
+            JobTranslation = input.ReadString();
+            break;
+          }
+          case 34: {
+            CountryTranslation = input.ReadString();
+            break;
+          }
+          case 42: {
+            AppellationTranslation = input.ReadString();
+            break;
+          }
+          case 50: {
+            ParticipantTypeTranslation = input.ReadString();
+            break;
+          }
+          case 58: {
+            ParticipantID = input.ReadString();
+            break;
+          }
+          case 66: {
+            ParticipantTypeID = input.ReadString();
+            break;
+          }
+          case 74: {
+            EMail = input.ReadString();
+            break;
+          }
+          case 82: {
+            Mobile = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class new_GetCompanyNoticeOfReportByContractNumberResponse : pb::IMessage<new_GetCompanyNoticeOfReportByContractNumberResponse> {
+    private static readonly pb::MessageParser<new_GetCompanyNoticeOfReportByContractNumberResponse> _parser = new pb::MessageParser<new_GetCompanyNoticeOfReportByContractNumberResponse>(() => new new_GetCompanyNoticeOfReportByContractNumberResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetCompanyNoticeOfReportByContractNumberResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[113]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetCompanyNoticeOfReportByContractNumberResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetCompanyNoticeOfReportByContractNumberResponse(new_GetCompanyNoticeOfReportByContractNumberResponse other) : this() {
+      conferenceStructListdata_ = other.conferenceStructListdata_.Clone();
+      cFAddressStructListdata_ = other.cFAddressStructListdata_.Clone();
+      applyConferenceStructListdata_ = other.applyConferenceStructListdata_.Clone();
+      companyContractStructListdata_ = other.companyContractStructListdata_.Clone();
+      companyServicePackStructListdata_ = other.companyServicePackStructListdata_.Clone();
+      servicepackListdata_ = other.servicepackListdata_.Clone();
+      activityListdata_ = other.activityListdata_.Clone();
+      companyStructListdata_ = other.companyStructListdata_.Clone();
+      memberStructListdata_ = other.memberStructListdata_.Clone();
+      participantStructListdata_ = other.participantStructListdata_.Clone();
+      activityStructList_ = other.activityStructList_.Clone();
+      participantInfoStructList_ = other.participantInfoStructList_.Clone();
+      talkStructList_ = other.talkStructList_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetCompanyNoticeOfReportByContractNumberResponse Clone() {
+      return new new_GetCompanyNoticeOfReportByContractNumberResponse(this);
+    }
+
+    /// <summary>Field number for the "ConferenceStructListdata" field.</summary>
+    public const int ConferenceStructListdataFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewConferenceStruct> _repeated_conferenceStructListdata_codec
+        = pb::FieldCodec.ForMessage(10, global::GrpcConferenceContractService.NewConferenceStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewConferenceStruct> conferenceStructListdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewConferenceStruct>();
+    /// <summary>
+    ///会议集合
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewConferenceStruct> ConferenceStructListdata {
+      get { return conferenceStructListdata_; }
+    }
+
+    /// <summary>Field number for the "CFAddressStructListdata" field.</summary>
+    public const int CFAddressStructListdataFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewCFAddressStruct> _repeated_cFAddressStructListdata_codec
+        = pb::FieldCodec.ForMessage(18, global::GrpcConferenceContractService.NewCFAddressStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewCFAddressStruct> cFAddressStructListdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewCFAddressStruct>();
+    /// <summary>
+    ///会议地点集合
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewCFAddressStruct> CFAddressStructListdata {
+      get { return cFAddressStructListdata_; }
+    }
+
+    /// <summary>Field number for the "ApplyConferenceStructListdata" field.</summary>
+    public const int ApplyConferenceStructListdataFieldNumber = 3;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewApplyConferenceStruct> _repeated_applyConferenceStructListdata_codec
+        = pb::FieldCodec.ForMessage(26, global::GrpcConferenceContractService.NewApplyConferenceStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewApplyConferenceStruct> applyConferenceStructListdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewApplyConferenceStruct>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewApplyConferenceStruct> ApplyConferenceStructListdata {
+      get { return applyConferenceStructListdata_; }
+    }
+
+    /// <summary>Field number for the "CompanyContractStructListdata" field.</summary>
+    public const int CompanyContractStructListdataFieldNumber = 4;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewCompanyContractStruct> _repeated_companyContractStructListdata_codec
+        = pb::FieldCodec.ForMessage(34, global::GrpcConferenceContractService.NewCompanyContractStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewCompanyContractStruct> companyContractStructListdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewCompanyContractStruct>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewCompanyContractStruct> CompanyContractStructListdata {
+      get { return companyContractStructListdata_; }
+    }
+
+    /// <summary>Field number for the "CompanyServicePackStructListdata" field.</summary>
+    public const int CompanyServicePackStructListdataFieldNumber = 5;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewCompanyServicePackStruct> _repeated_companyServicePackStructListdata_codec
+        = pb::FieldCodec.ForMessage(42, global::GrpcConferenceContractService.NewCompanyServicePackStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewCompanyServicePackStruct> companyServicePackStructListdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewCompanyServicePackStruct>();
+    /// <summary>
+    ///公司套餐对象
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewCompanyServicePackStruct> CompanyServicePackStructListdata {
+      get { return companyServicePackStructListdata_; }
+    }
+
+    /// <summary>Field number for the "servicepack_listdata" field.</summary>
+    public const int ServicepackListdataFieldNumber = 6;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewServicePackStruct> _repeated_servicepackListdata_codec
+        = pb::FieldCodec.ForMessage(50, global::GrpcConferenceContractService.NewServicePackStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewServicePackStruct> servicepackListdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewServicePackStruct>();
+    /// <summary>
+    ///子套餐列表
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewServicePackStruct> ServicepackListdata {
+      get { return servicepackListdata_; }
+    }
+
+    /// <summary>Field number for the "activity_listdata" field.</summary>
+    public const int ActivityListdataFieldNumber = 7;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewActivityStruct1> _repeated_activityListdata_codec
+        = pb::FieldCodec.ForMessage(58, global::GrpcConferenceContractService.NewActivityStruct1.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewActivityStruct1> activityListdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewActivityStruct1>();
+    /// <summary>
+    ///Activity列表
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewActivityStruct1> ActivityListdata {
+      get { return activityListdata_; }
+    }
+
+    /// <summary>Field number for the "CompanyStructListdata" field.</summary>
+    public const int CompanyStructListdataFieldNumber = 8;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewCompanyStruct> _repeated_companyStructListdata_codec
+        = pb::FieldCodec.ForMessage(66, global::GrpcConferenceContractService.NewCompanyStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewCompanyStruct> companyStructListdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewCompanyStruct>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewCompanyStruct> CompanyStructListdata {
+      get { return companyStructListdata_; }
+    }
+
+    /// <summary>Field number for the "MemberStructListdata" field.</summary>
+    public const int MemberStructListdataFieldNumber = 9;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewMemberStruct> _repeated_memberStructListdata_codec
+        = pb::FieldCodec.ForMessage(74, global::GrpcConferenceContractService.NewMemberStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewMemberStruct> memberStructListdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewMemberStruct>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewMemberStruct> MemberStructListdata {
+      get { return memberStructListdata_; }
+    }
+
+    /// <summary>Field number for the "ParticipantStructListdata" field.</summary>
+    public const int ParticipantStructListdataFieldNumber = 10;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewParticipantStruct> _repeated_participantStructListdata_codec
+        = pb::FieldCodec.ForMessage(82, global::GrpcConferenceContractService.NewParticipantStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewParticipantStruct> participantStructListdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewParticipantStruct>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewParticipantStruct> ParticipantStructListdata {
+      get { return participantStructListdata_; }
+    }
+
+    /// <summary>Field number for the "ActivityStructList" field.</summary>
+    public const int ActivityStructListFieldNumber = 11;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewActivityStruct> _repeated_activityStructList_codec
+        = pb::FieldCodec.ForMessage(90, global::GrpcConferenceContractService.NewActivityStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewActivityStruct> activityStructList_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewActivityStruct>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewActivityStruct> ActivityStructList {
+      get { return activityStructList_; }
+    }
+
+    /// <summary>Field number for the "ParticipantInfoStructList" field.</summary>
+    public const int ParticipantInfoStructListFieldNumber = 12;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewParticipantInfoStruct> _repeated_participantInfoStructList_codec
+        = pb::FieldCodec.ForMessage(98, global::GrpcConferenceContractService.NewParticipantInfoStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewParticipantInfoStruct> participantInfoStructList_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewParticipantInfoStruct>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewParticipantInfoStruct> ParticipantInfoStructList {
+      get { return participantInfoStructList_; }
+    }
+
+    /// <summary>Field number for the "TalkStructList" field.</summary>
+    public const int TalkStructListFieldNumber = 13;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.NewTalkStruct> _repeated_talkStructList_codec
+        = pb::FieldCodec.ForMessage(106, global::GrpcConferenceContractService.NewTalkStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.NewTalkStruct> talkStructList_ = new pbc::RepeatedField<global::GrpcConferenceContractService.NewTalkStruct>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.NewTalkStruct> TalkStructList {
+      get { return talkStructList_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetCompanyNoticeOfReportByContractNumberResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetCompanyNoticeOfReportByContractNumberResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!conferenceStructListdata_.Equals(other.conferenceStructListdata_)) return false;
+      if(!cFAddressStructListdata_.Equals(other.cFAddressStructListdata_)) return false;
+      if(!applyConferenceStructListdata_.Equals(other.applyConferenceStructListdata_)) return false;
+      if(!companyContractStructListdata_.Equals(other.companyContractStructListdata_)) return false;
+      if(!companyServicePackStructListdata_.Equals(other.companyServicePackStructListdata_)) return false;
+      if(!servicepackListdata_.Equals(other.servicepackListdata_)) return false;
+      if(!activityListdata_.Equals(other.activityListdata_)) return false;
+      if(!companyStructListdata_.Equals(other.companyStructListdata_)) return false;
+      if(!memberStructListdata_.Equals(other.memberStructListdata_)) return false;
+      if(!participantStructListdata_.Equals(other.participantStructListdata_)) return false;
+      if(!activityStructList_.Equals(other.activityStructList_)) return false;
+      if(!participantInfoStructList_.Equals(other.participantInfoStructList_)) return false;
+      if(!talkStructList_.Equals(other.talkStructList_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= conferenceStructListdata_.GetHashCode();
+      hash ^= cFAddressStructListdata_.GetHashCode();
+      hash ^= applyConferenceStructListdata_.GetHashCode();
+      hash ^= companyContractStructListdata_.GetHashCode();
+      hash ^= companyServicePackStructListdata_.GetHashCode();
+      hash ^= servicepackListdata_.GetHashCode();
+      hash ^= activityListdata_.GetHashCode();
+      hash ^= companyStructListdata_.GetHashCode();
+      hash ^= memberStructListdata_.GetHashCode();
+      hash ^= participantStructListdata_.GetHashCode();
+      hash ^= activityStructList_.GetHashCode();
+      hash ^= participantInfoStructList_.GetHashCode();
+      hash ^= talkStructList_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      conferenceStructListdata_.WriteTo(output, _repeated_conferenceStructListdata_codec);
+      cFAddressStructListdata_.WriteTo(output, _repeated_cFAddressStructListdata_codec);
+      applyConferenceStructListdata_.WriteTo(output, _repeated_applyConferenceStructListdata_codec);
+      companyContractStructListdata_.WriteTo(output, _repeated_companyContractStructListdata_codec);
+      companyServicePackStructListdata_.WriteTo(output, _repeated_companyServicePackStructListdata_codec);
+      servicepackListdata_.WriteTo(output, _repeated_servicepackListdata_codec);
+      activityListdata_.WriteTo(output, _repeated_activityListdata_codec);
+      companyStructListdata_.WriteTo(output, _repeated_companyStructListdata_codec);
+      memberStructListdata_.WriteTo(output, _repeated_memberStructListdata_codec);
+      participantStructListdata_.WriteTo(output, _repeated_participantStructListdata_codec);
+      activityStructList_.WriteTo(output, _repeated_activityStructList_codec);
+      participantInfoStructList_.WriteTo(output, _repeated_participantInfoStructList_codec);
+      talkStructList_.WriteTo(output, _repeated_talkStructList_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += conferenceStructListdata_.CalculateSize(_repeated_conferenceStructListdata_codec);
+      size += cFAddressStructListdata_.CalculateSize(_repeated_cFAddressStructListdata_codec);
+      size += applyConferenceStructListdata_.CalculateSize(_repeated_applyConferenceStructListdata_codec);
+      size += companyContractStructListdata_.CalculateSize(_repeated_companyContractStructListdata_codec);
+      size += companyServicePackStructListdata_.CalculateSize(_repeated_companyServicePackStructListdata_codec);
+      size += servicepackListdata_.CalculateSize(_repeated_servicepackListdata_codec);
+      size += activityListdata_.CalculateSize(_repeated_activityListdata_codec);
+      size += companyStructListdata_.CalculateSize(_repeated_companyStructListdata_codec);
+      size += memberStructListdata_.CalculateSize(_repeated_memberStructListdata_codec);
+      size += participantStructListdata_.CalculateSize(_repeated_participantStructListdata_codec);
+      size += activityStructList_.CalculateSize(_repeated_activityStructList_codec);
+      size += participantInfoStructList_.CalculateSize(_repeated_participantInfoStructList_codec);
+      size += talkStructList_.CalculateSize(_repeated_talkStructList_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetCompanyNoticeOfReportByContractNumberResponse other) {
+      if (other == null) {
+        return;
+      }
+      conferenceStructListdata_.Add(other.conferenceStructListdata_);
+      cFAddressStructListdata_.Add(other.cFAddressStructListdata_);
+      applyConferenceStructListdata_.Add(other.applyConferenceStructListdata_);
+      companyContractStructListdata_.Add(other.companyContractStructListdata_);
+      companyServicePackStructListdata_.Add(other.companyServicePackStructListdata_);
+      servicepackListdata_.Add(other.servicepackListdata_);
+      activityListdata_.Add(other.activityListdata_);
+      companyStructListdata_.Add(other.companyStructListdata_);
+      memberStructListdata_.Add(other.memberStructListdata_);
+      participantStructListdata_.Add(other.participantStructListdata_);
+      activityStructList_.Add(other.activityStructList_);
+      participantInfoStructList_.Add(other.participantInfoStructList_);
+      talkStructList_.Add(other.talkStructList_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            conferenceStructListdata_.AddEntriesFrom(input, _repeated_conferenceStructListdata_codec);
+            break;
+          }
+          case 18: {
+            cFAddressStructListdata_.AddEntriesFrom(input, _repeated_cFAddressStructListdata_codec);
+            break;
+          }
+          case 26: {
+            applyConferenceStructListdata_.AddEntriesFrom(input, _repeated_applyConferenceStructListdata_codec);
+            break;
+          }
+          case 34: {
+            companyContractStructListdata_.AddEntriesFrom(input, _repeated_companyContractStructListdata_codec);
+            break;
+          }
+          case 42: {
+            companyServicePackStructListdata_.AddEntriesFrom(input, _repeated_companyServicePackStructListdata_codec);
+            break;
+          }
+          case 50: {
+            servicepackListdata_.AddEntriesFrom(input, _repeated_servicepackListdata_codec);
+            break;
+          }
+          case 58: {
+            activityListdata_.AddEntriesFrom(input, _repeated_activityListdata_codec);
+            break;
+          }
+          case 66: {
+            companyStructListdata_.AddEntriesFrom(input, _repeated_companyStructListdata_codec);
+            break;
+          }
+          case 74: {
+            memberStructListdata_.AddEntriesFrom(input, _repeated_memberStructListdata_codec);
+            break;
+          }
+          case 82: {
+            participantStructListdata_.AddEntriesFrom(input, _repeated_participantStructListdata_codec);
+            break;
+          }
+          case 90: {
+            activityStructList_.AddEntriesFrom(input, _repeated_activityStructList_codec);
+            break;
+          }
+          case 98: {
+            participantInfoStructList_.AddEntriesFrom(input, _repeated_participantInfoStructList_codec);
+            break;
+          }
+          case 106: {
+            talkStructList_.AddEntriesFrom(input, _repeated_talkStructList_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class new_GetPersonNoticeOfReportByContractNumberRequest : pb::IMessage<new_GetPersonNoticeOfReportByContractNumberRequest> {
+    private static readonly pb::MessageParser<new_GetPersonNoticeOfReportByContractNumberRequest> _parser = new pb::MessageParser<new_GetPersonNoticeOfReportByContractNumberRequest>(() => new new_GetPersonNoticeOfReportByContractNumberRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetPersonNoticeOfReportByContractNumberRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[114]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetPersonNoticeOfReportByContractNumberRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetPersonNoticeOfReportByContractNumberRequest(new_GetPersonNoticeOfReportByContractNumberRequest other) : this() {
+      personContractNumber_ = other.personContractNumber_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetPersonNoticeOfReportByContractNumberRequest Clone() {
+      return new new_GetPersonNoticeOfReportByContractNumberRequest(this);
+    }
+
+    /// <summary>Field number for the "personContractNumber" field.</summary>
+    public const int PersonContractNumberFieldNumber = 1;
+    private string personContractNumber_ = "";
+    /// <summary>
+    ///个人合同号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PersonContractNumber {
+      get { return personContractNumber_; }
+      set {
+        personContractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetPersonNoticeOfReportByContractNumberRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetPersonNoticeOfReportByContractNumberRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PersonContractNumber != other.PersonContractNumber) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (PersonContractNumber.Length != 0) hash ^= PersonContractNumber.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (PersonContractNumber.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(PersonContractNumber);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (PersonContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PersonContractNumber);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetPersonNoticeOfReportByContractNumberRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.PersonContractNumber.Length != 0) {
+        PersonContractNumber = other.PersonContractNumber;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            PersonContractNumber = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class new_GetPersonNoticeOfReportByContractNumberResponse : pb::IMessage<new_GetPersonNoticeOfReportByContractNumberResponse> {
+    private static readonly pb::MessageParser<new_GetPersonNoticeOfReportByContractNumberResponse> _parser = new pb::MessageParser<new_GetPersonNoticeOfReportByContractNumberResponse>(() => new new_GetPersonNoticeOfReportByContractNumberResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetPersonNoticeOfReportByContractNumberResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[115]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetPersonNoticeOfReportByContractNumberResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetPersonNoticeOfReportByContractNumberResponse(new_GetPersonNoticeOfReportByContractNumberResponse other) : this() {
+      contractNumber_ = other.contractNumber_;
+      name_ = other.name_;
+      companyName_ = other.companyName_;
+      servicePack_ = other.servicePack_;
+      fee_ = other.fee_;
+      total_ = other.total_;
+      activityName_ = other.activityName_;
+      activityVune_ = other.activityVune_;
+      activityTime_ = other.activityTime_;
+      owner_ = other.owner_;
+      ownerMobile_ = other.ownerMobile_;
+      ownerEmail_ = other.ownerEmail_;
+      ownerAddress_ = other.ownerAddress_;
+      createdBy_ = other.createdBy_;
+      createdOn_ = other.createdOn_;
+      modifiyBy_ = other.modifiyBy_;
+      modifyOn_ = other.modifyOn_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetPersonNoticeOfReportByContractNumberResponse Clone() {
+      return new new_GetPersonNoticeOfReportByContractNumberResponse(this);
+    }
+
+    /// <summary>Field number for the "contractNumber" field.</summary>
+    public const int ContractNumberFieldNumber = 1;
+    private string contractNumber_ = "";
+    /// <summary>
+    ///合同号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractNumber {
+      get { return contractNumber_; }
+      set {
+        contractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 2;
+    private string name_ = "";
+    /// <summary>
+    ///姓名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "companyName" field.</summary>
+    public const int CompanyNameFieldNumber = 3;
+    private string companyName_ = "";
+    /// <summary>
+    ///公司名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyName {
+      get { return companyName_; }
+      set {
+        companyName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "servicePack" field.</summary>
+    public const int ServicePackFieldNumber = 4;
+    private string servicePack_ = "";
+    /// <summary>
+    ///参会类型
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ServicePack {
+      get { return servicePack_; }
+      set {
+        servicePack_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "fee" field.</summary>
+    public const int FeeFieldNumber = 5;
+    private float fee_;
+    /// <summary>
+    ///费用
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Fee {
+      get { return fee_; }
+      set {
+        fee_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "total" field.</summary>
+    public const int TotalFieldNumber = 6;
+    private float total_;
+    /// <summary>
+    ///总金额
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Total {
+      get { return total_; }
+      set {
+        total_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "activityName" field.</summary>
+    public const int ActivityNameFieldNumber = 7;
+    private string activityName_ = "";
+    /// <summary>
+    ///活动名称
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ActivityName {
+      get { return activityName_; }
+      set {
+        activityName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "activityVune" field.</summary>
+    public const int ActivityVuneFieldNumber = 8;
+    private string activityVune_ = "";
+    /// <summary>
+    ///活动地点
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ActivityVune {
+      get { return activityVune_; }
+      set {
+        activityVune_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "activityTime" field.</summary>
+    public const int ActivityTimeFieldNumber = 9;
+    private string activityTime_ = "";
+    /// <summary>
+    ///活动时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ActivityTime {
+      get { return activityTime_; }
+      set {
+        activityTime_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "owner" field.</summary>
+    public const int OwnerFieldNumber = 10;
+    private string owner_ = "";
+    /// <summary>
+    ///业务员
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Owner {
+      get { return owner_; }
+      set {
+        owner_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ownerMobile" field.</summary>
+    public const int OwnerMobileFieldNumber = 11;
+    private string ownerMobile_ = "";
+    /// <summary>
+    ///业务员电话
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OwnerMobile {
+      get { return ownerMobile_; }
+      set {
+        ownerMobile_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ownerEmail" field.</summary>
+    public const int OwnerEmailFieldNumber = 12;
+    private string ownerEmail_ = "";
+    /// <summary>
+    ///业务员邮箱
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OwnerEmail {
+      get { return ownerEmail_; }
+      set {
+        ownerEmail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ownerAddress" field.</summary>
+    public const int OwnerAddressFieldNumber = 13;
+    private string ownerAddress_ = "";
+    /// <summary>
+    ///业务员地址
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OwnerAddress {
+      get { return ownerAddress_; }
+      set {
+        ownerAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "createdBy" field.</summary>
+    public const int CreatedByFieldNumber = 14;
+    private string createdBy_ = "";
+    /// <summary>
+    ///创建人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "createdOn" field.</summary>
+    public const int CreatedOnFieldNumber = 15;
+    private string createdOn_ = "";
+    /// <summary>
+    ///创建时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modifiyBy" field.</summary>
+    public const int ModifiyByFieldNumber = 16;
+    private string modifiyBy_ = "";
+    /// <summary>
+    ///修改人
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifiyBy {
+      get { return modifiyBy_; }
+      set {
+        modifiyBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modifyOn" field.</summary>
+    public const int ModifyOnFieldNumber = 17;
+    private string modifyOn_ = "";
+    /// <summary>
+    ///修改时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModifyOn {
+      get { return modifyOn_; }
+      set {
+        modifyOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetPersonNoticeOfReportByContractNumberResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetPersonNoticeOfReportByContractNumberResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ContractNumber != other.ContractNumber) return false;
+      if (Name != other.Name) return false;
+      if (CompanyName != other.CompanyName) return false;
+      if (ServicePack != other.ServicePack) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Fee, other.Fee)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Total, other.Total)) return false;
+      if (ActivityName != other.ActivityName) return false;
+      if (ActivityVune != other.ActivityVune) return false;
+      if (ActivityTime != other.ActivityTime) return false;
+      if (Owner != other.Owner) return false;
+      if (OwnerMobile != other.OwnerMobile) return false;
+      if (OwnerEmail != other.OwnerEmail) return false;
+      if (OwnerAddress != other.OwnerAddress) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (ModifiyBy != other.ModifiyBy) return false;
+      if (ModifyOn != other.ModifyOn) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ContractNumber.Length != 0) hash ^= ContractNumber.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (CompanyName.Length != 0) hash ^= CompanyName.GetHashCode();
+      if (ServicePack.Length != 0) hash ^= ServicePack.GetHashCode();
+      if (Fee != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Fee);
+      if (Total != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Total);
+      if (ActivityName.Length != 0) hash ^= ActivityName.GetHashCode();
+      if (ActivityVune.Length != 0) hash ^= ActivityVune.GetHashCode();
+      if (ActivityTime.Length != 0) hash ^= ActivityTime.GetHashCode();
+      if (Owner.Length != 0) hash ^= Owner.GetHashCode();
+      if (OwnerMobile.Length != 0) hash ^= OwnerMobile.GetHashCode();
+      if (OwnerEmail.Length != 0) hash ^= OwnerEmail.GetHashCode();
+      if (OwnerAddress.Length != 0) hash ^= OwnerAddress.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (ModifiyBy.Length != 0) hash ^= ModifiyBy.GetHashCode();
+      if (ModifyOn.Length != 0) hash ^= ModifyOn.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ContractNumber.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ContractNumber);
+      }
+      if (Name.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Name);
+      }
+      if (CompanyName.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(CompanyName);
+      }
+      if (ServicePack.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(ServicePack);
+      }
+      if (Fee != 0F) {
+        output.WriteRawTag(45);
+        output.WriteFloat(Fee);
+      }
+      if (Total != 0F) {
+        output.WriteRawTag(53);
+        output.WriteFloat(Total);
+      }
+      if (ActivityName.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(ActivityName);
+      }
+      if (ActivityVune.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(ActivityVune);
+      }
+      if (ActivityTime.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(ActivityTime);
+      }
+      if (Owner.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(Owner);
+      }
+      if (OwnerMobile.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(OwnerMobile);
+      }
+      if (OwnerEmail.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(OwnerEmail);
+      }
+      if (OwnerAddress.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(OwnerAddress);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(CreatedBy);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(CreatedOn);
+      }
+      if (ModifiyBy.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(ModifiyBy);
+      }
+      if (ModifyOn.Length != 0) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(ModifyOn);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractNumber);
+      }
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (CompanyName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyName);
+      }
+      if (ServicePack.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ServicePack);
+      }
+      if (Fee != 0F) {
+        size += 1 + 4;
+      }
+      if (Total != 0F) {
+        size += 1 + 4;
+      }
+      if (ActivityName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActivityName);
+      }
+      if (ActivityVune.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActivityVune);
+      }
+      if (ActivityTime.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActivityTime);
+      }
+      if (Owner.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Owner);
+      }
+      if (OwnerMobile.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OwnerMobile);
+      }
+      if (OwnerEmail.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OwnerEmail);
+      }
+      if (OwnerAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OwnerAddress);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (CreatedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (ModifiyBy.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModifiyBy);
+      }
+      if (ModifyOn.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ModifyOn);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetPersonNoticeOfReportByContractNumberResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ContractNumber.Length != 0) {
+        ContractNumber = other.ContractNumber;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.CompanyName.Length != 0) {
+        CompanyName = other.CompanyName;
+      }
+      if (other.ServicePack.Length != 0) {
+        ServicePack = other.ServicePack;
+      }
+      if (other.Fee != 0F) {
+        Fee = other.Fee;
+      }
+      if (other.Total != 0F) {
+        Total = other.Total;
+      }
+      if (other.ActivityName.Length != 0) {
+        ActivityName = other.ActivityName;
+      }
+      if (other.ActivityVune.Length != 0) {
+        ActivityVune = other.ActivityVune;
+      }
+      if (other.ActivityTime.Length != 0) {
+        ActivityTime = other.ActivityTime;
+      }
+      if (other.Owner.Length != 0) {
+        Owner = other.Owner;
+      }
+      if (other.OwnerMobile.Length != 0) {
+        OwnerMobile = other.OwnerMobile;
+      }
+      if (other.OwnerEmail.Length != 0) {
+        OwnerEmail = other.OwnerEmail;
+      }
+      if (other.OwnerAddress.Length != 0) {
+        OwnerAddress = other.OwnerAddress;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.ModifiyBy.Length != 0) {
+        ModifiyBy = other.ModifiyBy;
+      }
+      if (other.ModifyOn.Length != 0) {
+        ModifyOn = other.ModifyOn;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ContractNumber = input.ReadString();
+            break;
+          }
+          case 18: {
+            Name = input.ReadString();
+            break;
+          }
+          case 26: {
+            CompanyName = input.ReadString();
+            break;
+          }
+          case 34: {
+            ServicePack = input.ReadString();
+            break;
+          }
+          case 45: {
+            Fee = input.ReadFloat();
+            break;
+          }
+          case 53: {
+            Total = input.ReadFloat();
+            break;
+          }
+          case 58: {
+            ActivityName = input.ReadString();
+            break;
+          }
+          case 66: {
+            ActivityVune = input.ReadString();
+            break;
+          }
+          case 74: {
+            ActivityTime = input.ReadString();
+            break;
+          }
+          case 82: {
+            Owner = input.ReadString();
+            break;
+          }
+          case 90: {
+            OwnerMobile = input.ReadString();
+            break;
+          }
+          case 98: {
+            OwnerEmail = input.ReadString();
+            break;
+          }
+          case 106: {
+            OwnerAddress = input.ReadString();
+            break;
+          }
+          case 114: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 122: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 130: {
+            ModifiyBy = input.ReadString();
+            break;
+          }
+          case 138: {
+            ModifyOn = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///需要完善
+  /// </summary>
+  public sealed partial class new_CompanyNameRequest : pb::IMessage<new_CompanyNameRequest> {
+    private static readonly pb::MessageParser<new_CompanyNameRequest> _parser = new pb::MessageParser<new_CompanyNameRequest>(() => new new_CompanyNameRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_CompanyNameRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[116]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_CompanyNameRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_CompanyNameRequest(new_CompanyNameRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_CompanyNameRequest Clone() {
+      return new new_CompanyNameRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_CompanyNameRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_CompanyNameRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_CompanyNameRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class Translation : pb::IMessage<Translation> {
+    private static readonly pb::MessageParser<Translation> _parser = new pb::MessageParser<Translation>(() => new Translation());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<Translation> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[117]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Translation() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Translation(Translation other) : this() {
+      cN_ = other.cN_;
+      eN_ = other.eN_;
+      jP_ = other.jP_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Translation Clone() {
+      return new Translation(this);
+    }
+
+    /// <summary>Field number for the "CN" field.</summary>
+    public const int CNFieldNumber = 1;
+    private string cN_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CN {
+      get { return cN_; }
+      set {
+        cN_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "EN" field.</summary>
+    public const int ENFieldNumber = 2;
+    private string eN_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string EN {
+      get { return eN_; }
+      set {
+        eN_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "JP" field.</summary>
+    public const int JPFieldNumber = 3;
+    private string jP_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string JP {
+      get { return jP_; }
+      set {
+        jP_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as Translation);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(Translation other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (CN != other.CN) return false;
+      if (EN != other.EN) return false;
+      if (JP != other.JP) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (CN.Length != 0) hash ^= CN.GetHashCode();
+      if (EN.Length != 0) hash ^= EN.GetHashCode();
+      if (JP.Length != 0) hash ^= JP.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (CN.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(CN);
+      }
+      if (EN.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(EN);
+      }
+      if (JP.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(JP);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (CN.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CN);
+      }
+      if (EN.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(EN);
+      }
+      if (JP.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(JP);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(Translation other) {
+      if (other == null) {
+        return;
+      }
+      if (other.CN.Length != 0) {
+        CN = other.CN;
+      }
+      if (other.EN.Length != 0) {
+        EN = other.EN;
+      }
+      if (other.JP.Length != 0) {
+        JP = other.JP;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            CN = input.ReadString();
+            break;
+          }
+          case 18: {
+            EN = input.ReadString();
+            break;
+          }
+          case 26: {
+            JP = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class NewPersonContractStruct : pb::IMessage<NewPersonContractStruct> {
+    private static readonly pb::MessageParser<NewPersonContractStruct> _parser = new pb::MessageParser<NewPersonContractStruct>(() => new NewPersonContractStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NewPersonContractStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[118]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewPersonContractStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewPersonContractStruct(NewPersonContractStruct other) : this() {
+      personContractId_ = other.personContractId_;
+      contractId_ = other.contractId_;
+      perContractNumber_ = other.perContractNumber_;
+      memberPK_ = other.memberPK_;
+      MemTranslation = other.memTranslation_ != null ? other.MemTranslation.Clone() : null;
+      pCIsdelete_ = other.pCIsdelete_;
+      createdOn_ = other.createdOn_;
+      createdBy_ = other.createdBy_;
+      modefieldOn_ = other.modefieldOn_;
+      modefieldBy_ = other.modefieldBy_;
+      owerid_ = other.owerid_;
+      ower_ = other.ower_;
+      conferenceContractId_ = other.conferenceContractId_;
+      cTypeCode_ = other.cTypeCode_;
+      CompanyContract = other.companyContract_ != null ? other.CompanyContract.Clone() : null;
+      isCheckIn_ = other.isCheckIn_;
+      isSendEmail_ = other.isSendEmail_;
+      isModify_ = other.isModify_;
+      conferenceId_ = other.conferenceId_;
+      isFianceRecord_ = other.isFianceRecord_;
+      isInviteCode_ = other.isInviteCode_;
+      inviteCodeId_ = other.inviteCodeId_;
+      isCommitAbstract_ = other.isCommitAbstract_;
+      isPrint_ = other.isPrint_;
+      paidAmount_ = other.paidAmount_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NewPersonContractStruct Clone() {
+      return new NewPersonContractStruct(this);
+    }
+
+    /// <summary>Field number for the "PersonContractId" field.</summary>
+    public const int PersonContractIdFieldNumber = 1;
+    private string personContractId_ = "";
+    /// <summary>
+    ///主键
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PersonContractId {
+      get { return personContractId_; }
+      set {
+        personContractId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ContractId" field.</summary>
+    public const int ContractIdFieldNumber = 2;
+    private string contractId_ = "";
+    /// <summary>
+    ///ContractId
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractId {
+      get { return contractId_; }
+      set {
+        contractId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "PerContractNumber" field.</summary>
+    public const int PerContractNumberFieldNumber = 3;
+    private string perContractNumber_ = "";
+    /// <summary>
+    ///个人合同号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PerContractNumber {
+      get { return perContractNumber_; }
+      set {
+        perContractNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemberPK" field.</summary>
+    public const int MemberPKFieldNumber = 4;
+    private string memberPK_ = "";
+    /// <summary>
+    ///MemberPK
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string MemberPK {
+      get { return memberPK_; }
+      set {
+        memberPK_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "MemTranslation" field.</summary>
+    public const int MemTranslationFieldNumber = 5;
+    private global::GrpcConferenceContractService.MemTranslationStruct memTranslation_;
+    /// <summary>
+    ///会员姓名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.MemTranslationStruct MemTranslation {
+      get { return memTranslation_; }
+      set {
+        memTranslation_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "PCIsdelete" field.</summary>
+    public const int PCIsdeleteFieldNumber = 6;
+    private bool pCIsdelete_;
+    /// <summary>
+    ///是否删除
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool PCIsdelete {
+      get { return pCIsdelete_; }
+      set {
+        pCIsdelete_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CreatedOn" field.</summary>
+    public const int CreatedOnFieldNumber = 7;
+    private string createdOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedOn {
+      get { return createdOn_; }
+      set {
+        createdOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedBy" field.</summary>
+    public const int CreatedByFieldNumber = 8;
+    private string createdBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModefieldOn" field.</summary>
+    public const int ModefieldOnFieldNumber = 9;
+    private string modefieldOn_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModefieldOn {
+      get { return modefieldOn_; }
+      set {
+        modefieldOn_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ModefieldBy" field.</summary>
+    public const int ModefieldByFieldNumber = 10;
+    private string modefieldBy_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ModefieldBy {
+      get { return modefieldBy_; }
+      set {
+        modefieldBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Owerid" field.</summary>
+    public const int OweridFieldNumber = 11;
+    private string owerid_ = "";
+    /// <summary>
+    ///业务员id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Owerid {
+      get { return owerid_; }
+      set {
+        owerid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Ower" field.</summary>
+    public const int OwerFieldNumber = 12;
+    private string ower_ = "";
+    /// <summary>
+    ///业务员姓名
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Ower {
+      get { return ower_; }
+      set {
+        ower_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceContractId" field.</summary>
+    public const int ConferenceContractIdFieldNumber = 13;
+    private string conferenceContractId_ = "";
+    /// <summary>
+    ///ConferenceContractId
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceContractId {
+      get { return conferenceContractId_; }
+      set {
+        conferenceContractId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CTypeCode" field.</summary>
+    public const int CTypeCodeFieldNumber = 14;
+    private string cTypeCode_ = "";
+    /// <summary>
+    ///ContractType合同大类
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CTypeCode {
+      get { return cTypeCode_; }
+      set {
+        cTypeCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CompanyContract" field.</summary>
+    public const int CompanyContractFieldNumber = 15;
+    private global::GrpcConferenceContractService.NewCompanyContractStruct companyContract_;
+    /// <summary>
+    ///二级合同对象
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::GrpcConferenceContractService.NewCompanyContractStruct CompanyContract {
+      get { return companyContract_; }
+      set {
+        companyContract_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "IsCheckIn" field.</summary>
+    public const int IsCheckInFieldNumber = 16;
+    private bool isCheckIn_;
+    /// <summary>
+    ///是否报道
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsCheckIn {
+      get { return isCheckIn_; }
+      set {
+        isCheckIn_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "IsSendEmail" field.</summary>
+    public const int IsSendEmailFieldNumber = 17;
+    private bool isSendEmail_;
+    /// <summary>
+    ///是否发送Email
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsSendEmail {
+      get { return isSendEmail_; }
+      set {
+        isSendEmail_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "IsModify" field.</summary>
+    public const int IsModifyFieldNumber = 18;
+    private bool isModify_;
+    /// <summary>
+    ///是否修改
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsModify {
+      get { return isModify_; }
+      set {
+        isModify_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ConferenceId" field.</summary>
+    public const int ConferenceIdFieldNumber = 19;
+    private string conferenceId_ = "";
+    /// <summary>
+    ///ConferenceId
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceId {
+      get { return conferenceId_; }
+      set {
+        conferenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IsFianceRecord" field.</summary>
+    public const int IsFianceRecordFieldNumber = 20;
+    private bool isFianceRecord_;
+    /// <summary>
+    ///是否有财务记录
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsFianceRecord {
+      get { return isFianceRecord_; }
+      set {
+        isFianceRecord_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "IsInviteCode" field.</summary>
+    public const int IsInviteCodeFieldNumber = 21;
+    private bool isInviteCode_;
+    /// <summary>
+    ///是否是邀请码创建合同
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsInviteCode {
+      get { return isInviteCode_; }
+      set {
+        isInviteCode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "InviteCodeId" field.</summary>
+    public const int InviteCodeIdFieldNumber = 22;
+    private string inviteCodeId_ = "";
+    /// <summary>
+    ///InviteCodeId邀请码Id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InviteCodeId {
+      get { return inviteCodeId_; }
+      set {
+        inviteCodeId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IsCommitAbstract" field.</summary>
+    public const int IsCommitAbstractFieldNumber = 23;
+    private bool isCommitAbstract_;
+    /// <summary>
+    ///是否提交摘要
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsCommitAbstract {
+      get { return isCommitAbstract_; }
+      set {
+        isCommitAbstract_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "IsPrint" field.</summary>
+    public const int IsPrintFieldNumber = 24;
+    private bool isPrint_;
+    /// <summary>
+    ///是否打印
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsPrint {
+      get { return isPrint_; }
+      set {
+        isPrint_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "PaidAmount" field.</summary>
+    public const int PaidAmountFieldNumber = 25;
+    private string paidAmount_ = "";
+    /// <summary>
+    ///已付金额
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PaidAmount {
+      get { return paidAmount_; }
+      set {
+        paidAmount_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NewPersonContractStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NewPersonContractStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PersonContractId != other.PersonContractId) return false;
+      if (ContractId != other.ContractId) return false;
+      if (PerContractNumber != other.PerContractNumber) return false;
+      if (MemberPK != other.MemberPK) return false;
+      if (!object.Equals(MemTranslation, other.MemTranslation)) return false;
+      if (PCIsdelete != other.PCIsdelete) return false;
+      if (CreatedOn != other.CreatedOn) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (ModefieldOn != other.ModefieldOn) return false;
+      if (ModefieldBy != other.ModefieldBy) return false;
+      if (Owerid != other.Owerid) return false;
+      if (Ower != other.Ower) return false;
+      if (ConferenceContractId != other.ConferenceContractId) return false;
+      if (CTypeCode != other.CTypeCode) return false;
+      if (!object.Equals(CompanyContract, other.CompanyContract)) return false;
+      if (IsCheckIn != other.IsCheckIn) return false;
+      if (IsSendEmail != other.IsSendEmail) return false;
+      if (IsModify != other.IsModify) return false;
+      if (ConferenceId != other.ConferenceId) return false;
+      if (IsFianceRecord != other.IsFianceRecord) return false;
+      if (IsInviteCode != other.IsInviteCode) return false;
+      if (InviteCodeId != other.InviteCodeId) return false;
+      if (IsCommitAbstract != other.IsCommitAbstract) return false;
+      if (IsPrint != other.IsPrint) return false;
+      if (PaidAmount != other.PaidAmount) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (PersonContractId.Length != 0) hash ^= PersonContractId.GetHashCode();
+      if (ContractId.Length != 0) hash ^= ContractId.GetHashCode();
+      if (PerContractNumber.Length != 0) hash ^= PerContractNumber.GetHashCode();
+      if (MemberPK.Length != 0) hash ^= MemberPK.GetHashCode();
+      if (memTranslation_ != null) hash ^= MemTranslation.GetHashCode();
+      if (PCIsdelete != false) hash ^= PCIsdelete.GetHashCode();
+      if (CreatedOn.Length != 0) hash ^= CreatedOn.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (ModefieldOn.Length != 0) hash ^= ModefieldOn.GetHashCode();
+      if (ModefieldBy.Length != 0) hash ^= ModefieldBy.GetHashCode();
+      if (Owerid.Length != 0) hash ^= Owerid.GetHashCode();
+      if (Ower.Length != 0) hash ^= Ower.GetHashCode();
+      if (ConferenceContractId.Length != 0) hash ^= ConferenceContractId.GetHashCode();
+      if (CTypeCode.Length != 0) hash ^= CTypeCode.GetHashCode();
+      if (companyContract_ != null) hash ^= CompanyContract.GetHashCode();
+      if (IsCheckIn != false) hash ^= IsCheckIn.GetHashCode();
+      if (IsSendEmail != false) hash ^= IsSendEmail.GetHashCode();
+      if (IsModify != false) hash ^= IsModify.GetHashCode();
+      if (ConferenceId.Length != 0) hash ^= ConferenceId.GetHashCode();
+      if (IsFianceRecord != false) hash ^= IsFianceRecord.GetHashCode();
+      if (IsInviteCode != false) hash ^= IsInviteCode.GetHashCode();
+      if (InviteCodeId.Length != 0) hash ^= InviteCodeId.GetHashCode();
+      if (IsCommitAbstract != false) hash ^= IsCommitAbstract.GetHashCode();
+      if (IsPrint != false) hash ^= IsPrint.GetHashCode();
+      if (PaidAmount.Length != 0) hash ^= PaidAmount.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (PersonContractId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(PersonContractId);
+      }
+      if (ContractId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ContractId);
+      }
+      if (PerContractNumber.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(PerContractNumber);
+      }
+      if (MemberPK.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(MemberPK);
+      }
+      if (memTranslation_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(MemTranslation);
+      }
+      if (PCIsdelete != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(PCIsdelete);
+      }
+      if (CreatedOn.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(CreatedBy);
+      }
+      if (ModefieldOn.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(ModefieldOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(ModefieldBy);
+      }
+      if (Owerid.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(Owerid);
+      }
+      if (Ower.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(Ower);
+      }
+      if (ConferenceContractId.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(ConferenceContractId);
+      }
+      if (CTypeCode.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(CTypeCode);
+      }
+      if (companyContract_ != null) {
+        output.WriteRawTag(122);
+        output.WriteMessage(CompanyContract);
+      }
+      if (IsCheckIn != false) {
+        output.WriteRawTag(128, 1);
+        output.WriteBool(IsCheckIn);
+      }
+      if (IsSendEmail != false) {
+        output.WriteRawTag(136, 1);
+        output.WriteBool(IsSendEmail);
+      }
+      if (IsModify != false) {
+        output.WriteRawTag(144, 1);
+        output.WriteBool(IsModify);
+      }
+      if (ConferenceId.Length != 0) {
+        output.WriteRawTag(154, 1);
+        output.WriteString(ConferenceId);
+      }
+      if (IsFianceRecord != false) {
+        output.WriteRawTag(160, 1);
+        output.WriteBool(IsFianceRecord);
+      }
+      if (IsInviteCode != false) {
+        output.WriteRawTag(168, 1);
+        output.WriteBool(IsInviteCode);
+      }
+      if (InviteCodeId.Length != 0) {
+        output.WriteRawTag(178, 1);
+        output.WriteString(InviteCodeId);
+      }
+      if (IsCommitAbstract != false) {
+        output.WriteRawTag(184, 1);
+        output.WriteBool(IsCommitAbstract);
+      }
+      if (IsPrint != false) {
+        output.WriteRawTag(192, 1);
+        output.WriteBool(IsPrint);
+      }
+      if (PaidAmount.Length != 0) {
+        output.WriteRawTag(202, 1);
+        output.WriteString(PaidAmount);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (PersonContractId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PersonContractId);
+      }
+      if (ContractId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractId);
+      }
+      if (PerContractNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PerContractNumber);
+      }
+      if (MemberPK.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MemberPK);
+      }
+      if (memTranslation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MemTranslation);
+      }
+      if (PCIsdelete != false) {
+        size += 1 + 1;
+      }
+      if (CreatedOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedOn);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (ModefieldOn.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModefieldOn);
+      }
+      if (ModefieldBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModefieldBy);
+      }
+      if (Owerid.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Owerid);
+      }
+      if (Ower.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Ower);
+      }
+      if (ConferenceContractId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceContractId);
+      }
+      if (CTypeCode.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CTypeCode);
+      }
+      if (companyContract_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CompanyContract);
+      }
+      if (IsCheckIn != false) {
+        size += 2 + 1;
+      }
+      if (IsSendEmail != false) {
+        size += 2 + 1;
+      }
+      if (IsModify != false) {
+        size += 2 + 1;
+      }
+      if (ConferenceId.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ConferenceId);
+      }
+      if (IsFianceRecord != false) {
+        size += 2 + 1;
+      }
+      if (IsInviteCode != false) {
+        size += 2 + 1;
+      }
+      if (InviteCodeId.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(InviteCodeId);
+      }
+      if (IsCommitAbstract != false) {
+        size += 2 + 1;
+      }
+      if (IsPrint != false) {
+        size += 2 + 1;
+      }
+      if (PaidAmount.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(PaidAmount);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NewPersonContractStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.PersonContractId.Length != 0) {
+        PersonContractId = other.PersonContractId;
+      }
+      if (other.ContractId.Length != 0) {
+        ContractId = other.ContractId;
+      }
+      if (other.PerContractNumber.Length != 0) {
+        PerContractNumber = other.PerContractNumber;
+      }
+      if (other.MemberPK.Length != 0) {
+        MemberPK = other.MemberPK;
+      }
+      if (other.memTranslation_ != null) {
+        if (memTranslation_ == null) {
+          memTranslation_ = new global::GrpcConferenceContractService.MemTranslationStruct();
+        }
+        MemTranslation.MergeFrom(other.MemTranslation);
+      }
+      if (other.PCIsdelete != false) {
+        PCIsdelete = other.PCIsdelete;
+      }
+      if (other.CreatedOn.Length != 0) {
+        CreatedOn = other.CreatedOn;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.ModefieldOn.Length != 0) {
+        ModefieldOn = other.ModefieldOn;
+      }
+      if (other.ModefieldBy.Length != 0) {
+        ModefieldBy = other.ModefieldBy;
+      }
+      if (other.Owerid.Length != 0) {
+        Owerid = other.Owerid;
+      }
+      if (other.Ower.Length != 0) {
+        Ower = other.Ower;
+      }
+      if (other.ConferenceContractId.Length != 0) {
+        ConferenceContractId = other.ConferenceContractId;
+      }
+      if (other.CTypeCode.Length != 0) {
+        CTypeCode = other.CTypeCode;
+      }
+      if (other.companyContract_ != null) {
+        if (companyContract_ == null) {
+          companyContract_ = new global::GrpcConferenceContractService.NewCompanyContractStruct();
+        }
+        CompanyContract.MergeFrom(other.CompanyContract);
+      }
+      if (other.IsCheckIn != false) {
+        IsCheckIn = other.IsCheckIn;
+      }
+      if (other.IsSendEmail != false) {
+        IsSendEmail = other.IsSendEmail;
+      }
+      if (other.IsModify != false) {
+        IsModify = other.IsModify;
+      }
+      if (other.ConferenceId.Length != 0) {
+        ConferenceId = other.ConferenceId;
+      }
+      if (other.IsFianceRecord != false) {
+        IsFianceRecord = other.IsFianceRecord;
+      }
+      if (other.IsInviteCode != false) {
+        IsInviteCode = other.IsInviteCode;
+      }
+      if (other.InviteCodeId.Length != 0) {
+        InviteCodeId = other.InviteCodeId;
+      }
+      if (other.IsCommitAbstract != false) {
+        IsCommitAbstract = other.IsCommitAbstract;
+      }
+      if (other.IsPrint != false) {
+        IsPrint = other.IsPrint;
+      }
+      if (other.PaidAmount.Length != 0) {
+        PaidAmount = other.PaidAmount;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            PersonContractId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ContractId = input.ReadString();
+            break;
+          }
+          case 26: {
+            PerContractNumber = input.ReadString();
+            break;
+          }
+          case 34: {
+            MemberPK = input.ReadString();
+            break;
+          }
+          case 42: {
+            if (memTranslation_ == null) {
+              memTranslation_ = new global::GrpcConferenceContractService.MemTranslationStruct();
+            }
+            input.ReadMessage(memTranslation_);
+            break;
+          }
+          case 48: {
+            PCIsdelete = input.ReadBool();
+            break;
+          }
+          case 58: {
+            CreatedOn = input.ReadString();
+            break;
+          }
+          case 66: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 74: {
+            ModefieldOn = input.ReadString();
+            break;
+          }
+          case 82: {
+            ModefieldBy = input.ReadString();
+            break;
+          }
+          case 90: {
+            Owerid = input.ReadString();
+            break;
+          }
+          case 98: {
+            Ower = input.ReadString();
+            break;
+          }
+          case 106: {
+            ConferenceContractId = input.ReadString();
+            break;
+          }
+          case 114: {
+            CTypeCode = input.ReadString();
+            break;
+          }
+          case 122: {
+            if (companyContract_ == null) {
+              companyContract_ = new global::GrpcConferenceContractService.NewCompanyContractStruct();
+            }
+            input.ReadMessage(companyContract_);
+            break;
+          }
+          case 128: {
+            IsCheckIn = input.ReadBool();
+            break;
+          }
+          case 136: {
+            IsSendEmail = input.ReadBool();
+            break;
+          }
+          case 144: {
+            IsModify = input.ReadBool();
+            break;
+          }
+          case 154: {
+            ConferenceId = input.ReadString();
+            break;
+          }
+          case 160: {
+            IsFianceRecord = input.ReadBool();
+            break;
+          }
+          case 168: {
+            IsInviteCode = input.ReadBool();
+            break;
+          }
+          case 178: {
+            InviteCodeId = input.ReadString();
+            break;
+          }
+          case 184: {
+            IsCommitAbstract = input.ReadBool();
+            break;
+          }
+          case 192: {
+            IsPrint = input.ReadBool();
+            break;
+          }
+          case 202: {
+            PaidAmount = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///勾选套餐时要传的参数
+  /// </summary>
+  public sealed partial class new_GetServicePackRequest : pb::IMessage<new_GetServicePackRequest> {
+    private static readonly pb::MessageParser<new_GetServicePackRequest> _parser = new pb::MessageParser<new_GetServicePackRequest>(() => new new_GetServicePackRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetServicePackRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[119]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackRequest(new_GetServicePackRequest other) : this() {
+      conferenceId_ = other.conferenceId_;
+      contractTypeId_ = other.contractTypeId_;
+      year_ = other.year_;
+      isGive_ = other.isGive_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackRequest Clone() {
+      return new new_GetServicePackRequest(this);
+    }
+
+    /// <summary>Field number for the "ConferenceId" field.</summary>
+    public const int ConferenceIdFieldNumber = 1;
+    private string conferenceId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ConferenceId {
+      get { return conferenceId_; }
+      set {
+        conferenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ContractTypeId" field.</summary>
+    public const int ContractTypeIdFieldNumber = 2;
+    private string contractTypeId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ContractTypeId {
+      get { return contractTypeId_; }
+      set {
+        contractTypeId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Year" field.</summary>
+    public const int YearFieldNumber = 3;
+    private string year_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Year {
+      get { return year_; }
+      set {
+        year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IsGive" field.</summary>
+    public const int IsGiveFieldNumber = 4;
+    private string isGive_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string IsGive {
+      get { return isGive_; }
+      set {
+        isGive_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetServicePackRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetServicePackRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ConferenceId != other.ConferenceId) return false;
+      if (ContractTypeId != other.ContractTypeId) return false;
+      if (Year != other.Year) return false;
+      if (IsGive != other.IsGive) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ConferenceId.Length != 0) hash ^= ConferenceId.GetHashCode();
+      if (ContractTypeId.Length != 0) hash ^= ContractTypeId.GetHashCode();
+      if (Year.Length != 0) hash ^= Year.GetHashCode();
+      if (IsGive.Length != 0) hash ^= IsGive.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ConferenceId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ConferenceId);
+      }
+      if (ContractTypeId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ContractTypeId);
+      }
+      if (Year.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Year);
+      }
+      if (IsGive.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(IsGive);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ConferenceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConferenceId);
+      }
+      if (ContractTypeId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ContractTypeId);
+      }
+      if (Year.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Year);
+      }
+      if (IsGive.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(IsGive);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetServicePackRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ConferenceId.Length != 0) {
+        ConferenceId = other.ConferenceId;
+      }
+      if (other.ContractTypeId.Length != 0) {
+        ContractTypeId = other.ContractTypeId;
+      }
+      if (other.Year.Length != 0) {
+        Year = other.Year;
+      }
+      if (other.IsGive.Length != 0) {
+        IsGive = other.IsGive;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ConferenceId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ContractTypeId = input.ReadString();
+            break;
+          }
+          case 26: {
+            Year = input.ReadString();
+            break;
+          }
+          case 34: {
+            IsGive = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///勾选套餐时返回的对象
+  /// </summary>
+  public sealed partial class new_GetServicePackStruct : pb::IMessage<new_GetServicePackStruct> {
+    private static readonly pb::MessageParser<new_GetServicePackStruct> _parser = new pb::MessageParser<new_GetServicePackStruct>(() => new new_GetServicePackStruct());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetServicePackStruct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[120]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackStruct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackStruct(new_GetServicePackStruct other) : this() {
+      companyServicePackId_ = other.companyServicePackId_;
+      code_ = other.code_;
+      translation_ = other.translation_;
+      priceRMB_ = other.priceRMB_;
+      priceUSD_ = other.priceUSD_;
+      priceJP_ = other.priceJP_;
+      isGive_ = other.isGive_;
+      year_ = other.year_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackStruct Clone() {
+      return new new_GetServicePackStruct(this);
+    }
+
+    /// <summary>Field number for the "CompanyServicePackId" field.</summary>
+    public const int CompanyServicePackIdFieldNumber = 1;
+    private string companyServicePackId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CompanyServicePackId {
+      get { return companyServicePackId_; }
+      set {
+        companyServicePackId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Code" field.</summary>
+    public const int CodeFieldNumber = 2;
+    private string code_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Code {
+      get { return code_; }
+      set {
+        code_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "Translation" field.</summary>
+    public const int TranslationFieldNumber = 3;
+    private string translation_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Translation {
+      get { return translation_; }
+      set {
+        translation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "PriceRMB" field.</summary>
+    public const int PriceRMBFieldNumber = 4;
+    private string priceRMB_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PriceRMB {
+      get { return priceRMB_; }
+      set {
+        priceRMB_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "PriceUSD" field.</summary>
+    public const int PriceUSDFieldNumber = 5;
+    private string priceUSD_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PriceUSD {
+      get { return priceUSD_; }
+      set {
+        priceUSD_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "PriceJP" field.</summary>
+    public const int PriceJPFieldNumber = 6;
+    private string priceJP_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PriceJP {
+      get { return priceJP_; }
+      set {
+        priceJP_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "IsGive" field.</summary>
+    public const int IsGiveFieldNumber = 7;
+    private bool isGive_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsGive {
+      get { return isGive_; }
+      set {
+        isGive_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Year" field.</summary>
+    public const int YearFieldNumber = 8;
+    private string year_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Year {
+      get { return year_; }
+      set {
+        year_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetServicePackStruct);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetServicePackStruct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (CompanyServicePackId != other.CompanyServicePackId) return false;
+      if (Code != other.Code) return false;
+      if (Translation != other.Translation) return false;
+      if (PriceRMB != other.PriceRMB) return false;
+      if (PriceUSD != other.PriceUSD) return false;
+      if (PriceJP != other.PriceJP) return false;
+      if (IsGive != other.IsGive) return false;
+      if (Year != other.Year) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (CompanyServicePackId.Length != 0) hash ^= CompanyServicePackId.GetHashCode();
+      if (Code.Length != 0) hash ^= Code.GetHashCode();
+      if (Translation.Length != 0) hash ^= Translation.GetHashCode();
+      if (PriceRMB.Length != 0) hash ^= PriceRMB.GetHashCode();
+      if (PriceUSD.Length != 0) hash ^= PriceUSD.GetHashCode();
+      if (PriceJP.Length != 0) hash ^= PriceJP.GetHashCode();
+      if (IsGive != false) hash ^= IsGive.GetHashCode();
+      if (Year.Length != 0) hash ^= Year.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (CompanyServicePackId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(CompanyServicePackId);
+      }
+      if (Code.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Code);
+      }
+      if (Translation.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Translation);
+      }
+      if (PriceRMB.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(PriceRMB);
+      }
+      if (PriceUSD.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(PriceUSD);
+      }
+      if (PriceJP.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(PriceJP);
+      }
+      if (IsGive != false) {
+        output.WriteRawTag(56);
+        output.WriteBool(IsGive);
+      }
+      if (Year.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Year);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (CompanyServicePackId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyServicePackId);
+      }
+      if (Code.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Code);
+      }
+      if (Translation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Translation);
+      }
+      if (PriceRMB.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PriceRMB);
+      }
+      if (PriceUSD.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PriceUSD);
+      }
+      if (PriceJP.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PriceJP);
+      }
+      if (IsGive != false) {
+        size += 1 + 1;
+      }
+      if (Year.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Year);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetServicePackStruct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.CompanyServicePackId.Length != 0) {
+        CompanyServicePackId = other.CompanyServicePackId;
+      }
+      if (other.Code.Length != 0) {
+        Code = other.Code;
+      }
+      if (other.Translation.Length != 0) {
+        Translation = other.Translation;
+      }
+      if (other.PriceRMB.Length != 0) {
+        PriceRMB = other.PriceRMB;
+      }
+      if (other.PriceUSD.Length != 0) {
+        PriceUSD = other.PriceUSD;
+      }
+      if (other.PriceJP.Length != 0) {
+        PriceJP = other.PriceJP;
+      }
+      if (other.IsGive != false) {
+        IsGive = other.IsGive;
+      }
+      if (other.Year.Length != 0) {
+        Year = other.Year;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            CompanyServicePackId = input.ReadString();
+            break;
+          }
+          case 18: {
+            Code = input.ReadString();
+            break;
+          }
+          case 26: {
+            Translation = input.ReadString();
+            break;
+          }
+          case 34: {
+            PriceRMB = input.ReadString();
+            break;
+          }
+          case 42: {
+            PriceUSD = input.ReadString();
+            break;
+          }
+          case 50: {
+            PriceJP = input.ReadString();
+            break;
+          }
+          case 56: {
+            IsGive = input.ReadBool();
+            break;
+          }
+          case 66: {
+            Year = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class new_GetServicePackResponse : pb::IMessage<new_GetServicePackResponse> {
+    private static readonly pb::MessageParser<new_GetServicePackResponse> _parser = new pb::MessageParser<new_GetServicePackResponse>(() => new new_GetServicePackResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<new_GetServicePackResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.MessageTypes[121]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackResponse(new_GetServicePackResponse other) : this() {
+      listdata_ = other.listdata_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public new_GetServicePackResponse Clone() {
+      return new new_GetServicePackResponse(this);
+    }
+
+    /// <summary>Field number for the "listdata" field.</summary>
+    public const int ListdataFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::GrpcConferenceContractService.new_GetServicePackStruct> _repeated_listdata_codec
+        = pb::FieldCodec.ForMessage(10, global::GrpcConferenceContractService.new_GetServicePackStruct.Parser);
+    private readonly pbc::RepeatedField<global::GrpcConferenceContractService.new_GetServicePackStruct> listdata_ = new pbc::RepeatedField<global::GrpcConferenceContractService.new_GetServicePackStruct>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::GrpcConferenceContractService.new_GetServicePackStruct> Listdata {
+      get { return listdata_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as new_GetServicePackResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(new_GetServicePackResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!listdata_.Equals(other.listdata_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= listdata_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      listdata_.WriteTo(output, _repeated_listdata_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += listdata_.CalculateSize(_repeated_listdata_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(new_GetServicePackResponse other) {
+      if (other == null) {
+        return;
+      }
+      listdata_.Add(other.listdata_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            listdata_.AddEntriesFrom(input, _repeated_listdata_codec);
             break;
           }
         }

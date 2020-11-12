@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Grpc.Core;
-using GrpcConferenceContractServiceNew;
+using GrpcConferenceContractService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using static GrpcConferenceContractServiceNew.NewConferenceContractService;
+using static GrpcConferenceContractService.GrpcConferenceContractServiceNew;
 
 namespace TestCCDemoAPI.Controllers
 {
@@ -15,14 +15,14 @@ namespace TestCCDemoAPI.Controllers
     public class ConferenceContractController : ControllerBase
     {
         private Channel _channel;
-        private NewConferenceContractServiceClient _client;
+        private GrpcConferenceContractServiceNewClient _client;
 
 
         public ConferenceContractController()
         {
             //_channel = new Channel("127.0.0.1:40001", ChannelCredentials.Insecure);
-            _channel = new Channel("conferencecontractapi:40001", ChannelCredentials.Insecure);
-            _client = new NewConferenceContractServiceClient(_channel);
+            _channel = new Channel("conferencecontractserver:40001", ChannelCredentials.Insecure);
+            _client = new GrpcConferenceContractServiceNewClient(_channel);
         }
 
         [HttpPost(nameof(new_GetCompanyContractList))]

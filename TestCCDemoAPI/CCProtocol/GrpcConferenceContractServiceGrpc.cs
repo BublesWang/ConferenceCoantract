@@ -9693,5 +9693,951 @@ namespace GrpcConferenceContractService {
     }
 
   }
+  public static partial class GrpcConferenceContractServiceNew
+  {
+    static readonly string __ServiceName = "GrpcConferenceContractService.GrpcConferenceContractServiceNew";
+
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetServicePackRequest> __Marshaller_new_GetServicePackRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetServicePackRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetServicePackResponse> __Marshaller_new_GetServicePackResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetServicePackResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_ServicePackStruct> __Marshaller_new_ServicePackStruct = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_ServicePackStruct.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.modifyResponse> __Marshaller_modifyResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.modifyResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_ServicePackStructDiscount> __Marshaller_new_ServicePackStructDiscount = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_ServicePackStructDiscount.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_AddPersonContractRequest> __Marshaller_new_AddPersonContractRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_AddPersonContractRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_CompanyNameRequest> __Marshaller_new_CompanyNameRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_CompanyNameRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.CompanyInfoResponse> __Marshaller_CompanyInfoResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.CompanyInfoResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetServicePackListRequest> __Marshaller_new_GetServicePackListRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetServicePackListRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetServicePackListResponse> __Marshaller_new_GetServicePackListResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetServicePackListResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetCompanyContractListRequest> __Marshaller_new_GetCompanyContractListRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetCompanyContractListRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetCompanyContractListResponse> __Marshaller_new_GetCompanyContractListResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetCompanyContractListResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetPersonContractListRequest> __Marshaller_new_GetPersonContractListRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetPersonContractListRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetPersonContractListResponse> __Marshaller_new_GetPersonContractListResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetPersonContractListResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberRequest> __Marshaller_new_GetCompanyNoticeOfReportByContractNumberRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberResponse> __Marshaller_new_GetCompanyNoticeOfReportByContractNumberResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberRequest> __Marshaller_new_GetPersonNoticeOfReportByContractNumberRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberResponse> __Marshaller_new_GetPersonNoticeOfReportByContractNumberResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetScheduleListRequest> __Marshaller_new_GetScheduleListRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetScheduleListRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_GetScheduleListResponse> __Marshaller_new_GetScheduleListResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_GetScheduleListResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::GrpcConferenceContractService.new_AddScheduleRequest> __Marshaller_new_AddScheduleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::GrpcConferenceContractService.new_AddScheduleRequest.Parser.ParseFrom);
+
+    static readonly grpc::Method<global::GrpcConferenceContractService.new_GetServicePackRequest, global::GrpcConferenceContractService.new_GetServicePackResponse> __Method_new_GetServicePack = new grpc::Method<global::GrpcConferenceContractService.new_GetServicePackRequest, global::GrpcConferenceContractService.new_GetServicePackResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "new_GetServicePack",
+        __Marshaller_new_GetServicePackRequest,
+        __Marshaller_new_GetServicePackResponse);
+
+    static readonly grpc::Method<global::GrpcConferenceContractService.new_ServicePackStruct, global::GrpcConferenceContractService.modifyResponse> __Method_new_AddServicePack = new grpc::Method<global::GrpcConferenceContractService.new_ServicePackStruct, global::GrpcConferenceContractService.modifyResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "new_AddServicePack",
+        __Marshaller_new_ServicePackStruct,
+        __Marshaller_modifyResponse);
+
+    static readonly grpc::Method<global::GrpcConferenceContractService.new_ServicePackStructDiscount, global::GrpcConferenceContractService.modifyResponse> __Method_new_AddServicePackDiscount = new grpc::Method<global::GrpcConferenceContractService.new_ServicePackStructDiscount, global::GrpcConferenceContractService.modifyResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "new_AddServicePackDiscount",
+        __Marshaller_new_ServicePackStructDiscount,
+        __Marshaller_modifyResponse);
+
+    static readonly grpc::Method<global::GrpcConferenceContractService.new_AddPersonContractRequest, global::GrpcConferenceContractService.modifyResponse> __Method_new_AddPersonContract = new grpc::Method<global::GrpcConferenceContractService.new_AddPersonContractRequest, global::GrpcConferenceContractService.modifyResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "new_AddPersonContract",
+        __Marshaller_new_AddPersonContractRequest,
+        __Marshaller_modifyResponse);
+
+    static readonly grpc::Method<global::GrpcConferenceContractService.new_CompanyNameRequest, global::GrpcConferenceContractService.CompanyInfoResponse> __Method_new_GetCompanyInfoByCompanyName = new grpc::Method<global::GrpcConferenceContractService.new_CompanyNameRequest, global::GrpcConferenceContractService.CompanyInfoResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "new_GetCompanyInfoByCompanyName",
+        __Marshaller_new_CompanyNameRequest,
+        __Marshaller_CompanyInfoResponse);
+
+    static readonly grpc::Method<global::GrpcConferenceContractService.new_GetServicePackListRequest, global::GrpcConferenceContractService.new_GetServicePackListResponse> __Method_new_GetServicePackList = new grpc::Method<global::GrpcConferenceContractService.new_GetServicePackListRequest, global::GrpcConferenceContractService.new_GetServicePackListResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "new_GetServicePackList",
+        __Marshaller_new_GetServicePackListRequest,
+        __Marshaller_new_GetServicePackListResponse);
+
+    static readonly grpc::Method<global::GrpcConferenceContractService.new_GetCompanyContractListRequest, global::GrpcConferenceContractService.new_GetCompanyContractListResponse> __Method_new_GetCompanyContractList = new grpc::Method<global::GrpcConferenceContractService.new_GetCompanyContractListRequest, global::GrpcConferenceContractService.new_GetCompanyContractListResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "new_GetCompanyContractList",
+        __Marshaller_new_GetCompanyContractListRequest,
+        __Marshaller_new_GetCompanyContractListResponse);
+
+    static readonly grpc::Method<global::GrpcConferenceContractService.new_GetPersonContractListRequest, global::GrpcConferenceContractService.new_GetPersonContractListResponse> __Method_new_GetPersonContractList = new grpc::Method<global::GrpcConferenceContractService.new_GetPersonContractListRequest, global::GrpcConferenceContractService.new_GetPersonContractListResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "new_GetPersonContractList",
+        __Marshaller_new_GetPersonContractListRequest,
+        __Marshaller_new_GetPersonContractListResponse);
+
+    static readonly grpc::Method<global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberRequest, global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberResponse> __Method_new_GetCompanyNoticeOfReportByContractNumber = new grpc::Method<global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberRequest, global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "new_GetCompanyNoticeOfReportByContractNumber",
+        __Marshaller_new_GetCompanyNoticeOfReportByContractNumberRequest,
+        __Marshaller_new_GetCompanyNoticeOfReportByContractNumberResponse);
+
+    static readonly grpc::Method<global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberRequest, global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberResponse> __Method_new_GetPersonNoticeOfReportByContractNumber = new grpc::Method<global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberRequest, global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "new_GetPersonNoticeOfReportByContractNumber",
+        __Marshaller_new_GetPersonNoticeOfReportByContractNumberRequest,
+        __Marshaller_new_GetPersonNoticeOfReportByContractNumberResponse);
+
+    static readonly grpc::Method<global::GrpcConferenceContractService.new_GetScheduleListRequest, global::GrpcConferenceContractService.new_GetScheduleListResponse> __Method_new_GetScheduleList = new grpc::Method<global::GrpcConferenceContractService.new_GetScheduleListRequest, global::GrpcConferenceContractService.new_GetScheduleListResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "new_GetScheduleList",
+        __Marshaller_new_GetScheduleListRequest,
+        __Marshaller_new_GetScheduleListResponse);
+
+    static readonly grpc::Method<global::GrpcConferenceContractService.new_AddScheduleRequest, global::GrpcConferenceContractService.modifyResponse> __Method_new_AddSchedule = new grpc::Method<global::GrpcConferenceContractService.new_AddScheduleRequest, global::GrpcConferenceContractService.modifyResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "new_AddSchedule",
+        __Marshaller_new_AddScheduleRequest,
+        __Marshaller_modifyResponse);
+
+    /// <summary>Service descriptor</summary>
+    public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
+    {
+      get { return global::GrpcConferenceContractService.GrpcConferenceContractServiceReflection.Descriptor.Services[1]; }
+    }
+
+    /// <summary>Base class for server-side implementations of GrpcConferenceContractServiceNew</summary>
+    public abstract partial class GrpcConferenceContractServiceNewBase
+    {
+      /// <summary>
+      ///勾选套餐接口 参数：conferenceId，上级分类Id（ContractTypeId）,Year,IsGive(是否赠送)
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::GrpcConferenceContractService.new_GetServicePackResponse> new_GetServicePack(global::GrpcConferenceContractService.new_GetServicePackRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      ///付费合同和赠送合同添加二级合同（套餐）接口。
+      ///参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
+      ///		2.套餐信息
+      ///		3.业务员
+      ///		4.子合同数
+      ///		5.合同状态
+      ///注：付款状态、合同状态需要及时更新
+      ///返回：是否插入成功
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::GrpcConferenceContractService.modifyResponse> new_AddServicePack(global::GrpcConferenceContractService.new_ServicePackStruct request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      ///付费合同添加二级合同（套餐）折扣 接口。
+      ///参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
+      ///		2.套餐信息
+      ///		3.业务员
+      ///		4.子合同数
+      ///		5.合同状态,
+      ///		6.现价
+      ///返回：是否插入成功
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::GrpcConferenceContractService.modifyResponse> new_AddServicePackDiscount(global::GrpcConferenceContractService.new_ServicePackStructDiscount request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      ///添加个人合同
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::GrpcConferenceContractService.modifyResponse> new_AddPersonContract(global::GrpcConferenceContractService.new_AddPersonContractRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      ///根据公司名称获取公司信息 参数：公司名 返回：公司信息
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::GrpcConferenceContractService.CompanyInfoResponse> new_GetCompanyInfoByCompanyName(global::GrpcConferenceContractService.new_CompanyNameRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      ///获取付费合同和赠送合同的列表（二级合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::GrpcConferenceContractService.new_GetServicePackListResponse> new_GetServicePackList(global::GrpcConferenceContractService.new_GetServicePackListRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      ///获取一级合同列表（公司合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::GrpcConferenceContractService.new_GetCompanyContractListResponse> new_GetCompanyContractList(global::GrpcConferenceContractService.new_GetCompanyContractListRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      ///获取三级合同列表（个人合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::GrpcConferenceContractService.new_GetPersonContractListResponse> new_GetPersonContractList(global::GrpcConferenceContractService.new_GetPersonContractListRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      ///根据合同号公司报道通知书
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberResponse> new_GetCompanyNoticeOfReportByContractNumber(global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      ///根据个人合同号得到个人报道通知书
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberResponse> new_GetPersonNoticeOfReportByContractNumber(global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      ///根据个人合同获取行程一览表
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::GrpcConferenceContractService.new_GetScheduleListResponse> new_GetScheduleList(global::GrpcConferenceContractService.new_GetScheduleListRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      ///添加行程一览表
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::GrpcConferenceContractService.modifyResponse> new_AddSchedule(global::GrpcConferenceContractService.new_AddScheduleRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+    }
+
+    /// <summary>Client for GrpcConferenceContractServiceNew</summary>
+    public partial class GrpcConferenceContractServiceNewClient : grpc::ClientBase<GrpcConferenceContractServiceNewClient>
+    {
+      /// <summary>Creates a new client for GrpcConferenceContractServiceNew</summary>
+      /// <param name="channel">The channel to use to make remote calls.</param>
+      public GrpcConferenceContractServiceNewClient(grpc::Channel channel) : base(channel)
+      {
+      }
+      /// <summary>Creates a new client for GrpcConferenceContractServiceNew that uses a custom <c>CallInvoker</c>.</summary>
+      /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      public GrpcConferenceContractServiceNewClient(grpc::CallInvoker callInvoker) : base(callInvoker)
+      {
+      }
+      /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      protected GrpcConferenceContractServiceNewClient() : base()
+      {
+      }
+      /// <summary>Protected constructor to allow creation of configured clients.</summary>
+      /// <param name="configuration">The client configuration.</param>
+      protected GrpcConferenceContractServiceNewClient(ClientBaseConfiguration configuration) : base(configuration)
+      {
+      }
+
+      /// <summary>
+      ///勾选套餐接口 参数：conferenceId，上级分类Id（ContractTypeId）,Year,IsGive(是否赠送)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetServicePackResponse new_GetServicePack(global::GrpcConferenceContractService.new_GetServicePackRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetServicePack(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///勾选套餐接口 参数：conferenceId，上级分类Id（ContractTypeId）,Year,IsGive(是否赠送)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetServicePackResponse new_GetServicePack(global::GrpcConferenceContractService.new_GetServicePackRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_new_GetServicePack, null, options, request);
+      }
+      /// <summary>
+      ///勾选套餐接口 参数：conferenceId，上级分类Id（ContractTypeId）,Year,IsGive(是否赠送)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetServicePackResponse> new_GetServicePackAsync(global::GrpcConferenceContractService.new_GetServicePackRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetServicePackAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///勾选套餐接口 参数：conferenceId，上级分类Id（ContractTypeId）,Year,IsGive(是否赠送)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetServicePackResponse> new_GetServicePackAsync(global::GrpcConferenceContractService.new_GetServicePackRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_new_GetServicePack, null, options, request);
+      }
+      /// <summary>
+      ///付费合同和赠送合同添加二级合同（套餐）接口。
+      ///参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
+      ///		2.套餐信息
+      ///		3.业务员
+      ///		4.子合同数
+      ///		5.合同状态
+      ///注：付款状态、合同状态需要及时更新
+      ///返回：是否插入成功
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.modifyResponse new_AddServicePack(global::GrpcConferenceContractService.new_ServicePackStruct request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_AddServicePack(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///付费合同和赠送合同添加二级合同（套餐）接口。
+      ///参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
+      ///		2.套餐信息
+      ///		3.业务员
+      ///		4.子合同数
+      ///		5.合同状态
+      ///注：付款状态、合同状态需要及时更新
+      ///返回：是否插入成功
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.modifyResponse new_AddServicePack(global::GrpcConferenceContractService.new_ServicePackStruct request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_new_AddServicePack, null, options, request);
+      }
+      /// <summary>
+      ///付费合同和赠送合同添加二级合同（套餐）接口。
+      ///参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
+      ///		2.套餐信息
+      ///		3.业务员
+      ///		4.子合同数
+      ///		5.合同状态
+      ///注：付款状态、合同状态需要及时更新
+      ///返回：是否插入成功
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.modifyResponse> new_AddServicePackAsync(global::GrpcConferenceContractService.new_ServicePackStruct request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_AddServicePackAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///付费合同和赠送合同添加二级合同（套餐）接口。
+      ///参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
+      ///		2.套餐信息
+      ///		3.业务员
+      ///		4.子合同数
+      ///		5.合同状态
+      ///注：付款状态、合同状态需要及时更新
+      ///返回：是否插入成功
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.modifyResponse> new_AddServicePackAsync(global::GrpcConferenceContractService.new_ServicePackStruct request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_new_AddServicePack, null, options, request);
+      }
+      /// <summary>
+      ///付费合同添加二级合同（套餐）折扣 接口。
+      ///参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
+      ///		2.套餐信息
+      ///		3.业务员
+      ///		4.子合同数
+      ///		5.合同状态,
+      ///		6.现价
+      ///返回：是否插入成功
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.modifyResponse new_AddServicePackDiscount(global::GrpcConferenceContractService.new_ServicePackStructDiscount request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_AddServicePackDiscount(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///付费合同添加二级合同（套餐）折扣 接口。
+      ///参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
+      ///		2.套餐信息
+      ///		3.业务员
+      ///		4.子合同数
+      ///		5.合同状态,
+      ///		6.现价
+      ///返回：是否插入成功
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.modifyResponse new_AddServicePackDiscount(global::GrpcConferenceContractService.new_ServicePackStructDiscount request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_new_AddServicePackDiscount, null, options, request);
+      }
+      /// <summary>
+      ///付费合同添加二级合同（套餐）折扣 接口。
+      ///参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
+      ///		2.套餐信息
+      ///		3.业务员
+      ///		4.子合同数
+      ///		5.合同状态,
+      ///		6.现价
+      ///返回：是否插入成功
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.modifyResponse> new_AddServicePackDiscountAsync(global::GrpcConferenceContractService.new_ServicePackStructDiscount request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_AddServicePackDiscountAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///付费合同添加二级合同（套餐）折扣 接口。
+      ///参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
+      ///		2.套餐信息
+      ///		3.业务员
+      ///		4.子合同数
+      ///		5.合同状态,
+      ///		6.现价
+      ///返回：是否插入成功
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.modifyResponse> new_AddServicePackDiscountAsync(global::GrpcConferenceContractService.new_ServicePackStructDiscount request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_new_AddServicePackDiscount, null, options, request);
+      }
+      /// <summary>
+      ///添加个人合同
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.modifyResponse new_AddPersonContract(global::GrpcConferenceContractService.new_AddPersonContractRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_AddPersonContract(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///添加个人合同
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.modifyResponse new_AddPersonContract(global::GrpcConferenceContractService.new_AddPersonContractRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_new_AddPersonContract, null, options, request);
+      }
+      /// <summary>
+      ///添加个人合同
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.modifyResponse> new_AddPersonContractAsync(global::GrpcConferenceContractService.new_AddPersonContractRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_AddPersonContractAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///添加个人合同
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.modifyResponse> new_AddPersonContractAsync(global::GrpcConferenceContractService.new_AddPersonContractRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_new_AddPersonContract, null, options, request);
+      }
+      /// <summary>
+      ///根据公司名称获取公司信息 参数：公司名 返回：公司信息
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.CompanyInfoResponse new_GetCompanyInfoByCompanyName(global::GrpcConferenceContractService.new_CompanyNameRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetCompanyInfoByCompanyName(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///根据公司名称获取公司信息 参数：公司名 返回：公司信息
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.CompanyInfoResponse new_GetCompanyInfoByCompanyName(global::GrpcConferenceContractService.new_CompanyNameRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_new_GetCompanyInfoByCompanyName, null, options, request);
+      }
+      /// <summary>
+      ///根据公司名称获取公司信息 参数：公司名 返回：公司信息
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.CompanyInfoResponse> new_GetCompanyInfoByCompanyNameAsync(global::GrpcConferenceContractService.new_CompanyNameRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetCompanyInfoByCompanyNameAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///根据公司名称获取公司信息 参数：公司名 返回：公司信息
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.CompanyInfoResponse> new_GetCompanyInfoByCompanyNameAsync(global::GrpcConferenceContractService.new_CompanyNameRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_new_GetCompanyInfoByCompanyName, null, options, request);
+      }
+      /// <summary>
+      ///获取付费合同和赠送合同的列表（二级合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetServicePackListResponse new_GetServicePackList(global::GrpcConferenceContractService.new_GetServicePackListRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetServicePackList(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///获取付费合同和赠送合同的列表（二级合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetServicePackListResponse new_GetServicePackList(global::GrpcConferenceContractService.new_GetServicePackListRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_new_GetServicePackList, null, options, request);
+      }
+      /// <summary>
+      ///获取付费合同和赠送合同的列表（二级合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetServicePackListResponse> new_GetServicePackListAsync(global::GrpcConferenceContractService.new_GetServicePackListRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetServicePackListAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///获取付费合同和赠送合同的列表（二级合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetServicePackListResponse> new_GetServicePackListAsync(global::GrpcConferenceContractService.new_GetServicePackListRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_new_GetServicePackList, null, options, request);
+      }
+      /// <summary>
+      ///获取一级合同列表（公司合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetCompanyContractListResponse new_GetCompanyContractList(global::GrpcConferenceContractService.new_GetCompanyContractListRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetCompanyContractList(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///获取一级合同列表（公司合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetCompanyContractListResponse new_GetCompanyContractList(global::GrpcConferenceContractService.new_GetCompanyContractListRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_new_GetCompanyContractList, null, options, request);
+      }
+      /// <summary>
+      ///获取一级合同列表（公司合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetCompanyContractListResponse> new_GetCompanyContractListAsync(global::GrpcConferenceContractService.new_GetCompanyContractListRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetCompanyContractListAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///获取一级合同列表（公司合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetCompanyContractListResponse> new_GetCompanyContractListAsync(global::GrpcConferenceContractService.new_GetCompanyContractListRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_new_GetCompanyContractList, null, options, request);
+      }
+      /// <summary>
+      ///获取三级合同列表（个人合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetPersonContractListResponse new_GetPersonContractList(global::GrpcConferenceContractService.new_GetPersonContractListRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetPersonContractList(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///获取三级合同列表（个人合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetPersonContractListResponse new_GetPersonContractList(global::GrpcConferenceContractService.new_GetPersonContractListRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_new_GetPersonContractList, null, options, request);
+      }
+      /// <summary>
+      ///获取三级合同列表（个人合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetPersonContractListResponse> new_GetPersonContractListAsync(global::GrpcConferenceContractService.new_GetPersonContractListRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetPersonContractListAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///获取三级合同列表（个人合同）
+      ///参数：1.请求页码
+      ///		2.每页条数
+      ///		3.查询条件
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetPersonContractListResponse> new_GetPersonContractListAsync(global::GrpcConferenceContractService.new_GetPersonContractListRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_new_GetPersonContractList, null, options, request);
+      }
+      /// <summary>
+      ///根据合同号公司报道通知书
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberResponse new_GetCompanyNoticeOfReportByContractNumber(global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetCompanyNoticeOfReportByContractNumber(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///根据合同号公司报道通知书
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberResponse new_GetCompanyNoticeOfReportByContractNumber(global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_new_GetCompanyNoticeOfReportByContractNumber, null, options, request);
+      }
+      /// <summary>
+      ///根据合同号公司报道通知书
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberResponse> new_GetCompanyNoticeOfReportByContractNumberAsync(global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetCompanyNoticeOfReportByContractNumberAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///根据合同号公司报道通知书
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberResponse> new_GetCompanyNoticeOfReportByContractNumberAsync(global::GrpcConferenceContractService.new_GetCompanyNoticeOfReportByContractNumberRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_new_GetCompanyNoticeOfReportByContractNumber, null, options, request);
+      }
+      /// <summary>
+      ///根据个人合同号得到个人报道通知书
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberResponse new_GetPersonNoticeOfReportByContractNumber(global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetPersonNoticeOfReportByContractNumber(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///根据个人合同号得到个人报道通知书
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberResponse new_GetPersonNoticeOfReportByContractNumber(global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_new_GetPersonNoticeOfReportByContractNumber, null, options, request);
+      }
+      /// <summary>
+      ///根据个人合同号得到个人报道通知书
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberResponse> new_GetPersonNoticeOfReportByContractNumberAsync(global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetPersonNoticeOfReportByContractNumberAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///根据个人合同号得到个人报道通知书
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberResponse> new_GetPersonNoticeOfReportByContractNumberAsync(global::GrpcConferenceContractService.new_GetPersonNoticeOfReportByContractNumberRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_new_GetPersonNoticeOfReportByContractNumber, null, options, request);
+      }
+      /// <summary>
+      ///根据个人合同获取行程一览表
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetScheduleListResponse new_GetScheduleList(global::GrpcConferenceContractService.new_GetScheduleListRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetScheduleList(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///根据个人合同获取行程一览表
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.new_GetScheduleListResponse new_GetScheduleList(global::GrpcConferenceContractService.new_GetScheduleListRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_new_GetScheduleList, null, options, request);
+      }
+      /// <summary>
+      ///根据个人合同获取行程一览表
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetScheduleListResponse> new_GetScheduleListAsync(global::GrpcConferenceContractService.new_GetScheduleListRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_GetScheduleListAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///根据个人合同获取行程一览表
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.new_GetScheduleListResponse> new_GetScheduleListAsync(global::GrpcConferenceContractService.new_GetScheduleListRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_new_GetScheduleList, null, options, request);
+      }
+      /// <summary>
+      ///添加行程一览表
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.modifyResponse new_AddSchedule(global::GrpcConferenceContractService.new_AddScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_AddSchedule(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///添加行程一览表
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::GrpcConferenceContractService.modifyResponse new_AddSchedule(global::GrpcConferenceContractService.new_AddScheduleRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_new_AddSchedule, null, options, request);
+      }
+      /// <summary>
+      ///添加行程一览表
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.modifyResponse> new_AddScheduleAsync(global::GrpcConferenceContractService.new_AddScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return new_AddScheduleAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///添加行程一览表
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::GrpcConferenceContractService.modifyResponse> new_AddScheduleAsync(global::GrpcConferenceContractService.new_AddScheduleRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_new_AddSchedule, null, options, request);
+      }
+      /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      protected override GrpcConferenceContractServiceNewClient NewInstance(ClientBaseConfiguration configuration)
+      {
+        return new GrpcConferenceContractServiceNewClient(configuration);
+      }
+    }
+
+    /// <summary>Creates service definition that can be registered with a server</summary>
+    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+    public static grpc::ServerServiceDefinition BindService(GrpcConferenceContractServiceNewBase serviceImpl)
+    {
+      return grpc::ServerServiceDefinition.CreateBuilder()
+          .AddMethod(__Method_new_GetServicePack, serviceImpl.new_GetServicePack)
+          .AddMethod(__Method_new_AddServicePack, serviceImpl.new_AddServicePack)
+          .AddMethod(__Method_new_AddServicePackDiscount, serviceImpl.new_AddServicePackDiscount)
+          .AddMethod(__Method_new_AddPersonContract, serviceImpl.new_AddPersonContract)
+          .AddMethod(__Method_new_GetCompanyInfoByCompanyName, serviceImpl.new_GetCompanyInfoByCompanyName)
+          .AddMethod(__Method_new_GetServicePackList, serviceImpl.new_GetServicePackList)
+          .AddMethod(__Method_new_GetCompanyContractList, serviceImpl.new_GetCompanyContractList)
+          .AddMethod(__Method_new_GetPersonContractList, serviceImpl.new_GetPersonContractList)
+          .AddMethod(__Method_new_GetCompanyNoticeOfReportByContractNumber, serviceImpl.new_GetCompanyNoticeOfReportByContractNumber)
+          .AddMethod(__Method_new_GetPersonNoticeOfReportByContractNumber, serviceImpl.new_GetPersonNoticeOfReportByContractNumber)
+          .AddMethod(__Method_new_GetScheduleList, serviceImpl.new_GetScheduleList)
+          .AddMethod(__Method_new_AddSchedule, serviceImpl.new_AddSchedule).Build();
+    }
+
+  }
 }
 #endregion

@@ -17,14 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <!--<PackageReference Include="Google.Protobuf" Version="3.6.0" />
-    <PackageReference Include="Grpc" Version="1.13.1" />-->
-    <PackageReference Include="Google.Protobuf" Version="3.13.0" />
-    <PackageReference Include="Grpc" Version="2.33.1" />
-    <PackageReference Include="Grpc.Tools" Version="2.33.1">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-    </PackageReference>
+    <PackageReference Include="Google.Protobuf" Version="3.6.0" />
+    <PackageReference Include="Grpc" Version="1.13.1" />
+   
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.1916590" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using ConferenceContractAPI.DBModels;
-using GrpcConferenceContractServiceNew;
+using GrpcConferenceContractService;
 using System;
 using System.Collections.Generic;
 using System.Linq;

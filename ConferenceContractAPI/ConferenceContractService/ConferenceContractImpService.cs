@@ -3,22 +3,22 @@ using ConferenceContractAPI.CCDBContext;
 using ConferenceContractAPI.Common;
 using ConferenceContractAPI.DBModels;
 using Grpc.Core;
-using GrpcConferenceContractServiceNew;
+using GrpcConferenceContractService;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using static GrpcConferenceContractServiceNew.NewConferenceContractService;
+using static GrpcConferenceContractService.GrpcConferenceContractServiceNew;
 
 namespace ConferenceContractAPI.ConferenceContractService
 {
-    public class ConferenceContractService : NewConferenceContractServiceBase
+    public class ConferenceContractImpService : GrpcConferenceContractServiceNewBase
     {
         private string _sql = ContextConnect.ReadConnstrContent();
         private DbContextOptionsBuilder<ConCDBContext> _options;
-        public ConferenceContractService()
+        public ConferenceContractImpService()
         {
             try
             {
@@ -87,9 +87,17 @@ namespace ConferenceContractAPI.ConferenceContractService
             var year = request.Year;
             var isGive = request?.IsGive;
             #region 拼接条件
+            if (!string.IsNullOrEmpty(conferenceId))
+            {
+                companyServiceQueryable = companyServiceQueryable.Where(x => x.ConferenceId == conferenceId);
+            }
             if (!string.IsNullOrEmpty(contractTypeId))
             {
-                companyServiceQueryable = companyServiceQueryable.Where(x => x.ContractTypeId.ToString() == contractTypeId);
+                companyServiceQueryable = companyServiceQueryable.Where(x => x.ContractTypeId.ObjToString() == contractTypeId);
+            }
+            if (!string.IsNullOrEmpty(year))
+            {
+                companyServiceQueryable = companyServiceQueryable.Where(x => x.Year == year);
             }
             if (!string.IsNullOrEmpty(isGive))
             {

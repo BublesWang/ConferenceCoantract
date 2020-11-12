@@ -99,102 +99,7 @@ namespace ConferenceContractAPI.ConferenceContractService
             return companyServiceQueryable;
         }
 
-        ///// <summary>
-        ///// 添加二级合同（付费、赠送）
-        ///// </summary>
-        ///// <param name="request"></param>
-        ///// <param name="context"></param>
-        ///// <returns></returns>
-        //public override async Task<modifyResponse> new_AddServicePack(new_ServicePackStruct request, ServerCallContext context)
-        //{
-        //    try
-        //    {
-        //        request.ContractId = Guid.NewGuid().ToString();
-        //        request.ConferenceContractId = Guid.Empty.ToString();
-        //        request.CreatedOn = DateTime.UtcNow.ToString();
-        //        request.ModifiedOn = new DateTime().ToUniversalTime().ToString();
-
-        //        var comContract = Mapper.Map<CompanyContract>(request);
-        //        modifyResponse response = new modifyResponse();
-        //        using (var dbContext = new ConCDBContext(_options.Options))
-        //        {
-        //            //1.根据公司Id、conferenceId和年份去公司一级合同中查询是否存在一级合同
-        //            //2.若已经存在，则返回一级合同的合同号
-        //            //2.1添加二级合同
-        //            //3.若不存在，添加一级合同，后将一级合同的合同号返回出来
-        //            //3.1添加二级合同
-        //            var conferenceContract = dbContext.ConferenceContract.FirstOrDefault(x => x.ConferenceId == request.ConferenceId && x.ContractYear == request.Year && x.CompanyId == request.CompanyId);
-        //            if (conferenceContract != null)
-        //            {
-        //                var companyContractCount = dbContext.CompanyContract.Count(x => x.ConferenceContractId == conferenceContract.ConferenceContractId) + 1;
-        //                comContract.ComContractNumber = conferenceContract.ContractNumber + companyContractCount.ToString().PadLeft(2, '0');
-        //                comContract.ConferenceContractId = conferenceContract.ConferenceContractId;
-        //            }
-        //            else
-        //            {
-        //                //添加一级合同
-        //                var config = dbContext.CCNumberConfig.FirstOrDefault(n => (n.ConferenceId == request.ConferenceId) && (n.Status == 1) && (n.IsDelete == false) && (n.Year == request.Year));
-        //                if (config != null)
-        //                {
-        //                    ConferenceContract model = new ConferenceContract();
-        //                    model.ConferenceContractId = Guid.NewGuid();
-        //                    comContract.ConferenceContractId = model.ConferenceContractId;
-        //                    var count = config.Count + 1;
-        //                    //合同规则为：21SNECC0001CS
-        //                    model.ContractNumber = config.Year.Substring(2) + config.CNano + request.ContractCode.Substring(0, 1) + count.ToString().PadLeft(4, '0') + request.ContractCode;
-        //                    var companyContractCount = dbContext.CompanyContract.Count(x => x.ConferenceContractId == model.ConferenceContractId) + 1;
-        //                    comContract.ComContractNumber = model.ContractNumber + companyContractCount.ToString().PadLeft(2, '0');
-        //                    model.ConferenceId = comContract.ConferenceId;
-        //                    model.ContractStatusCode = "W";
-        //                    model.ModifyPermission = "0";
-        //                    model.ContractCode = comContract.ContractCode;
-        //                    model.ComNameTranslation = request.ComNameTranslation;
-        //                    model.CompanyId = request.CompanyId;
-        //                    model.ContractYear = request.Year;
-        //                    model.CreatedBy = request.CreatedBy;
-        //                    model.CreatedOn = comContract.CreatedOn;
-        //                    model.IsDelete = false;
-        //                    model.IsModify = false;
-        //                    model.IsSendEmail = false;
-        //                    model.ModifiedBy = request.ModifiedBy;
-        //                    model.ModifiedOn = comContract.ModifiedOn;
-        //                    model.Ower = request.Ower;
-        //                    model.Owerid = request.Owerid;
-        //                    model.PaymentStatusCode = "N";
-        //                    await dbContext.ConferenceContract.AddAsync(model);
-        //                }
-        //                else
-        //                {
-        //                    response.IsSuccess = false;
-        //                    response.Msg = $"CCNumberConfig配置表中不存在当前{request.Year}年份,ConferenceId为{request.ConferenceId}的配置项";
-        //                    return response;
-        //                }
-        //            }
-        //            comContract.CCIsdelete = false;
-        //            comContract.IsVerify = false;
-        //            comContract.IsCheckIn = false;
-        //            await dbContext.CompanyContract.AddAsync(comContract);
-        //            var result = await dbContext.SaveChangesAsync();
-
-        //            if (result > 0)
-        //            {
-        //                response.IsSuccess = true;
-        //                response.Msg = "添加成功";
-        //            }
-        //            else
-        //            {
-        //                response.IsSuccess = false;
-        //                response.Msg = "添加失败";
-        //            }
-        //            return response;
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        LogHelper.Error(this, ex);
-        //        throw ex;
-        //    }
-        //}
+     
         /// <summary>
         /// 判断两个参数是否为相互全部包含
         /// </summary>
@@ -478,7 +383,6 @@ namespace ConferenceContractAPI.ConferenceContractService
                         comContract.ComContractNumber = conferenceContract.ContractNumber + companyContractCount.ToString().PadLeft(2, '0');
                         comContract.ConferenceContractId = conferenceContract.ConferenceContractId;
                         await db_CompanyContract.AddAsync(comContract);
-                        await dbContext.SaveChangesAsync();
 
                         DelegateServicePackDiscount discountContract = new DelegateServicePackDiscount();
                         discountContract.Year = comContract.Year;

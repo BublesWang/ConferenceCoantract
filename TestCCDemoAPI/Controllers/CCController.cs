@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using GrpcConferenceContractService;
+using GrpcConferenceContractServiceNew;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -96,7 +96,7 @@ namespace TestCCDemoAPI.Controllers
             {
                 //Translation = "",
                 //ConferenceId= "a8e5ce7a-3543-460d-891f-118d5c4edfb3",
-                Year="2020"
+                Year = "2020"
             };
 
             var result = CCServiceClient.GetCompanyServicePackList(pageindex, pagesize, search);
@@ -351,10 +351,10 @@ namespace TestCCDemoAPI.Controllers
                 //"e6793a90-961c-4c9e-870a-70db4aff264f," +
                 //"18b48377-98f3-4cd3-a9a9-6c4bb91c3ddd," +
                 //"43a83692-440c-4588-8f00-500bd6acc615,"
-                 SessionConferenceId = "b1afb83a-ee44-4350-bd1d-08cdfeeb5567," +
+                SessionConferenceId = "b1afb83a-ee44-4350-bd1d-08cdfeeb5567," +
                 "d635507b-f3b8-4989-a92f-82ff75766f5a," +
                 "302632b2-bd95-4cb5-8e6a-f3c0da8f1629," +
-                "1a3dc0d2-c36d-4584-8638-e21313058ae4," 
+                "1a3dc0d2-c36d-4584-8638-e21313058ae4,"
                 //SessionConferenceId = "c9b3aa72-e6b8-4fd3-83ee-baf72c293a45"
                 //SessionConferenceId = "c9b3aa72-e6b8-4fd3-83ee-baf72c293a45," +
                 //"5154ed2f-445a-4cc6-94de-addb8efa1040,"+
@@ -394,7 +394,7 @@ namespace TestCCDemoAPI.Controllers
         [Route("updatepc")]
         [HttpPost]
         public IActionResult UpdatePC([FromBody] PersonContractStruct user)
-        {            
+        {
             var result = CCServiceClient.UpdatePersonContractInfo(user);
             return Ok(result);
         }
@@ -527,7 +527,7 @@ namespace TestCCDemoAPI.Controllers
                 //CompanyId= "60cec3ac-08ed-4dd9-bcd7-d35de69d2c43",
                 //CompanyServicePackId= "7750eb23-2ba8-4762-b3c8-3ec38d68c5ae",
                 //ComPrice="0",
-                Owerid= "65dddd36-971f-4f75-ac93-7830e3ce4c3b"
+                Owerid = "65dddd36-971f-4f75-ac93-7830e3ce4c3b"
                 //SessionConferenceId = "c7bdbb1b-888d-414a-a009-4a71a6f78435"
                 //InviteCodeId = "43d68534-bc4e-435b-9e01-18272307fb3c"
                 //InviteCodeNumber = "11111"
@@ -603,6 +603,10 @@ namespace TestCCDemoAPI.Controllers
             var result = CCServiceClient.DeleteConferenceContractById(id);
             return Ok(result);
         }
+
+
+     
+
 
         [Route("deleteconferencecontractbylist")]
         [HttpPost]

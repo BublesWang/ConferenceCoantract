@@ -3,5 +3,4 @@ WORKDIR /app
 
 COPY ./bin/Release/netcoreapp2.1/linux-x64/publish ./
 RUN echo "prod" >> env
-RUN echo "stable_envgrpc" >> envgrpc
 ENTRYPOINT ["./ConferenceContractAPI"]

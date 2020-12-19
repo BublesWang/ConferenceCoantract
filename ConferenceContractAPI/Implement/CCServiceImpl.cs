@@ -5,7 +5,7 @@ using ConferenceContractAPI.ConferenceContractService;
 using ConferenceContractAPI.DBModels;
 using ConferenceContractAPI.ViewModel;
 using Grpc.Core;
-using GrpcConferenceContractService;
+using GrpcConferenceContractServiceNew;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System;

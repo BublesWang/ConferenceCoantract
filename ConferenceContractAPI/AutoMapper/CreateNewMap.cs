@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using ConferenceContractAPI.DBModels;
-using GrpcConferenceContractService;
+using GrpcConferenceContractServiceNew;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +12,9 @@ namespace ConferenceContractAPI.AutoMapper
     {
         public static void CreateMapper(IMapperConfigurationExpression config)
         {
-            config.CreateMap<new_ServicePackStruct, CompanyContract>().ReverseMap();
+            config.CreateMap<newServicePackStruct, CompanyContract>().ReverseMap();
 
-            config.CreateMap<new_ServicePackStruct, ConferenceContract>();
+            config.CreateMap<newServicePackStruct, ConferenceContract>().ReverseMap();
 
         }
     }

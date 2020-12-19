@@ -1,5 +1,5 @@
 ﻿using Grpc.Core;
-using GrpcConferenceContractService;
+using GrpcConferenceContractServiceNew;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ namespace TestCCDemoAPI
 
         static CCServiceClient()
         {
-            _channel = new Channel("conferencecontractapi:40001", ChannelCredentials.Insecure);
+            _channel = new Channel("conferencecontractserver:40001", ChannelCredentials.Insecure);
             _client = new ConferenceContractServiceToGrpc.ConferenceContractServiceToGrpcClient(_channel);
         }
 
@@ -120,6 +120,9 @@ namespace TestCCDemoAPI
                 Id = id
             });
         }
+
+
+     
 
         public static ModifyReplyForCreateOther CreateCompanyContractInfo(CompanyContractStruct model)
         {
@@ -425,7 +428,7 @@ namespace TestCCDemoAPI
 
         public static ConferenceContractList GetConferenceContractByCompanyIdList(string id)
         {
-            return _client.GetConferenceContractByCompanyIdList(new IdRequest 
+            return _client.GetConferenceContractByCompanyIdList(new IdRequest
             {
                 Id = id
             });

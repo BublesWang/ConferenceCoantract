@@ -14,8 +14,9 @@ namespace ConferenceContractAPI.API.RabbitMqHelper
     public class RabbitMQConsume : IHostedService, IDisposable
     {
         public PCQueueService PCQueueService = new PCQueueService();
-
         public PCPaidAmountQueueService PCPaidAmountQueueService = new PCPaidAmountQueueService();
+
+        ConferenceContractQueueService _conferenceContractQueueService = new ConferenceContractQueueService();
 
         public static IConnection connection;
 
@@ -37,6 +38,7 @@ namespace ConferenceContractAPI.API.RabbitMqHelper
         {
             PCQueueService.Consume("pcf_contractNumber_queue", channel);
             PCPaidAmountQueueService.Consume("ex_totalAmountByPerContractNumber_queue", channel);
+            _conferenceContractQueueService.Consume("cConPaidVM_object_queue", channel);
             return Task.CompletedTask;
         }
 

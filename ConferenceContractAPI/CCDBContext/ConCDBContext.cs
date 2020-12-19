@@ -14,7 +14,7 @@ namespace ConferenceContractAPI.CCDBContext
 
         }
 
-        
+
 
         public DbSet<ConferenceContract> ConferenceContract { get; set; }
         public DbSet<CompanyContract> CompanyContract { get; set; }
@@ -61,6 +61,32 @@ namespace ConferenceContractAPI.CCDBContext
 
         public DbSet<OperateRecord> OperateRecord { get; set; }
         public DbSet<RemarkDic> RemarkDic { get; set; }
+
+        public DbSet<Conference> Conference { get; set; }
+
+        public DbSet<AbstractDraft> AbstractDraft { get; set; }
+
+        public DbSet<AbstractParticipant> AbstractParticipant { get; set; }
+
+        public DbSet<Participant> Participant { get; set; }
+
+        public DbSet<ConferenceContractAPI.DBModels.Talk> Talk { get; set; }
+
+        public DbSet<Activity> Activity { get; set; }
+
+        public DbSet<ActivityParticipantMap> ActivityParticipantMap { get; set; }
+
+        public DbSet<ActivityType> ActivityType { get; set; }
+
+        public DbSet<TalkType> TalkType { get; set; }
+
+        public DbSet<TalkParticipantMap> TalkParticipantMap { get; set; }
+
+        public DbSet<ParticipantType> ParticipantType { get; set; }
+
+        public DbSet<CFAddress> CFAddress { get; set; }
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

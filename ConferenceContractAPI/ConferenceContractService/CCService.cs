@@ -4,7 +4,7 @@ using ConferenceContractAPI.DBModels;
 using ConferenceContractAPI.RabbitMqHelper;
 using ConferenceContractAPI.ViewModel;
 using Extensions.Repository;
-using GrpcConferenceContractService;
+using GrpcConferenceContractServiceNew;
 using GrpcConferenceService;
 using GrpcMembersService;
 using Microsoft.EntityFrameworkCore;
@@ -2044,6 +2044,7 @@ namespace ConferenceContractAPI.ConferenceContractService
                                                 && (string.IsNullOrEmpty(searchInfo.conferenceId) || (n.ConferenceId == searchInfo.conferenceId))
                                                 && (string.IsNullOrEmpty(searchInfo.year) || n.Year == searchInfo.year)
                                                 && n.IsDelete == false
+                                                && n.IsGive==searchInfo.isGive
                                      )
                                      .OrderBy(n => n.Sort)
                                      .ToListAsync();
@@ -2079,7 +2080,8 @@ namespace ConferenceContractAPI.ConferenceContractService
                                 && (string.IsNullOrEmpty(searchInfo.conferenceName) || (n.ConferenceName.Contains(searchInfo.conferenceName)))
                                 && (string.IsNullOrEmpty(searchInfo.contractTypeId) || (n.ContractTypeId.ToString() == searchInfo.contractTypeId))
                                 && (n.IsDelete == searchInfo.IsDelete)
-                                && (string.IsNullOrEmpty(searchInfo.year) || n.Year == searchInfo.year)
+                                && (string.IsNullOrEmpty(searchInfo.year) || n.Year == searchInfo.year
+                                && n.IsGive==searchInfo.isGive)
                                 )
                     .OrderBy(n => n.Sort)
                     .Skip(((pageindex - 1) * pagesize))

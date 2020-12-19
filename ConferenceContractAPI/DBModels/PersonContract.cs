@@ -79,6 +79,10 @@ namespace ConferenceContractAPI.DBModels
 
         public Guid? CompanyServicePackId { get; set; }
 
+        [MaxLength(50)]
+        public string CompanyServicePackCode { get; set; }
+
+
         public Guid? ConferenceContractId { get; set; }
         [MaxLength(150)]
         public string PerPrice { get; set; }

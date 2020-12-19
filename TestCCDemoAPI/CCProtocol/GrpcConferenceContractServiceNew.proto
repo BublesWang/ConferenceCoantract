@@ -1,9 +1,9 @@
 ﻿syntax = "proto3";
 //会议合同服务
-package GrpcConferenceContractService;
-//Vsersion_ConferenceContractServiceToGrpc_20200925_0.1
+package GrpcConferenceContractServiceNew;
+//version_20201112
 // tag<gRPC>
-// host<conferencecontract.api>
+// host<conferencecontractserver>
 // port<40001> 
 service ConferenceContractServiceToGrpc{
 
@@ -1350,10 +1350,10 @@ message BoolReply {
 
  //================V2.0 Begin===================
 
-service GrpcConferenceContractServiceNew{
+service ConferenceContractServiceNew{
 
  //勾选套餐接口 参数：conferenceId，上级分类Id（ContractTypeId）,Year,IsGive(是否赠送)
- rpc new_GetServicePack(new_GetServicePackRequest) returns(new_GetServicePackResponse){}
+ rpc newGetServicePack(newGetServicePackRequest) returns(newGetServicePackResponse){}
 
 //付费合同和赠送合同添加二级合同（套餐）接口。
 //参数：1.公司信息（先根据公司名称判断是否有公司一级合同，若没有，则先创建一级合同，在创建二级合同.若已经存在一级合同，则只创建二级合同）
@@ -1363,7 +1363,7 @@ service GrpcConferenceContractServiceNew{
 //		5.合同状态
 //注：付款状态、合同状态需要及时更新
 //返回：是否插入成功
-rpc  new_AddServicePack(new_ServicePackStruct) returns(modifyResponse){}
+rpc  newAddCompanyContract(newServicePackStruct) returns(modifyResponseNew){}
 
 
 //付费合同添加二级合同（套餐）折扣 接口。
@@ -1374,49 +1374,115 @@ rpc  new_AddServicePack(new_ServicePackStruct) returns(modifyResponse){}
 //		5.合同状态,
 //		6.现价
 //返回：是否插入成功
-rpc new_AddServicePackDiscount(new_ServicePackStructDiscount) returns(modifyResponse){}
+rpc newAddCompanyContractDiscount(newServicePackStructDiscount) returns(modifyResponseNew){}
 
-//添加个人合同
-rpc new_AddPersonContract(new_AddPersonContractRequest) returns(modifyResponse){}
+//当已经存在该二级合同时，合并二级合同（将原合同的最大子合同数目在原基础上增加新的子合同数）
+rpc newMergeCompanyContract(newMergeCompanyContractRequest) returns(modifyResponse){}
+
+rpc newMergeCompanyContractDiscount(newMergeCompanyContractRequest) returns (modifyResponse){}
+
+
+//添加个人合同:不确定是否存在一级和二级合同，直接创建三级合同时用
+rpc newAddPersonContract(newAddPersonContractRequest) returns(modifyResponse){}
+
+//在已经有二级合同的前提下添加个人合同
+rpc newAddPersonContractUnderCompanyContract(newAddPersonContractUnderCompanyContractRequest) returns (modifyResponse){}
+
+//根据年份筛选出采用的会议配置项
+rpc newGetConferenceInfo(newGetConferenceInfoRequest) returns (newGetConferenceInfoResponse){}
+
+//根据公司Id、会议Id和年份得到对应的主业务员和副业务员
+rpc newGetOwnerByConfIdAndComIdAndYear(newGetOwnerByConfIdAndComIdAndYearRequest) returns(newGetOwnerByConfIdAndComIdAndYearResponse){}
+
+//获取一级合同
+rpc newGetConferenceContractList(newGetConferenceContractListRequest) returns (newGetConferenceContractListResponse){}
+
+
+//获取二级合同列表（付费、赠送）
+//参数：1.请求页码
+//		2.每页条数
+//		3.查询条件
+rpc newGetCompanyContractList(newGetCompanyContractListRequest) returns (newGetCompanyContractListResponse){}
+
+
+
+//获取不包含折扣合同的二级合同:true--获取不包含折扣合同的二级合同 false--所有的二级付费合同
+rpc newGetCompanyContratcListByIsHaveDiscount(newBoolRequest) returns (newGetCompanyContractListResponse){}
+
+//获取未填满参会人员的二级合同(付费、赠送):true--获取没有填满参会人员的二级合同 false--所有的二级付费合同
+rpc newGetCompanyContractListByIsNotFullPerson(newBoolRequest) returns (newGetCompanyContractListResponse){}
+
+//获取二级折扣合同
+rpc newGetCompanyContractListDiscount(newGetCompanyContractListDiscountRequest) returns (newGetCompanyContractListDiscountResponse){}
+
+//一级合同根据合同Id修改业务员和副业务员
+rpc newModifyOwnerByConferenceContractId(newModifyOwnerByConferenceContractIdRequest) returns (modifyResponse){}
+
+//获取三级合同列表（个人合同）
+//参数：1.请求页码
+//		2.每页条数
+//		3.查询条件
+rpc newGetPersonContractList(newGetPersonContractListRequest) returns (newGetPersonContractListResponse){}
+
+//获取我的演讲人列表：若提交了摘要，则姓名、公司、手机号、职务、邮箱取得是摘要中的信息，若没有提交摘要，则调取的是个人合同对应的会员的信息
+rpc newGetMySpeakersList(newGetMySpeakersListRequest) returns (newGetMySpeakersListResponse){}
+
+
+//新写的
+//根据二级合同的邀请码注册
+rpc newCreatePersonContractByCompanyContractInviteCode(newCreatePersonContractByCompanyContractInviteCodeRequest) returns (modifyResponse){}
+
+//根据邀请码注册
+rpc newCreatePersonContractByInviteCode(newCreatePersonContractByInviteCodeRequest) returns (modifyResponse){}
+
+//--------议题使用接口Begin------
+
+//根据二级合同号获取该二级合同下的三级合同列表
+rpc newGetPersonContractListByComContratcId(newGetPersonContractListByComContratcIdRequest) returns (newGetPersonContractListResponse){}
+
+//根据AbstractDraft中的个人合同号（三级合同号）得到AbstractParticipantID,
+//根据AbstractParticipantID去查出AbstractParticipant中对应的信息（第一条）
+//然后更新Participant表中对应的信息
+rpc newModifyParticipantByAbstractParticipantPerContractNumber(PerContractNumberRequest) returns (modifyResponse){}
+
+//根据Year、ConferenceId、MemberPK得到对应的参会类型是否为演讲类：true--演讲类 false--非演讲类 以及合同信息
+rpc newGetComapnyServicePackType(newGetComapnyServicePackTypeRequest) returns (newGetComapnyServicePackTypeResponse){}
+//--------议题使用接口End------
+
+//---------以上为完成好的接口------------
+rpc newGetPersonReportNotice(newGetReportNoticeRequest) returns (newGetReportNoticResponse){}
+
+
+//获取二级合同
+rpc newGetCompanyContractList1(newGetServicePackListRequest) returns (newGetServicePackListResponse){}
+
 
 // //当公司、套餐、业务员、合同状态、套餐价格、年份都一致时，更新子合同数（原来的子合同数+新加的子合同数）注：点击确定按钮之前先查询是否有和该套餐一致的合同
 // rpc new_ModifyServicePack(new_ServicePackStruct) returns(modifyResponse){}
 
 //根据公司名称获取公司信息 参数：公司名 返回：公司信息
-rpc new_GetCompanyInfoByCompanyName(new_CompanyNameRequest) returns (CompanyInfoResponse){}
+rpc newGetCompanyInfoByCompanyName(newCompanyNameRequest) returns (CompanyInfoResponse){}
 
 
 //获取付费合同和赠送合同的列表（二级合同）
 //参数：1.请求页码
 //		2.每页条数
 //		3.查询条件
-rpc new_GetServicePackList(new_GetServicePackListRequest) returns(new_GetServicePackListResponse){}
+rpc newGetServicePackList(newGetServicePackListRequest) returns(newGetServicePackListResponse){}
 
-
-//获取一级合同列表（公司合同）
-//参数：1.请求页码
-//		2.每页条数
-//		3.查询条件
-rpc new_GetCompanyContractList(new_GetCompanyContractListRequest) returns (new_GetCompanyContractListResponse){}
-
-//获取三级合同列表（个人合同）
-//参数：1.请求页码
-//		2.每页条数
-//		3.查询条件
-rpc new_GetPersonContractList(new_GetPersonContractListRequest) returns (new_GetPersonContractListResponse){}
 
 
 //根据合同号公司报道通知书
-rpc new_GetCompanyNoticeOfReportByContractNumber(new_GetCompanyNoticeOfReportByContractNumberRequest) returns (new_GetCompanyNoticeOfReportByContractNumberResponse){}
+rpc newGetCompanyNoticeOfReportByContractNumber(newGetCompanyNoticeOfReportByContractNumberRequest) returns (newGetCompanyNoticeOfReportByContractNumberResponse){}
 
 //根据个人合同号得到个人报道通知书
-rpc new_GetPersonNoticeOfReportByContractNumber(new_GetPersonNoticeOfReportByContractNumberRequest) returns(new_GetPersonNoticeOfReportByContractNumberResponse){}
+rpc newGetPersonNoticeOfReportByContractNumber(newGetPersonNoticeOfReportByContractNumberRequest) returns(newGetPersonNoticeOfReportByContractNumberResponse){}
 
 //根据个人合同获取行程一览表
-rpc new_GetScheduleList(new_GetScheduleListRequest) returns (new_GetScheduleListResponse){}
+rpc newGetScheduleList(newGetScheduleListRequest) returns (newGetScheduleListResponse){}
 
 //添加行程一览表
-rpc new_AddSchedule(new_AddScheduleRequest) returns(modifyResponse){}
+rpc newAddSchedule(newAddScheduleRequest) returns(modifyResponse){}
 
 }
 
@@ -1427,7 +1493,7 @@ message modifyResponse{
 }
 
 //付费合同和赠送合同添加二级合同时需要传的参数
-message new_ServicePackStruct{
+message newServicePackStruct{
   //二级合同信息
   string ContractId=1;
   string ConferenceContractId=2;
@@ -1458,11 +1524,13 @@ message new_ServicePackStruct{
   string ModifiedOn=27;
   string ModifiedBy=28;
   string Year=29;
+  //套餐包Code
+  string CompanyServicePackCode=30;
 }
 
 //添加付费合同的折扣信息时需要传入的参数
-message new_ServicePackStructDiscount{
-  new_ServicePackStruct model=1;
+message newServicePackStructDiscount{
+  newServicePackStruct model=1;
   float Discount=2;
   string PriceAfterDiscountRMB=3;
   string PriceAfterDiscountUSD=4;
@@ -1471,6 +1539,7 @@ message new_ServicePackStructDiscount{
 
 message newPersonContractStruct{
   string PersonContractId=1;
+  //二级合同的Id，同时也是二级合同的邀请码
   string ContractId=2;
   string ConferenceId=3;
   string MemberPK=4;
@@ -1501,11 +1570,33 @@ message newPersonContractStruct{
 }
 
 //添加个人合同
-message new_AddPersonContractRequest{
+message newAddPersonContractRequest{
   newPersonContractStruct person=1;
-  new_ServicePackStruct companyContractModel=2;
+  newServicePackStruct companyContractModel=2;
 }
 
+
+message newAddPersonContractUnderCompanyContractRequest{
+ newPersonContractStruct person=1;
+
+ string Year=2;
+ //二级合同的合同号
+ string CompanyContractNumber=3;
+
+}
+
+
+message newCreatePersonContractByCompanyContractInviteCodeRequest{
+ newPersonContractStruct person=1;
+ string CompanyId=2;
+}
+message newCreatePersonContractByInviteCodeRequest{
+ newPersonContractStruct person=1;
+ string InviteCode=2;
+ //值分别为：SNEC、ESH
+ string WebSite=3;
+  newServicePackStruct companyContractModel=4;
+}
 message CompanyNameRequest{
   //公司名
   string name=1;
@@ -1526,8 +1617,8 @@ message CompanyInfoResponse{
 }
 
 //付费合同列表页码的搜索与请求条件
-message new_GetServicePackListRequest{
-  message new_GetServicePackListSearch{
+message newGetServicePackListRequest{
+  message newGetServicePackListSearch{
     //年份
     string year=1;
     //会议Id
@@ -1550,11 +1641,11 @@ message new_GetServicePackListRequest{
   //每页数据条数
   int32 pageSize=2;
   //查询条件
-  new_GetServicePackListSearch search=3;
+  newGetServicePackListSearch search=3;
 }
 
 //得到付费合同和赠送合同列表
-message new_GetServicePackListStruct{
+message newGetServicePackListStruct{
    //合同号
    string contractNumber=1;
    //公司中文名
@@ -1562,7 +1653,7 @@ message new_GetServicePackListStruct{
    //公司英文名
    string companyNameEn=3;
    //内资还是外资
-   string domesticOrForeign=4;
+   string enterpriseType=4;
    //参会类型
    string servicePack=5;
    //应付费
@@ -1588,152 +1679,460 @@ message new_GetServicePackListStruct{
 }
 
 //获取付费合同和赠送合同的列表
-message new_GetServicePackListResponse{
-   repeated new_GetServicePackListStruct listdata=1;
+message newGetServicePackListResponse{
+   repeated newGetServicePackListStruct listdata=1;
    int32 total=2;
 }
 
-//获取公司合同（一级合同）时传入的参数
-message new_GetCompanyContractListRequest{
-  message  new_GetCompanyContractListSearch{
+//获取公司合同（二级合同）时传入的参数
+message newGetCompanyContractListRequest{
+  message  newGetCompanyContractListSearch{
     //年份
-    string year=1;
+    string Year=1;
     //会议Id
-    string conferenceId=2;
+    string ConferenceId=2;
     //公司名
-    string companyName=3;
+    string CompanyName=3;
     //合同号
-    string contractNumber=4;
+    string ContractNumber=4;
     //业务员
-    string owner=5;
+    string OwnerId=5;
+	//套餐Id
+	string CompanyServicePackId=6;
+	//排序
+	string Orderings=7;
+	//是否为赠送合同：true：赠送合同 false：付费合同
+	bool IsGive=8;
   }
   //请求页码
   int32 page=1;
   //每页数据条数
   int32 pageSize=2;
   //查询条件
-  new_GetCompanyContractListSearch search=3;
+  newGetCompanyContractListSearch search=3;
 }
 
-//得到公司合同列表（一级合同）
-message new_GetCompanyContractListResponse{
+
+message newGetMySpeakersListRequest{
+ message newGetMySpeakersListSearch{
+   //年份
+    string Year=1;
+    //会议Id
+    string ConferenceId=2;
+    //公司名：个人合同中的公司名
+    string CompanyName=3;
+    //合同号
+    string ContractNumber=4;
+	//姓名：个人合同中的姓名
+	string Name=5;
+    //业务员
+    string OwnerId=6;
+	//排序
+	string Orderings=7;
+ }
+ //请求页码
+  int32 page=1;
+  //每页数据条数
+  int32 pageSize=2;
+  //查询条件
+  newGetMySpeakersListSearch search=3;
+}
+message newGetMySpeakersListStruct{
   //合同号
-  string contractNumber=1;
-  //公司中文名
-  string companyNameCn=2;
-  //公司英文名
-  string companyNameEn=3;
-  //内资还是外资
-  string domesticOrForeign=4;
-  //应付费
-  string pay=5;
-  //实付费
-  string paid=6;
-  //参会年份
-  string year=7;
-  //是否发送邮件
-  bool isSendEmail=8;
+  string ContractNumber=1;
+  //姓名（合同）
+  string PerContractName=2;
+  //参会类型
+  string PerParticipantTypeTranslation=3;
+  //姓名
+  string Name=4;
+  //公司
+  string CompanyTranslation=5;
+  //职务
+  string Position=6;
+  //手机
+  string Mobile=7;
+  //邮箱
+  string Email=8;
   //业务员
-  string owner=9;
-  //邀请码
-  string inviteCode=10;
-  //合同状态
-  string contractStatus=11;
-  //付款状态
-  string payStatus=12;
-   //创建人
-  string createdBy=13;
+  string Owner=9;
+  //业务员Id
+  string OwnerId=10;
+  //副业务员
+  string OtherOwner=11;
+  //副业务员Id
+  string OtherOwnerId=12;
+  //是否已添加：true---已添加  false--未添加
+  bool IsAdd=13;
+ //创建人
+  string CreatedBy=14;
   //创建时间
-  string createdOn=14;
+  string CreatedOn=15;
   //修改人
-  string modifiyBy=15;
+  string ModifiyBy=16;
   //修改时间
-  string modifyOn=16;
+  string ModifyOn=17;
+  string MemberPK=18;
+  int32 EnterpriseType=19;
+  string ConferenceId=20;
+}
+
+message newGetMySpeakersListResponse{
+repeated newGetMySpeakersListStruct listdata=1;
+int32 total=2;
+}
+
+message newBoolRequest{
+message  newGetCompanyContractListSearch{
+	bool Check=1;
+    string Year=2;
+	//排序
+	string Orderings=3;
+	//是否为赠送 true:是 false：否
+	bool IsGive=4;
+	string OwnerId=5;
+  }
+    //请求页码
+  int32 page=1;
+  //每页数据条数
+  int32 pageSize=2;
+  //查询条件
+  newGetCompanyContractListSearch search=3;
+}
+
+
+
+
+message newGetCompanyContractListStruct{
+ //合同号
+  string ContractNumber=1;
+  //公司名
+  string CompanyNameTranslation=2;
+  //内资还是外资
+  string EnterpriseType=3;
+  //应付费
+  string Pay=4;
+  //参会类型（套餐名）
+  string ComServicePackTranslation=5;
+  //参会年份
+  string Year=6;
+  //子合同数
+  int32 MaxContractNumber=7;
+  //业务员
+  string Owner=8;
+  //已填子合同数
+  string FilledContractCount=9;
+  //合同状态
+  string ContractStatus=10;
+   //创建人
+  string CreatedBy=11;
+  //创建时间
+  string CreatedOn=12;
+  //修改人
+  string ModifiyBy=13;
+  //修改时间
+  string ModifyOn=14;
+  bool IsGive=15;
+   //业务员Id
+  string OwnerId=16;
+   //副业务员
+  string OtherOwner=17;
+   //副业务员Id
+  string OtherOwnerId=18;
+  //套餐价格
+  string ComPrice=19;
+  //公司Id
+  string ComapnyId=20;
+  //套餐原价
+  string OriginPrice=21;
+  //合同状态名称
+  string ContractStateName=22;
+  //折扣情况
+  string DiscountId=23;
+  string ContractId=24;
+  string PriceAfterDiscountUSD=25;
+  string PriceAfterDiscountRMB=26;
+
+}
+
+
+message newGetCompanyContractListDiscountRequest{
+ message newGetCompanyContractListDiscountSearch{
+ string ConferenceId=1;
+ string CompanyTranslation=2;
+ string Year=3;
+ string ContractNumber=4;
+ } 
+  //请求页码
+  int32 page=1;
+  //每页数据条数
+  int32 pageSize=2;
+  //查询条件
+  newGetCompanyContractListDiscountSearch search=3; 
+}
+
+message newGetCompanyContractListDiscountStruct{
+ string ContractNumber=1;
+ string CompanyTranslation=2;
+ //套餐价格
+ string Price=3;
+ string PriceDiscount=4;
+
+}
+ 
+message newGetCompanyContractListDiscountResponse{
+repeated newGetCompanyContractListDiscountStruct listdata=1;
+ int32 total=2;
+}
+
+
+
+
+//得到公司合同列表（二级合同）
+message newGetCompanyContractListResponse{
+  repeated newGetCompanyContractListStruct listdata=1;
+  int32 total=2;
 }
 
 
 //获取个人合同（三级合同）时传入的参数
-message new_GetPersonContractListRequest{
-  message  new_GetPersonContractListSearch{
+message newGetPersonContractListRequest{
+  message  newGetPersonContractListSearch{
     //年份
-    string year=1;
+    string Year=1;
     //会议Id
-    string conferenceId=2;
+    string ConferenceId=2;
     //套餐Id
-    string servicePackId=3;
+    string ServicePackId=3;
     //公司名
-    string companyName=4;
+    string CompanyName=4;
     //合同号
-    string contractNumber=5;
+    string ContractNumber=5;
     //业务员
-    string owner=6;
+    string OwnerId=6;
     //姓名
-    bool name=7;
+    string Name=7;
     //邮箱
-    bool email=8;
-     //创建人
-    string createdBy=9;
-    //创建时间
-    string createdOn=10;
-    //修改人
-    string modifiyBy=11;
-    //修改时间
-    string modifyOn=12;
+    string Email=8;
+	//排序规则：属性前面带-号表示反序排序，exp:"name,-createtime"
+	string Orderings=9; 
+	//是否为赠送 0---筛选非赠送的个人合同 1----筛选赠送的个人合同  2---查询全部的个人合同
+	int32 isGive=10;
     }
    // 请求页码
   int32 page=1;
   //每页数据条数
   int32 pageSize=2;
   //查询条件
-  new_GetPersonContractListSearch search=3;
+  newGetPersonContractListSearch search=3;
+}
+
+
+message newGetPersonContractListByComContratcIdRequest{
+ message  newGetPersonContractListSearch{
+    //二级合同Id
+    string ComContractId=1;
+    }
+  int32 page=1;
+  //每页数据条数
+  int32 pageSize=2;
+  //查询条件
+  newGetPersonContractListSearch search=3;
+}
+
+message PerContractNumberRequest{
+ //个人合同号
+ string PerContractNumber=1;
+}
+message newGetComapnyServicePackTypeRequest{
+ string Year=1;
+ //会议Id
+ string ConferenceId=2;
+ string MemberPK=3;
+}
+message newGetComapnyServicePackTypeResponse{
+//true：演讲类型 false：非演讲类
+ bool IsSpeaker=1;
+ string Name=2;
+ string ContractNumer=3;
+ string ComServicePackName=4;
+}
+
+
+//个人参会报道通知书传参
+message newGetReportNoticeRequest{
+ //合同号
+ string PerContractNumber=1;
+ //年份
+ string Year=2;
+ //会议Id
+ string ConferenceId=3;
+ string MemberPK=4;
+}
+
+message NewTalkAndParticipateStruct{
+ //Talk时间段
+ string TalkTimeRange=1;
+ //Talk名字
+ string TalkTranslation=2;
+ //议题名称
+ string CFTopicName=3;
+ //会员在这场Talk中的身份
+ string ParticipantTypeTranslation=4;
+ //姓名
+ string ParticipantNameTranslation=5;
+ //称谓
+ string AppellationTranslation=6;
+ //职称
+ string JobTranslation=7;
+ //公司
+ string CompanyTranslation=8;
+ //国家
+ string CountryTranslation=9;
+ string Sort=10;
+}
+
+
+message NewActivityAndParticipateStruct{
+ //活动名称
+ string ActivityTranslation=1;
+ //活动时间段
+ string ActivityTimeRange=2;
+ int32 Sort=3;
+ //会员在这场活动中的身份
+ string ParticipantTypeTranslation=4;
+ //姓名
+ string ParticipantNameTranslation=5;
+ //称谓
+ string AppellationTranslation=6;
+ //职称
+ string JobTranslation=7;
+ //公司
+ string CompanyTranslation=8;
+ //国家
+ string CountryTranslation=9;
+ repeated NewTalkAndParticipateStruct talkAndParticipateList=10;
+
+}
+
+message NewCalendarStruct{
+ string SessionConferenceId=1;
+ string SessionConferenceName=2;
+ //是否确认
+ bool IsConfirm=3;
+ //标签Code（多个标签Code，用“，”分隔）
+ string TagTypeCodes=4;
+  //标签名称（多个标签，用“，”分隔）
+ string TagTypeName=5;
+ //备注
+ string RemarkTranslation=6;
+ //是否是会务额外勾选的
+ bool IsParticularConf=7;
+ string Date=8;
+ string Time=9;
+ string Address=10;
+   //是否包含在套餐内（true-标黄底  false--白底）
+  bool isInsidePackage=12;
+  //是否勾选（true--打勾日程 false--未打钩）
+  bool isChecked =13;
+  repeated NewActivityAndParticipateStruct activityAndParticipateList=14;
+}
+
+
+message NewPersonContractInfoStruct {
+   //主键
+   string PersonContractId = 1;
+   //个人合同号
+   string PerContractNumber = 3;
+   //MemberPK
+   string MemberPK = 4;
+   //会员姓名
+   string MemTranslation = 5;
+   //邮箱
+   string MemEmail=6;
+   //公司名
+   string CompanyNameTranslation=7;
+   //参会类型
+   string ComServicePackTranslation=8;
+   //费用
+   string perPrice=9;
+ }
+
+ //业务员信息
+ message OwnerInfo{
+  string Name=1;
+  string Tel=2;
+  string Email=3;
+  string Address=4;
+ }
+
+//个人参会报道通知书返回信息
+message newGetReportNoticResponse{
+ 
+  //合同信息
+  NewPersonContractInfoStruct person=1;
+ //日程信息
+  repeated Report_ConferenceVM calendar=2;
+  OwnerInfo owner=3; 
+}
+
+message newGetPersonContractListStruct{
+//合同号
+  string ContractNumber=1;
+  //姓名
+  string MemNameTranslation=2;
+  //公司名
+  string CompanyNameTranslation=3;
+  //职务
+  string Position=4;
+  //邮箱
+  string Email=5;
+  //手机
+  string Mobile=6;
+  //参会类型
+  string ComServicePackTranslation=7;
+  //应付费
+  string Pay=8;
+  //已付费
+  string Paid=9;
+  //业务员
+  string Owner=10;
+  //是否发送邮件
+  bool IsSendEmail=11;
+  //是否打印
+  bool IsPrint=12;
+  //创建人
+  string CreatedBy=13;
+  //创建时间
+  string CreatedOn=14;
+  //修改人
+  string ModifiyBy=15;
+  //修改时间
+  string ModifyOn=16;
+  string MemberPK=17;
 }
 
 //获取个人合同信息（三级）
-message new_GetPersonContractListResponse{
-  //合同号
-  string contractNumber=1;
-  //姓名中文
-  string nameCn=2;
-  //姓名英文
-  string nameEn=3;
-  //公司中文名
-  string companyNameCn=4;
-  //公司英文名
-  string companyNameEn=5;
-  //职务
-  string position=6;
-  //邮箱
-  string email=7;
-  //手机
-  string mobile=8;
-  //参会类型
-  string servicePack=9;
-  //应付费
-  string pay=10;
-  //已付费
-  string paid=11;
-  //业务员
-  string owner=12;
-  //是否发送邮件
-  bool isSendEmail=13;
-  //是否打印
-  bool isPrint=14;
-  //创建人
-  string createdBy=15;
-  //创建时间
-  string createdOn=16;
-  //修改人
-  string modifiyBy=17;
-  //修改时间
-  string modifyOn=18;
+message newGetPersonContractListResponse{
+  repeated newGetPersonContractListStruct listdata=1;
+  int32 total=2;
+}
+
+message newModifyOwnerByConferenceContractIdRequest{
+ string ConferenceContractId=1;
+ string OwnerId=2;
+ string Owner=3;
+ string OtherOwnerId=4;
+ string OtherOwner=5;
+ string ModifiedBy=6;
 }
 
 //获取行程一览表传入的参数
-message new_GetScheduleListRequest{
+message newGetScheduleListRequest{
   //合同号
   string personContractNumber=1;
 }
-message new_GetScheduleListResponse{
+message newGetScheduleListResponse{
   //个人合同id
   string personContractId=1;
   //个人合同号
@@ -1775,7 +2174,7 @@ message new_GetScheduleListResponse{
   //修改人
   string modifyBy=20;
 }
-message new_AddScheduleRequest{
+message newAddScheduleRequest{
   //个人合同id
   string personContractId=1;
   //个人合同号
@@ -1818,7 +2217,7 @@ message new_AddScheduleRequest{
   string modifyBy=20;
 }
 
-message new_GetCompanyNoticeOfReportByContractNumberRequest{
+message newGetCompanyNoticeOfReportByContractNumberRequest{
 	string contractNumber=1;
 	string year=2;
 }
@@ -2034,6 +2433,7 @@ message NewServicePackStruct {
   string SessionAddress = 17;
   //年份
   string Year = 18;
+  string companyServicePackCode=19;
 }
 message NewActivityStruct {
   string ActivityId = 1;
@@ -2249,7 +2649,14 @@ message NewParticipantInfoStruct{
 	string Mobile = 10;
 }
 
-message new_GetCompanyNoticeOfReportByContractNumberResponse{
+message modifyResponseNew{
+  bool isSuccess=1;
+  string msg=2;
+  int32 total=3;
+  string companyContractId=4;
+}
+
+message newGetCompanyNoticeOfReportByContractNumberResponse{
 	//会议集合
 	repeated NewConferenceStruct ConferenceStructListdata = 1;
 
@@ -2286,12 +2693,12 @@ message new_GetCompanyNoticeOfReportByContractNumberResponse{
 }
 
 
-message new_GetPersonNoticeOfReportByContractNumberRequest{
+message newGetPersonNoticeOfReportByContractNumberRequest{
  //个人合同号
  string personContractNumber=1;
 }
 
-message new_GetPersonNoticeOfReportByContractNumberResponse{
+message newGetPersonNoticeOfReportByContractNumberResponse{
  //合同号
  string contractNumber=1;
  //姓名
@@ -2329,7 +2736,7 @@ message new_GetPersonNoticeOfReportByContractNumberResponse{
 }
 
 //需要完善
-message new_CompanyNameRequest{
+message newCompanyNameRequest{
   string name=1;
 }
 
@@ -2389,15 +2796,15 @@ message NewPersonContractStruct {
 }
 
 //勾选套餐时要传的参数
-message new_GetServicePackRequest{
-string ConferenceId=1;
-string ContractTypeId=2;
-string Year=3;
-string IsGive=4;
+message newGetServicePackRequest{
+ string ConferenceId=1;
+ string ContractTypeId=2;
+ string Year=3;
+ string IsGive=4;
 }
 //勾选套餐时返回的对象
-message new_GetServicePackStruct{
-  string CompanyServicePackId=1;
+message newGetServicePackStruct{
+  string CompanyServicePackId=1;  
   string Code=2;
   string Translation=3;
   string PriceRMB=4;
@@ -2405,10 +2812,211 @@ message new_GetServicePackStruct{
   string PriceJP=6;
   bool IsGive=7;
   string Year=8;
+  string ContractTypeId=9;
+  string CTypeCode=10;
+  int32 Sort=11;
+  string ConferenceId=12;
+  string ConferenceName=13;
+  bool IsShownOnFront=14;
+  string RemarkTranslation=15;
+  string RemarkCode=16;
+  bool IsSpeaker=17;
+  bool IsDelete=18;
+  string CreatedOn=19;
+  string CreatedBy=20;
+  string ModefieldOn=21;
+  string ModefieldBy=22;
 }
-message new_GetServicePackResponse{
-  repeated new_GetServicePackStruct listdata=1;
+message newGetServicePackResponse{
+  repeated newGetServicePackStruct listdata=1;
 }
+
+message newMergeCompanyContractRequest{
+ //二级合同号
+ string companyContractId=1;
+ //子合同数
+ int32 MaxContractNumber=2;
+}
+
+
+//获取一级合同列表页码的搜索与请求条件
+message newGetConferenceContractListRequest{
+  message newGetConferenceContractListSearch{
+    //年份
+    string year=1;
+    //会议Id
+    string conferenceId=2;
+    //公司名
+    string companyName=3;
+    //合同号
+    string contractNumber=4;
+    //业务员
+    string ownerId=5;
+	//排序规则：属性前面带-号表示反序排序，exp:"name,-createtime"
+	string orderings=6;
+  }
+ 
+  //请求页码
+  int32 page=1;
+  //每页数据条数
+  int32 pageSize=2;
+  //查询条件
+  newGetConferenceContractListSearch search=3;
+  
+}
+
+message newGetConferenceContractStruct{
+ //一级合同Id
+ string ConferenceContractId=1;
+ //会议Id
+ string ConferenceId=2;
+ //公司id
+ string CompanyId=3;
+ //公司名
+ string ComNameTranslation=4;
+ //合同号
+ string ContractNumber=5;
+ //年份
+ string ContractYear=6;
+ //合同编号最后二位Code CF2019SNEC0010CW（CW/CS,EW/ES）
+ string ContractCode=7;
+ //合同状态Code
+ string ContractStatusCode=8;
+ //付款状态:未付款---N 部分付款(0<x<0.5)---P 付一半款(0.5<x<1)---H 全款---F
+ string PaymentStatusCode=9;
+ //修改许可
+ string ModifyPermission=10;
+ bool IsDelete=11;
+ bool IsSendEmail=12;
+ bool IsModify=13;
+ string Owerid=14;
+ string Ower=15;
+ string CreatedOn=16;
+ string CreatedBy=17;
+ string ModifiedOn=18;
+ string ModifiedBy=19;	
+ string OtherOwner=20;
+ string OtherOwnerId=21;
+ //总应付费
+ string TotalPrice=22;
+ //已付费
+ string TotalPaid=23;
+ //是否手动操作付款状态
+ bool IsOpPayStatudCode=24;
+ //内外资：0--内资 1--外资
+ int32 EnterpriseType=25;
+ string ContractStatusName=26;
+}
+
+message newGetConferenceContractListResponse{
+ repeated newGetConferenceContractStruct listdata=1;
+ int32 total=2;
+}
+
+
+message newGetConferenceInfoRequest{
+ string year=1;
+}
+
+message newGetConferenceInfoStruct{
+ string ConferenceId=1;
+ //会议名称
+ string ConferenceName=2;
+ //前缀
+ string Prefix=3;
+ string Year=4;
+ //合同类型代码
+ string CNano=5;
+ int32 Count=6;
+ //采用状态 0---未采用  1---采用
+ int32 Status=7;
+ bool IsDelete=8;
+ //大会简称
+ string Abbreviation=9;
+}
+message newGetConferenceInfoResponse{
+repeated  newGetConferenceInfoStruct listdata=1;
+}
+
+
+
+message newGetOwnerByConfIdAndComIdAndYearRequest{
+ string CompanyId=1;
+ string ConferenceID=2;
+ string Year=3;
+}
+
+
+message newGetOwnerByConfIdAndComIdAndYearStruct{
+ string OwnerId=1;
+ string Owner=2;
+ string OtherOwnerId=3;
+ string OtherOwner=4;
+
+}
+message newGetOwnerByConfIdAndComIdAndYearResponse{
+repeated newGetOwnerByConfIdAndComIdAndYearStruct listdata=1;
+}
+
+message InServicePackConferenceVM{
+  string ConferenceId=1;
+}
+
+message Report_ConferenceVM{
+  string ConferneceName=1;
+  string Date=2;
+  string TimeRange=3;
+  string Address=4;
+  string Sort=5;
+  string ParticipateType=6;
+  // 备注
+  string Remark =7;
+  // 是否包含在服务包内
+  bool IsInServicePack =8;
+  // 是否勾选
+  bool IsChecked =9;
+  //开始时间
+  string StartTime=10;
+  repeated Report_ActivityVM  ActivityVMList=11;
+}
+
+
+message Report_ActivityVM{
+ string ActivityName=1;
+ string StartTime =2;
+ int32 TimeLength =3;
+ // 活动时间范围  09:00-09:05
+ string TimeRange=4;
+ int32 Sort =5;
+ repeated Report_TalkVM TalkVMList=6;
+ repeated Report_ParticipantVM ParticipantVMList = 7;
+}
+
+
+message Report_ParticipantVM{
+  // 身份
+  string ParticipantType =1;
+  string ParticipantName=2;
+  string ParticipantJob =3;
+  // 称谓
+  string ParticipantTitle =4;
+  string ParticipantCompany =5;
+  string ParticipantCountry =6;
+}								   
+
+message Report_TalkVM{
+  // 活动时间范围  09:00-09:05
+  string TimeRange =1;
+  string TalkName =2;
+  string TopicName =3;
+  int32 Sort  =4;
+  int32 TimeLength =5;
+  string StartTime =6;
+  repeated Report_ParticipantVM ParticipantVMList = 7;
+}
+
+
+
 //=================v2.0 End==============
 
 

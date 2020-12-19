@@ -1,6 +1,6 @@
 ﻿using ConferenceContractAPI.ConferenceContractService;
 using Grpc.Core;
-using GrpcConferenceContractService;
+using GrpcConferenceContractServiceNew;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +20,7 @@ namespace ConferenceContractAPI.Implement
             };
 
             _server.Services.Add(ConferenceContractServiceToGrpc.BindService(new CCServiceImpl()));
-            _server.Services.Add(GrpcConferenceContractServiceNew.BindService(new ConferenceContractImpService()));
+            _server.Services.Add(ConferenceContractServiceNew.BindService(new ConferenceContractImpService()));
             _server.Start();
         }
     }

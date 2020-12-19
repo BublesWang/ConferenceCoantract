@@ -95,6 +95,9 @@ namespace ConferenceContractAPI.DBModels
         [MaxLength(50)]
         public string Year { get; set; }
 
+        [MaxLength(50)]
+        public string CompanyServicePackCode { get; set; }
+
         public virtual ICollection<DelegateServicePackDiscount> delegateServicePackDiscount { get; set; }
 
         public virtual ICollection<PersonContract> personContract { get; set; }

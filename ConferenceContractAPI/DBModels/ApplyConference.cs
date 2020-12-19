@@ -38,5 +38,8 @@ namespace ConferenceContractAPI.DBModels
 
         [MaxLength(500)]
         public string Owerid { get; set; }
+
+        [MaxLength(500)]
+        public string OtherOwnerId { get; set; }
     }
 }

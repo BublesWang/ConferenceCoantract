@@ -10,11 +10,15 @@ namespace ConferenceContractAPI.Common
 {
     public class ContextConnect
     {
+
         //private static string _connstr_unittest = ConfigurationManager.ConnectionStrings["connstr_unittest"].ConnectionString;
         //private static string _connstr_stable = ConfigurationManager.ConnectionStrings["connstr_stable"].ConnectionString;
 
-        private static string _connstr_unittest = ConfigurationManager.ConnectionStrings["connstr_debug_unittest"].ConnectionString;
-        private static string _connstr_stable = ConfigurationManager.ConnectionStrings["connstr_debug_stable"].ConnectionString;
+        private static string _connectionString { get; set; }
+        private static string _connstr_unittest = ConfigurationManager.ConnectionStrings["connstr"].ConnectionString;
+        private static string _connstr_stable = ConfigurationManager.ConnectionStrings["connstr_stable"].ConnectionString;
+        private static string _connstr_local_unittest = ConfigurationManager.ConnectionStrings["local_connstr"].ConnectionString;
+
 
         public static string ReadConnstrContent()
         {
@@ -27,10 +31,23 @@ namespace ConferenceContractAPI.Common
                 result = line;
                 break;
             }
+            string sql = string.Empty;
 
-            var _sql = result.Equals("unittest") ? _connstr_unittest : _connstr_stable;
-            return _sql;
+            if (result.Equals("localtest"))
+            {
+                sql = _connstr_local_unittest;
+            }
+            else if (result.Equals("unittest"))
+            {
+                sql = _connstr_unittest;
+            }
+            else
+            {
+                sql = _connstr_stable;
+            }
+            return sql;
         }
+
 
         public static string GrpcChannelConnstrContent(string debug_channel, string server_channel)
         {
@@ -48,20 +65,6 @@ namespace ConferenceContractAPI.Common
             return _sql;
         }
 
-        public static string EnvName()
-        {
-            string result = string.Empty;
-            string path = @"./env";
-            StreamReader sr = new StreamReader(path, Encoding.Default);
-            String line;
-            while ((line = sr.ReadLine()) != null)
-            {
-                result = line;
-                break;
-            }
 
-            var _str = result.Equals("unittest") ? "unittest" : "stable";
-            return _str;
-        }
     }
 }

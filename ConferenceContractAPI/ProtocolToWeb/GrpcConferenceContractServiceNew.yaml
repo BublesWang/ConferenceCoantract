@@ -1,0 +1,482 @@
+type: google.api.Service
+config_version: 3
+
+http:
+  rules:
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetConferenceContractList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetConferenceContractList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetConferenceContractListByIsGive
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetConferenceContractListByIsGive
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetConferenceContractListByIsGiveWithAllContractStatusCode
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetConferenceContractListByIsGiveWithAllContractStatusCode
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetConferenceContractByCompanyIdList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetConferenceContractByCompanyIdList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetConferenceContractByCompanyIdAndYearList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetConferenceContractByCompanyIdAndYearList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetConferenceContractById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetConferenceContractById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateConferenceContractInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateConferenceContractInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateConferenceContractInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateConferenceContractInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.ModifyConferenceContractByOwer
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/ModifyConferenceContractByOwer
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.ModifyConferenceContractPaymentStatusCode
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/ModifyConferenceContractPaymentStatusCode
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.ModifyConferenceContractIsSendEmail
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/ModifyConferenceContractIsSendEmail
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.ModifyModifyPermissionById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/ModifyModifyPermissionById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteConferenceContractById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteConferenceContractById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteConferenceContractByList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteConferenceContractByList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteConCAndCCAndPCByConIdList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteConCAndCCAndPCByConIdList
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCompanyContractList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCompanyContractList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCompanyContractByConferenceContractIdList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCompanyContractByConferenceContractIdList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCompanyContractByCompanyIdList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCompanyContractByCompanyIdList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCompanyContractById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCompanyContractById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateCompanyContractInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateCompanyContractInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateCompanyContractInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateCompanyContractInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.ModifyMaxContractNumber
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/ModifyMaxContractNumber
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.ModifyCCPCOwer
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/ModifyCCPCOwer
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteCompanyContractById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteCompanyContractById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.RemoveCompanyContractIfPersonContractEmpty
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/RemoveCompanyContractIfPersonContractEmpty
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteCompanyContractByList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteCompanyContractByList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteCCAndPCByCidList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteCCAndPCByCidList
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetPersonContractList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetPersonContractList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetPersonContractByContractIdList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetPersonContractByContractIdList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetPersonContractByNewList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetPersonContractByNewList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetPersonContractByMemberPKList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetPersonContractByMemberPKList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetPersonContractByMemberPKListWithNoPagination
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetPersonContractByMemberPKListWithNoPagination
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetPersonContractById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetPersonContractById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetPersonContractByPersonContractNumber
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetPersonContractByPersonContractNumber
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreatePersonContractInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreatePersonContractInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdatePersonContractInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdatePersonContractInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.ModifyPersonContractByIsCheckIn
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/ModifyPersonContractByIsCheckIn
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.ModifyPersonContractIsCheckInByIdList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/ModifyPersonContractIsCheckInByIdList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.ModifyPersonContractIsSendEmail
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/ModifyPersonContractIsSendEmail
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.ModifyPersonContractIsFianceRecord
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/ModifyPersonContractIsFianceRecord
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.ModifyPersonContractIsPrintByOwerid
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/ModifyPersonContractIsPrintByOwerid
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.ModifyPersonContractIsPrintByids
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/ModifyPersonContractIsPrintByids
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeletePersonContractById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeletePersonContractById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeletePersonContractByList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeletePersonContractByList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeletePersonContractByIdForWeb
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeletePersonContractByIdForWeb
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCompanyServicePackDic
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCompanyServicePackDic
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCompanyServicePackDicByYear
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCompanyServicePackDicByYear
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCompanyServicePackListByIsShownOnFront
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCompanyServicePackListByIsShownOnFront
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCompanyServicePackList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCompanyServicePackList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCompanyServicePackListByContractTypeId
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCompanyServicePackListByContractTypeId
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCompanyServicePackListForLunchOrDinner
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCompanyServicePackListForLunchOrDinner
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCompanyServicePackById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCompanyServicePackById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateCompanyServicePackInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateCompanyServicePackInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateCompanyServicePackInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateCompanyServicePackInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteCompanyServicePackById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteCompanyServicePackById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCompanyServicePackVMByPersonContractNumber
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCompanyServicePackVMByPersonContractNumber
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetExtraServiceList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetExtraServiceList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetExtraServiceById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetExtraServiceById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateExtraServiceInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateExtraServiceInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateExtraServiceInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateExtraServiceInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteExtraServiceById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteExtraServiceById
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetServicePackListAll
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetServicePackListAll
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetServicePackByConferenceIdList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetServicePackByConferenceIdList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetServicePackList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetServicePackList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetServicePackById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetServicePackById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateServicePackInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateServicePackInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateServicePackInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateServicePackInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteServicePackById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteServicePackById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.IsCanDeleteAcitvity
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/IsCanDeleteAcitvity
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.IsExistSessionConferencdId
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/IsExistSessionConferencdId
+    body: 
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.RemoveSCBySessionConferencdId
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/RemoveSCBySessionConferencdId
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetContractTypeDic
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetContractTypeDic
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetContractTypeList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetContractTypeList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetContractTypeById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetContractTypeById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateContractTypeInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateContractTypeInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateContractTypeInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateContractTypeInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteContractTypeById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteContractTypeById
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCCNumberConfigDic
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCCNumberConfigDic
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCCNumberConfigList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCCNumberConfigList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetCCNumberConfigById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetCCNumberConfigById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateCCNumberConfigInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateCCNumberConfigInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateCCNumberConfigInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateCCNumberConfigInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteCCNumberConfigById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteCCNumberConfigById
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetDSPDList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetDSPDList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetDSPDById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetDSPDById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateDSPDInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateDSPDInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateDSPDInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateDSPDInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteDSPDById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteDSPDById
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetDSPDFCCList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetDSPDFCCList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetDSPDFCCById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetDSPDFCCById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateDSPDFCCInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateDSPDFCCInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateDSPDFCCInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateDSPDFCCInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteDSPDFCCById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteDSPDFCCById
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetContractStatusDic
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetContractStatusDic
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetContractStatusDicList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetContractStatusDicList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetContractStatusDicById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetContractStatusDicById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateContractStatusDicInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateContractStatusDicInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateContractStatusDicInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateContractStatusDicInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteContractStatusDicById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteContractStatusDicById
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetRemarkDic
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetRemarkDic
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetRemarkDicList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetRemarkDicList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetRemarkDicById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetRemarkDicById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateRemarkDicInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateRemarkDicInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateRemarkDicInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateRemarkDicInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteRemarkDicById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteRemarkDicById
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetPersonContractActivityMapByMemberPKList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetPersonContractActivityMapByMemberPKList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetPersonContractActivityMapByActivityIdList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetPersonContractActivityMapByActivityIdList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetPersonContractActivityMapByPersonContractNumberList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetPersonContractActivityMapByPersonContractNumberList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreatePersonContractActivityMapInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreatePersonContractActivityMapInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdatePersonContractActivityMapInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdatePersonContractActivityMapInfo
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetApplyConferenceBySessionConferenceIdListPagination
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetApplyConferenceBySessionConferenceIdListPagination
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetApplyConferenceByMemberPkAndYear
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetApplyConferenceByMemberPkAndYear
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetApplyConferenceBySessionConferenceIdAndTagTypeCodeList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetApplyConferenceBySessionConferenceIdAndTagTypeCodeList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetApplyConferenceByPerContractIdList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetApplyConferenceByPerContractIdList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetApplyConferenceByCompanyIdList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetApplyConferenceByCompanyIdList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetApplyConferenceBySessionConferenceIdList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetApplyConferenceBySessionConferenceIdList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateOrUpdateApplyConferenceInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateOrUpdateApplyConferenceInfo
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetInviteLetterById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetInviteLetterById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateInviteLetterInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateInviteLetterInfo
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetTagTypeDic
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetTagTypeDic
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetTagTypeByCode
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetTagTypeByCode
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateTagTypeInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateTagTypeInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateTagTypeInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateTagTypeInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteTagTypeById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteTagTypeById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CopyPackInfoByYear
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CopyPackInfoByYear
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CopyPackInfoByYearForESH
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CopyPackInfoByYearForESH
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateCompanyServicePackMap
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateCompanyServicePackMap
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetYearConfigDic
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetYearConfigDic
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetYearConfigByIsUse
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetYearConfigByIsUse
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateYearConfigInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateYearConfigInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateYearConfigInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateYearConfigInfo
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetConferenceOnsiteList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetConferenceOnsiteList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetConferenceOnsiteById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetConferenceOnsiteById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateConferenceOnsiteInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateConferenceOnsiteInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateConferenceOnsiteInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateConferenceOnsiteInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteConferenceOnsiteById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteConferenceOnsiteById
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetInviteCodeList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetInviteCodeList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetInviteCodeById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetInviteCodeById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetInviteCodeByInviteCodeNumber
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetInviteCodeByInviteCodeNumber
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateInviteCodeInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateInviteCodeInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateInviteCodeInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateInviteCodeInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteInviteCodeById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteInviteCodeById
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetInviteCodeRecordList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetInviteCodeRecordList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetInviteCodeRecordById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetInviteCodeRecordById
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.CreateInviteCodeRecordInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/CreateInviteCodeRecordInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.UpdateInviteCodeRecordInfo
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/UpdateInviteCodeRecordInfo
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.DeleteInviteCodeRecordById
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/DeleteInviteCodeRecordById
+    body: "*"
+
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetContractStatisticsList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetContractStatisticsList
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.IsMaxContractNumberEqualsPCCountByCompanyPKAndYear
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/IsMaxContractNumberEqualsPCCountByCompanyPKAndYear
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetPersonContractListForLunch
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetPersonContractListForLunch
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.GetPersonContractListAndApplyConference
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/GetPersonContractListAndApplyConference
+    body: "*"
+  - selector: GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc.ExportPersonContractList
+    post: /GrpcConferenceContractServiceNew.ConferenceContractServiceToGrpc/ExportPersonContractList
+    body: "*"

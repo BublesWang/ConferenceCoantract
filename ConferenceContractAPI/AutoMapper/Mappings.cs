@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using ConferenceContractAPI.DBModels;
 using ConferenceContractAPI.ViewModel;
-using GrpcConferenceContractService;
+using GrpcConferenceContractServiceNew;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;

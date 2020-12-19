@@ -36,7 +36,16 @@ services:
     networks:
       - network1
 
-
+  rabbitmq:
+    image: rabbitmq:management
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    ports:
+     - "15672:15672"
+     - "5672:5672" 
+    networks:
+      - network1
 
 volumes:
     conferencecontract-data-volume:

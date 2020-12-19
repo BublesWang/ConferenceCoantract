@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="DTO\" />
     <Folder Include="wwwroot\" />
     <Folder Include="ConferenceProtocol\" />
   </ItemGroup>
@@ -33,11 +34,6 @@
     <PackageReference Include="RabbitMQ.Client" Version="5.1.0" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
     <PackageReference Include="Talk.Linq.Extensions" Version="1.0.2.15" />
-  </ItemGroup>
-  
-  <!--多个proto,可以使用MSBuild变量来帮我们完成,不用依次添加-->
-  <ItemGroup>
-    <Protobuf Include="..\Protos\*.proto" GrpcServices="Server" Link="Protos\%(RecursiveDir)%(Filename)%(Extension)" />
   </ItemGroup>
   <ProjectExtensions><VisualStudio><UserProperties __JSONSchema="" /></VisualStudio></ProjectExtensions>
 

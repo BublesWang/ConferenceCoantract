@@ -6,17 +6,21 @@ using System.Collections.Generic;
 
 namespace Extensions.Repository
 {
-    internal static class LinqExtensions {
-        private static PropertyInfo GetPropertyInfo(Type objType, string name) {
+    internal static class LinqExtensions
+    {
+        private static PropertyInfo GetPropertyInfo(Type objType, string name)
+        {
             var properties = objType.GetProperties();
             var matchedProperty = properties.FirstOrDefault(p => p.Name == name);
-            if (matchedProperty == null) {
+            if (matchedProperty == null)
+            {
                 throw new ArgumentException("name");
             }
 
             return matchedProperty;
         }
-        private static LambdaExpression GetOrderExpression(Type objType, PropertyInfo pi) {
+        private static LambdaExpression GetOrderExpression(Type objType, PropertyInfo pi)
+        {
             var paramExpr = Expression.Parameter(objType);
             var propAccess = Expression.PropertyOrField(paramExpr, pi.Name);
             var expr = Expression.Lambda(propAccess, paramExpr);
@@ -29,15 +33,20 @@ namespace Extensions.Repository
         /// <param name="query"></param>
         /// <param name="name"></param>
         /// <returns></returns>
-        public static IEnumerable<T> OrderByBatch<T>(this IEnumerable<T> query, string name) {
+        public static IEnumerable<T> OrderByBatch<T>(this IEnumerable<T> query, string name)
+        {
             var index = 0;
             var a = name.Split(',');
-            foreach (var item in a) {
+            foreach (var item in a)
+            {
                 var m = index++ > 0 ? "ThenBy" : "OrderBy";
-                if (item.StartsWith("-")) {
+                if (item.StartsWith("-"))
+                {
                     m += "Descending";
                     name = item.Substring(1);
-                } else {
+                }
+                else
+                {
                     name = item;
                 }
                 name = name.Trim();
@@ -84,7 +93,7 @@ namespace Extensions.Repository
             }
             return query;
         }
-        
+
         /// <summary>
         /// ÕýÐòÅÅÐòµ¥¸ö
         /// </summary>
@@ -92,7 +101,8 @@ namespace Extensions.Repository
         /// <param name="query"></param>
         /// <param name="name"></param>
         /// <returns></returns>
-        public static IQueryable<T> OrderBy<T>(this IQueryable<T> query, string name) {
+        public static IQueryable<T> OrderBy<T>(this IQueryable<T> query, string name)
+        {
             var propInfo = GetPropertyInfo(typeof(T), name);
             var expr = GetOrderExpression(typeof(T), propInfo);
 
